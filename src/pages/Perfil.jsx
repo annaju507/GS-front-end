@@ -1,9 +1,13 @@
 import { useNavigate } from 'react-router'
-import { Award, BookCheck, Flame, LogOut } from 'lucide-react'
+import { Award, BookCheck, Bookmark, Flame, LogOut } from 'lucide-react'
 import textos from '../data/textos.json'
+import { ordemDasLicoes, porcentagemConcluida } from '../domain/trilha.js'
+import { UNIDADES } from '../services/conteudoLocal.js'
 import { useAuth } from '../hooks/useAuth.js'
+import { useCaderno } from '../hooks/useCaderno.js'
 import { useProgresso } from '../hooks/useProgresso.js'
 import { useTitulo } from '../hooks/useTitulo.js'
+import BarraProgresso from '../components/BarraProgresso.jsx'
 import Botao from '../components/Botao.jsx'
 import BotaoTema from '../components/BotaoTema.jsx'
 import Card from '../components/Card.jsx'
@@ -12,19 +16,22 @@ import Medalha from '../components/Medalha.jsx'
 import OpcaoReduzirAnimacoes from '../components/OpcaoReduzirAnimacoes.jsx'
 
 const t = textos.perfil
+const ORDEM = ordemDasLicoes(UNIDADES)
 
-// Perfil (versão inicial; ganha mais coisas na etapa 7): números do
-// progresso, medalhas, ajustes de leitura e sair. Sem XP total, ranking ou pódio.
+// Perfil: números do progresso, trilha, medalhas, ajustes de leitura e sair.
+// Sem XP total, ranking ou pódio (política não é competição).
 export default function Perfil() {
   useTitulo(t.tituloAba)
   const navegar = useNavigate()
   const { usuario, sair } = useAuth()
   const { progresso, sequencia, medalhas } = useProgresso()
+  const caderno = useCaderno()
 
   const numeros = [
     { Icone: Flame, cor: 'text-mico', valor: sequencia, rotulo: t.estatisticas.dias },
     { Icone: BookCheck, cor: 'text-link', valor: Object.keys(progresso.licoes).length, rotulo: t.estatisticas.licoes },
     { Icone: Award, cor: 'text-link', valor: medalhas.filter((medalha) => medalha.ganha).length, rotulo: t.estatisticas.medalhas },
+    { Icone: Bookmark, cor: 'text-link', valor: caderno.carregando || caderno.erro ? '…' : caderno.anotacoes.length, rotulo: t.estatisticas.caderno },
   ]
 
   function sairDaConta() {
@@ -41,7 +48,7 @@ export default function Perfil() {
 
       <section aria-labelledby="perfil-resumo" className="flex flex-col gap-3">
         <h2 id="perfil-resumo" className="text-h3">{t.resumo}</h2>
-        <ul className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+        <ul className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           {numeros.map(({ Icone, cor, valor, rotulo }) => (
             <li key={rotulo} className="flex flex-col gap-1 rounded-botao border-2 border-borda bg-superficie p-4">
               <Icone size={20} strokeWidth={2} aria-hidden="true" className={cor} />
@@ -50,6 +57,7 @@ export default function Perfil() {
             </li>
           ))}
         </ul>
+        <BarraProgresso valor={porcentagemConcluida(ORDEM, progresso.licoes)} rotulo={t.trilha} />
       </section>
 
       <section aria-labelledby="perfil-medalhas" className="flex flex-col gap-4">
