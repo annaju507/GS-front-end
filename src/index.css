@@ -440,3 +440,81 @@
   transition-duration: 0.01ms !important;
   scroll-behavior: auto !important;
 }
+
+/* ==========================================================================
+   Degrau 3D (seção 18.4): ao apertar, o degrau some e o botão desce 4px
+   em 80ms. Com "reduzir animações", o botão não se move (só a cor muda).
+   Fica fora das camadas para vencer as classes de sombra do Tailwind.
+   ========================================================================== */
+.degrau {
+  transition: transform 80ms ease-out, box-shadow 80ms ease-out, background-color 150ms ease-out;
+}
+
+.degrau:active:not(:disabled) {
+  transform: translateY(0.25rem);
+  box-shadow: none;
+}
+
+.reduzir-animacoes .degrau:active:not(:disabled) {
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .degrau:active:not(:disabled) {
+    transform: none;
+  }
+}
+
+/* Microinterações do quiz (seção 9): acerto pulsa uma vez, erro balança de leve. */
+@keyframes pulsar-acerto {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+
+@keyframes balancar-erro {
+  0%, 100% { transform: translateX(0); }
+  16%, 50%, 84% { transform: translateX(-0.25rem); }
+  33%, 67% { transform: translateX(0.25rem); }
+}
+
+.animar-acerto { animation: pulsar-acerto 300ms ease-out 1; }
+.animar-erro { animation: balancar-erro 300ms ease-out 1; }
+
+.reduzir-animacoes .animar-acerto,
+.reduzir-animacoes .animar-erro {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animar-acerto, .animar-erro { animation: none; }
+}
+
+/* Sombra de chão do mascote, feita em CSS para funcionar nos dois temas. */
+.sombra-chao {
+  position: relative;
+}
+
+.sombra-chao::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  bottom: 2%;
+  height: 6%;
+  border-radius: 50%;
+  background: rgb(20 17 28 / 0.15);
+  z-index: -1;
+}
+
+.dark .sombra-chao::after {
+  background: rgb(0 0 0 / 0.45);
+}
+
+/* Hachura do voto "Ausente": a cor nunca é a única informação. */
+.hachura-ausencia {
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--voto-ausencia) 0 0.1875rem,
+    transparent 0.1875rem 0.375rem
+  );
+}
