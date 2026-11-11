@@ -1,0 +1,418 @@
+{
+  "_sobre": "Gerado por scripts/coleta-representantes.js. Conferir nomes, partidos e fotos no site oficial antes de publicar.",
+  "consultadoEm": "2026-11-11",
+  "fonte": {
+    "instituicao": "Câmara Municipal do Rio de Janeiro",
+    "url": "https://www.camara.rio/vereadores/quem-sao"
+  },
+  "pessoas": [
+    {
+      "id": "cmrj-390",
+      "nome": "Alana Passos",
+      "partido": "PL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/390.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=390"
+    },
+    {
+      "id": "cmrj-290",
+      "nome": "Átila Nunes",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/290.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=290"
+    },
+    {
+      "id": "cmrj-231",
+      "nome": "Carlo Caiado",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/231.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=231"
+    },
+    {
+      "id": "cmrj-286",
+      "nome": "Cesar Maia",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/286.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=286"
+    },
+    {
+      "id": "cmrj-387",
+      "nome": "Deangeles Percy",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/387.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=387"
+    },
+    {
+      "id": "cmrj-377",
+      "nome": "Diego Faro",
+      "partido": "PL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/377.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=377"
+    },
+    {
+      "id": "cmrj-273",
+      "nome": "Dr. Gilberto",
+      "partido": "SOLIDARIEDADE",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/273.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=273"
+    },
+    {
+      "id": "cmrj-340",
+      "nome": "Dr. Rogerio Amorim",
+      "partido": "PL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/340.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=340"
+    },
+    {
+      "id": "cmrj-378",
+      "nome": "Fabio Silva",
+      "partido": "PODE",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/378.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=378"
+    },
+    {
+      "id": "cmrj-355",
+      "nome": "Felipe Boró",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/355.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=355"
+    },
+    {
+      "id": "cmrj-319",
+      "nome": "Felipe Michel",
+      "partido": "PP",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/319.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=319"
+    },
+    {
+      "id": "cmrj-368",
+      "nome": "Felipe Pires",
+      "partido": "PT",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/368.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=368"
+    },
+    {
+      "id": "cmrj-375",
+      "nome": "Fernando Armelau",
+      "partido": "PL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/375.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=375"
+    },
+    {
+      "id": "cmrj-385",
+      "nome": "Flávio Valle",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/385.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=385"
+    },
+    {
+      "id": "cmrj-364",
+      "nome": "Gigi Castilho",
+      "partido": "PL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/364.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=364"
+    },
+    {
+      "id": "cmrj-382",
+      "nome": "Helena Vieira",
+      "partido": "PSDB",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/382.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=382"
+    },
+    {
+      "id": "cmrj-313",
+      "nome": "Inaldo Silva",
+      "partido": "REPUBLICANOS",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/313.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=313"
+    },
+    {
+      "id": "cmrj-308",
+      "nome": "Jair da Mendes Gomes",
+      "partido": "PRD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/308.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=308"
+    },
+    {
+      "id": "cmrj-386",
+      "nome": "Jorge Canella",
+      "partido": "UNIÃO",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/386.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=386"
+    },
+    {
+      "id": "cmrj-381",
+      "nome": "Joyce Trindade",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/381.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=381"
+    },
+    {
+      "id": "cmrj-288",
+      "nome": "Junior da Lucinha",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/288.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=288"
+    },
+    {
+      "id": "cmrj-379",
+      "nome": "Leniel Borel",
+      "partido": "PP",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/379.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=379"
+    },
+    {
+      "id": "cmrj-370",
+      "nome": "Leonel de Esquerda",
+      "partido": "PT",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/370.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=370"
+    },
+    {
+      "id": "cmrj-316",
+      "nome": "Luiz Ramos Filho",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/316.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=316"
+    },
+    {
+      "id": "cmrj-369",
+      "nome": "Maíra do Mst",
+      "partido": "PT",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/369.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=369"
+    },
+    {
+      "id": "cmrj-356",
+      "nome": "Marcelo Diniz",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/356.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=356"
+    },
+    {
+      "id": "cmrj-344",
+      "nome": "Marcio Ribeiro",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/344.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=344"
+    },
+    {
+      "id": "cmrj-366",
+      "nome": "Marcos Dias",
+      "partido": "PODE",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/366.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=366"
+    },
+    {
+      "id": "cmrj-348",
+      "nome": "Monica Benicio",
+      "partido": "PSOL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/348.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=348"
+    },
+    {
+      "id": "cmrj-361",
+      "nome": "Niquinho",
+      "partido": "PT",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/361.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=361"
+    },
+    {
+      "id": "cmrj-265",
+      "nome": "Paulo Messina",
+      "partido": "PL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/265.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=265"
+    },
+    {
+      "id": "cmrj-346",
+      "nome": "Pedro Duarte",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/346.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=346"
+    },
+    {
+      "id": "cmrj-374",
+      "nome": "Poubel",
+      "partido": "PL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/374.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=374"
+    },
+    {
+      "id": "cmrj-289",
+      "nome": "Rafael Aloisio Freitas",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/289.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=289"
+    },
+    {
+      "id": "cmrj-376",
+      "nome": "Rafael Satiê",
+      "partido": "PL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/376.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=376"
+    },
+    {
+      "id": "cmrj-232",
+      "nome": "Renato Moura",
+      "partido": "MDB",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/232.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=232"
+    },
+    {
+      "id": "cmrj-372",
+      "nome": "Rick Azevedo",
+      "partido": "PSOL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/372.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=372"
+    },
+    {
+      "id": "cmrj-373",
+      "nome": "Rodrigo Vizeu",
+      "partido": "MDB",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/373.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=373"
+    },
+    {
+      "id": "cmrj-55",
+      "nome": "Rosa Fernandes",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/55.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=55"
+    },
+    {
+      "id": "cmrj-384",
+      "nome": "Salvino Oliveira",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/384.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=384"
+    },
+    {
+      "id": "cmrj-342",
+      "nome": "Tainá de Paula",
+      "partido": "PT",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/342.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=342"
+    },
+    {
+      "id": "cmrj-371",
+      "nome": "Talita Galhardo",
+      "partido": "PSDB",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/371.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=371"
+    },
+    {
+      "id": "cmrj-267",
+      "nome": "Tânia Bastos",
+      "partido": "REPUBLICANOS",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/267.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=267"
+    },
+    {
+      "id": "cmrj-380",
+      "nome": "Tatiana Roque",
+      "partido": "PSB",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/380.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=380"
+    },
+    {
+      "id": "cmrj-352",
+      "nome": "Thais Ferreira",
+      "partido": "PSOL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/352.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=352"
+    },
+    {
+      "id": "cmrj-269",
+      "nome": "Vera Lins",
+      "partido": "PP",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/269.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=269"
+    },
+    {
+      "id": "cmrj-339",
+      "nome": "Vitor Hugo",
+      "partido": "MDB",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/339.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=339"
+    },
+    {
+      "id": "cmrj-329",
+      "nome": "Welington Dias",
+      "partido": "PDT",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/329.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=329"
+    },
+    {
+      "id": "cmrj-347",
+      "nome": "William Siri",
+      "partido": "PSOL",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/347.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=347"
+    },
+    {
+      "id": "cmrj-283",
+      "nome": "Willian Coelho",
+      "partido": "AVANTE",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/283.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=283"
+    },
+    {
+      "id": "cmrj-300",
+      "nome": "Zico",
+      "partido": "PSD",
+      "cargo": "vereador",
+      "foto": "/representantes/vereadores/300.jpg",
+      "url": "https://www.camara.rio/includes_php/vereador.php?cvd=300"
+    }
+  ]
+}

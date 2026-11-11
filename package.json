@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "checar-travessoes": "node scripts/checar-travessoes.js",
     "medir-contraste": "node scripts/medir-contraste.js",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks",
+    "coleta-representantes": "node --use-system-ca scripts/coleta-representantes.js"
   },
   "simple-git-hooks": {
     "pre-commit": "npm run checar-travessoes"
