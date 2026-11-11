@@ -1,0 +1,42 @@
+{
+  "_sobre": "Chefes do Executivo, escritos à mão (Requisitos 2.1). A EQUIPE PRECISA CONFERIR cada nome no site oficial antes de publicar: em 2026 houve trocas (prefeito e governador deixaram os cargos em março) e os eleitos em outubro tomam posse em janeiro de 2027.",
+  "consultadoEm": "2026-11-11",
+  "pessoas": [
+    {
+      "id": "exec-prefeito",
+      "nome": "Eduardo Cavaliere",
+      "partido": "PSD",
+      "cargo": "prefeito",
+      "situacao": "emExercicio",
+      "mandato": "Assumiu em 20/03/2026; mandato até 2028",
+      "foto": null,
+      "url": "https://prefeitura.rio/",
+      "instituicao": "Prefeitura da Cidade do Rio de Janeiro",
+      "_conferir": "Confirmar no site oficial da Prefeitura."
+    },
+    {
+      "id": "exec-governador",
+      "nome": "Ricardo Couto de Castro",
+      "partido": "",
+      "cargo": "governador",
+      "situacao": "interino",
+      "mandato": "Governador em exercício desde 23/03/2026, até a posse do governador eleito em janeiro de 2027",
+      "foto": null,
+      "url": "https://www.rj.gov.br/",
+      "instituicao": "Governo do Estado do Rio de Janeiro",
+      "_conferir": "Confirmar no site oficial do Governo do RJ. Presidente do Tribunal de Justiça no exercício do cargo, sem partido."
+    },
+    {
+      "id": "exec-presidente",
+      "nome": "Luiz Inácio Lula da Silva",
+      "partido": "PT",
+      "cargo": "presidente",
+      "situacao": "emExercicio",
+      "mandato": "Mandato de 2023 a 2026; o próximo presidente toma posse em janeiro de 2027",
+      "foto": null,
+      "url": "https://www.gov.br/planalto/pt-br",
+      "instituicao": "Presidência da República",
+      "_conferir": "Confirmar no site oficial do Planalto."
+    }
+  ]
+}

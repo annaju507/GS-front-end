@@ -46,3 +46,26 @@ export function buscarAutores(id) {
 export function buscarTramitacoes(id) {
   return buscarJson(`/proposicoes/${id}/tramitacoes`)
 }
+
+// Deputados federais eleitos pelo RJ, em ordem alfabética.
+export function buscarDeputadosRJ() {
+  return buscarJson('/deputados', { siglaUf: 'RJ', ordem: 'ASC', ordenarPor: 'nome', itens: 100 })
+}
+
+// Proposições de autoria de um deputado, das mais novas para as mais antigas.
+export function buscarProposicoesDoDeputado(idDeputado, itens = 5) {
+  return buscarJson('/proposicoes', {
+    idDeputadoAutor: idDeputado,
+    siglaTipo: ['PL', 'PEC', 'PLP'],
+    ordem: 'DESC',
+    ordenarPor: 'id',
+    itens,
+  })
+}
+
+// Um deputado pelo número. Usa a lista filtrada (GET /deputados?id=), porque
+// o endereço de detalhe (/deputados/{id}) não libera o acesso pelo navegador (CORS).
+export async function buscarDeputado(id) {
+  const lista = await buscarJson('/deputados', { id })
+  return lista[0] ?? null
+}
