@@ -1,0 +1,515 @@
+{
+  "_sobre": "Texto editorial em Lorem do tamanho previsto (limites em _max). Fontes reais; perguntas com _conferir precisam ter o artigo confirmado.",
+  "_max": {
+    "pergunta": 100,
+    "opcoes": 60,
+    "explicacao": 200,
+    "analogia": 160
+  },
+  "perguntas": [
+    {
+      "id": "q-u1-1",
+      "unidade": 1,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Lorem ipsum dolor",
+        "Sit amet consectetur",
+        "Adipiscing elit sed"
+      ],
+      "correta": 1,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 1º, parágrafo único",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 1.1 do documento de conteúdo"
+    },
+    {
+      "id": "q-u1-2",
+      "unidade": 1,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Eiusmod tempor incididunt",
+        "Ut labore et dolore",
+        "Magna aliqua enim"
+      ],
+      "correta": 0,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 14, § 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 1.2 do documento de conteúdo"
+    },
+    {
+      "id": "q-u1-3",
+      "unidade": 1,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Minim veniam quis",
+        "Nostrud exercitation",
+        "Ullamco laboris nisi"
+      ],
+      "correta": 2,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 14, inciso III, e art. 61, § 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 1.3 do documento de conteúdo"
+    },
+    {
+      "id": "q-u1-4",
+      "unidade": 1,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Lorem ipsum dolor",
+        "Sit amet consectetur",
+        "Adipiscing elit sed"
+      ],
+      "correta": 2,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 14, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u1-5",
+      "unidade": 1,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Eiusmod tempor incididunt",
+        "Ut labore et dolore",
+        "Magna aliqua enim"
+      ],
+      "correta": 1,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 1º, inciso II",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u1-6",
+      "unidade": 1,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Minim veniam quis",
+        "Nostrud exercitation",
+        "Ullamco laboris nisi"
+      ],
+      "correta": 0,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 14, § 3º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u3-1",
+      "unidade": 3,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Lorem ipsum dolor",
+        "Sit amet consectetur",
+        "Adipiscing elit sed"
+      ],
+      "correta": 1,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 3.1 do documento de conteúdo"
+    },
+    {
+      "id": "q-u3-2",
+      "unidade": 3,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Eiusmod tempor incididunt",
+        "Ut labore et dolore",
+        "Magna aliqua enim"
+      ],
+      "correta": 0,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 44 e 59",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 3.2 do documento de conteúdo"
+    },
+    {
+      "id": "q-u3-3",
+      "unidade": 3,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Minim veniam quis",
+        "Nostrud exercitation",
+        "Ullamco laboris nisi"
+      ],
+      "correta": 2,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 76",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 3.3 do documento de conteúdo"
+    },
+    {
+      "id": "q-u3-4",
+      "unidade": 3,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Lorem ipsum dolor",
+        "Sit amet consectetur",
+        "Adipiscing elit sed"
+      ],
+      "correta": 2,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 44, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u3-5",
+      "unidade": 3,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Eiusmod tempor incididunt",
+        "Ut labore et dolore",
+        "Magna aliqua enim"
+      ],
+      "correta": 1,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 92",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u3-6",
+      "unidade": 3,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Minim veniam quis",
+        "Nostrud exercitation",
+        "Ullamco laboris nisi"
+      ],
+      "correta": 0,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 84",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u5-1",
+      "unidade": 5,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Lorem ipsum dolor",
+        "Sit amet consectetur",
+        "Adipiscing elit sed"
+      ],
+      "correta": 1,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 18",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 5.1 do documento de conteúdo"
+    },
+    {
+      "id": "q-u5-2",
+      "unidade": 5,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Eiusmod tempor incididunt",
+        "Ut labore et dolore",
+        "Magna aliqua enim"
+      ],
+      "correta": 0,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 30, inciso V",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 5.2 do documento de conteúdo"
+    },
+    {
+      "id": "q-u5-3",
+      "unidade": 5,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Minim veniam quis",
+        "Nostrud exercitation",
+        "Ullamco laboris nisi"
+      ],
+      "correta": 2,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 211, § 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 5.3 do documento de conteúdo"
+    },
+    {
+      "id": "q-u5-4",
+      "unidade": 5,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Lorem ipsum dolor",
+        "Sit amet consectetur",
+        "Adipiscing elit sed"
+      ],
+      "correta": 2,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 21",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u5-5",
+      "unidade": 5,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Eiusmod tempor incididunt",
+        "Ut labore et dolore",
+        "Magna aliqua enim"
+      ],
+      "correta": 1,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 25",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u5-6",
+      "unidade": 5,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Minim veniam quis",
+        "Nostrud exercitation",
+        "Ullamco laboris nisi"
+      ],
+      "correta": 0,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 30, inciso I",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u7-1",
+      "unidade": 7,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Lorem ipsum dolor",
+        "Sit amet consectetur",
+        "Adipiscing elit sed"
+      ],
+      "correta": 1,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 60",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 7.1 do documento de conteúdo"
+    },
+    {
+      "id": "q-u7-2",
+      "unidade": 7,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Eiusmod tempor incididunt",
+        "Ut labore et dolore",
+        "Magna aliqua enim"
+      ],
+      "correta": 0,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 66",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 7.2 do documento de conteúdo"
+    },
+    {
+      "id": "q-u7-3",
+      "unidade": 7,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Minim veniam quis",
+        "Nostrud exercitation",
+        "Ullamco laboris nisi"
+      ],
+      "correta": 2,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 66, § 4º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_baseadaEm": "Pergunta 7.3 do documento de conteúdo"
+    },
+    {
+      "id": "q-u7-4",
+      "unidade": 7,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Lorem ipsum dolor",
+        "Sit amet consectetur",
+        "Adipiscing elit sed"
+      ],
+      "correta": 2,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 61",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u7-5",
+      "unidade": 7,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Eiusmod tempor incididunt",
+        "Ut labore et dolore",
+        "Magna aliqua enim"
+      ],
+      "correta": 1,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 65",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-u7-6",
+      "unidade": 7,
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "opcoes": [
+        "Minim veniam quis",
+        "Nostrud exercitation",
+        "Ullamco laboris nisi"
+      ],
+      "correta": 0,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 59",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    }
+  ]
+}

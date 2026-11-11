@@ -1,54 +1,95 @@
 {
-  "_sobre": "Unidades da trilha 'política do zero'. Títulos fixos; descrições editoriais em Lorem até a redação final. As lições entram na etapa 4.",
-  "_max": { "descricao": 120 },
+  "_sobre": "Unidades da trilha 'política do zero'. Títulos fixos; descrições editoriais em Lorem até a redação final. Cada unidade disponível lista suas lições (src/data/licoes.json) e a busca da proposta real sugerida depois da conquista: a mais recente de deputados do RJ sobre o tema.",
+  "_max": {
+    "descricao": 120
+  },
   "unidades": [
     {
       "id": 1,
       "titulo": "Política e cidadania",
       "disponivel": true,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "licoes": [
+        "u1-l1",
+        "u1-l2"
+      ],
+      "propostaSugerida": {
+        "siglaTipo": "PL",
+        "keywords": "eleitoral",
+        "tema": "eleições"
+      }
     },
     {
       "id": 2,
       "titulo": "Democracia e Constituição",
       "disponivel": false,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "licoes": []
     },
     {
       "id": 3,
       "titulo": "Os três Poderes",
       "disponivel": true,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "licoes": [
+        "u3-l1",
+        "u3-l2"
+      ],
+      "propostaSugerida": {
+        "siglaTipo": "PL",
+        "keywords": "tribunal",
+        "tema": "tribunais e Justiça"
+      }
     },
     {
       "id": 4,
       "titulo": "Quem faz o quê",
       "disponivel": false,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "licoes": []
     },
     {
       "id": 5,
       "titulo": "Esferas de governo",
       "disponivel": true,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "licoes": [
+        "u5-l1",
+        "u5-l2"
+      ],
+      "propostaSugerida": {
+        "siglaTipo": "PL",
+        "keywords": "municípios",
+        "tema": "municípios"
+      }
     },
     {
       "id": 6,
       "titulo": "Eleições e representação",
       "disponivel": false,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "licoes": []
     },
     {
       "id": 7,
       "titulo": "Como nasce uma lei",
       "disponivel": true,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "licoes": [
+        "u7-l1",
+        "u7-l2"
+      ],
+      "propostaSugerida": {
+        "siglaTipo": "PEC",
+        "tema": "mudanças na Constituição (PEC)"
+      }
     },
     {
       "id": 8,
       "titulo": "Fiscalização e informação",
       "disponivel": false,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "licoes": []
     }
   ]
 }

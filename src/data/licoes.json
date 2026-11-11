@@ -1,0 +1,380 @@
+{
+  "_sobre": "Texto editorial em Lorem do tamanho previsto (limites em _max). Fontes reais; perguntas com _conferir precisam ter o artigo confirmado.",
+  "_max": {
+    "titulo": 22,
+    "gancho": 110,
+    "texto": 320,
+    "exemplo": 200,
+    "citacao": 180
+  },
+  "licoes": [
+    {
+      "id": "u1-l1",
+      "unidade": 1,
+      "ordem": 1,
+      "titulo": "Lorem ipsum dolor",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 1º",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-10"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "quiz": [
+        "q-u1-1",
+        "q-u1-2",
+        "q-u1-3"
+      ]
+    },
+    {
+      "id": "u1-l2",
+      "unidade": 1,
+      "ordem": 2,
+      "titulo": "Sit amet elit",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 14",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-10"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 14",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "quiz": [
+        "q-u1-4",
+        "q-u1-5",
+        "q-u1-6"
+      ]
+    },
+    {
+      "id": "u3-l1",
+      "unidade": 3,
+      "ordem": 1,
+      "titulo": "Consectetur adipiscing",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 2º",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-10"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "quiz": [
+        "q-u3-1",
+        "q-u3-2",
+        "q-u3-3"
+      ]
+    },
+    {
+      "id": "u3-l2",
+      "unidade": 3,
+      "ordem": 2,
+      "titulo": "Sed do eiusmod",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "arts. 44, 76 e 92",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-10"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 44, 76 e 92",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "quiz": [
+        "q-u3-4",
+        "q-u3-5",
+        "q-u3-6"
+      ]
+    },
+    {
+      "id": "u5-l1",
+      "unidade": 5,
+      "ordem": 1,
+      "titulo": "Tempor incididunt",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 18",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-10"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 18",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "quiz": [
+        "q-u5-1",
+        "q-u5-2",
+        "q-u5-3"
+      ]
+    },
+    {
+      "id": "u5-l2",
+      "unidade": 5,
+      "ordem": 2,
+      "titulo": "Labore et dolore",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "arts. 21 a 30",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-10"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 21 a 30",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "quiz": [
+        "q-u5-4",
+        "q-u5-5",
+        "q-u5-6"
+      ]
+    },
+    {
+      "id": "u7-l1",
+      "unidade": 7,
+      "ordem": 1,
+      "titulo": "Magna aliqua enim",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "arts. 59 a 61",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-10"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 59 a 61",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "quiz": [
+        "q-u7-1",
+        "q-u7-2",
+        "q-u7-3"
+      ]
+    },
+    {
+      "id": "u7-l2",
+      "unidade": 7,
+      "ordem": 2,
+      "titulo": "Minim veniam quis",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "arts. 64 a 69",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-10"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 64 a 69",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "quiz": [
+        "q-u7-4",
+        "q-u7-5",
+        "q-u7-6"
+      ]
+    }
+  ]
+}
