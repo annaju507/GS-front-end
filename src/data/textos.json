@@ -736,7 +736,6 @@
     "texto": "Esta área está chegando! Ela fica pronta na próxima etapa do projeto.",
     "voltar": "Voltar para o painel",
     "titulos": {
-      "representantes": "Representantes",
       "direitos": "Direitos"
     }
   },
@@ -852,5 +851,114 @@
       "botao": "Explorar propostas"
     },
     "carregando": "Abrindo seu caderno…"
+  },
+  "representantes": {
+    "tituloAba": "Representantes",
+    "titulo": "Representantes",
+    "intro": "Quem representa quem mora no Rio: na cidade, no estado e no país. Todos aparecem do mesmo jeito, em ordem alfabética.",
+    "escolha": "Escolha a esfera",
+    "esferas": {
+      "municipio": {
+        "titulo": "Município do Rio",
+        "texto": "Prefeito e vereadores da cidade do Rio de Janeiro.",
+        "pagina": "Representantes do município do Rio"
+      },
+      "estado": {
+        "titulo": "Estado do Rio de Janeiro",
+        "texto": "Governador e deputados estaduais (ALERJ).",
+        "pagina": "Representantes do estado do RJ"
+      },
+      "pais": {
+        "titulo": "País",
+        "texto": "Presidente, senadores e deputados federais eleitos pelo RJ.",
+        "pagina": "Representantes do RJ no país"
+      }
+    },
+    "cargos": {
+      "prefeito": {
+        "um": "Prefeito",
+        "grupo": "Prefeito"
+      },
+      "vereador": {
+        "um": "Vereador(a)",
+        "grupo": "Vereadores"
+      },
+      "governador": {
+        "um": "Governador",
+        "grupo": "Governador"
+      },
+      "deputadoEstadual": {
+        "um": "Deputado(a) estadual",
+        "grupo": "Deputados estaduais"
+      },
+      "presidente": {
+        "um": "Presidente da República",
+        "grupo": "Presidente da República"
+      },
+      "senador": {
+        "um": "Senador(a)",
+        "grupo": "Senadores do RJ"
+      },
+      "deputadoFederal": {
+        "um": "Deputado(a) federal",
+        "grupo": "Deputados federais do RJ"
+      }
+    },
+    "grupo": "{grupo} ({n})",
+    "filtros": {
+      "cargo": "Cargo",
+      "todos": "Todos",
+      "busca": "Buscar pelo nome",
+      "buscaDica": "Digite parte do nome.",
+      "resultado": "{n} de {total} pessoas",
+      "vazio": "Ninguém encontrado com esse nome.",
+      "limpar": "Limpar busca"
+    },
+    "aviso": "Os dados vêm dos sites oficiais e mostram a data da consulta. Os eleitos em outubro de 2026 só assumem em 2027; até lá, valem os nomes abaixo.",
+    "mandatos": {
+      "vereador": "2025 a 2028",
+      "deputadoEstadual": "2023 a 2027 (13ª legislatura da ALERJ)",
+      "deputadoFederal": "2023 a 2027 (57ª legislatura)"
+    },
+    "situacoes": {
+      "emExercicio": "Em exercício",
+      "interino": "Em exercício (interino)"
+    },
+    "semPartido": "Sem partido",
+    "representa": {
+      "prefeito": "Cidade do Rio de Janeiro",
+      "vereador": "Cidade do Rio de Janeiro",
+      "governador": "Estado do Rio de Janeiro",
+      "deputadoEstadual": "Estado do Rio de Janeiro",
+      "presidente": "Todo o Brasil",
+      "senador": "Estado do Rio de Janeiro",
+      "deputadoFederal": "Estado do Rio de Janeiro"
+    },
+    "perfil": {
+      "voltar": "Voltar para a lista",
+      "cargo": "Cargo",
+      "partido": "Partido",
+      "representa": "Representa",
+      "mandato": "Mandato",
+      "situacao": "Situação",
+      "maisInfo": "Projetos, votações e contato estão no site oficial.",
+      "fotoAlt": "Foto oficial de {nome}",
+      "carregando": "Buscando o perfil…",
+      "naoEncontrado": "Não encontramos esta pessoa. Ela pode ter deixado o cargo."
+    },
+    "proposicoes": {
+      "titulo": "Propostas apresentadas recentemente",
+      "texto": "As mais recentes em que esta pessoa aparece como autora, segundo a Câmara dos Deputados.",
+      "vazio": "A Câmara não registra propostas recentes desta pessoa como autora.",
+      "ver": "Entender a proposta"
+    },
+    "carregando": "Buscando representantes…",
+    "fontes": {
+      "executivo": "Página oficial do cargo",
+      "lista": "Lista oficial de parlamentares",
+      "perfil": "Perfil oficial",
+      "senado": "Senado Federal (Dados Abertos)",
+      "camara": "Câmara dos Deputados (Dados Abertos)"
+    }
   }
 }

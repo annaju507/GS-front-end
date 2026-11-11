@@ -14,7 +14,7 @@ function ItemMenu({ item, ativa }) {
       <Link
         to={para}
         aria-current={marcada ? 'page' : undefined}
-        className={`flex min-h-12 items-center gap-3 rounded-full px-4 no-underline transition-colors duration-150 ${
+        className={`flex min-h-12 items-center gap-2.5 rounded-full px-3 no-underline transition-colors duration-150 ${
           marcada ? 'bg-lilas-claro font-titulo font-semibold text-link' : 'font-semibold text-texto hover:bg-lilas-claro'
         }`}
       >

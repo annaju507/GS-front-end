@@ -1,4 +1,4 @@
-import { RefreshCw, TriangleAlert } from 'lucide-react'
+import { RefreshCw, TriangleAlert, WifiOff } from 'lucide-react'
 import textos from '../data/textos.json'
 import BalaoMascote from './BalaoMascote.jsx'
 import Botao from './Botao.jsx'
@@ -6,10 +6,23 @@ import Botao from './Botao.jsx'
 // Estado de erro, sempre com "tentar de novo".
 // Sem conexão: a arara (a mensageira) avisa, por decisão da equipe.
 // Outros erros: só ícone e texto claro, sem mascote.
-export default function EstadoErro({ semConexao = false, onTentarDeNovo }) {
+// semMascote: em páginas de políticos (neutralidade), a falta de conexão
+// aparece só com ícone e texto.
+export default function EstadoErro({ semConexao = false, semMascote = false, onTentarDeNovo }) {
   const t = textos.estados
 
-  if (semConexao) {
+  if (semConexao && semMascote) {
+    return (
+      <section role="alert" className="flex max-w-leitura flex-col items-start gap-3 py-6">
+        <WifiOff size={32} strokeWidth={2} aria-hidden="true" className="text-alerta" />
+        <p className="font-titulo text-h3 font-semibold">{t.semConexao.titulo}</p>
+        <p className="text-texto-2">{t.semConexao.fala}</p>
+        <Botao variante="secundario" icone={RefreshCw} onClick={onTentarDeNovo}>
+          {textos.botoes.tentarDeNovo}
+        </Botao>
+      </section>
+    )
+  } else if (semConexao) {
     return (
       <section aria-label={t.semConexao.titulo} className="flex max-w-leitura flex-col gap-4 py-6">
         <BalaoMascote mascote="arara" expressao="alerta" anunciar>

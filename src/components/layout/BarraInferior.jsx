@@ -28,7 +28,7 @@ export default function BarraInferior() {
                 </span>
                 <span
                   lang="pt-BR"
-                  className={`w-full text-center text-tag leading-tight hyphens-auto break-words ${marcada ? 'font-titulo font-semibold' : 'font-semibold'}`}
+                  className={`w-full text-center text-tag leading-tight hyphens-auto break-words ${marcada ? 'font-extrabold' : 'font-semibold'}`}
                 >
                   {rotulo}
                 </span>
