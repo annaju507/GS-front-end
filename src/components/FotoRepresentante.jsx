@@ -14,7 +14,7 @@ export default function FotoRepresentante({ pessoa, tamanho = 'lista' }) {
 
   if (!pessoa.foto || falhou) {
     return (
-      <span aria-hidden="true" className={`${classes} flex items-center justify-center font-titulo font-bold text-texto-2`}>
+      <span aria-hidden="true" className={`${classes} flex items-center justify-center font-titulo font-bold text-texto`}>
         {iniciais(pessoa.nome)}
       </span>
     )

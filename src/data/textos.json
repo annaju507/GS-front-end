@@ -594,7 +594,7 @@
     "emBreve": "Em breve",
     "comecar": "Começar",
     "noConcluido": "Lição {ordem}: {titulo}. Concluída.",
-    "noAtual": "Lição {ordem}: {titulo}. Começar.",
+    "noAtual": "Começar {titulo} (lição {ordem})",
     "noBloqueado": "Lição {ordem}: {titulo}. Bloqueada: termine a lição anterior."
   },
   "licao": {

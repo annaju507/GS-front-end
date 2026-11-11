@@ -32,7 +32,7 @@ export default function NoTrilha({ licao, numero, estado, posicao }) {
       </span>
       <span aria-hidden="true" className="flex flex-col">
         {estado === 'atual' && (
-          <span className="font-titulo text-tag font-extrabold uppercase tracking-[0.05em] text-link">{t.comecar}</span>
+          <span className="font-titulo text-tag font-extrabold uppercase tracking-[0.05em] text-link">{t.comecar} </span>
         )}
         <span className={`font-titulo text-tag font-bold ${estado === 'bloqueada' ? 'text-texto-2' : 'text-texto'}`}>
           {licao.titulo}
