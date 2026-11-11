@@ -21,6 +21,9 @@ import Quiz from './pages/Quiz.jsx'
 import Conquista from './pages/Conquista.jsx'
 import Proposta from './pages/Proposta.jsx'
 import Perfil from './pages/Perfil.jsx'
+import Agora from './pages/Agora.jsx'
+import Glossario from './pages/Glossario.jsx'
+import Termo from './pages/Termo.jsx'
 import EmConstrucao from './pages/EmConstrucao.jsx'
 import NaoEncontrada from './pages/NaoEncontrada.jsx'
 
@@ -69,11 +72,12 @@ export default function App() {
         <Route path="licao/:id" element={<Licao />} />
         <Route path="proposta/:id" element={<Proposta />} />
         <Route path="perfil" element={<Perfil />} />
-        <Route path="agora" element={<EmConstrucao area="agora" />} />
+        <Route path="agora" element={<Agora />} />
         <Route path="representantes/*" element={<EmConstrucao area="representantes" />} />
         <Route path="direitos/*" element={<EmConstrucao area="direitos" />} />
         <Route path="caderno" element={<EmConstrucao area="caderno" />} />
-        <Route path="glossario/*" element={<EmConstrucao area="glossario" />} />
+        <Route path="glossario" element={<Glossario />} />
+        <Route path="glossario/:termo" element={<Termo />} />
         <Route path="*" element={<NaoEncontrada />} />
       </Route>
 

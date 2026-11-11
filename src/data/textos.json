@@ -570,11 +570,12 @@
       "rotulo": "Menu principal",
       "aprender": "Aprender",
       "agora": "Agora",
-      "representantes": "Representantes",
+      "representantes": "Represen­tantes",
       "direitos": "Direitos",
       "caderno": "Caderno",
       "glossario": "Glossário",
-      "perfil": "Perfil"
+      "perfil": "Perfil",
+      "_obs": "O rótulo Representantes tem um hífen opcional invisível (U+00AD) para quebrar bem na barra inferior do celular."
     }
   },
   "painel": {
@@ -726,11 +727,9 @@
     "texto": "Esta área está chegando! Ela fica pronta na próxima etapa do projeto.",
     "voltar": "Voltar para o painel",
     "titulos": {
-      "agora": "Agora",
       "representantes": "Representantes",
       "direitos": "Direitos",
-      "caderno": "Caderno cívico",
-      "glossario": "Glossário"
+      "caderno": "Caderno cívico"
     }
   },
   "perfil": {
@@ -744,5 +743,63 @@
     },
     "ajustes": "Ajustes de leitura",
     "sair": "Sair da conta"
+  },
+  "agora": {
+    "tituloAba": "Agora",
+    "titulo": "Agora",
+    "intro": "Propostas apresentadas por deputados federais do RJ na Câmara, das mais novas para as mais antigas.",
+    "fala": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+    "_max": {
+      "fala": 140
+    },
+    "nota": "A lista vem direto da Câmara dos Deputados. Ela mostra o que foi apresentado, não o que virou lei.",
+    "filtros": {
+      "titulo": "Filtrar propostas",
+      "area": "Área",
+      "todas": "Todas",
+      "tipo": "Tipo de proposta",
+      "tipos": {
+        "todos": "Todos os tipos",
+        "PL": "Projeto de lei (PL)",
+        "PEC": "Proposta de Emenda à Constituição (PEC)",
+        "PLP": "Projeto de lei complementar (PLP)"
+      },
+      "busca": "Palavra-chave",
+      "buscaDica": "Procure por um assunto, como transporte ou escola.",
+      "buscar": "Buscar",
+      "limpar": "Limpar filtros"
+    },
+    "lista": "Propostas encontradas",
+    "pagina": "Página {pagina}",
+    "maisRecentes": "Mais recentes",
+    "maisAntigas": "Mais antigas",
+    "apresentadaEm": "Apresentada em {data}",
+    "ver": "Entender a proposta",
+    "carregando": "Buscando propostas na Câmara…",
+    "vazio": "Não encontramos propostas com esses filtros."
+  },
+  "glossario": {
+    "tituloAba": "Glossário",
+    "titulo": "Glossário",
+    "intro": "Palavras da política explicadas de um jeito simples, de A a Z.",
+    "fala": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+    "_max": {
+      "fala": 140
+    },
+    "busca": "Buscar um termo",
+    "buscaDica": "Digite parte do nome ou a sigla, como PEC.",
+    "contagem": "{n} de {total} termos",
+    "vazio": "Nenhum termo encontrado para \"{busca}\".",
+    "limparBusca": "Limpar busca",
+    "letra": "Letra {letra}",
+    "termo": {
+      "voltar": "Voltar para o glossário",
+      "relacionados": "Termos relacionados"
+    },
+    "naLicao": {
+      "abrir": "O que é {termo}? Abre a explicação aqui mesmo.",
+      "fechar": "Fechar explicação",
+      "verNoGlossario": "Ver no glossário"
+    }
   }
 }
