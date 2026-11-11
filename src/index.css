@@ -553,3 +553,29 @@
 @media (prefers-reduced-motion: reduce) {
   .flutuar { animation: none; }
 }
+
+/* Gaveta de feedback do quiz (seção 9): sobe da parte de baixo em 250ms. */
+@keyframes subir-gaveta {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.subir-gaveta { animation: subir-gaveta 250ms ease-out 1; }
+
+/* Confete da conquista: cai uma vez, por até 1,2s. Não aparece com
+   "reduzir animações" (o componente nem é desenhado). */
+@keyframes cair-confete {
+  from { transform: translateY(-10vh) rotate(0deg); opacity: 1; }
+  to { transform: translateY(70vh) rotate(540deg); opacity: 0; }
+}
+
+.confete { animation: cair-confete 1.2s ease-in 1 forwards; }
+
+.reduzir-animacoes .subir-gaveta,
+.reduzir-animacoes .confete {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .subir-gaveta, .confete { animation: none; }
+}

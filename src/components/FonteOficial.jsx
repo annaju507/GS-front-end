@@ -5,7 +5,8 @@ import { preencher } from '../domain/texto.js'
 
 // Fonte oficial, no mesmo padrão em todo o site: instituição, documento,
 // trecho, data da consulta e link. Toda lição, pergunta e termo tem uma.
-export default function FonteOficial({ fonte }) {
+// onAbrir (opcional): avisa quando a pessoa abre a fonte (medalha "Chequei a fonte").
+export default function FonteOficial({ fonte, onAbrir }) {
   if (!fonte) {
     return null
   }
@@ -23,6 +24,7 @@ export default function FonteOficial({ fonte }) {
           href={fonte.url}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={onAbrir}
           className="inline-flex min-h-11 items-center gap-1.5 self-start font-semibold"
         >
           {textos.fonte.verFonte}
