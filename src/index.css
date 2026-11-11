@@ -52,6 +52,14 @@
   --color-onca: #D9B23A;
   --color-mico: #E8622A;
 
+  /* Blocos 3D flutuantes do hero (seção 18.2): cor do bloco e do degrau */
+  --color-bloco-lilas: #A186EF;      --color-bloco-lilas-degrau: #6E52C9;
+  --color-bloco-ceu: #B7E7FC;        --color-bloco-ceu-degrau: #7FC3E3;
+  --color-bloco-pessego: #FFE5D4;    --color-bloco-pessego-degrau: #E8B896;
+  --color-bloco-indigo: #2A0081;     --color-bloco-indigo-degrau: #14004A;
+  --color-bloco-menta: #DDF3E6;      --color-bloco-menta-degrau: #A9D9BD;
+  --color-bloco-coral: #FDE8DE;      --color-bloco-coral-degrau: #EDB9A0;
+
   /* Raios */
   --radius-campo: 0.75rem;
   --radius-botao: 0.875rem;
@@ -86,6 +94,8 @@
   --lilas-claro: #EEE9FB;
   --foco: #2A0081;
   --halo-mascote: transparent;
+  --destaque-texto: #6E52C9;
+  --hero: #EEE9FB;
 
   /* Botões */
   --botao: #1A1A1A;
@@ -175,6 +185,8 @@
   --lilas-claro: #2E2842;
   --foco: #B7E7FC;
   --halo-mascote: #2E2842;
+  --destaque-texto: #A186EF;
+  --hero: #1F1A2E;
 
   /* Botões: o preto some no escuro, então o primário vira lilás */
   --botao: #A186EF;
@@ -260,6 +272,8 @@
   --color-lilas-claro: var(--lilas-claro);
   --color-foco: var(--foco);
   --color-halo-mascote: var(--halo-mascote);
+  --color-destaque-texto: var(--destaque-texto);
+  --color-hero: var(--hero);
 
   --color-botao: var(--botao);
   --color-botao-hover: var(--botao-hover);
@@ -517,4 +531,25 @@
     var(--voto-ausencia) 0 0.1875rem,
     transparent 0.1875rem 0.375rem
   );
+}
+
+/* Objetos cívicos flutuantes (seção 18.2): sobem e descem 6px devagar,
+   cada um num ritmo (duração e atraso vêm do componente). Parados com
+   "reduzir animações". */
+@keyframes flutuar {
+  0%, 100% { transform: translateY(0) rotate(var(--giro, 0deg)); }
+  50% { transform: translateY(-0.375rem) rotate(var(--giro, 0deg)); }
+}
+
+.flutuar {
+  transform: rotate(var(--giro, 0deg));
+  animation: flutuar 5s ease-in-out infinite;
+}
+
+.reduzir-animacoes .flutuar {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flutuar { animation: none; }
 }
