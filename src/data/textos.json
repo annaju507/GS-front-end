@@ -213,5 +213,358 @@
       "diminuir": "-15%",
       "aumentar": "+15%"
     }
+  },
+  "publico": {
+    "nav": {
+      "rotulo": "Navegação principal",
+      "inicio": "Demokratos, página inicial",
+      "comoFunciona": "Como funciona",
+      "sobre": "Sobre",
+      "trilhas": "Trilhas",
+      "agora": "Agora",
+      "direitos": "Direitos",
+      "entrar": "Entrar",
+      "irParaPainel": "Ir para o painel",
+      "menu": "Menu",
+      "abrirMenu": "Abrir menu",
+      "fecharMenu": "Fechar menu"
+    },
+    "rodape": {
+      "conheca": "Conheça",
+      "fontes": "Fontes oficiais",
+      "ajustes": "Ajustes de leitura",
+      "projeto": "Projeto de estudantes da FIAP para a Global Solution 2026 (CitizenTech), no Rio de Janeiro.",
+      "github": "Código no GitHub",
+      "githubUrl": "https://github.com/annaju507/GS-front-end",
+      "linksFontes": [
+        {
+          "rotulo": "Câmara dos Deputados (Dados Abertos)",
+          "url": "https://dadosabertos.camara.leg.br"
+        },
+        {
+          "rotulo": "Senado Federal (Dados Abertos)",
+          "url": "https://www12.senado.leg.br/dados-abertos"
+        },
+        {
+          "rotulo": "Câmara Municipal do Rio",
+          "url": "https://www.camara.rio"
+        },
+        {
+          "rotulo": "ALERJ",
+          "url": "https://www.alerj.rj.gov.br"
+        },
+        {
+          "rotulo": "Legislação federal (Planalto)",
+          "url": "https://www4.planalto.gov.br/legislacao/"
+        }
+      ]
+    }
+  },
+  "inicio": {
+    "tituloAba": "Início",
+    "marcaTexto": [
+      "política",
+      "sem complicação"
+    ],
+    "subtitulo": "Aprenda como a política funciona no Rio de Janeiro, no seu ritmo. Os mascotes explicam e cada informação mostra a fonte oficial para você conferir.",
+    "comecar": "Começar agora",
+    "jaTenhoConta": "Já tenho conta",
+    "comoFunciona": {
+      "titulo": "Como o Demokratos ajuda",
+      "chamada": [
+        "Aprenda. Confira.",
+        "Forme sua opinião."
+      ],
+      "texto": "Lições curtas explicam quem faz o quê na cidade, no estado e no país. Depois de cada lição, um teste rápido ajuda a fixar. Toda informação mostra de onde veio.",
+      "estatisticas": [
+        {
+          "valor": "8",
+          "rotulo": "unidades na trilha"
+        },
+        {
+          "valor": "5",
+          "rotulo": "mascotes para guiar você"
+        },
+        {
+          "valor": "100%",
+          "rotulo": "do conteúdo com fonte oficial"
+        }
+      ],
+      "saibaMais": "Ver como funciona"
+    },
+    "faixa": {
+      "pergunta": "Você sabe quem cuida do buraco da sua rua?",
+      "botao": "Descobrir"
+    },
+    "teste": {
+      "titulo": "Teste rápido",
+      "intro": "Responda uma pergunta e veja como o quiz funciona.",
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor?",
+      "opcoes": [
+        "Lorem ipsum dolor sit",
+        "Amet consectetur adipiscing",
+        "Elit sed do eiusmod"
+      ],
+      "correta": 1,
+      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 30, inciso V",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "_max": {
+        "pergunta": 120,
+        "opcoes": 60,
+        "explicacao": 220
+      },
+      "escolhaUmaOpcao": "Escolha uma opção antes de verificar.",
+      "acertou": "Mandou bem!",
+      "errou": "Quase!",
+      "tentarDeNovo": "Responder de novo",
+      "convite": "Gostou? Crie uma conta para seguir a trilha completa.",
+      "criarConta": "Criar conta"
+    }
+  },
+  "comoFunciona": {
+    "titulo": "Como funciona",
+    "intro": "O Demokratos ensina política do zero, em passos pequenos. Você aprende, testa o que entendeu e confere tudo na fonte oficial.",
+    "secoes": {
+      "trilhas": {
+        "titulo": "Trilhas de aprendizado",
+        "texto": "A trilha começa do básico e vai por partes: o que é política, os três Poderes, quem faz o quê e como nasce uma lei. Cada lição leva de 2 a 5 minutos."
+      },
+      "quiz": {
+        "titulo": "Quiz com explicação",
+        "texto": "Depois de cada lição, você responde perguntas. Errou? Tudo bem: o mascote mostra o porquê e de onde vem a resposta. Ninguém perde pontos por errar."
+      },
+      "mascotes": {
+        "titulo": "Mascotes que guiam",
+        "texto": "Cinco bichos brasileiros acompanham você. Eles explicam e incentivam, mas nunca dão opinião sobre políticos ou partidos."
+      },
+      "fontes": {
+        "titulo": "Fontes oficiais",
+        "texto": "Tudo o que ensinamos vem de documentos públicos, como a Constituição e os sites da Câmara, do Senado, da ALERJ e da Câmara do Rio. Cada conteúdo mostra a fonte, a data da consulta e o link."
+      }
+    },
+    "papeis": {
+      "caramelo": "O companheiro: recebe você e mostra o caminho.",
+      "capivara": "A professora: explica com calma.",
+      "arara": "A mensageira: traz as novidades.",
+      "onca": "A investigadora: confere as fontes.",
+      "mico": "O explorador: comemora suas conquistas."
+    },
+    "convite": "Pronto para começar?",
+    "comecar": "Começar agora"
+  },
+  "sobre": {
+    "titulo": "Sobre o Demokratos",
+    "intro": "O Demokratos é um projeto de estudantes de Engenharia de Software da FIAP, no Rio de Janeiro. Queremos que ninguém tenha medo de não entender política.",
+    "equipe": {
+      "titulo": "Quem somos",
+      "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "_max": {
+        "texto": 300
+      }
+    },
+    "dados": {
+      "titulo": "De onde vêm os dados",
+      "itens": [
+        {
+          "nome": "Câmara dos Deputados",
+          "texto": "deputados federais do RJ, propostas e votações, pela API de Dados Abertos."
+        },
+        {
+          "nome": "Senado Federal",
+          "texto": "senadores do RJ, pelos Dados Abertos do Senado."
+        },
+        {
+          "nome": "Câmara Municipal do Rio",
+          "texto": "vereadores da cidade."
+        },
+        {
+          "nome": "ALERJ",
+          "texto": "deputados estaduais do RJ."
+        },
+        {
+          "nome": "Planalto",
+          "texto": "Constituição e leis federais usadas nas lições."
+        }
+      ]
+    },
+    "neutralidade": {
+      "titulo": "Nossas regras de neutralidade",
+      "itens": [
+        "Não dizemos em quem votar nem quem está certo.",
+        "Todos os políticos aparecem do mesmo jeito: foto oficial, mesmo tamanho e mesma ordem.",
+        "Verde e vermelho só marcam acerto e erro no quiz. Os votos usam cores neutras.",
+        "Os mascotes não aparecem perto de políticos, partidos ou votações.",
+        "Toda informação mostra a fonte, a data da consulta e o link.",
+        "Proposta em análise nunca é apresentada como lei."
+      ]
+    },
+    "privacidade": {
+      "titulo": "Seus dados",
+      "texto": "Este site é um protótipo. A conta fica guardada só no seu navegador e não pedimos dados pessoais. Não use uma senha que você usa em outros lugares."
+    }
+  },
+  "previa": {
+    "rotuloNav": "Escolha a prévia",
+    "selo": "Prévia",
+    "disponivel": "Disponível",
+    "emBreve": "Em breve",
+    "unidade": "Unidade {numero}",
+    "trilhas": {
+      "titulo": "Prévia das trilhas",
+      "intro": "A trilha vai do básico até como nasce uma lei. Veja as unidades."
+    },
+    "agora": {
+      "titulo": "Prévia do Agora",
+      "intro": "Propostas que estão sendo discutidas e afetam quem mora no Rio, explicadas em linguagem simples.",
+      "nota": "Exemplos ilustrativos. Dentro do site, as propostas vêm da Câmara dos Deputados, com a fonte oficial.",
+      "_max": {
+        "titulo": 90,
+        "resumo": 160
+      },
+      "exemplos": [
+        {
+          "titulo": "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+          "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "area": "cidade",
+          "status": "comissao"
+        },
+        {
+          "titulo": "Sed do eiusmod tempor incididunt ut labore",
+          "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "area": "saude",
+          "status": "apresentada"
+        }
+      ]
+    },
+    "direitos": {
+      "titulo": "Prévia dos Direitos",
+      "intro": "Como pedir um serviço público: quem tem direito, o que levar e onde ir, sempre com o canal oficial.",
+      "_max": {
+        "titulo": 60,
+        "resumo": 140
+      },
+      "exemplos": [
+        {
+          "titulo": "Lorem ipsum dolor sit amet",
+          "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "area": "saude"
+        },
+        {
+          "titulo": "Consectetur adipiscing elit",
+          "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "area": "educacao"
+        },
+        {
+          "titulo": "Sed do eiusmod tempor",
+          "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "area": "cidade"
+        }
+      ]
+    },
+    "convite": {
+      "titulo": "Quer ver o resto?",
+      "texto": "Crie uma conta grátis para fazer as lições, salvar propostas e acompanhar seu progresso.",
+      "entrar": "Entrar para ver mais",
+      "criarConta": "Criar conta"
+    }
+  },
+  "auth": {
+    "avisoPrototipo": "Protótipo: sua conta fica guardada só neste navegador. Não use uma senha de verdade.",
+    "email": "E-mail",
+    "senha": "Senha",
+    "mostrarSenha": "Mostrar senha",
+    "resumoErros": "Confira os campos marcados.",
+    "enviando": "Aguarde…",
+    "entrar": {
+      "titulo": "Entrar",
+      "intro": "Que bom ver você de novo.",
+      "botao": "Entrar",
+      "esqueci": "Esqueci a senha",
+      "esqueciAviso": "Neste protótipo a conta fica só no seu navegador, então não dá para recuperar a senha. Você pode criar uma conta nova.",
+      "semConta": "Ainda não tem conta?",
+      "criarConta": "Criar conta"
+    },
+    "cadastro": {
+      "titulo": "Criar conta",
+      "intro": "Leva menos de um minuto.",
+      "apelido": "Apelido",
+      "apelidoDica": "É assim que vamos chamar você. Não precisa ser seu nome.",
+      "senhaDica": "Pelo menos 6 caracteres.",
+      "botao": "Criar conta",
+      "temConta": "Já tem conta?",
+      "entrar": "Entrar"
+    },
+    "erros": {
+      "emailVazio": "Escreva seu e-mail.",
+      "emailInvalido": "Confira o e-mail. Ele precisa ter @ e um ponto, como nome@exemplo.com.",
+      "senhaVazia": "Escreva sua senha.",
+      "senhaCurta": "A senha precisa ter pelo menos 6 caracteres.",
+      "apelidoVazio": "Escreva um apelido.",
+      "apelidoCurto": "O apelido precisa ter pelo menos 2 letras.",
+      "apelidoLongo": "Use no máximo 30 caracteres.",
+      "emailEmUso": "Já existe uma conta com este e-mail. Tente entrar.",
+      "credenciais": "E-mail ou senha não conferem. Confira e tente de novo."
+    }
+  },
+  "boasVindas": {
+    "passo": "Passo {atual} de {total}",
+    "voltar": "Voltar",
+    "inicio": {
+      "tituloAba": "Boas-vindas",
+      "titulo": "Boas-vindas, {apelido}!",
+      "texto": "Aqui você aprende política do zero, no seu ritmo. Vamos ajustar duas coisas rapidinho?",
+      "fala": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "_max": {
+        "fala": 140
+      },
+      "botao": "Vamos lá"
+    },
+    "pontoDePartida": {
+      "tituloAba": "Ponto de partida",
+      "titulo": "Quanto você já sabe?",
+      "intro": "Não tem resposta errada. Isso só ajuda a escolher por onde começar.",
+      "opcoes": [
+        {
+          "valor": "inicio",
+          "rotulo": "Estou começando agora",
+          "descricao": "Nunca estudei política ou não lembro de quase nada."
+        },
+        {
+          "valor": "basico",
+          "rotulo": "Sei o básico",
+          "descricao": "Conheço os três Poderes, mas me confundo com o resto."
+        },
+        {
+          "valor": "avancado",
+          "rotulo": "Já sei bastante",
+          "descricao": "Quero revisar e ver o que está acontecendo agora."
+        }
+      ],
+      "botao": "Continuar",
+      "erro": "Escolha uma opção para continuar."
+    },
+    "ajustes": {
+      "tituloAba": "Ajustes de leitura",
+      "titulo": "Ajustes de leitura",
+      "intro": "Deixe o site do jeito mais confortável para você. Dá para mudar depois no seu perfil.",
+      "botao": "Começar a aprender"
+    }
+  },
+  "painel": {
+    "tituloAba": "Painel",
+    "ola": "Olá, {apelido}!",
+    "texto": "O painel com a trilha, a sequência de dias e a proposta do dia chega na próxima etapa.",
+    "sair": "Sair"
+  },
+  "naoEncontrada": {
+    "titulo": "Página não encontrada",
+    "texto": "O endereço pode estar errado ou a página mudou de lugar.",
+    "botao": "Voltar ao início"
   }
 }

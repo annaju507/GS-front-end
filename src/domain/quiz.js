@@ -13,3 +13,15 @@ export function estadoDaOpcao(indice, selecionada, correta, respondido) {
     return 'apagada'
   }
 }
+
+// Corrige uma questão. Sem resposta, pede para escolher (em vez de
+// deixar o botão desativado).
+export function corrigirQuestao(selecionada, correta) {
+  if (selecionada === null || selecionada === undefined) {
+    return 'semResposta'
+  } else if (selecionada === correta) {
+    return 'acertou'
+  } else {
+    return 'errou'
+  }
+}

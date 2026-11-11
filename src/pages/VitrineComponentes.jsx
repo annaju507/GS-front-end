@@ -28,8 +28,8 @@ import EstadoCarregando from '../components/EstadoCarregando.jsx'
 import EstadoErro from '../components/EstadoErro.jsx'
 import EstadoVazio from '../components/EstadoVazio.jsx'
 
-// Página TEMPORÁRIA da etapa 2: mostra os componentes base em todos os estados.
-// Será trocada pela página de Início de verdade na etapa 3.
+// Vitrine dos componentes (só no modo de desenvolvimento, em /componentes).
+// Serve para conferir cada componente em todos os estados.
 const t = textos.previaComponentes
 const LIMITE_ANOTACAO = 280
 
@@ -42,7 +42,7 @@ function Secao({ id, titulo, children }) {
   )
 }
 
-export default function Inicio() {
+export default function VitrineComponentes() {
   useTitulo(t.tituloPagina)
 
   // Demonstrações interativas
@@ -96,7 +96,7 @@ export default function Inicio() {
         <section aria-labelledby="titulo-pagina" className="flex flex-col gap-4">
           <h1 id="titulo-pagina">{t.tituloPagina}</h1>
           <p className="marca-texto">
-            <span>{t.marcaTexto[0]}</span>
+            <span>{t.marcaTexto[0]}</span>{' '}
             <br />
             <span>{t.marcaTexto[1]}</span>
           </p>

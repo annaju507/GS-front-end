@@ -1,0 +1,54 @@
+{
+  "_sobre": "Unidades da trilha 'política do zero'. Títulos fixos; descrições editoriais em Lorem até a redação final. As lições entram na etapa 4.",
+  "_max": { "descricao": 120 },
+  "unidades": [
+    {
+      "id": 1,
+      "titulo": "Política e cidadania",
+      "disponivel": true,
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+    },
+    {
+      "id": 2,
+      "titulo": "Democracia e Constituição",
+      "disponivel": false,
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+    },
+    {
+      "id": 3,
+      "titulo": "Os três Poderes",
+      "disponivel": true,
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+    },
+    {
+      "id": 4,
+      "titulo": "Quem faz o quê",
+      "disponivel": false,
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+    },
+    {
+      "id": 5,
+      "titulo": "Esferas de governo",
+      "disponivel": true,
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+    },
+    {
+      "id": 6,
+      "titulo": "Eleições e representação",
+      "disponivel": false,
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+    },
+    {
+      "id": 7,
+      "titulo": "Como nasce uma lei",
+      "disponivel": true,
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+    },
+    {
+      "id": 8,
+      "titulo": "Fiscalização e informação",
+      "disponivel": false,
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+    }
+  ]
+}
