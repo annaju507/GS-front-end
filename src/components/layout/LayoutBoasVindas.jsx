@@ -2,7 +2,7 @@ import { Suspense } from 'react'
 import { Outlet } from 'react-router'
 import { useRolarAoTopo } from '../../hooks/useRolarAoTopo.js'
 import PularParaConteudo from '../PularParaConteudo.jsx'
-import EstadoCarregando from '../EstadoCarregando.jsx'
+import CarregandoPagina from '../CarregandoPagina.jsx'
 import Logo from '../Logo.jsx'
 import BotaoTema from '../BotaoTema.jsx'
 import OndasCalcadao from '../OndasCalcadao.jsx'
@@ -20,7 +20,7 @@ export default function LayoutBoasVindas() {
         <BotaoTema compacto />
       </header>
       <main id="conteudo" tabIndex={-1} className="mx-auto w-full max-w-leitura flex-1 px-4 pb-12 pt-4 focus:outline-none md:px-6">
-        <Suspense fallback={<EstadoCarregando />}>
+        <Suspense fallback={<CarregandoPagina />}>
           <Outlet />
         </Suspense>
       </main>
