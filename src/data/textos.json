@@ -68,7 +68,11 @@
     "vetada": "Vetada",
     "vetoDerrubado": "Veto derrubado",
     "arquivada": "Arquivada",
-    "emVigor": "Em vigor"
+    "emVigor": "Em vigor",
+    "emAnalise": "Em análise",
+    "emConjunto": "Tramitando junto com outra proposta",
+    "aguardandoSancao": "Aguardando sanção",
+    "virouLei": "Virou lei"
   },
   "votos": {
     "rotulos": {
@@ -556,15 +560,181 @@
       "botao": "Começar a aprender"
     }
   },
-  "painel": {
-    "tituloAba": "Painel",
-    "ola": "Olá, {apelido}!",
-    "texto": "O painel com a trilha, a sequência de dias e a proposta do dia chega na próxima etapa.",
-    "sair": "Sair"
-  },
   "naoEncontrada": {
     "titulo": "Página não encontrada",
     "texto": "O endereço pode estar errado ou a página mudou de lugar.",
     "botao": "Voltar ao início"
+  },
+  "app": {
+    "nav": {
+      "rotulo": "Menu principal",
+      "aprender": "Aprender",
+      "agora": "Agora",
+      "representantes": "Representantes",
+      "direitos": "Direitos",
+      "caderno": "Caderno",
+      "glossario": "Glossário",
+      "perfil": "Perfil"
+    }
+  },
+  "painel": {
+    "tituloAba": "Painel",
+    "ola": "Olá, {apelido}!",
+    "continuar": {
+      "titulo": "Continue de onde parou",
+      "unidade": "Unidade {numero} · {titulo}",
+      "botao": "Continuar lição",
+      "comecar": "Começar a trilha",
+      "fim": "Você terminou todas as lições disponíveis. Novas unidades chegam em breve.",
+      "verTrilha": "Ver a trilha"
+    },
+    "sequencia": {
+      "titulo": "Sequência",
+      "um": "1 dia seguido",
+      "varios": "{n} dias seguidos",
+      "nenhum": "Comece hoje a sua sequência.",
+      "perdida": "Tudo bem! Bora recomeçar?"
+    },
+    "progresso": "Progresso da trilha",
+    "medalhas": "{n} de {total} medalhas",
+    "verPerfil": "Ver medalhas",
+    "propostaDoDia": {
+      "titulo": "Proposta do dia",
+      "texto": "A proposta mais recente apresentada por deputados federais do RJ, direto da Câmara. A escolha é automática.",
+      "ver": "Entender a proposta",
+      "vazio": "A Câmara não trouxe propostas agora. Tente de novo mais tarde."
+    }
+  },
+  "trilha": {
+    "tituloAba": "Trilha",
+    "titulo": "Trilha: política do zero",
+    "progresso": "Progresso da trilha",
+    "unidade": "Unidade {numero}",
+    "glossarioUnidade": "Glossário da unidade",
+    "emBreve": "Em breve",
+    "comecar": "Começar",
+    "noConcluido": "Lição {ordem}: {titulo}. Concluída.",
+    "noAtual": "Lição {ordem}: {titulo}. Começar.",
+    "noBloqueado": "Lição {ordem}: {titulo}. Bloqueada: termine a lição anterior."
+  },
+  "licao": {
+    "tituloAba": "Lição",
+    "voltar": "Voltar para a trilha",
+    "minutos": "{n} min de leitura",
+    "testar": "Testar o que aprendi",
+    "textoOficial": "Texto oficial",
+    "bloqueada": {
+      "titulo": "Esta lição ainda está bloqueada",
+      "texto": "Termine a lição anterior para liberar esta.",
+      "botao": "Ir para a trilha"
+    }
+  },
+  "quiz": {
+    "tituloAba": "Quiz",
+    "sair": "Sair do quiz e voltar para a trilha",
+    "progresso": "Pergunta {atual} de {total}",
+    "rotuloProgresso": "Progresso do quiz",
+    "escolha": "Escolha uma opção antes de verificar.",
+    "acertou": "Mandou bem!",
+    "errou": "Quase!",
+    "fraseAcertou": "Resposta certa. Quer ver a explicação completa?",
+    "fraseErrou": "A resposta certa está marcada. Veja o porquê antes de seguir.",
+    "porQueTitulo": "Por que é assim",
+    "continuar": "Continuar",
+    "verResultado": "Ver resultado"
+  },
+  "conquista": {
+    "tituloAba": "Conquista",
+    "titulo": "Manda bem!",
+    "subtitulo": "Você concluiu a lição {titulo}.",
+    "acertos": "Acertos",
+    "sequencia": "Sequência",
+    "tempo": "Tempo",
+    "acertosValor": "{acertos} de {total}",
+    "tempoValor": "{min} min {seg} s",
+    "medalhaNova": "Medalha nova!",
+    "proposta": {
+      "titulo": "Agora veja isso na vida real",
+      "texto": "A proposta mais recente de deputados federais do RJ sobre {tema}. A escolha é automática: não é destaque nem recomendação.",
+      "semProposta": "Não encontramos uma proposta sobre esse tema agora."
+    },
+    "continuar": "Ver a proposta",
+    "irAgora": "Ver outras propostas",
+    "rever": "Rever a lição",
+    "voltarTrilha": "Voltar para a trilha",
+    "semResultado": "Esta lição ainda não foi concluída.",
+    "sequenciaUm": "1 dia",
+    "sequenciaVarios": "{n} dias"
+  },
+  "medalhas": {
+    "titulo": "Medalhas",
+    "bloqueada": "Ainda não conquistada",
+    "entreguePor": "Entregue por: {mascote}",
+    "nomes": {
+      "primeiraLicao": "Primeira lição",
+      "tresPoderes": "Conheci os três Poderes",
+      "esferas": "Entendi as esferas",
+      "comoNasceUmaLei": "Como nasce uma lei",
+      "chequeiAFonte": "Chequei a fonte",
+      "primeiraProposta": "Li minha primeira proposta",
+      "tresDias": "3 dias seguidos",
+      "seteDias": "7 dias seguidos",
+      "trilhaConcluida": "Trilha concluída"
+    },
+    "comoGanhar": {
+      "primeiraLicao": "Conclua sua primeira lição.",
+      "tresPoderes": "Conclua a unidade Os três Poderes.",
+      "esferas": "Conclua a unidade Esferas de governo.",
+      "comoNasceUmaLei": "Conclua a unidade Como nasce uma lei.",
+      "chequeiAFonte": "Abra a fonte oficial de uma proposta.",
+      "primeiraProposta": "Leia a página de uma proposta.",
+      "tresDias": "Estude 3 dias seguidos.",
+      "seteDias": "Estude 7 dias seguidos.",
+      "trilhaConcluida": "Conclua todas as lições disponíveis."
+    }
+  },
+  "proposta": {
+    "tituloAba": "Proposta",
+    "voltar": "Voltar",
+    "apresentadaEm": "Apresentada em {data}",
+    "ementa": "O que diz o resumo oficial (ementa)",
+    "situacao": "Situação atual",
+    "situacaoOficial": "Situação oficial na Câmara: {texto}",
+    "semSituacao": "A Câmara ainda não registrou uma situação para esta proposta.",
+    "ultimaAtualizacao": "Última movimentação em {data}",
+    "autores": "Quem apresentou",
+    "semAutores": "A Câmara não informou os autores.",
+    "linhaDoTempo": "Últimas movimentações",
+    "passoAtual": "Situação atual",
+    "aviso": "Proposta em análise ainda não é lei. Tudo nesta página vem direto da Câmara dos Deputados.",
+    "lerTexto": "Ler o texto completo da proposta",
+    "fonteInstituicao": "Câmara dos Deputados (Dados Abertos)",
+    "fonteDocumento": "Ficha da proposição {sigla}",
+    "carregando": "Buscando a proposta na Câmara…",
+    "naoEncontrada": "Não encontramos esta proposta na Câmara. Confira o endereço ou veja outras propostas.",
+    "outras": "Ver outras propostas"
+  },
+  "emConstrucao": {
+    "texto": "Esta área chega na próxima etapa do projeto.",
+    "voltar": "Voltar para o painel",
+    "titulos": {
+      "agora": "Agora",
+      "representantes": "Representantes",
+      "direitos": "Direitos",
+      "caderno": "Caderno cívico",
+      "glossario": "Glossário"
+    }
+  },
+  "perfil": {
+    "tituloAba": "Perfil",
+    "titulo": "Seu perfil",
+    "resumo": "Seu progresso",
+    "estatisticas": {
+      "dias": "dias seguidos",
+      "licoes": "lições concluídas",
+      "medalhas": "medalhas"
+    },
+    "ajustes": "Ajustes de leitura",
+    "sair": "Sair da conta"
   }
 }
