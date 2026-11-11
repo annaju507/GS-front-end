@@ -2,5 +2,59 @@
   "site": {
     "nome": "Demokratos",
     "slogan": "O conhecimento político é para todos"
+  },
+  "acessibilidade": {
+    "pularConteudo": "Pular para o conteúdo"
+  },
+  "preferencias": {
+    "titulo": "Ajustes de leitura",
+    "tema": {
+      "rotulo": "Modo escuro"
+    },
+    "letra": {
+      "grupo": "Tamanho da letra",
+      "diminuir": "A-",
+      "aumentar": "A+",
+      "diminuirRotulo": "Diminuir a letra",
+      "aumentarRotulo": "Aumentar a letra",
+      "atual": "Letra em {valor}%",
+      "noMaximo": "A letra já está no maior tamanho.",
+      "noMinimo": "A letra já está no menor tamanho."
+    },
+    "animacoes": {
+      "rotulo": "Reduzir animações",
+      "sistemaPede": "Seu aparelho já pede menos animações, então elas ficam reduzidas."
+    }
+  },
+  "previaEstilos": {
+    "_aviso": "Página temporária da etapa 1. Será trocada pela página de Início na etapa 3.",
+    "tituloPagina": "Prévia da identidade visual",
+    "marcaTexto": ["política", "sem complicação"],
+    "tipografia": {
+      "titulo": "Tipografia",
+      "h3": "Título de terceiro nível",
+      "corpo": "Texto corrido em Nunito, 18px, com altura de linha confortável para ler com calma.",
+      "legenda": "Legenda e fonte: Nunito 15px.",
+      "link": "Exemplo de link"
+    },
+    "cores": {
+      "titulo": "Cores",
+      "marca": "Marca",
+      "areas": "Áreas temáticas",
+      "feedback": "Mensagens do sistema"
+    },
+    "areas": {
+      "saude": "Saúde",
+      "educacao": "Educação",
+      "seguranca": "Segurança",
+      "cidade": "Cidade e serviços públicos"
+    },
+    "feedback": {
+      "sucesso": "Resposta certa.",
+      "erro": "Escreva sua anotação.",
+      "alerta": "Confira a data da informação.",
+      "info": "Os dados vêm de fontes oficiais."
+    },
+    "exemplo": "Bloco de exemplo carioca: aparece nas lições para comparar a política com o dia a dia."
   }
 }
