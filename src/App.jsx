@@ -31,7 +31,8 @@ const Caderno = lazy(() => import('./pages/Caderno.jsx'))
 const Representantes = lazy(() => import('./pages/Representantes.jsx'))
 const RepresentantesEsfera = lazy(() => import('./pages/RepresentantesEsfera.jsx'))
 const Representante = lazy(() => import('./pages/Representante.jsx'))
-const EmConstrucao = lazy(() => import('./pages/EmConstrucao.jsx'))
+const Direitos = lazy(() => import('./pages/Direitos.jsx'))
+const DireitoTema = lazy(() => import('./pages/DireitoTema.jsx'))
 const NaoEncontrada = lazy(() => import('./pages/NaoEncontrada.jsx'))
 
 // Vitrine de componentes: só existe no modo de desenvolvimento (npm run dev).
@@ -83,7 +84,8 @@ export default function App() {
         <Route path="representantes" element={<Representantes />} />
         <Route path="representantes/:esfera" element={<RepresentantesEsfera />} />
         <Route path="representante/:id" element={<Representante />} />
-        <Route path="direitos/*" element={<EmConstrucao area="direitos" />} />
+        <Route path="direitos" element={<Direitos />} />
+        <Route path="direitos/:tema" element={<DireitoTema />} />
         <Route path="caderno" element={<Caderno />} />
         <Route path="glossario" element={<Glossario />} />
         <Route path="glossario/:termo" element={<Termo />} />

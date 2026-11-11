@@ -448,28 +448,7 @@
     },
     "direitos": {
       "titulo": "Prévia dos Direitos",
-      "intro": "Como pedir um serviço público: quem tem direito, o que levar e onde ir, sempre com o canal oficial.",
-      "_max": {
-        "titulo": 60,
-        "resumo": 140
-      },
-      "exemplos": [
-        {
-          "titulo": "Lorem ipsum dolor sit amet",
-          "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-          "area": "saude"
-        },
-        {
-          "titulo": "Consectetur adipiscing elit",
-          "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-          "area": "educacao"
-        },
-        {
-          "titulo": "Sed do eiusmod tempor",
-          "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-          "area": "cidade"
-        }
-      ]
+      "intro": "Como pedir um serviço público: quem tem direito, o que levar e onde ir, sempre com o canal oficial."
     },
     "convite": {
       "titulo": "Quer ver o resto?",
@@ -732,13 +711,6 @@
       "abrir": "Abrir o caderno"
     }
   },
-  "emConstrucao": {
-    "texto": "Esta área está chegando! Ela fica pronta na próxima etapa do projeto.",
-    "voltar": "Voltar para o painel",
-    "titulos": {
-      "direitos": "Direitos"
-    }
-  },
   "perfil": {
     "tituloAba": "Perfil",
     "titulo": "Seu perfil",
@@ -746,10 +718,12 @@
     "estatisticas": {
       "dias": "dias seguidos",
       "licoes": "lições concluídas",
-      "medalhas": "medalhas"
+      "medalhas": "medalhas",
+      "caderno": "propostas no caderno"
     },
     "ajustes": "Ajustes de leitura",
-    "sair": "Sair da conta"
+    "sair": "Sair da conta",
+    "trilha": "Progresso da trilha"
   },
   "agora": {
     "tituloAba": "Agora",
@@ -960,5 +934,32 @@
       "senado": "Senado Federal (Dados Abertos)",
       "camara": "Câmara dos Deputados (Dados Abertos)"
     }
+  },
+  "direitos": {
+    "tituloAba": "Direitos",
+    "titulo": "Direitos",
+    "intro": "Serviços públicos explicados passo a passo: quem tem direito, o que levar e onde pedir, sempre com o canal oficial.",
+    "fala": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+    "_max": {
+      "fala": 140
+    },
+    "transversal": "Para todas as áreas",
+    "ver": "Ver como pedir",
+    "voltar": "Voltar para Direitos",
+    "aviso": "Informação consultada em {data}. Regras, prazos e endereços mudam: confira sempre no canal oficial antes de ir.",
+    "secoes": {
+      "quemTemDireito": "Quem tem direito",
+      "requisitos": "Requisitos",
+      "documentos": "Documentos",
+      "comoPedir": "Como pedir",
+      "orgao": "Órgão responsável",
+      "canais": "Onde pedir (canais oficiais)",
+      "fontes": "Fontes"
+    },
+    "canais": {
+      "telefone": "Ligue para {valor}",
+      "sms": "Envie SMS para {valor}"
+    },
+    "limite": "O Demokratos explica como funciona, mas quem confirma se você tem direito é o órgão responsável."
   }
 }

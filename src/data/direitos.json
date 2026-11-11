@@ -1,0 +1,319 @@
+{
+  "_sobre": "Aba Direitos (documento de conteúdo, parte 2). Títulos com o tema real; textos (resumo, quem tem direito, requisitos, documentos, como pedir) em Lorem do tamanho previsto. Normas, órgãos, canais e fontes reais; itens com _conferir precisam de confirmação.",
+  "_max": {
+    "resumo": 100,
+    "quemTemDireito": 200,
+    "requisitos": 60,
+    "documentos": 60,
+    "comoPedir": 90
+  },
+  "consultadoEm": "2026-11-11",
+  "temas": [
+    {
+      "id": "atendimento-no-sus",
+      "area": "saude",
+      "titulo": "Atendimento no SUS",
+      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
+      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "requisitos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit",
+        "Sed do eiusmod tempor"
+      ],
+      "documentos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit"
+      ],
+      "comoPedir": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        "Sed do eiusmod tempor incididunt ut labore.",
+        "Ut enim ad minim veniam, quis nostrud."
+      ],
+      "orgaoResponsavel": "Secretaria Municipal de Saúde do Rio de Janeiro",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital: serviços de saúde",
+          "url": "https://carioca.rio/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Constituição Federal de 1988",
+          "trecho": "art. 196",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+          "consultadoEm": "2026-11-11"
+        },
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 8.080/1990 (Lei Orgânica da Saúde)",
+          "trecho": "",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8080.htm",
+          "consultadoEm": "2026-11-11"
+        },
+        {
+          "instituicao": "Prefeitura do Rio (Carioca Digital)",
+          "documento": "Catálogo de serviços da Prefeitura",
+          "trecho": "",
+          "url": "https://carioca.rio/",
+          "consultadoEm": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "matricula-rede-municipal",
+      "area": "educacao",
+      "titulo": "Matrícula na rede municipal de ensino",
+      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
+      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "requisitos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit",
+        "Sed do eiusmod tempor"
+      ],
+      "documentos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit"
+      ],
+      "comoPedir": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        "Sed do eiusmod tempor incididunt ut labore.",
+        "Ut enim ad minim veniam, quis nostrud."
+      ],
+      "orgaoResponsavel": "Secretaria Municipal de Educação do Rio de Janeiro",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Matrícula Rio",
+          "url": "https://matricula.rio/"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital: matrícula escolar",
+          "url": "https://carioca.rio/servicos/matricula-na-rede-publica-municipal-de-ensino-2025/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Constituição Federal de 1988",
+          "trecho": "art. 208",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+          "consultadoEm": "2026-11-11"
+        },
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Estatuto da Criança e do Adolescente (Lei nº 8.069/1990)",
+          "trecho": "arts. 53 e 54",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm",
+          "consultadoEm": "2026-11-11"
+        },
+        {
+          "instituicao": "Prefeitura do Rio (Carioca Digital)",
+          "documento": "Matrícula escolar na rede municipal",
+          "trecho": "",
+          "url": "https://carioca.rio/servicos/matricula-na-rede-publica-municipal-de-ensino-2025/",
+          "consultadoEm": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "pedir-servico-prefeitura",
+      "area": "cidade",
+      "titulo": "Pedir um serviço ou reclamar para a Prefeitura",
+      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
+      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "requisitos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit",
+        "Sed do eiusmod tempor"
+      ],
+      "documentos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit"
+      ],
+      "comoPedir": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        "Sed do eiusmod tempor incididunt ut labore.",
+        "Ut enim ad minim veniam, quis nostrud."
+      ],
+      "orgaoResponsavel": "Prefeitura do Rio (Central 1746)",
+      "canais": [
+        {
+          "tipo": "telefone",
+          "rotulo": "Central 1746",
+          "valor": "1746"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Portal da Central 1746",
+          "url": "https://www.1746.rio/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 13.460/2017 (direitos do usuário de serviço público)",
+          "trecho": "",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm",
+          "consultadoEm": "2026-11-11"
+        },
+        {
+          "instituicao": "Prefeitura do Rio",
+          "documento": "Decreto Rio nº 33.530/2011 (cria a Central 1746)",
+          "trecho": "",
+          "url": "https://www.1746.rio/",
+          "consultadoEm": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "transporte-gratuito-65",
+      "area": "cidade",
+      "titulo": "Transporte gratuito para quem tem mais de 65 anos",
+      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
+      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "requisitos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit",
+        "Sed do eiusmod tempor"
+      ],
+      "documentos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit"
+      ],
+      "comoPedir": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        "Sed do eiusmod tempor incididunt ut labore.",
+        "Ut enim ad minim veniam, quis nostrud."
+      ],
+      "orgaoResponsavel": "Prefeitura do Rio e Governo do Estado do RJ",
+      "_conferir": "Confirmar qual órgão emite o cartão de gratuidade e atualizar orgaoResponsavel e canais.",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital",
+          "url": "https://carioca.rio/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Constituição Federal de 1988",
+          "trecho": "art. 230, § 2º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+          "consultadoEm": "2026-11-11"
+        },
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Estatuto da Pessoa Idosa (Lei nº 10.741/2003)",
+          "trecho": "art. 39",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm",
+          "consultadoEm": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "alertas-de-chuva",
+      "area": "seguranca",
+      "titulo": "Receber alertas de chuva e risco da Defesa Civil",
+      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
+      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "requisitos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit",
+        "Sed do eiusmod tempor"
+      ],
+      "documentos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit"
+      ],
+      "comoPedir": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        "Sed do eiusmod tempor incididunt ut labore.",
+        "Ut enim ad minim veniam, quis nostrud."
+      ],
+      "orgaoResponsavel": "Defesa Civil do Município do Rio de Janeiro",
+      "_conferir": "Confirmar o SMS 40199 no canal oficial (está em portais de notícia; a página oficial do Carioca Digital é a fonte principal).",
+      "canais": [
+        {
+          "tipo": "sms",
+          "rotulo": "SMS 40199 (envie o seu CEP)",
+          "valor": "40199"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital: mensagens de alerta da Defesa Civil",
+          "url": "https://carioca.rio/servicos/informacoes-sobre-as-mensagens-de-alerta-da-defesa-civil/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 12.608/2012 (Política Nacional de Proteção e Defesa Civil)",
+          "trecho": "",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+          "consultadoEm": "2026-11-11"
+        },
+        {
+          "instituicao": "Prefeitura do Rio (Carioca Digital)",
+          "documento": "Mensagens de alerta da Defesa Civil",
+          "trecho": "",
+          "url": "https://carioca.rio/servicos/informacoes-sobre-as-mensagens-de-alerta-da-defesa-civil/",
+          "consultadoEm": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "pedir-informacao",
+      "area": "transversal",
+      "titulo": "Pedir informação a um órgão público",
+      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
+      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "requisitos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit",
+        "Sed do eiusmod tempor"
+      ],
+      "documentos": [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipiscing elit"
+      ],
+      "comoPedir": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        "Sed do eiusmod tempor incididunt ut labore.",
+        "Ut enim ad minim veniam, quis nostrud."
+      ],
+      "orgaoResponsavel": "O órgão que tem a informação (Prefeitura pelo SIC da Central 1746; órgãos federais pelo Fala.BR)",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "SIC da Prefeitura (Central 1746)",
+          "url": "https://www.1746.rio/"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Fala.BR (órgãos federais)",
+          "url": "https://falabr.cgu.gov.br/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Constituição Federal de 1988",
+          "trecho": "art. 5º, inciso XXXIII",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+          "consultadoEm": "2026-11-11"
+        },
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei de Acesso à Informação (Lei nº 12.527/2011)",
+          "trecho": "art. 10",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+          "consultadoEm": "2026-11-11"
+        }
+      ]
+    }
+  ]
+}

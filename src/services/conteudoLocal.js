@@ -1,9 +1,10 @@
 // Acesso ao conteúdo educativo guardado em JSON no próprio projeto
-// (lições, perguntas do quiz, unidades da trilha, glossário e representantes).
+// (lições, quiz, trilha, glossário, direitos e representantes).
 import trilha from '../data/trilha.json'
 import dadosLicoes from '../data/licoes.json'
 import dadosQuiz from '../data/quiz.json'
 import dadosGlossario from '../data/glossario.json'
+import dadosDireitos from '../data/direitos.json'
 import dadosExecutivo from '../data/representantes/executivo.json'
 import dadosMunicipio from '../data/representantes/municipio.json'
 import dadosEstado from '../data/representantes/estado.json'
@@ -42,4 +43,12 @@ export function buscarRepresentanteLocal(id) {
     }
   }
   return null
+}
+
+export function listarDireitos() {
+  return dadosDireitos
+}
+
+export function buscarDireito(id) {
+  return dadosDireitos.temas.find((tema) => tema.id === id) ?? null
 }

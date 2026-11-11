@@ -2,6 +2,7 @@ import { NavLink, useParams } from 'react-router'
 import { Lock } from 'lucide-react'
 import textos from '../data/textos.json'
 import trilha from '../data/trilha.json'
+import direitos from '../data/direitos.json'
 import { AREAS_PREVIA, ehAreaPrevia } from '../domain/previas.js'
 import { preencher } from '../domain/texto.js'
 import { useTitulo } from '../hooks/useTitulo.js'
@@ -9,6 +10,7 @@ import Aviso from '../components/Aviso.jsx'
 import Botao from '../components/Botao.jsx'
 import Card from '../components/Card.jsx'
 import Etiqueta from '../components/Etiqueta.jsx'
+import EtiquetaDireito from '../components/EtiquetaDireito.jsx'
 import NaoEncontrada from './NaoEncontrada.jsx'
 
 const t = textos.previa
@@ -71,10 +73,10 @@ function PreviaAgora() {
 function PreviaDireitos() {
   return (
     <ul className="grid gap-3 md:grid-cols-3">
-      {t.direitos.exemplos.map((exemplo) => (
+      {direitos.temas.slice(0, 3).map((exemplo) => (
         <Card key={exemplo.titulo} como="li" className="flex flex-col gap-3">
           <div>
-            <Etiqueta tipo="area" valor={exemplo.area} />
+            <EtiquetaDireito area={exemplo.area} />
           </div>
           <h2 className="text-h3">{exemplo.titulo}</h2>
           <p className="text-texto-2">{exemplo.resumo}</p>
