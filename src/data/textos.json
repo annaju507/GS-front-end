@@ -4,7 +4,8 @@
     "slogan": "O conhecimento político é para todos"
   },
   "acessibilidade": {
-    "pularConteudo": "Pular para o conteúdo"
+    "pularConteudo": "Pular para o conteúdo",
+    "abreNovaAba": "(abre em nova aba)"
   },
   "preferencias": {
     "titulo": "Ajustes de leitura",
@@ -26,35 +27,191 @@
       "sistemaPede": "Seu aparelho já pede menos animações, então elas ficam reduzidas."
     }
   },
-  "previaEstilos": {
-    "_aviso": "Página temporária da etapa 1. Será trocada pela página de Início na etapa 3.",
-    "tituloPagina": "Prévia da identidade visual",
-    "marcaTexto": ["política", "sem complicação"],
-    "tipografia": {
-      "titulo": "Tipografia",
-      "h3": "Título de terceiro nível",
-      "corpo": "Texto corrido em Nunito, 18px, com altura de linha confortável para ler com calma.",
-      "legenda": "Legenda e fonte: Nunito 15px.",
-      "link": "Exemplo de link"
+  "mascotes": {
+    "caramelo": "Caramelo",
+    "capivara": "Capivara",
+    "arara": "Arara",
+    "onca": "Onça",
+    "mico": "Mico"
+  },
+  "botoes": {
+    "fecharMensagem": "Fechar mensagem",
+    "fecharAviso": "Fechar aviso",
+    "proximo": "Próximo",
+    "entendi": "Entendi",
+    "tentarDeNovo": "Tentar de novo",
+    "cancelar": "Cancelar",
+    "excluir": "Excluir",
+    "verificar": "Verificar",
+    "continuar": "Continuar",
+    "porQue": "Por quê?"
+  },
+  "areas": {
+    "saude": "Saúde",
+    "educacao": "Educação",
+    "seguranca": "Segurança",
+    "cidade": "Cidade e serviços públicos"
+  },
+  "esferas": {
+    "municipal": "Municipal · Rio",
+    "estadual": "Estadual · RJ",
+    "federal": "Federal"
+  },
+  "tramitacao": {
+    "apresentada": "Apresentada",
+    "comissao": "Em análise na comissão",
+    "votacao": "Em votação",
+    "aprovada": "Aprovada em uma Casa",
+    "enviada": "Enviada à outra Casa",
+    "rejeitada": "Rejeitada",
+    "sancionada": "Sancionada",
+    "vetada": "Vetada",
+    "vetoDerrubado": "Veto derrubado",
+    "arquivada": "Arquivada",
+    "emVigor": "Em vigor"
+  },
+  "votos": {
+    "rotulos": {
+      "sim": "Sim",
+      "nao": "Não",
+      "abstencao": "Abstenção",
+      "obstrucao": "Obstrução",
+      "ausencia": "Ausente",
+      "naoVotou": "Voto não disponível"
     },
-    "cores": {
-      "titulo": "Cores",
-      "marca": "Marca",
-      "areas": "Áreas temáticas",
-      "feedback": "Mensagens do sistema"
+    "letras": {
+      "sim": "S",
+      "nao": "N",
+      "abstencao": "A"
+    }
+  },
+  "fonte": {
+    "rotulo": "Fonte",
+    "consultadoEm": "Consultado em {data}",
+    "verFonte": "Ver na fonte oficial"
+  },
+  "progresso": {
+    "concluido": "{valor}% concluído"
+  },
+  "exemplo": {
+    "titulo": "Exemplo carioca"
+  },
+  "campo": {
+    "contador": "{atual}/{max}",
+    "contadorLeitor": "{atual} de {max} caracteres"
+  },
+  "estados": {
+    "carregando": "Carregando…",
+    "semConexao": {
+      "titulo": "Sem conexão com a internet",
+      "fala": "Não consegui buscar as informações agora. Confira sua internet e tente de novo."
     },
-    "areas": {
-      "saude": "Saúde",
-      "educacao": "Educação",
-      "seguranca": "Segurança",
-      "cidade": "Cidade e serviços públicos"
+    "erro": {
+      "titulo": "Não conseguimos carregar agora",
+      "texto": "Algo deu errado do nosso lado ou na fonte oficial. Tente de novo em instantes."
+    }
+  },
+  "previaComponentes": {
+    "_aviso": "Página temporária da etapa 2. Será trocada pela página de Início na etapa 3.",
+    "tituloPagina": "Prévia dos componentes",
+    "marcaTexto": [
+      "política",
+      "sem complicação"
+    ],
+    "secoes": {
+      "botoes": "Botões",
+      "cards": "Cards",
+      "tags": "Etiquetas",
+      "mascotes": "Mascotes",
+      "progresso": "Barra de progresso",
+      "quiz": "Opções do quiz",
+      "votos": "Selos de voto",
+      "fonte": "Fonte oficial e exemplo",
+      "campo": "Campo de texto",
+      "avisos": "Avisos, modal e toast",
+      "estados": "Estados de tela"
     },
-    "feedback": {
+    "botoes": {
+      "primario": "Começar agora",
+      "secundario": "Já tenho conta",
+      "marca": "Continuar trilha",
+      "acerto": "Continuar",
+      "erro": "Continuar",
+      "terciario": "Ver todas as lições",
+      "pilula": "Entrar",
+      "desativado": "Indisponível"
+    },
+    "cards": {
+      "simples": "Card simples",
+      "simplesTexto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "clicavel": "Card clicável",
+      "clicavelTexto": "A área inteira é um link.",
+      "destaque": "Card de destaque",
+      "destaqueTexto": "Usado na lição atual."
+    },
+    "balao": {
+      "fala": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "_max": {
+        "fala": 140
+      }
+    },
+    "quiz": {
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod?",
+      "opcoes": [
+        "Lorem ipsum dolor",
+        "Sit amet consectetur",
+        "Adipiscing elit sed"
+      ],
+      "correta": 0,
+      "acertou": "Mandou bem!",
+      "errou": "Quase!",
+      "refazer": "Responder de novo",
+      "_max": {
+        "pergunta": 120,
+        "opcoes": 60
+      }
+    },
+    "fonteExemplo": {
+      "instituicao": "Presidência da República (Planalto)",
+      "documento": "Constituição Federal de 1988",
+      "trecho": "art. 2º",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+      "consultadoEm": "2026-11-10"
+    },
+    "exemplo": {
+      "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "_max": {
+        "texto": 220
+      }
+    },
+    "campo": {
+      "rotulo": "Sua anotação",
+      "dica": "Escreva o que você achou importante.",
+      "salvar": "Salvar anotação",
+      "erroVazio": "Escreva sua anotação.",
+      "erroLongo": "Use no máximo 280 caracteres.",
+      "salvo": "Anotação salva."
+    },
+    "modal": {
+      "abrir": "Excluir anotação",
+      "titulo": "Excluir esta anotação?",
+      "descricao": "A anotação some do seu caderno e não dá para desfazer.",
+      "excluida": "Anotação excluída.",
+      "cancelada": "Nada foi excluído."
+    },
+    "avisos": {
       "sucesso": "Resposta certa.",
       "erro": "Escreva sua anotação.",
       "alerta": "Confira a data da informação.",
       "info": "Os dados vêm de fontes oficiais."
     },
-    "exemplo": "Bloco de exemplo carioca: aparece nas lições para comparar a política com o dia a dia."
+    "vazio": {
+      "titulo": "Seu caderno está esperando a primeira proposta",
+      "botao": "Explorar propostas"
+    },
+    "progresso": {
+      "diminuir": "-15%",
+      "aumentar": "+15%"
+    }
   }
 }
