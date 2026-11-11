@@ -26,8 +26,8 @@ export default function OpcaoReduzirAnimacoes() {
           }`}
         >
           <span
-            className={`absolute top-0.5 size-5 rounded-full transition-transform duration-150 ${
-              animacoes.opcaoDoSite ? 'translate-x-5 bg-botao-texto' : 'translate-x-0.5 bg-borda-campo'
+            className={`absolute left-0.5 top-0.5 size-5 rounded-full transition-[translate] duration-150 ${
+              animacoes.opcaoDoSite ? 'translate-x-5 bg-botao-texto' : 'translate-x-0 bg-borda-campo'
             }`}
           />
         </span>
