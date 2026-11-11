@@ -1,3 +1,5 @@
+import { resumirTexto } from './resumo.js'
+
 // Login SIMULADO no navegador (localStorage). Não há servidor: as contas
 // ficam só neste navegador. A senha nunca é guardada como foi digitada,
 // só um resumo (hash). Ainda assim, o site avisa para não usar senha real.
@@ -47,17 +49,7 @@ export function apagarSessao() {
   }
 }
 
-// Resumo SHA-256 da senha (crypto.subtle existe em https e em localhost).
-export async function resumirSenha(senha) {
-  if (window.crypto?.subtle) {
-    const bytes = new TextEncoder().encode(`demokratos:${senha}`)
-    const resumo = await window.crypto.subtle.digest('SHA-256', bytes)
-    return Array.from(new Uint8Array(resumo), (byte) => byte.toString(16).padStart(2, '0')).join('')
-  }
-  // Plano B simples, só para não guardar a senha como foi digitada.
-  let valor = 5381
-  for (const letra of `demokratos:${senha}`) {
-    valor = (valor * 33) ^ letra.charCodeAt(0)
-  }
-  return `b${(valor >>> 0).toString(16)}`
+// A senha nunca é guardada como foi digitada: só o resumo (hash).
+export function resumirSenha(senha) {
+  return resumirTexto(`demokratos:${senha}`)
 }

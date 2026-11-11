@@ -1,16 +1,9 @@
 // Acesso à API de Dados Abertos da Câmara dos Deputados (só leitura).
 // Documentação: https://dadosabertos.camara.leg.br/swagger/api.html
 
-const BASE = 'https://dadosabertos.camara.leg.br/api/v2'
-const LIMITE_MS = 12000
+import { pedirJson } from './http.js'
 
-// Erro com um "tipo" que a tela entende: semConexao, naoEncontrado, servidor.
-export class ErroApi extends Error {
-  constructor(tipo) {
-    super(tipo)
-    this.tipo = tipo
-  }
-}
+const BASE = 'https://dadosabertos.camara.leg.br/api/v2'
 
 async function buscarJson(caminho, parametros = {}) {
   const url = new URL(BASE + caminho)
@@ -22,29 +15,8 @@ async function buscarJson(caminho, parametros = {}) {
       url.searchParams.set(chave, valor)
     }
   }
-
-  const controle = new AbortController()
-  const temporizador = setTimeout(() => controle.abort(), LIMITE_MS)
-  try {
-    const resposta = await fetch(url, { headers: { Accept: 'application/json' }, signal: controle.signal })
-    if (resposta.status === 404) {
-      throw new ErroApi('naoEncontrado')
-    } else if (!resposta.ok) {
-      throw new ErroApi('servidor')
-    }
-    const corpo = await resposta.json()
-    return corpo.dados
-  } catch (erro) {
-    if (erro instanceof ErroApi) {
-      throw erro
-    } else if (!navigator.onLine || erro instanceof TypeError) {
-      throw new ErroApi('semConexao')
-    } else {
-      throw new ErroApi('servidor')
-    }
-  } finally {
-    clearTimeout(temporizador)
-  }
+  const corpo = await pedirJson(url)
+  return corpo.dados
 }
 
 // Proposições de autoria de deputados do RJ, das mais novas para as mais antigas.
