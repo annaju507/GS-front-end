@@ -4,7 +4,9 @@ import { Link } from 'react-router'
 // "destaque" marca a lição atual com borda lilás de 2px.
 export default function Card({ como: Tag = 'div', para, destaque = false, className = '', children, ...resto }) {
   const borda = destaque ? 'border-2 border-lilas' : 'border border-borda'
-  const base = `block rounded-card bg-superficie p-4 shadow-card dark:shadow-none md:p-6 ${borda} ${className}`
+  // Só usa 'block' se a página não pediu outro layout (flex, grid...), para as classes não brigarem.
+  const exibicao = /(^|\s)(flex|grid|inline-flex|inline-block)(\s|$)/.test(className) ? '' : 'block'
+  const base = `${exibicao} rounded-card bg-superficie p-4 shadow-card dark:shadow-none md:p-6 ${borda} ${className}`
 
   if (para) {
     return (
