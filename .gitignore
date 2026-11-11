@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+
+# Documentos internos (nao publicar)
+CLAUDE.md
+docs/*
+!docs/qualidade/
