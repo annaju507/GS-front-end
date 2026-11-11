@@ -1,1 +1,442 @@
 @import "tailwindcss";
+
+/* Modo escuro por classe: a classe "dark" fica no <html> (ver useTheme). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ==========================================================================
+   Tokens fixos (iguais nos dois temas)
+   ========================================================================== */
+@theme {
+  /* Tira a paleta padrão do Tailwind: só as cores do Demokratos existem.
+     Assim nenhum verde ou vermelho aparece fora de acerto e erro. */
+  --color-*: initial;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  /* Fontes */
+  --font-titulo: "Poppins", system-ui, sans-serif;
+  --font-texto: "Nunito", system-ui, sans-serif;
+
+  /* Escala de texto (nenhum texto abaixo de 14px) */
+  --text-xs: initial;
+  --text-tag: 0.875rem;
+  --text-tag--line-height: 1.2;
+  --text-legenda: 0.9375rem;
+  --text-legenda--line-height: 1.5;
+  --text-rotulo: 1rem;
+  --text-rotulo--line-height: 1.2;
+  --text-corpo: 1.125rem;
+  --text-corpo--line-height: 1.6;
+  --text-h3: 1.25rem;
+  --text-h3--line-height: 1.3;
+  --text-h3-desktop: 1.375rem;
+  --text-h2: 1.5rem;
+  --text-h2--line-height: 1.25;
+  --text-h2-desktop: 1.875rem;
+  --text-h1: 2rem;
+  --text-h1--line-height: 1.2;
+  --text-h1-desktop: 2.5rem;
+  --text-marca-texto: 2.375rem;
+
+  /* Marca */
+  --color-lilas: #A186EF;
+  --color-lilas-hover: #8F72E6;
+  --color-lilas-sombra: #6E52C9;
+  --color-indigo: #2A0081;
+  --color-azul-ceu: #B7E7FC;
+
+  /* Cor de assinatura dos mascotes (borda do balão e nome, nunca texto corrido) */
+  --color-caramelo: #EE9A2E;
+  --color-capivara: #A47551;
+  --color-arara: #2F7FD8;
+  --color-onca: #D9B23A;
+  --color-mico: #E8622A;
+
+  /* Raios */
+  --radius-campo: 0.75rem;
+  --radius-botao: 0.875rem;
+  --radius-card: 1rem;
+  --radius-card-pequeno: 0.75rem;
+  --radius-modal: 1.25rem;
+
+  /* Sombras */
+  --shadow-card: 0 0.0625rem 0.125rem rgb(42 0 129 / 0.06), 0 0.125rem 0.5rem rgb(42 0 129 / 0.06);
+  --shadow-modal: 0 0.5rem 2rem rgb(20 17 28 / 0.18);
+
+  /* Larguras */
+  --container-leitura: 45rem;
+  --container-conteudo: 75rem;
+  --spacing-barra-lateral: 15rem;
+}
+
+/* ==========================================================================
+   Tokens que mudam com o tema (claro em :root, escuro em .dark)
+   ========================================================================== */
+:root {
+  /* Base */
+  --fundo: #F7F5FB;
+  --superficie: #FFFFFF;
+  --borda: #E6E6E6;
+  --borda-campo: #767E89;
+  --texto: #1A1A1A;
+  --texto-2: #5F6B76;
+  --texto-desativado: #8A919C;
+  --link: #2A0081;
+  --glossario: #2A0081;
+  --lilas-claro: #EEE9FB;
+  --foco: #2A0081;
+  --halo-mascote: transparent;
+
+  /* Botões */
+  --botao: #1A1A1A;
+  --botao-hover: #333333;
+  --botao-texto: #FFFFFF;
+  --botao-degrau: #000000;
+  --secundario: #FFFFFF;
+  --secundario-borda: #1A1A1A;
+  --secundario-texto: #1A1A1A;
+  --secundario-degrau: #1A1A1A;
+  --desativado: #E6E6E6;
+  --marca-botao: #A186EF;
+  --marca-botao-hover: #8F72E6;
+  --marca-botao-texto: #1A1A1A;
+  --marca-botao-degrau: #6E52C9;
+
+  /* Marca-texto (seção 18.1) e faixa de topo */
+  --marca-texto-fundo: #2A0081;
+  --marca-texto-cor: #FFFFFF;
+  --faixa: #2A0081;
+  --faixa-texto: #FFFFFF;
+
+  /* Bloco de exemplo carioca / analogia */
+  --exemplo-fundo: #B7E7FC;
+  --exemplo-texto: #2A0081;
+  --exemplo-borda: #B7E7FC;
+
+  /* Feedback (verde e vermelho SÓ aqui) */
+  --sucesso: #1B7A4B;
+  --sucesso-fundo: #E3F5EC;
+  --sucesso-botao: #1B7A4B;
+  --sucesso-botao-texto: #FFFFFF;
+  --sucesso-degrau: #12573A;
+  --erro: #B93838;
+  --erro-fundo: #FCEAEA;
+  --erro-botao: #B93838;
+  --erro-botao-texto: #FFFFFF;
+  --erro-degrau: #8A2828;
+  --alerta: #8A5A00;
+  --alerta-fundo: #FFF3D6;
+  --info: #1F5FBF;
+  --info-fundo: #E5EFFC;
+
+  /* Votos (neutros: nunca verde para sim nem vermelho para não) */
+  --voto-sim: #1F7A7A;
+  --voto-nao: #C8641E;
+  --voto-abstencao: #6B7280;
+  --voto-obstrucao: #A23E7E;
+  --voto-ausencia: #BFC5CE;
+  --voto-contorno: #6B7280;
+
+  /* Áreas temáticas (Requisitos 2.3) */
+  --area-saude: #8A2848;
+  --area-saude-fundo: #FBE3EA;
+  --area-saude-borda: #FBE3EA;
+  --area-educacao: #7A3A12;
+  --area-educacao-fundo: #FFE5D4;
+  --area-educacao-borda: #FFE5D4;
+  --area-seguranca: #1C4E6B;
+  --area-seguranca-fundo: #DDF1FB;
+  --area-seguranca-borda: #DDF1FB;
+  --area-cidade: #1F5E3B;
+  --area-cidade-fundo: #DDF3E6;
+  --area-cidade-borda: #DDF3E6;
+
+  /* Fundo do balão de cada mascote */
+  --caramelo-fundo: #FDF0DC;
+  --capivara-fundo: #F3EAE2;
+  --arara-fundo: #E3EEFB;
+  --onca-fundo: #FBF4DA;
+  --mico-fundo: #FDE8DE;
+
+  color-scheme: light;
+}
+
+.dark {
+  /* Base */
+  --fundo: #14111C;
+  --superficie: #1F1A2E;
+  --borda: #2E2842;
+  --borda-campo: #8D85A3;
+  --texto: #F2F0F7;
+  --texto-2: #B9B3C9;
+  --texto-desativado: #8A8499;
+  --link: #B7E7FC;
+  --glossario: #C9B8F7;
+  --lilas-claro: #2E2842;
+  --foco: #B7E7FC;
+  --halo-mascote: #2E2842;
+
+  /* Botões: o preto some no escuro, então o primário vira lilás */
+  --botao: #A186EF;
+  --botao-hover: #8F72E6;
+  --botao-texto: #14111C;
+  --botao-degrau: #6E52C9;
+  --secundario: #1F1A2E;
+  --secundario-borda: #2E2842;
+  --secundario-texto: #F2F0F7;
+  --secundario-degrau: #2E2842;
+  --desativado: #2E2842;
+
+  /* Marca-texto e faixa de topo */
+  --marca-texto-fundo: #A186EF;
+  --marca-texto-cor: #14111C;
+  --faixa: #2A0081;
+  --faixa-texto: #FFFFFF;
+
+  /* Bloco de exemplo */
+  --exemplo-fundo: #1F1A2E;
+  --exemplo-texto: #B7E7FC;
+  --exemplo-borda: #B7E7FC;
+
+  /* Feedback */
+  --sucesso: #5FD39A;
+  --sucesso-fundo: #0F3324;
+  --sucesso-botao: #5FD39A;
+  --sucesso-botao-texto: #0F3324;
+  --sucesso-degrau: #2E9A68;
+  --erro: #FF8A8A;
+  --erro-fundo: #3A1A1F;
+  --erro-botao: #FF8A8A;
+  --erro-botao-texto: #3A1A1F;
+  --erro-degrau: #C25454;
+  --alerta: #F5C46B;
+  --alerta-fundo: #1F1A2E;
+  --info: #8AB8FF;
+  --info-fundo: #1F1A2E;
+
+  /* Votos */
+  --voto-sim: #4FC1C1;
+  --voto-nao: #F29A55;
+  --voto-abstencao: #A7AEBA;
+  --voto-obstrucao: #E07BBE;
+  --voto-ausencia: #6B7280;
+  --voto-contorno: #A7AEBA;
+
+  /* Áreas temáticas: fundo da superfície, borda e texto na versão clara */
+  --area-saude: #F5A9C0;
+  --area-saude-fundo: #1F1A2E;
+  --area-saude-borda: #F5A9C0;
+  --area-educacao: #FFC9A6;
+  --area-educacao-fundo: #1F1A2E;
+  --area-educacao-borda: #FFC9A6;
+  --area-seguranca: #9ED4F0;
+  --area-seguranca-fundo: #1F1A2E;
+  --area-seguranca-borda: #9ED4F0;
+  --area-cidade: #9FDDB9;
+  --area-cidade-fundo: #1F1A2E;
+  --area-cidade-borda: #9FDDB9;
+
+  /* Balão dos mascotes */
+  --caramelo-fundo: #1F1A2E;
+  --capivara-fundo: #1F1A2E;
+  --arara-fundo: #1F1A2E;
+  --onca-fundo: #1F1A2E;
+  --mico-fundo: #1F1A2E;
+
+  color-scheme: dark;
+}
+
+/* Liga os tokens do tema às classes do Tailwind (bg-fundo, text-texto...) */
+@theme inline {
+  --color-fundo: var(--fundo);
+  --color-superficie: var(--superficie);
+  --color-borda: var(--borda);
+  --color-borda-campo: var(--borda-campo);
+  --color-texto: var(--texto);
+  --color-texto-2: var(--texto-2);
+  --color-texto-desativado: var(--texto-desativado);
+  --color-link: var(--link);
+  --color-glossario: var(--glossario);
+  --color-lilas-claro: var(--lilas-claro);
+  --color-foco: var(--foco);
+  --color-halo-mascote: var(--halo-mascote);
+
+  --color-botao: var(--botao);
+  --color-botao-hover: var(--botao-hover);
+  --color-botao-texto: var(--botao-texto);
+  --color-botao-degrau: var(--botao-degrau);
+  --color-secundario: var(--secundario);
+  --color-secundario-borda: var(--secundario-borda);
+  --color-secundario-texto: var(--secundario-texto);
+  --color-secundario-degrau: var(--secundario-degrau);
+  --color-desativado: var(--desativado);
+  --color-marca-botao: var(--marca-botao);
+  --color-marca-botao-hover: var(--marca-botao-hover);
+  --color-marca-botao-texto: var(--marca-botao-texto);
+  --color-marca-botao-degrau: var(--marca-botao-degrau);
+
+  --color-marca-texto-fundo: var(--marca-texto-fundo);
+  --color-marca-texto-cor: var(--marca-texto-cor);
+  --color-faixa: var(--faixa);
+  --color-faixa-texto: var(--faixa-texto);
+
+  --color-exemplo-fundo: var(--exemplo-fundo);
+  --color-exemplo-texto: var(--exemplo-texto);
+  --color-exemplo-borda: var(--exemplo-borda);
+
+  --color-sucesso: var(--sucesso);
+  --color-sucesso-fundo: var(--sucesso-fundo);
+  --color-sucesso-botao: var(--sucesso-botao);
+  --color-sucesso-botao-texto: var(--sucesso-botao-texto);
+  --color-sucesso-degrau: var(--sucesso-degrau);
+  --color-erro: var(--erro);
+  --color-erro-fundo: var(--erro-fundo);
+  --color-erro-botao: var(--erro-botao);
+  --color-erro-botao-texto: var(--erro-botao-texto);
+  --color-erro-degrau: var(--erro-degrau);
+  --color-alerta: var(--alerta);
+  --color-alerta-fundo: var(--alerta-fundo);
+  --color-info: var(--info);
+  --color-info-fundo: var(--info-fundo);
+
+  --color-voto-sim: var(--voto-sim);
+  --color-voto-nao: var(--voto-nao);
+  --color-voto-abstencao: var(--voto-abstencao);
+  --color-voto-obstrucao: var(--voto-obstrucao);
+  --color-voto-ausencia: var(--voto-ausencia);
+  --color-voto-contorno: var(--voto-contorno);
+
+  --color-area-saude: var(--area-saude);
+  --color-area-saude-fundo: var(--area-saude-fundo);
+  --color-area-saude-borda: var(--area-saude-borda);
+  --color-area-educacao: var(--area-educacao);
+  --color-area-educacao-fundo: var(--area-educacao-fundo);
+  --color-area-educacao-borda: var(--area-educacao-borda);
+  --color-area-seguranca: var(--area-seguranca);
+  --color-area-seguranca-fundo: var(--area-seguranca-fundo);
+  --color-area-seguranca-borda: var(--area-seguranca-borda);
+  --color-area-cidade: var(--area-cidade);
+  --color-area-cidade-fundo: var(--area-cidade-fundo);
+  --color-area-cidade-borda: var(--area-cidade-borda);
+
+  --color-caramelo-fundo: var(--caramelo-fundo);
+  --color-capivara-fundo: var(--capivara-fundo);
+  --color-arara-fundo: var(--arara-fundo);
+  --color-onca-fundo: var(--onca-fundo);
+  --color-mico-fundo: var(--mico-fundo);
+}
+
+/* ==========================================================================
+   Estilos de base
+   ========================================================================== */
+@layer base {
+  /* A+ / A-: o tamanho da letra muda aqui (100%, 115%, 130%) pelo
+     useTamanhoLetra. Todo o layout usa rem, então escala junto. */
+  html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--fundo);
+    color: var(--texto);
+    font-family: var(--font-texto);
+    font-size: var(--text-corpo);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-titulo);
+    color: var(--texto);
+  }
+
+  h1 {
+    font-size: var(--text-h1);
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: var(--text-h2);
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-size: var(--text-h3);
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  @media (width >= 64rem) {
+    h1 { font-size: var(--text-h1-desktop); }
+    h2 { font-size: var(--text-h2-desktop); }
+    h3 { font-size: var(--text-h3-desktop); }
+  }
+
+  /* Links sempre sublinhados */
+  a {
+    color: var(--link);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+
+  /* Foco sempre visível, em todo elemento interativo. Nunca remover. */
+  :focus-visible {
+    outline: 3px solid var(--foco);
+    outline-offset: 2px;
+  }
+
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+}
+
+/* ==========================================================================
+   Recursos de assinatura
+   ========================================================================== */
+@layer components {
+  /* Título com marca-texto (seção 18.1). No máximo um por tela. */
+  .marca-texto {
+    font-family: var(--font-titulo);
+    font-weight: 800;
+    font-size: var(--text-h1);
+    line-height: 1.18;
+  }
+
+  .marca-texto span {
+    background-color: var(--marca-texto-fundo);
+    color: var(--marca-texto-cor);
+    padding: 0 0.5rem;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  @media (width >= 64rem) {
+    .marca-texto { font-size: var(--text-marca-texto); }
+  }
+}
+
+/* ==========================================================================
+   Reduzir animações: vale para a preferência do sistema e para a opção
+   "Reduzir animações" do site (classe no <html>, ver useReducedMotion).
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.reduzir-animacoes *,
+.reduzir-animacoes *::before,
+.reduzir-animacoes *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
