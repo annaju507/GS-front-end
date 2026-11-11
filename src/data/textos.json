@@ -645,8 +645,6 @@
   },
   "conquista": {
     "tituloAba": "Conquista",
-    "titulo": "Manda bem!",
-    "subtitulo": "Você concluiu a lição {titulo}.",
     "acertos": "Acertos",
     "sequencia": "Sequência",
     "tempo": "Tempo",
@@ -664,7 +662,17 @@
     "voltarTrilha": "Voltar para a trilha",
     "semResultado": "Esta lição ainda não foi concluída.",
     "sequenciaUm": "1 dia",
-    "sequenciaVarios": "{n} dias"
+    "sequenciaVarios": "{n} dias",
+    "titulos": {
+      "perfeito": "Manda bem!",
+      "bom": "Boa! Lição concluída",
+      "revisar": "Lição concluída!"
+    },
+    "subtitulos": {
+      "perfeito": "Você acertou todas as perguntas da lição {titulo}.",
+      "bom": "Você concluiu a lição {titulo}.",
+      "revisar": "Você concluiu a lição {titulo}. Que tal rever e tentar de novo?"
+    }
   },
   "medalhas": {
     "titulo": "Medalhas",
@@ -715,7 +723,7 @@
     "outras": "Ver outras propostas"
   },
   "emConstrucao": {
-    "texto": "Esta área chega na próxima etapa do projeto.",
+    "texto": "Esta área está chegando! Ela fica pronta na próxima etapa do projeto.",
     "voltar": "Voltar para o painel",
     "titulos": {
       "agora": "Agora",

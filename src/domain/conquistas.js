@@ -54,3 +54,15 @@ export function medalhasNovas(antes, depois) {
   const jaTinha = new Set(antes.filter((medalha) => medalha.ganha).map((medalha) => medalha.id))
   return depois.filter((medalha) => medalha.ganha && !jaTinha.has(medalha.id))
 }
+
+// Como foi o quiz, para escolher o título da conquista (sem bronca: errar
+// tudo também conclui a lição, e o convite é para rever).
+export function avaliarResultado(acertos, total) {
+  if (acertos === total) {
+    return 'perfeito'
+  } else if (acertos > 0) {
+    return 'bom'
+  } else {
+    return 'revisar'
+  }
+}

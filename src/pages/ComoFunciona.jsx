@@ -8,9 +8,10 @@ import Mascote from '../components/Mascote.jsx'
 
 const t = textos.comoFunciona
 
+// Cada seção mostra o mascote da função: mico (trilha), capivara (explica no quiz), onça (fontes).
 const SECOES = [
-  { chave: 'trilhas', Icone: GraduationCap, mascote: { nome: 'capivara', expressao: 'explicando' } },
-  { chave: 'quiz', Icone: CircleHelp, mascote: { nome: 'mico', expressao: 'comemorando' } },
+  { chave: 'trilhas', Icone: GraduationCap, mascote: { nome: 'mico', expressao: 'feliz' } },
+  { chave: 'quiz', Icone: CircleHelp, mascote: { nome: 'capivara', expressao: 'explicando' } },
   { chave: 'fontes', Icone: FileText, mascote: { nome: 'onca', expressao: 'explicando' } },
 ]
 

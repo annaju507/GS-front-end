@@ -1,7 +1,7 @@
 import { useLocation, useParams } from 'react-router'
 import { ArrowRight, Clock, Flame, Target } from 'lucide-react'
 import textos from '../data/textos.json'
-import { MEDALHAS } from '../domain/conquistas.js'
+import { MEDALHAS, avaliarResultado } from '../domain/conquistas.js'
 import { dividirTempo } from '../domain/quiz.js'
 import { unidadeDaLicao } from '../domain/trilha.js'
 import { plural, preencher } from '../domain/texto.js'
@@ -17,6 +17,7 @@ import EstadoCarregando from '../components/EstadoCarregando.jsx'
 import EstadoErro from '../components/EstadoErro.jsx'
 import Mascote from '../components/Mascote.jsx'
 import Medalha from '../components/Medalha.jsx'
+import OndasCalcadao from '../components/OndasCalcadao.jsx'
 
 const t = textos.conquista
 
@@ -59,8 +60,9 @@ function PropostaSugerida({ busca }) {
   )
 }
 
-// Tela de conquista (tela-modelo 19.4): degradê, confete, mico, "Manda bem!",
-// 3 cards com abinha, medalhas novas e a proposta real do tema.
+// Tela de conquista (tela-modelo 19.4, sem degradê): fundo lilás-claro com as
+// ondas do calçadão, mico, título conforme o resultado, confete (só se acertou
+// alguma), 3 cards com abinha, medalhas novas e a proposta real do tema.
 export default function Conquista() {
   const { id } = useParams()
   const { state } = useLocation()
@@ -84,15 +86,20 @@ export default function Conquista() {
   const tempo = dividirTempo(resultado.segundos ?? 0)
   const novas = MEDALHAS.filter((medalha) => resultado.novas.includes(medalha.id)).map((medalha) => ({ ...medalha, ganha: true }))
 
+  // O título muda com o resultado: acertou tudo, acertou parte ou errou tudo.
+  const avaliacao = avaliarResultado(resultado.acertos, resultado.total)
+  const comemorar = avaliacao !== 'revisar'
+
   return (
     <main id="conteudo" tabIndex={-1} className="focus:outline-none">
-      <section className="relative overflow-hidden bg-linear-to-b from-lilas from-0% to-indigo to-55%">
-        <Confete />
-        <div className="relative mx-auto flex max-w-leitura flex-col items-center gap-3 px-4 pb-10 pt-8 text-center">
-          <Mascote nome="mico" expressao="comemorando" tamanho="corpo" largura={150} prioridade />
-          <h1 className="text-h1 text-white">{t.titulo}</h1>
-          <p className="text-white">{preencher(t.subtitulo, { titulo: licao.titulo })}</p>
+      <section className="relative overflow-hidden bg-hero">
+        {comemorar && <Confete />}
+        <div className="relative mx-auto flex max-w-leitura flex-col items-center gap-3 px-4 pb-6 pt-8 text-center">
+          <Mascote nome="mico" expressao={comemorar ? 'comemorando' : 'feliz'} tamanho="corpo" largura={150} prioridade />
+          <h1 className="text-h1">{t.titulos[avaliacao]}</h1>
+          <p className="text-corpo">{preencher(t.subtitulos[avaliacao], { titulo: licao.titulo })}</p>
         </div>
+        <OndasCalcadao />
       </section>
 
       <div className="mx-auto flex max-w-leitura flex-col gap-6 px-4 py-8 md:px-6">

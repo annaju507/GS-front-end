@@ -14,11 +14,10 @@ import { CabecalhoUnidade, DivisoriaUnidade } from '../components/CabecalhoUnida
 
 const t = textos.trilha
 const ORDEM = ordemDasLicoes(UNIDADES)
-// Mascotes em cena ao lado do caminho, alternando os lados.
+// Mascotes em cena ao lado do caminho, alternando os lados: a capivara
+// (professora, as lições) e o mico (explorador, o progresso na trilha).
 const CENAS = [
   { nome: 'capivara', expressao: 'explicando' },
-  { nome: 'arara', expressao: 'feliz' },
-  { nome: 'onca', expressao: 'pensativo' },
   { nome: 'mico', expressao: 'feliz' },
 ]
 
