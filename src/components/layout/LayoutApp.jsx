@@ -1,6 +1,8 @@
+import { Suspense } from 'react'
 import { Outlet } from 'react-router'
 import { useRolarAoTopo } from '../../hooks/useRolarAoTopo.js'
 import PularParaConteudo from '../PularParaConteudo.jsx'
+import EstadoCarregando from '../EstadoCarregando.jsx'
 import BarraLateral from './BarraLateral.jsx'
 import BarraInferior from './BarraInferior.jsx'
 import TopoApp from './TopoApp.jsx'
@@ -17,7 +19,9 @@ export default function LayoutApp() {
       <div className="lg:pl-barra-lateral">
         <TopoApp />
         <main id="conteudo" tabIndex={-1} className="mx-auto max-w-conteudo px-4 pb-28 pt-6 focus:outline-none md:px-6 lg:px-8 lg:pb-12 lg:pt-10">
-          <Outlet />
+          <Suspense fallback={<EstadoCarregando />}>
+            <Outlet />
+          </Suspense>
         </main>
       </div>
       <BarraInferior />

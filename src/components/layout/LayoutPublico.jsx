@@ -1,6 +1,8 @@
+import { Suspense } from 'react'
 import { Outlet } from 'react-router'
 import { useRolarAoTopo } from '../../hooks/useRolarAoTopo.js'
 import PularParaConteudo from '../PularParaConteudo.jsx'
+import EstadoCarregando from '../EstadoCarregando.jsx'
 import CabecalhoPublico from './CabecalhoPublico.jsx'
 import Rodape from './Rodape.jsx'
 
@@ -13,7 +15,9 @@ export default function LayoutPublico() {
       <PularParaConteudo />
       <CabecalhoPublico />
       <main id="conteudo" tabIndex={-1} className="flex-1 focus:outline-none">
-        <Outlet />
+        <Suspense fallback={<EstadoCarregando />}>
+          <Outlet />
+        </Suspense>
       </main>
       <Rodape />
     </div>

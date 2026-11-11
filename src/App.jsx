@@ -6,27 +6,33 @@ import LayoutApp from './components/layout/LayoutApp.jsx'
 import LayoutFoco from './components/layout/LayoutFoco.jsx'
 import RotaProtegida from './components/RotaProtegida.jsx'
 import Inicio from './pages/Inicio.jsx'
-import ComoFunciona from './pages/ComoFunciona.jsx'
-import Sobre from './pages/Sobre.jsx'
-import Previa from './pages/Previa.jsx'
-import Entrar from './pages/Entrar.jsx'
-import Cadastro from './pages/Cadastro.jsx'
-import BoasVindas from './pages/BoasVindas.jsx'
-import PontoDePartida from './pages/PontoDePartida.jsx'
-import AjustesLeitura from './pages/AjustesLeitura.jsx'
-import Painel from './pages/Painel.jsx'
-import Trilha from './pages/Trilha.jsx'
-import Licao from './pages/Licao.jsx'
-import Quiz from './pages/Quiz.jsx'
-import Conquista from './pages/Conquista.jsx'
-import Proposta from './pages/Proposta.jsx'
-import Perfil from './pages/Perfil.jsx'
-import Agora from './pages/Agora.jsx'
-import Glossario from './pages/Glossario.jsx'
-import Termo from './pages/Termo.jsx'
-import Caderno from './pages/Caderno.jsx'
-import EmConstrucao from './pages/EmConstrucao.jsx'
-import NaoEncontrada from './pages/NaoEncontrada.jsx'
+
+// Cada página é baixada só quando a pessoa abre (divide o JavaScript em
+// pedaços menores). O Início vem junto, porque é a primeira página.
+const ComoFunciona = lazy(() => import('./pages/ComoFunciona.jsx'))
+const Sobre = lazy(() => import('./pages/Sobre.jsx'))
+const Previa = lazy(() => import('./pages/Previa.jsx'))
+const Entrar = lazy(() => import('./pages/Entrar.jsx'))
+const Cadastro = lazy(() => import('./pages/Cadastro.jsx'))
+const BoasVindas = lazy(() => import('./pages/BoasVindas.jsx'))
+const PontoDePartida = lazy(() => import('./pages/PontoDePartida.jsx'))
+const AjustesLeitura = lazy(() => import('./pages/AjustesLeitura.jsx'))
+const Painel = lazy(() => import('./pages/Painel.jsx'))
+const Trilha = lazy(() => import('./pages/Trilha.jsx'))
+const Licao = lazy(() => import('./pages/Licao.jsx'))
+const Quiz = lazy(() => import('./pages/Quiz.jsx'))
+const Conquista = lazy(() => import('./pages/Conquista.jsx'))
+const Proposta = lazy(() => import('./pages/Proposta.jsx'))
+const Perfil = lazy(() => import('./pages/Perfil.jsx'))
+const Agora = lazy(() => import('./pages/Agora.jsx'))
+const Glossario = lazy(() => import('./pages/Glossario.jsx'))
+const Termo = lazy(() => import('./pages/Termo.jsx'))
+const Caderno = lazy(() => import('./pages/Caderno.jsx'))
+const Representantes = lazy(() => import('./pages/Representantes.jsx'))
+const RepresentantesEsfera = lazy(() => import('./pages/RepresentantesEsfera.jsx'))
+const Representante = lazy(() => import('./pages/Representante.jsx'))
+const EmConstrucao = lazy(() => import('./pages/EmConstrucao.jsx'))
+const NaoEncontrada = lazy(() => import('./pages/NaoEncontrada.jsx'))
 
 // Vitrine de componentes: só existe no modo de desenvolvimento (npm run dev).
 // No site publicado, o Vite troca import.meta.env.DEV por false e remove isto.
@@ -74,7 +80,9 @@ export default function App() {
         <Route path="proposta/:id" element={<Proposta />} />
         <Route path="perfil" element={<Perfil />} />
         <Route path="agora" element={<Agora />} />
-        <Route path="representantes/*" element={<EmConstrucao area="representantes" />} />
+        <Route path="representantes" element={<Representantes />} />
+        <Route path="representantes/:esfera" element={<RepresentantesEsfera />} />
+        <Route path="representante/:id" element={<Representante />} />
         <Route path="direitos/*" element={<EmConstrucao area="direitos" />} />
         <Route path="caderno" element={<Caderno />} />
         <Route path="glossario" element={<Glossario />} />
