@@ -15,7 +15,10 @@ export class ErroApi extends Error {
 async function buscarJson(caminho, parametros = {}) {
   const url = new URL(BASE + caminho)
   for (const [chave, valor] of Object.entries(parametros)) {
-    if (valor !== undefined && valor !== null && valor !== '') {
+    if (Array.isArray(valor)) {
+      // Vários valores: repete o parâmetro (ex.: codTema=41&codTema=61).
+      valor.forEach((item) => url.searchParams.append(chave, item))
+    } else if (valor !== undefined && valor !== null && valor !== '') {
       url.searchParams.set(chave, valor)
     }
   }
@@ -45,11 +48,13 @@ async function buscarJson(caminho, parametros = {}) {
 }
 
 // Proposições de autoria de deputados do RJ, das mais novas para as mais antigas.
-export function buscarProposicoes({ siglaTipo, keywords, itens = 10, pagina = 1, dataApresentacaoInicio } = {}) {
+// codTema: lista de temas da Câmara (ver TEMAS_DA_CAMARA em domain/areas.js).
+export function buscarProposicoes({ siglaTipo, keywords, codTema, itens = 10, pagina = 1, dataApresentacaoInicio } = {}) {
   return buscarJson('/proposicoes', {
     siglaUfAutor: 'RJ',
     siglaTipo,
     keywords,
+    codTema,
     itens,
     pagina,
     dataApresentacaoInicio,
