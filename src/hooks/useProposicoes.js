@@ -2,37 +2,39 @@ import { useEffect, useState } from 'react'
 import { buscarProposicoes } from '../services/camaraApi.js'
 import { resumirProposicao } from '../domain/proposicoes.js'
 
-const CARREGANDO = { carregando: true, erro: null, lista: [] }
-
 // Lista de proposições de deputados do RJ (com filtros da API da Câmara).
-// "filtros" vira texto para o efeito só rodar de novo quando eles mudarem.
+// Cada resposta guarda de qual busca ela é: se os filtros mudam, a tela
+// mostra "carregando" na hora, em vez da lista antiga.
 export function useProposicoes(filtros) {
-  const chave = JSON.stringify(filtros)
-  const [estado, setEstado] = useState(CARREGANDO)
   const [tentativa, setTentativa] = useState(0)
+  const chave = `${JSON.stringify(filtros)}#${tentativa}`
+  const [resposta, setResposta] = useState({ chave: null, erro: null, lista: [] })
 
   useEffect(() => {
     let ativo = true
-    buscarProposicoes(JSON.parse(chave))
+    const [filtrosEmTexto] = chave.split('#')
+    buscarProposicoes(JSON.parse(filtrosEmTexto))
       .then((itens) => {
         if (ativo) {
-          setEstado({ carregando: false, erro: null, lista: itens.map(resumirProposicao) })
+          setResposta({ chave, erro: null, lista: itens.map(resumirProposicao) })
         }
       })
       .catch((erro) => {
         if (ativo) {
-          setEstado({ carregando: false, erro: erro.tipo ?? 'servidor', lista: [] })
+          setResposta({ chave, erro: erro.tipo ?? 'servidor', lista: [] })
         }
       })
     return () => {
       ativo = false
     }
-  }, [chave, tentativa])
+  }, [chave])
 
-  function tentarDeNovo() {
-    setEstado(CARREGANDO)
-    setTentativa(tentativa + 1)
+  const carregando = resposta.chave !== chave
+
+  return {
+    carregando,
+    erro: carregando ? null : resposta.erro,
+    lista: carregando ? [] : resposta.lista,
+    tentarDeNovo: () => setTentativa(tentativa + 1),
   }
-
-  return { ...estado, tentarDeNovo }
 }
