@@ -688,7 +688,8 @@
       "primeiraProposta": "Li minha primeira proposta",
       "tresDias": "3 dias seguidos",
       "seteDias": "7 dias seguidos",
-      "trilhaConcluida": "Trilha concluída"
+      "trilhaConcluida": "Trilha concluída",
+      "primeiraAnotacao": "Primeira anotação no caderno"
     },
     "comoGanhar": {
       "primeiraLicao": "Conclua sua primeira lição.",
@@ -699,7 +700,8 @@
       "primeiraProposta": "Leia a página de uma proposta.",
       "tresDias": "Estude 3 dias seguidos.",
       "seteDias": "Estude 7 dias seguidos.",
-      "trilhaConcluida": "Conclua todas as lições disponíveis."
+      "trilhaConcluida": "Conclua todas as lições disponíveis.",
+      "primeiraAnotacao": "Salve uma proposta no caderno."
     }
   },
   "proposta": {
@@ -721,15 +723,21 @@
     "fonteDocumento": "Ficha da proposição {sigla}",
     "carregando": "Buscando a proposta na Câmara…",
     "naoEncontrada": "Não encontramos esta proposta na Câmara. Confira o endereço ou veja outras propostas.",
-    "outras": "Ver outras propostas"
+    "outras": "Ver outras propostas",
+    "caderno": {
+      "titulo": "Salvar no caderno",
+      "texto": "Escreva por que esta proposta chamou sua atenção. Ela fica guardada no seu caderno cívico.",
+      "botao": "Salvar no caderno",
+      "jaSalva": "Esta proposta já está no seu caderno.",
+      "abrir": "Abrir o caderno"
+    }
   },
   "emConstrucao": {
     "texto": "Esta área está chegando! Ela fica pronta na próxima etapa do projeto.",
     "voltar": "Voltar para o painel",
     "titulos": {
       "representantes": "Representantes",
-      "direitos": "Direitos",
-      "caderno": "Caderno cívico"
+      "direitos": "Direitos"
     }
   },
   "perfil": {
@@ -801,5 +809,48 @@
       "fechar": "Fechar explicação",
       "verNoGlossario": "Ver no glossário"
     }
+  },
+  "caderno": {
+    "tituloAba": "Caderno cívico",
+    "titulo": "Caderno cívico",
+    "intro": "As propostas que você salvou, com o que você escreveu sobre elas.",
+    "aviso": "Não escreva dados pessoais nas anotações (nome, telefone, endereço).",
+    "explorar": "Explorar propostas",
+    "total": {
+      "um": "1 anotação",
+      "varios": "{n} anotações"
+    },
+    "salvaEm": "Salva em {data}",
+    "verProposta": "Ver a proposta",
+    "editar": "Editar",
+    "excluir": "Excluir",
+    "editarRotulo": "Editar a anotação sobre {sigla}",
+    "excluirRotulo": "Excluir a anotação sobre {sigla}",
+    "campo": {
+      "rotulo": "Sua anotação",
+      "dica": "Escreva o que você achou importante.",
+      "salvar": "Salvar",
+      "cancelar": "Cancelar",
+      "salvando": "Salvando…"
+    },
+    "erros": {
+      "vazia": "Escreva sua anotação.",
+      "longa": "Use no máximo 280 caracteres."
+    },
+    "modal": {
+      "titulo": "Excluir esta anotação?",
+      "descricao": "A anotação sobre {sigla} some do seu caderno e não dá para desfazer."
+    },
+    "avisos": {
+      "criada": "Proposta salva no caderno.",
+      "editada": "Anotação atualizada.",
+      "excluida": "Anotação excluída.",
+      "falhou": "Não deu para salvar agora. Confira sua internet e tente de novo."
+    },
+    "vazio": {
+      "titulo": "Seu caderno está esperando a primeira proposta",
+      "botao": "Explorar propostas"
+    },
+    "carregando": "Abrindo seu caderno…"
   }
 }

@@ -16,6 +16,7 @@ import EstadoErro from '../components/EstadoErro.jsx'
 import Etiqueta from '../components/Etiqueta.jsx'
 import FonteOficial from '../components/FonteOficial.jsx'
 import LinhaDoTempo from '../components/LinhaDoTempo.jsx'
+import SalvarNoCaderno from '../components/SalvarNoCaderno.jsx'
 import NaoEncontrada from './NaoEncontrada.jsx'
 
 const t = textos.proposta
@@ -99,6 +100,8 @@ function ConteudoDaProposta({ id }) {
           </a>
         )}
       </section>
+
+      <SalvarNoCaderno proposta={dados} />
 
       <div className="grid gap-4 md:grid-cols-2">
         <Card como="section" aria-labelledby="proposta-situacao" className="flex flex-col gap-2">

@@ -1,0 +1,111 @@
+import { useCallback, useState } from 'react'
+import { Newspaper } from 'lucide-react'
+import textos from '../data/textos.json'
+import { plural, preencher } from '../domain/texto.js'
+import { useCaderno } from '../hooks/useCaderno.js'
+import { useTitulo } from '../hooks/useTitulo.js'
+import Aviso from '../components/Aviso.jsx'
+import Botao from '../components/Botao.jsx'
+import CardAnotacao from '../components/CardAnotacao.jsx'
+import EstadoCarregando from '../components/EstadoCarregando.jsx'
+import EstadoErro from '../components/EstadoErro.jsx'
+import EstadoVazio from '../components/EstadoVazio.jsx'
+import ModalConfirmacao from '../components/ModalConfirmacao.jsx'
+import Toast from '../components/Toast.jsx'
+
+const t = textos.caderno
+
+// Caderno cívico (CRUD com MockAPI): lista as propostas salvas, edita a
+// anotação e exclui com confirmação. Criar acontece na página da proposta.
+export default function Caderno() {
+  useTitulo(t.tituloAba)
+  const { carregando, erro, anotacoes, tentarDeNovo, editar, excluir } = useCaderno()
+  const [editandoId, setEditandoId] = useState(null)
+  const [paraExcluir, setParaExcluir] = useState(null)
+  const [toast, setToast] = useState(null)
+  const fecharToast = useCallback(() => setToast(null), [])
+
+  async function salvarEdicao(id, texto) {
+    const { ok } = await editar(id, texto)
+    if (ok) {
+      setEditandoId(null)
+      setToast({ tipo: 'sucesso', mensagem: t.avisos.editada })
+    } else {
+      setToast({ tipo: 'erro', mensagem: t.avisos.falhou })
+    }
+  }
+
+  function fecharModal() {
+    setParaExcluir(null)
+  }
+
+  // Excluir só acontece se a pessoa confirmar no modal.
+  async function responderModal(confirmou) {
+    const anotacao = paraExcluir
+    if (confirmou) {
+      fecharModal()
+      const { ok } = await excluir(anotacao.id)
+      setToast(ok ? { tipo: 'sucesso', mensagem: t.avisos.excluida } : { tipo: 'erro', mensagem: t.avisos.falhou })
+    } else {
+      fecharModal()
+    }
+  }
+
+  let conteudo
+  if (carregando) {
+    conteudo = <EstadoCarregando texto={t.carregando} />
+  } else if (erro) {
+    conteudo = <EstadoErro semConexao={erro === 'semConexao'} onTentarDeNovo={tentarDeNovo} />
+  } else if (anotacoes.length === 0) {
+    conteudo = <EstadoVazio mascote="caramelo" expressao="feliz" titulo={t.vazio.titulo} acao={{ rotulo: t.vazio.botao, para: '/app/agora' }} />
+  } else {
+    conteudo = (
+      <>
+        <p className="font-semibold text-texto-2">{plural(anotacoes.length, t.total.um, t.total.varios)}</p>
+        <ul className="flex flex-col gap-4">
+          {anotacoes.map((anotacao) => (
+            <li key={anotacao.id}>
+              <CardAnotacao
+                anotacao={anotacao}
+                editando={editandoId === anotacao.id}
+                onEditar={() => setEditandoId(anotacao.id)}
+                onCancelar={() => setEditandoId(null)}
+                onSalvarEdicao={(texto) => salvarEdicao(anotacao.id, texto)}
+                onExcluir={() => setParaExcluir(anotacao)}
+              />
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+
+  return (
+    <div className="mx-auto flex max-w-leitura flex-col gap-6">
+      <header className="flex flex-col gap-3">
+        <h1>{t.titulo}</h1>
+        <p className="text-corpo">{t.intro}</p>
+        <div>
+          <Botao variante="secundario" icone={Newspaper} para="/app/agora">
+            {t.explorar}
+          </Botao>
+        </div>
+      </header>
+
+      <Aviso tipo="info">{t.aviso}</Aviso>
+
+      <section aria-label={t.titulo} aria-busy={carregando} className="flex flex-col gap-4">
+        {conteudo}
+      </section>
+
+      <ModalConfirmacao
+        aberto={paraExcluir !== null}
+        titulo={t.modal.titulo}
+        descricao={paraExcluir ? preencher(t.modal.descricao, { sigla: paraExcluir.sigla }) : ''}
+        onConfirmar={() => responderModal(true)}
+        onCancelar={() => responderModal(false)}
+      />
+      <Toast mensagem={toast?.mensagem} tipo={toast?.tipo} onFechar={fecharToast} />
+    </div>
+  )
+}

@@ -58,6 +58,10 @@ function EstadoDoProgresso({ email, children }) {
     [atualizar],
   )
 
+  const registrarAnotacaoFeita = useCallback(() => {
+    atualizar((atual) => ({ ...atual, anotacoesFeitas: (atual.anotacoesFeitas ?? 0) + 1 }))
+  }, [atualizar])
+
   const valor = {
     progresso,
     sequencia,
@@ -66,6 +70,7 @@ function EstadoDoProgresso({ email, children }) {
     concluirLicao,
     registrarFonteConsultada,
     registrarPropostaLida,
+    registrarAnotacaoFeita,
   }
 
   return <ProgressoContext.Provider value={valor}>{children}</ProgressoContext.Provider>

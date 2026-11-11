@@ -1,4 +1,4 @@
-import { Award, Columns3, FileSignature, Flag, Flame, Footprints, Layers, Lock, Newspaper, SearchCheck } from 'lucide-react'
+import { Award, Columns3, FileSignature, Flag, Flame, Footprints, Layers, Lock, Newspaper, NotebookPen, SearchCheck } from 'lucide-react'
 import textos from '../data/textos.json'
 import { preencher } from '../domain/texto.js'
 
@@ -11,6 +11,7 @@ const ICONES = {
   comoNasceUmaLei: FileSignature,
   chequeiAFonte: SearchCheck,
   primeiraProposta: Newspaper,
+  primeiraAnotacao: NotebookPen,
   tresDias: Flame,
   seteDias: Flame,
   trilhaConcluida: Flag,

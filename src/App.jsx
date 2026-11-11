@@ -24,6 +24,7 @@ import Perfil from './pages/Perfil.jsx'
 import Agora from './pages/Agora.jsx'
 import Glossario from './pages/Glossario.jsx'
 import Termo from './pages/Termo.jsx'
+import Caderno from './pages/Caderno.jsx'
 import EmConstrucao from './pages/EmConstrucao.jsx'
 import NaoEncontrada from './pages/NaoEncontrada.jsx'
 
@@ -75,7 +76,7 @@ export default function App() {
         <Route path="agora" element={<Agora />} />
         <Route path="representantes/*" element={<EmConstrucao area="representantes" />} />
         <Route path="direitos/*" element={<EmConstrucao area="direitos" />} />
-        <Route path="caderno" element={<EmConstrucao area="caderno" />} />
+        <Route path="caderno" element={<Caderno />} />
         <Route path="glossario" element={<Glossario />} />
         <Route path="glossario/:termo" element={<Termo />} />
         <Route path="*" element={<NaoEncontrada />} />

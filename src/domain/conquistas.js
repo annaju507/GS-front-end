@@ -9,6 +9,7 @@ export const MEDALHAS = [
   { id: 'comoNasceUmaLei', mascote: 'capivara' },
   { id: 'chequeiAFonte', mascote: 'onca' },
   { id: 'primeiraProposta', mascote: 'arara' },
+  { id: 'primeiraAnotacao', mascote: 'caramelo' },
   { id: 'tresDias', mascote: 'mico' },
   { id: 'seteDias', mascote: 'mico' },
   { id: 'trilhaConcluida', mascote: 'mico' },
@@ -42,6 +43,7 @@ export function medalhasGanhas(progresso, sequencia, unidades) {
   if (unidadeConcluida(unidadePorId(unidades, 7), concluidas)) ganhas.add('comoNasceUmaLei')
   if (progresso.fontesConsultadas > 0) ganhas.add('chequeiAFonte')
   if (progresso.propostasLidas.length > 0) ganhas.add('primeiraProposta')
+  if (progresso.anotacoesFeitas > 0) ganhas.add('primeiraAnotacao')
   if (medalhaDaSequencia === 'seteDias') ganhas.add('seteDias')
   if (medalhaDaSequencia !== null) ganhas.add('tresDias')
   if (ordem.length > 0 && ordem.every((idLicao) => concluidas[idLicao])) ganhas.add('trilhaConcluida')

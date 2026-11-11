@@ -1,6 +1,6 @@
 // Progresso e sequência de dias (funções puras). Datas no formato 'AAAA-MM-DD'.
 
-export const PROGRESSO_VAZIO = { licoes: {}, dias: [], fontesConsultadas: 0, propostasLidas: [] }
+export const PROGRESSO_VAZIO = { licoes: {}, dias: [], fontesConsultadas: 0, propostasLidas: [], anotacoesFeitas: 0 }
 
 // Data local de hoje no formato 'AAAA-MM-DD' (sem depender do fuso UTC).
 export function dataLocalIso(data) {
