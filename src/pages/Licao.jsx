@@ -13,6 +13,7 @@ import CitacaoOficial from '../components/CitacaoOficial.jsx'
 import ControleTamanhoLetra from '../components/ControleTamanhoLetra.jsx'
 import ExemploCarioca from '../components/ExemploCarioca.jsx'
 import FonteOficial from '../components/FonteOficial.jsx'
+import TextoComTermos from '../components/TextoComTermos.jsx'
 import NaoEncontrada from './NaoEncontrada.jsx'
 
 const t = textos.licao
@@ -29,7 +30,7 @@ function Bloco({ bloco }) {
   } else if (bloco.tipo === 'citacao') {
     return <CitacaoOficial texto={bloco.texto} fonte={bloco.fonte} />
   } else {
-    return <p>{bloco.texto}</p>
+    return <TextoComTermos texto={bloco.texto} />
   }
 }
 

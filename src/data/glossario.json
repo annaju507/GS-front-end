@@ -1,0 +1,261 @@
+{
+  "_sobre": "Glossário. Nomes dos termos fixos; definição e exemplo carioca em Lorem do tamanho previsto (limites em _max). Fontes reais: texto da Constituição ou Glossário de Termos Legislativos do Congresso.",
+  "_max": {
+    "definicao": 220,
+    "exemplo": 180
+  },
+  "termos": [
+    {
+      "id": "abstencao",
+      "termo": "Abstenção",
+      "fonte": {
+        "instituicao": "Congresso Nacional (Câmara dos Deputados e Senado Federal)",
+        "documento": "Glossário de Termos Legislativos",
+        "trecho": "verbete \"Abstenção\"",
+        "url": "https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-legislativo",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "obstrucao",
+        "quorum"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "comissao",
+      "termo": "Comissão",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 58",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "plenario",
+        "projeto-de-lei"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "iniciativa-popular",
+      "termo": "Iniciativa popular",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 14, inciso III, e art. 61, § 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "projeto-de-lei"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "legislatura",
+      "termo": "Legislatura",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 44, parágrafo único",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "mandato"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "mandato",
+      "termo": "Mandato",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 44, parágrafo único, e art. 46, § 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "legislatura"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "medida-provisoria",
+      "termo": "Medida provisória",
+      "sigla": "MP",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 62",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "projeto-de-lei"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "obstrucao",
+      "termo": "Obstrução",
+      "fonte": {
+        "instituicao": "Congresso Nacional (Câmara dos Deputados e Senado Federal)",
+        "documento": "Glossário de Termos Legislativos",
+        "trecho": "verbete \"Obstrução\"",
+        "url": "https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-legislativo",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "abstencao",
+        "quorum"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "orcamento",
+      "termo": "Orçamento público",
+      "sigla": "LOA",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 165",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "pec",
+      "termo": "Proposta de Emenda à Constituição",
+      "sigla": "PEC",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 60",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "projeto-de-lei",
+        "promulgacao"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "plenario",
+      "termo": "Plenário",
+      "fonte": {
+        "instituicao": "Congresso Nacional (Câmara dos Deputados e Senado Federal)",
+        "documento": "Glossário de Termos Legislativos",
+        "trecho": "verbete \"Plenário\"",
+        "url": "https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-legislativo",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "comissao",
+        "quorum"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "projeto-de-lei",
+      "termo": "Projeto de lei",
+      "sigla": "PL",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 61",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "sancao",
+        "veto",
+        "comissao"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "promulgacao",
+      "termo": "Promulgação",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 66, §§ 5º e 7º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "sancao",
+        "pec"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "quorum",
+      "termo": "Quórum",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 47",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "plenario",
+        "abstencao"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "sancao",
+      "termo": "Sanção",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 66",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "veto",
+        "promulgacao"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    },
+    {
+      "id": "veto",
+      "termo": "Veto",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 66, §§ 1º e 4º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-10"
+      },
+      "relacionados": [
+        "sancao"
+      ],
+      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    }
+  ]
+}
