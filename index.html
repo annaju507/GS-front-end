@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Demokratos: o conhecimento político é para todos. Aprenda como a política funciona no Rio de Janeiro, com fontes oficiais." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@600;700;800&display=swap"
+    />
+    <title>Demokratos</title>
+    <script>
+      // Aplica as preferências salvas antes da página aparecer, para não piscar.
+      // A lógica completa fica em src/domain/preferencias.js e nos hooks.
+      try {
+        var raiz = document.documentElement
+        var temaSalvo = localStorage.getItem('demokratos-tema')
+        var prefereEscuro = window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (temaSalvo === 'escuro') {
+          raiz.classList.add('dark')
+        } else if (temaSalvo === 'claro') {
+          raiz.classList.remove('dark')
+        } else if (prefereEscuro) {
+          raiz.classList.add('dark')
+        }
+        var letra = localStorage.getItem('demokratos-letra')
+        if (letra) {
+          raiz.style.fontSize = letra + '%'
+        }
+        if (localStorage.getItem('demokratos-reduzir-animacoes') === 'sim') {
+          raiz.classList.add('reduzir-animacoes')
+        }
+      } catch (erro) {
+        // Sem acesso ao localStorage: segue com o padrão.
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
