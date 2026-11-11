@@ -1,0 +1,21 @@
+// Qual seção do menu fica marcada em cada endereço (função pura).
+// Ex.: uma lição ou o quiz pertencem a "Aprender"; uma proposta, a "Agora".
+export function secaoDaRota(caminho) {
+  if (caminho.startsWith('/app/trilha') || caminho.startsWith('/app/licao') || caminho.startsWith('/app/conquista')) {
+    return 'aprender'
+  } else if (caminho.startsWith('/app/agora') || caminho.startsWith('/app/proposta')) {
+    return 'agora'
+  } else if (caminho.startsWith('/app/representante')) {
+    return 'representantes'
+  } else if (caminho.startsWith('/app/direitos')) {
+    return 'direitos'
+  } else if (caminho.startsWith('/app/caderno')) {
+    return 'caderno'
+  } else if (caminho.startsWith('/app/glossario')) {
+    return 'glossario'
+  } else if (caminho.startsWith('/app/perfil')) {
+    return 'perfil'
+  } else {
+    return 'painel'
+  }
+}

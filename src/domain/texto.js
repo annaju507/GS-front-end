@@ -36,3 +36,12 @@ export function preencher(modelo, valores) {
     }
   })
 }
+
+// Escolhe a forma no singular ou no plural: plural(1, '1 dia', '{n} dias').
+export function plural(numero, umItem, variosItens) {
+  if (numero === 1) {
+    return umItem
+  } else {
+    return preencher(variosItens, { n: numero })
+  }
+}

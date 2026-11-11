@@ -25,3 +25,11 @@ export function corrigirQuestao(selecionada, correta) {
     return 'errou'
   }
 }
+
+export const PONTOS_POR_ACERTO = 10
+
+// Quanto tempo a pessoa levou, em minutos e segundos.
+export function dividirTempo(totalSegundos) {
+  const segundos = Math.max(0, Math.round(totalSegundos))
+  return { minutos: Math.floor(segundos / 60), segundos: segundos % 60 }
+}
