@@ -12,30 +12,30 @@
       "id": "u1-l1",
       "unidade": 1,
       "ordem": 1,
-      "titulo": "Lorem ipsum dolor",
+      "titulo": "O poder vem do povo",
       "mascote": "capivara",
       "minutos": 3,
-      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "gancho": "Você já ouviu a frase \"todo o poder emana do povo\"? Vamos ver o que ela quer dizer na prática.",
       "blocos": [
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum [[iniciativa-popular|iniciativa popular]] dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          "texto": "No Brasil, o poder de decidir os rumos do país pertence ao povo. Esse poder é usado de dois jeitos: por meio de representantes que a gente elege, como vereadores e deputados, ou diretamente, como na [[iniciativa-popular|iniciativa popular]], quando os próprios eleitores apresentam um projeto de lei."
         },
         {
           "tipo": "exemplo",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+          "texto": "Pense no seu prédio: os moradores elegem o síndico, mas também podem decidir direto, votando em assembleia. A diferença é que as regras do país estão na Constituição e valem para todo mundo."
         },
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+          "texto": "Votar é obrigatório para quem é alfabetizado e tem de 18 a 70 anos. É opcional para quem tem 16 ou 17 anos, mais de 70 ou não é alfabetizado. Um projeto de iniciativa popular no Congresso precisa de assinaturas de 1% dos eleitores do país, de pelo menos cinco estados. Para leis da cidade, são 5% do eleitorado do Rio."
         },
         {
           "tipo": "citacao",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "texto": "Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição.",
           "fonte": {
             "instituicao": "Presidência da República (Planalto)",
             "documento": "Constituição Federal de 1988",
-            "trecho": "art. 1º",
+            "trecho": "art. 1º, parágrafo único",
             "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
             "consultadoEm": "2026-11-10"
           }
@@ -44,7 +44,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 1º",
+        "trecho": "art. 1º, parágrafo único; art. 14, § 1º; art. 29, inciso XIII; art. 61, § 2º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -58,30 +58,30 @@
       "id": "u1-l2",
       "unidade": 1,
       "ordem": 2,
-      "titulo": "Sit amet elit",
+      "titulo": "Votar e ser votado",
       "mascote": "capivara",
       "minutos": 3,
-      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "gancho": "Na urna, ninguém sabe em quem você votou, e o seu voto vale o mesmo que o de qualquer pessoa. Por quê?",
       "blocos": [
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum [[mandato|mandato]] dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          "texto": "A cidadania é um dos fundamentos da República, ou seja, uma das bases do país. Ela tem dois lados: votar, escolhendo quem vai exercer um [[mandato|mandato]], e ser votado, quando a pessoa se candidata a um cargo. Os dois lados têm regras escritas na Constituição."
         },
         {
           "tipo": "exemplo",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+          "texto": "Na eleição da associação de moradores do bairro, cada morador tem um voto, e o voto pode ser secreto. A diferença é que a eleição oficial segue leis próprias e é organizada pela Justiça Eleitoral."
         },
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+          "texto": "O voto no Brasil é direto, secreto e tem o mesmo valor para todos. Para ser candidato, é preciso: ser brasileiro, estar em dia com os direitos políticos, estar alistado como eleitor, ter domicílio eleitoral no lugar da eleição, ser filiado a um partido e ter a idade mínima do cargo, como 18 anos para vereador."
         },
         {
           "tipo": "citacao",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "texto": "A soberania popular será exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos (...).",
           "fonte": {
             "instituicao": "Presidência da República (Planalto)",
             "documento": "Constituição Federal de 1988",
-            "trecho": "art. 14",
+            "trecho": "art. 14, caput",
             "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
             "consultadoEm": "2026-11-10"
           }
@@ -90,7 +90,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 14",
+        "trecho": "art. 1º, inciso II; art. 14, caput e § 3º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },

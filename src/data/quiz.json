@@ -10,15 +10,15 @@
     {
       "id": "q-u1-1",
       "unidade": 1,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Na democracia brasileira, de quem vem o poder?",
       "opcoes": [
-        "Lorem ipsum dolor",
-        "Sit amet consectetur",
-        "Adipiscing elit sed"
+        "Do presidente da República",
+        "Do povo",
+        "Do Congresso Nacional"
       ],
       "correta": 1,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "A Constituição diz que todo o poder vem do povo. O povo usa esse poder elegendo representantes ou decidindo diretamente, como no plebiscito e na iniciativa popular.",
+      "analogia": "É como num condomínio: o poder é dos moradores, que elegem o síndico. A diferença é que, no país, os limites desse poder estão escritos na Constituição.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -31,15 +31,15 @@
     {
       "id": "q-u1-2",
       "unidade": 1,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Para quem o voto é obrigatório?",
       "opcoes": [
-        "Eiusmod tempor incididunt",
-        "Ut labore et dolore",
-        "Magna aliqua enim"
+        "Para quem é alfabetizado e tem de 18 a 70 anos",
+        "Para todas as pessoas a partir de 16 anos",
+        "Para quem tem de 18 a 60 anos, alfabetizado ou não"
       ],
       "correta": 0,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "O voto é obrigatório para quem é alfabetizado e tem de 18 a 70 anos. Para quem tem 16 ou 17 anos, mais de 70 ou não é alfabetizado, votar é opcional.",
+      "analogia": "É como uma reunião em que a presença é obrigatória para alguns e livre para outros. A diferença é que, na eleição, essas regras estão na Constituição.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -52,15 +52,15 @@
     {
       "id": "q-u1-3",
       "unidade": 1,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Um grupo de cidadãos pode apresentar um projeto de lei?",
       "opcoes": [
-        "Minim veniam quis",
-        "Nostrud exercitation",
-        "Ullamco laboris nisi"
+        "Não, só deputados e senadores podem",
+        "Sim, mas só com o apoio de um partido",
+        "Sim, juntando assinaturas de eleitores"
       ],
       "correta": 2,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "Pela iniciativa popular, eleitores podem apresentar um projeto de lei. No Congresso, são necessárias assinaturas de pelo menos 1% dos eleitores do país, de no mínimo cinco estados.",
+      "analogia": "Parece um abaixo-assinado de moradores. A diferença é que o projeto ainda passa por votação e só vira lei se for aprovado.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -73,15 +73,15 @@
     {
       "id": "q-u1-4",
       "unidade": 1,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Como é o voto nas eleições brasileiras?",
       "opcoes": [
-        "Lorem ipsum dolor",
-        "Sit amet consectetur",
-        "Adipiscing elit sed"
+        "Aberto, para todos verem em quem você votou",
+        "Indireto, por meio de delegados",
+        "Direto, secreto e com o mesmo valor para todos"
       ],
       "correta": 2,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "O voto é direto (você escolhe o candidato), secreto (ninguém sabe em quem você votou) e tem valor igual: o voto de cada pessoa conta uma vez, e só uma.",
+      "analogia": "Lembra uma votação na escola com urna fechada. A diferença é que a eleição oficial segue leis próprias e é organizada pela Justiça Eleitoral.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -94,15 +94,15 @@
     {
       "id": "q-u1-5",
       "unidade": 1,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Como a cidadania aparece na Constituição?",
       "opcoes": [
-        "Eiusmod tempor incididunt",
-        "Ut labore et dolore",
-        "Magna aliqua enim"
+        "Como um assunto só da época de eleição",
+        "Como um dos fundamentos da República",
+        "Como um direito só de quem trabalha"
       ],
       "correta": 1,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "O art. 1º lista os fundamentos da República, as bases do país. A cidadania está entre eles, ao lado da soberania, da dignidade da pessoa humana e do pluralismo político.",
+      "analogia": "Fundamento é como a base de uma casa: sustenta o resto. A diferença é que a cidadania não fica parada: ela se exerce votando, pedindo informação e participando.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -115,15 +115,15 @@
     {
       "id": "q-u1-6",
       "unidade": 1,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Para se candidatar, a pessoa precisa estar filiada a um partido?",
       "opcoes": [
-        "Minim veniam quis",
-        "Nostrud exercitation",
-        "Ullamco laboris nisi"
+        "Sim, é uma das condições da Constituição",
+        "Não, basta ter título de eleitor",
+        "Só para cargos do governo federal"
       ],
       "correta": 0,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "Estar filiado a um partido é uma das condições para ser candidato. Há outras, como ser brasileiro, estar alistado como eleitor, ter domicílio eleitoral e a idade mínima do cargo.",
+      "analogia": "É como um campeonato em que todo jogador precisa estar inscrito por um time. A diferença é que a filiação não basta: há outras condições, como a idade mínima.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
