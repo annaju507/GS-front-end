@@ -644,14 +644,14 @@
     "sequenciaUm": "1 dia",
     "sequenciaVarios": "{n} dias",
     "titulos": {
-      "perfeito": "Manda bem!",
+      "perfeito": "Mandou bem!",
       "bom": "Boa! Lição concluída",
       "revisar": "Lição concluída!"
     },
     "subtitulos": {
-      "perfeito": "Você acertou todas as perguntas da lição {titulo}.",
-      "bom": "Você concluiu a lição {titulo}.",
-      "revisar": "Você concluiu a lição {titulo}. Que tal rever e tentar de novo?"
+      "perfeito": "Você acertou todas as perguntas da lição \"{titulo}\".",
+      "bom": "Você concluiu a lição \"{titulo}\".",
+      "revisar": "Você concluiu a lição \"{titulo}\". Que tal rever e tentar de novo?"
     }
   },
   "medalhas": {
