@@ -1,8 +1,6 @@
 import { Link } from 'react-router'
 import { ExternalLink } from 'lucide-react'
 import textos from '../../data/textos.json'
-import ControleTamanhoLetra from '../ControleTamanhoLetra.jsx'
-import OpcaoReduzirAnimacoes from '../OpcaoReduzirAnimacoes.jsx'
 
 const t = textos.publico.rodape
 const nav = textos.publico.nav
@@ -45,12 +43,6 @@ export default function Rodape() {
             <p className="font-titulo text-h3 font-extrabold text-texto">{textos.site.nome}</p>
             <p className="max-w-[26rem] text-legenda text-texto-2">{t.descricao}</p>
 
-            <section aria-labelledby="rodape-ajustes" className="flex flex-col gap-2">
-              <h2 id="rodape-ajustes" className={TITULO_COLUNA}>{t.ajustes}</h2>
-              <ControleTamanhoLetra />
-              <OpcaoReduzirAnimacoes />
-            </section>
-
             <p className="text-tag text-texto-2">{t.direitosAutorais}</p>
           </div>
 
@@ -87,7 +79,7 @@ export default function Rodape() {
 
         <p
           aria-hidden="true"
-          className="marca-pontilhada mt-10 translate-y-[18%] select-none whitespace-nowrap text-center font-titulo text-[clamp(3.25rem,14vw,11rem)] font-extrabold leading-none tracking-[-0.04em] lg:mt-14"
+          className="marca-pontilhada mt-2 translate-y-[18%] select-none whitespace-nowrap text-center font-titulo text-[clamp(3.25rem,14vw,11rem)] font-extrabold leading-none tracking-[-0.04em] lg:mt-3"
         >
           {textos.site.nome}
         </p>
