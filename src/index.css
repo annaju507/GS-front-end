@@ -579,3 +579,34 @@
 @media (prefers-reduced-motion: reduce) {
   .subir-gaveta, .confete { animation: none; }
 }
+
+/* Rodapé em cartão índigo (fundo --faixa nos dois temas). Os tokens abaixo
+   valem só dentro do cartão, para que textos e controles de ajustes de
+   leitura mantenham contraste de pelo menos 4,5:1 sobre o índigo. */
+.tema-faixa {
+  --texto: #FFFFFF;
+  --texto-2: #D9D0F7;
+  --link: #FFFFFF;
+  --foco: #B7E7FC;
+  --superficie: #2A0081;
+  --borda-campo: #C9B8F7;
+  --lilas-claro: #3B1A9A;
+  --secundario: transparent;
+  --secundario-borda: #C9B8F7;
+  --secundario-texto: #FFFFFF;
+  --botao: #A186EF;
+  --botao-texto: #14111C;
+  color: var(--texto);
+}
+
+/* Nome grande e pontilhado na base do rodapé: pontos lilás sobre um
+   preenchimento lilás translúcido, recortados no formato das letras. */
+.marca-pontilhada {
+  color: transparent;
+  background-image:
+    radial-gradient(circle, rgb(201 184 247 / 0.85) 0.08rem, transparent 0.1rem),
+    linear-gradient(rgb(161 134 239 / 0.3), rgb(161 134 239 / 0.3));
+  background-size: 0.375rem 0.375rem, 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
