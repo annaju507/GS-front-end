@@ -1,5 +1,5 @@
 {
-  "_sobre": "Aba Direitos (documento de conteúdo, parte 2). Títulos com o tema real; textos (resumo, quem tem direito, requisitos, documentos, como pedir) em Lorem do tamanho previsto. Normas, órgãos, canais e fontes reais; itens com _conferir precisam de confirmação.",
+  "_sobre": "Aba Direitos (documento de conteúdo, parte 2). Textos finais escritos a partir da norma e do catálogo oficial de serviços (Carioca Digital), consultados na data indicada. Itens com [CONFERIR] precisam de confirmação no canal oficial.",
   "_max": {
     "resumo": 100,
     "quemTemDireito": 200,
@@ -7,34 +7,34 @@
     "documentos": 60,
     "comoPedir": 90
   },
-  "consultadoEm": "2026-11-11",
+  "consultadoEm": "2026-11-12",
   "temas": [
     {
       "id": "atendimento-no-sus",
       "area": "saude",
       "titulo": "Atendimento no SUS",
-      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
-      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "resumo": "Como ser atendido numa Clínica da Família ou num Centro Municipal de Saúde perto de casa.",
+      "quemTemDireito": "Qualquer pessoa. A Constituição diz que a saúde é direito de todos e dever do Estado. Na cidade do Rio, a atenção primária é feita nas Clínicas da Família e nos Centros Municipais de Saúde.",
       "requisitos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Sed do eiusmod tempor"
+        "Procurar a unidade de referência do seu endereço",
+        "Fazer o cadastro com a equipe da unidade",
+        "Consulta com ou sem marcação, conforme o caso"
       ],
       "documentos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit"
+        "Documento de identidade oficial com foto e CPF",
+        "Comprovante de residência"
       ],
       "comoPedir": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "Sed do eiusmod tempor incididunt ut labore.",
-        "Ut enim ad minim veniam, quis nostrud."
+        "Descubra a sua clínica de referência digitando o endereço no mapa do Carioca Digital.",
+        "Vá até a unidade com os documentos.",
+        "Faça o cadastro com a equipe. A consulta pode ser com ou sem marcação."
       ],
       "orgaoResponsavel": "Secretaria Municipal de Saúde do Rio de Janeiro",
       "canais": [
         {
           "tipo": "site",
-          "rotulo": "Carioca Digital: serviços de saúde",
-          "url": "https://carioca.rio/"
+          "rotulo": "Carioca Digital: atendimento na atenção primária",
+          "url": "https://carioca.rio/servicos/atendimento-em-unidades-de-atencao-primaria-em-saude/"
         }
       ],
       "fontes": [
@@ -54,10 +54,10 @@
         },
         {
           "instituicao": "Prefeitura do Rio (Carioca Digital)",
-          "documento": "Catálogo de serviços da Prefeitura",
+          "documento": "Atendimento em unidades de atenção primária em saúde",
           "trecho": "",
-          "url": "https://carioca.rio/",
-          "consultadoEm": "2026-11-11"
+          "url": "https://carioca.rio/servicos/atendimento-em-unidades-de-atencao-primaria-em-saude/",
+          "consultadoEm": "2026-11-12"
         }
       ]
     },
@@ -65,21 +65,21 @@
       "id": "matricula-rede-municipal",
       "area": "educacao",
       "titulo": "Matrícula na rede municipal de ensino",
-      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
-      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "resumo": "Como inscrever uma criança ou um adolescente na creche, na pré-escola, no fundamental ou na EJA.",
+      "quemTemDireito": "Crianças de 6 meses a 3 anos (creche), de 4 e 5 anos (pré-escola), de 6 a 16 anos (ensino fundamental) e pessoas com 17 anos ou mais (EJA). Em 2026, a idade foi contada até 31 de março.",
       "requisitos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Sed do eiusmod tempor"
+        "Ter a idade da etapa até a data de corte do ano",
+        "Fazer a inscrição no período oficial de matrícula",
+        "Confirmar a vaga na escola, na data indicada"
       ],
       "documentos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit"
+        "Certidão de nascimento, CPF e carteira de vacinação",
+        "Documento e CPF do responsável e comprovante de endereço"
       ],
       "comoPedir": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "Sed do eiusmod tempor incididunt ut labore.",
-        "Ut enim ad minim veniam, quis nostrud."
+        "Faça a inscrição em matricula.rio, no período oficial. Todo o processo é gratuito.",
+        "Sem internet, procure uma escola municipal ou a Coordenadoria Regional de Educação.",
+        "Leve os documentos à escola na data do comprovante. Sem isso, a vaga é perdida."
       ],
       "orgaoResponsavel": "Secretaria Municipal de Educação do Rio de Janeiro",
       "canais": [
@@ -114,7 +114,7 @@
           "documento": "Matrícula escolar na rede municipal",
           "trecho": "",
           "url": "https://carioca.rio/servicos/matricula-na-rede-publica-municipal-de-ensino-2025/",
-          "consultadoEm": "2026-11-11"
+          "consultadoEm": "2026-11-12"
         }
       ]
     },
@@ -122,21 +122,21 @@
       "id": "pedir-servico-prefeitura",
       "area": "cidade",
       "titulo": "Pedir um serviço ou reclamar para a Prefeitura",
-      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
-      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "resumo": "Como pedir conserto de buraco, troca de lâmpada, recolhimento de lixo e outros serviços da cidade.",
+      "quemTemDireito": "Qualquer pessoa que use os serviços públicos da cidade. A Lei nº 13.460/2017 garante ao usuário o direito de fazer pedidos e reclamações e de receber resposta da administração pública.",
       "requisitos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Sed do eiusmod tempor"
+        "Saber o endereço ou um ponto de referência do local",
+        "Descrever o problema com clareza",
+        "Valer para um serviço da Prefeitura, não do estado"
       ],
       "documentos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit"
+        "Endereço ou ponto de referência do problema",
+        "[CONFERIR: dados pedidos no cadastro do 1746]"
       ],
       "comoPedir": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "Sed do eiusmod tempor incididunt ut labore.",
-        "Ut enim ad minim veniam, quis nostrud."
+        "Ligue 1746, dentro do município do Rio, ou use o aplicativo 1746 Rio.",
+        "Escolha o tipo de serviço e informe o endereço do problema.",
+        "Acompanhe o andamento da solicitação pelo aplicativo."
       ],
       "orgaoResponsavel": "Prefeitura do Rio (Central 1746)",
       "canais": [
@@ -172,29 +172,38 @@
       "id": "transporte-gratuito-65",
       "area": "cidade",
       "titulo": "Transporte gratuito para quem tem mais de 65 anos",
-      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
-      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "resumo": "Como andar de graça no transporte coletivo da cidade a partir dos 65 anos.",
+      "quemTemDireito": "Pessoas com 65 anos ou mais, nos transportes coletivos públicos urbanos. Nos ônibus municipais do Rio, vale mostrar um documento de identidade ou usar o Cartão Jaé, sem limite de viagens.",
       "requisitos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Sed do eiusmod tempor"
+        "Ter 65 anos ou mais",
+        "Usar o transporte coletivo urbano regular",
+        "Não vale em serviços seletivos ou especiais"
       ],
       "documentos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit"
+        "Documento pessoal que comprove a sua idade",
+        "Cartão Jaé: CPF, identidade e comprovante de endereço"
       ],
       "comoPedir": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "Sed do eiusmod tempor incididunt ut labore.",
-        "Ut enim ad minim veniam, quis nostrud."
+        "No ônibus municipal, apresente um documento de identidade que mostre a sua idade.",
+        "Para ter o Cartão Jaé, faça o pedido no site da Jaé ou num posto de atendimento.",
+        "Dúvidas: Central Jaé, 0800 2121 828, de segunda a sexta, das 8h às 18h."
       ],
-      "orgaoResponsavel": "Prefeitura do Rio e Governo do Estado do RJ",
-      "_conferir": "Confirmar qual órgão emite o cartão de gratuidade e atualizar orgaoResponsavel e canais.",
+      "orgaoResponsavel": "Secretaria Municipal de Transportes (SMTR), pelo Cartão Jaé, nos ônibus municipais",
       "canais": [
         {
           "tipo": "site",
-          "rotulo": "Carioca Digital",
-          "url": "https://carioca.rio/"
+          "rotulo": "Carioca Digital: gratuidade no transporte municipal",
+          "url": "https://carioca.rio/servicos/informacoes-sobre-gratuidade-em-onibus/"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Jaé: gratuidade para pessoas idosas",
+          "url": "https://jae.com.br/gratuidade/idosos/"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Central Jaé",
+          "valor": "0800 2121 828"
         }
       ],
       "fontes": [
@@ -208,9 +217,16 @@
         {
           "instituicao": "Presidência da República (Planalto)",
           "documento": "Estatuto da Pessoa Idosa (Lei nº 10.741/2003)",
-          "trecho": "art. 39",
+          "trecho": "art. 39, caput e § 1º",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm",
-          "consultadoEm": "2026-11-11"
+          "consultadoEm": "2026-11-12"
+        },
+        {
+          "instituicao": "Prefeitura do Rio (Carioca Digital)",
+          "documento": "Informações sobre gratuidade no transporte municipal (Lei municipal nº 3.167/2000)",
+          "trecho": "",
+          "url": "https://carioca.rio/servicos/informacoes-sobre-gratuidade-em-onibus/",
+          "consultadoEm": "2026-11-12"
         }
       ]
     },
@@ -218,29 +234,33 @@
       "id": "alertas-de-chuva",
       "area": "seguranca",
       "titulo": "Receber alertas de chuva e risco da Defesa Civil",
-      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
-      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "resumo": "Como receber no celular os avisos de chuva forte e de outros riscos na área que você escolher.",
+      "quemTemDireito": "Qualquer pessoa que more no Rio ou queira receber alertas sobre uma área da cidade. O serviço é gratuito, e alguns alertas chegam ao celular sem cadastro, por transmissão direta (cell broadcast).",
       "requisitos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Sed do eiusmod tempor"
+        "Ter um celular",
+        "Saber o CEP da área que quer acompanhar",
+        "Pode cadastrar quantos CEPs quiser, um de cada vez"
       ],
       "documentos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit"
+        "Nenhum documento: basta o CEP da área",
+        "No WhatsApp, basta mandar a palavra \"oi\""
       ],
       "comoPedir": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "Sed do eiusmod tempor incididunt ut labore.",
-        "Ut enim ad minim veniam, quis nostrud."
+        "Envie o CEP por SMS para 40199 e espere a mensagem de confirmação.",
+        "Ou mande \"oi\" pelo WhatsApp para (61) 2034-4611.",
+        "Para cancelar, envie \"sair\" e o CEP para 40199."
       ],
       "orgaoResponsavel": "Defesa Civil do Município do Rio de Janeiro",
-      "_conferir": "Confirmar o SMS 40199 no canal oficial (está em portais de notícia; a página oficial do Carioca Digital é a fonte principal).",
       "canais": [
         {
           "tipo": "sms",
           "rotulo": "SMS 40199 (envie o seu CEP)",
           "valor": "40199"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "WhatsApp da Defesa Civil: (61) 2034-4611",
+          "url": "https://wa.me/556120344611"
         },
         {
           "tipo": "site",
@@ -261,7 +281,7 @@
           "documento": "Mensagens de alerta da Defesa Civil",
           "trecho": "",
           "url": "https://carioca.rio/servicos/informacoes-sobre-as-mensagens-de-alerta-da-defesa-civil/",
-          "consultadoEm": "2026-11-11"
+          "consultadoEm": "2026-11-12"
         }
       ]
     },
@@ -269,21 +289,21 @@
       "id": "pedir-informacao",
       "area": "transversal",
       "titulo": "Pedir informação a um órgão público",
-      "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
-      "quemTemDireito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "resumo": "Como pedir dados e documentos públicos a qualquer órgão, sem precisar explicar o motivo.",
+      "quemTemDireito": "Qualquer pessoa. A Constituição garante o direito de receber informações dos órgãos públicos, e a Lei de Acesso à Informação (LAI) diz como pedir e em quanto tempo o órgão deve responder.",
       "requisitos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Sed do eiusmod tempor"
+        "Identificar-se no pedido",
+        "Dizer com clareza qual informação você quer",
+        "Não é preciso explicar o motivo do pedido"
       ],
       "documentos": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit"
+        "Os seus dados de identificação",
+        "A descrição da informação que você quer"
       ],
       "comoPedir": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        "Sed do eiusmod tempor incididunt ut labore.",
-        "Ut enim ad minim veniam, quis nostrud."
+        "Órgão da Prefeitura do Rio: faça o pedido pelo SIC, na Central 1746.",
+        "Órgão federal: faça o pedido pela plataforma Fala.BR.",
+        "O órgão tem até 20 dias para responder, prorrogáveis por mais 10, com justificativa."
       ],
       "orgaoResponsavel": "O órgão que tem a informação (Prefeitura pelo SIC da Central 1746; órgãos federais pelo Fala.BR)",
       "canais": [
@@ -309,9 +329,9 @@
         {
           "instituicao": "Presidência da República (Planalto)",
           "documento": "Lei de Acesso à Informação (Lei nº 12.527/2011)",
-          "trecho": "art. 10",
+          "trecho": "art. 10, caput e § 3º; art. 11, §§ 1º e 2º",
           "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
-          "consultadoEm": "2026-11-11"
+          "consultadoEm": "2026-11-12"
         }
       ]
     }
