@@ -1,5 +1,5 @@
 {
-  "_sobre": "Texto editorial em Lorem do tamanho previsto (limites em _max). Fontes reais; perguntas com _conferir precisam ter o artigo confirmado.",
+  "_sobre": "Texto editorial final (limites em _max). Perguntas x.1 a x.3 vêm do documento de conteúdo; x.4 a x.6 foram escritas pela equipe. Fontes reais; perguntas com _conferir precisam ter o artigo confirmado.",
   "_max": {
     "pergunta": 100,
     "opcoes": 60,

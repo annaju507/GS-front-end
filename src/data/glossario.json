@@ -1,5 +1,5 @@
 {
-  "_sobre": "Glossário. Nomes dos termos fixos; definição e exemplo carioca em Lorem do tamanho previsto (limites em _max). Fontes reais: texto da Constituição ou Glossário de Termos Legislativos do Congresso.",
+  "_sobre": "Glossário. Nomes dos termos fixos; definição e exemplo carioca com texto final (limites em _max). Fontes reais: texto da Constituição ou Glossário de Termos Legislativos do Congresso.",
   "_max": {
     "definicao": 220,
     "exemplo": 180

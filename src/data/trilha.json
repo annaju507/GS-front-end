@@ -1,5 +1,5 @@
 {
-  "_sobre": "Unidades da trilha 'política do zero'. Títulos fixos; descrições editoriais em Lorem até a redação final. Cada unidade disponível lista suas lições (src/data/licoes.json) e a busca da proposta real sugerida depois da conquista: a mais recente de deputados do RJ sobre o tema.",
+  "_sobre": "Unidades da trilha 'política do zero'. Títulos fixos; descrições editoriais com texto final. Cada unidade disponível lista suas lições (src/data/licoes.json) e a busca da proposta real sugerida depois da conquista: a mais recente de deputados do RJ sobre o tema.",
   "_max": {
     "descricao": 120
   },
