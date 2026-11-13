@@ -136,15 +136,15 @@
     {
       "id": "q-u3-1",
       "unidade": 3,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Quais são os três Poderes da República?",
       "opcoes": [
-        "Lorem ipsum dolor",
-        "Sit amet consectetur",
-        "Adipiscing elit sed"
+        "Federal, estadual e municipal",
+        "Legislativo, Executivo e Judiciário",
+        "Presidência, Congresso e Prefeitura"
       ],
       "correta": 1,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "A Constituição define três Poderes: Legislativo, Executivo e Judiciário, independentes e harmônicos entre si. Federal, estadual e municipal são as esferas de governo, outro assunto.",
+      "analogia": "É como num jogo: um cria as regras, outro joga e outro arbitra. A diferença é que os Poderes também se fiscalizam, e nenhum manda nos outros.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -157,15 +157,15 @@
     {
       "id": "q-u3-2",
       "unidade": 3,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Qual Poder tem como função principal fazer as leis?",
       "opcoes": [
-        "Eiusmod tempor incididunt",
-        "Ut labore et dolore",
-        "Magna aliqua enim"
+        "O Legislativo",
+        "O Executivo",
+        "O Judiciário"
       ],
       "correta": 0,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "Fazer leis é a função principal do Legislativo, que no nível federal é o Congresso Nacional. O Executivo também participa: o Presidente pode sancionar ou vetar um projeto.",
+      "analogia": "O Legislativo é como quem escreve o regulamento de um campeonato. A diferença é que a lei passa por debate e votação entre representantes eleitos.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -178,19 +178,19 @@
     {
       "id": "q-u3-3",
       "unidade": 3,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Quem chefia o Poder Executivo federal?",
       "opcoes": [
-        "Minim veniam quis",
-        "Nostrud exercitation",
-        "Ullamco laboris nisi"
+        "O presidente do Senado",
+        "O presidente do STF",
+        "O Presidente da República"
       ],
       "correta": 2,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "O Executivo federal é exercido pelo Presidente da República, com o auxílio dos ministros de Estado. Na cidade do Rio, quem chefia o Executivo é o prefeito.",
+      "analogia": "É como a direção de uma grande empresa, com um responsável para cada área. A diferença é que o Presidente é eleito e precisa seguir a Constituição e as leis.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 76",
+        "trecho": "art. 76; art. 29",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -199,19 +199,19 @@
     {
       "id": "q-u3-4",
       "unidade": 3,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Quais casas formam o Congresso Nacional?",
       "opcoes": [
-        "Lorem ipsum dolor",
-        "Sit amet consectetur",
-        "Adipiscing elit sed"
+        "O Senado e o Supremo Tribunal Federal",
+        "A Câmara Municipal e a Assembleia Legislativa",
+        "A Câmara dos Deputados e o Senado Federal"
       ],
       "correta": 2,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "O Congresso Nacional tem duas casas: a Câmara dos Deputados, que representa o povo, e o Senado Federal, que representa os estados e o Distrito Federal.",
+      "analogia": "É como uma casa de dois andares que precisam concordar. A diferença é que cada casa tem regras próprias e, em geral, um projeto passa pelas duas.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 44, caput",
+        "trecho": "arts. 44, 45 e 46",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -220,19 +220,19 @@
     {
       "id": "q-u3-5",
       "unidade": 3,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Qual destes órgãos faz parte do Poder Judiciário?",
       "opcoes": [
-        "Eiusmod tempor incididunt",
-        "Ut labore et dolore",
-        "Magna aliqua enim"
+        "O Tribunal de Contas da União",
+        "O Supremo Tribunal Federal",
+        "A Câmara dos Deputados"
       ],
       "correta": 1,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "O STF é um dos órgãos do Judiciário listados no art. 92. Apesar do nome, o Tribunal de Contas da União não é do Judiciário: ele auxilia o Congresso a fiscalizar as contas.",
+      "analogia": "Pense no STF como o árbitro final das dúvidas sobre a Constituição. A diferença é que ele não age por conta própria: precisa ser acionado por um processo.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 92",
+        "trecho": "arts. 92 e 71",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -241,19 +241,19 @@
     {
       "id": "q-u3-6",
       "unidade": 3,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Quem nomeia os ministros de Estado?",
       "opcoes": [
-        "Minim veniam quis",
-        "Nostrud exercitation",
-        "Ullamco laboris nisi"
+        "O Presidente da República",
+        "O Senado Federal",
+        "O Supremo Tribunal Federal"
       ],
       "correta": 0,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "Nomear e exonerar os ministros de Estado é uma atribuição do Presidente da República. Os ministros ajudam a dirigir áreas como saúde, educação e economia.",
+      "analogia": "É como quem monta uma equipe e escolhe cada responsável. A diferença é que os ministros também precisam seguir a Constituição e as leis, não só o chefe.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 84",
+        "trecho": "art. 84, inciso I",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },

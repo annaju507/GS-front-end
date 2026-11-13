@@ -104,26 +104,26 @@
       "id": "u3-l1",
       "unidade": 3,
       "ordem": 1,
-      "titulo": "Consectetur adipiscing",
+      "titulo": "Cada Poder, uma tarefa",
       "mascote": "capivara",
       "minutos": 3,
-      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "gancho": "Se uma só pessoa pudesse fazer as leis, aplicar e julgar, quem conferiria o trabalho dela?",
       "blocos": [
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum [[plenario|plenário]] dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          "texto": "A Constituição divide o poder do Estado em três. O Legislativo faz as leis. O Executivo governa e põe as leis em prática. O Judiciário julga os conflitos com base nas leis. Os três são independentes, mas precisam trabalhar em harmonia, e cada um ajuda a controlar os outros."
         },
         {
           "tipo": "exemplo",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+          "texto": "Num jogo no Maracanã, a federação define as regras, os times jogam e o árbitro resolve as dúvidas. A diferença é que, no país, um Poder também fiscaliza o outro, e nenhum manda nos demais."
         },
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+          "texto": "No nível federal, o Legislativo é o Congresso Nacional, onde as propostas podem ser votadas no [[plenario|plenário]]. O Executivo é chefiado pelo Presidente da República, com a ajuda dos ministros. Na cidade do Rio, a Câmara Municipal faz as leis e a Prefeitura governa. O município não tem Judiciário próprio."
         },
         {
           "tipo": "citacao",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "texto": "São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário.",
           "fonte": {
             "instituicao": "Presidência da República (Planalto)",
             "documento": "Constituição Federal de 1988",
@@ -136,7 +136,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 2º",
+        "trecho": "arts. 2º, 29, 44 e 76",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -150,30 +150,30 @@
       "id": "u3-l2",
       "unidade": 3,
       "ordem": 2,
-      "titulo": "Sed do eiusmod",
+      "titulo": "Os Poderes por dentro",
       "mascote": "capivara",
       "minutos": 3,
-      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "gancho": "O Congresso tem duas casas e o Judiciário tem vários tribunais. Quem é quem nessa história?",
       "blocos": [
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum [[comissao|comissão]] dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          "texto": "O Congresso Nacional tem duas casas: a Câmara dos Deputados, que representa o povo, e o Senado Federal, que representa os estados e o Distrito Federal. Antes da votação final, um projeto costuma passar por uma [[comissao|comissão]], um grupo menor de parlamentares que estuda o tema."
         },
         {
           "tipo": "exemplo",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+          "texto": "Numa escola de samba, cada ala ensaia a sua parte antes do desfile. A comissão é parecida: estuda um tema antes da votação geral. A diferença é que ela também vota e pode se opor ao projeto."
         },
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+          "texto": "O Presidente da República chefia o Executivo e nomeia os ministros, que cuidam de áreas como saúde e educação. O Judiciário tem vários órgãos, como o Supremo Tribunal Federal (STF), o Superior Tribunal de Justiça (STJ) e os tribunais de cada estado, como o Tribunal de Justiça do Rio de Janeiro."
         },
         {
           "tipo": "citacao",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "texto": "O Poder Legislativo é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal.",
           "fonte": {
             "instituicao": "Presidência da República (Planalto)",
             "documento": "Constituição Federal de 1988",
-            "trecho": "arts. 44, 76 e 92",
+            "trecho": "art. 44, caput",
             "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
             "consultadoEm": "2026-11-10"
           }
@@ -182,7 +182,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "arts. 44, 76 e 92",
+        "trecho": "arts. 44, 45, 46, 58, 76, 84 e 92",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
