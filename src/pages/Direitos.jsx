@@ -6,9 +6,6 @@ import { useTitulo } from '../hooks/useTitulo.js'
 import BalaoMascote from '../components/BalaoMascote.jsx'
 import Card from '../components/Card.jsx'
 import EtiquetaDireito from '../components/EtiquetaDireito.jsx'
-import ImagemComMascote from '../components/ImagemComMascote.jsx'
-import { CENA_DIREITOS } from '../components/cenasRio.js'
-
 const t = textos.direitos
 
 // Lista de direitos por área. Quem apresenta é a onça (confere fontes e canais oficiais).
@@ -18,13 +15,10 @@ export default function Direitos() {
 
   return (
     <div className="mx-auto flex max-w-leitura flex-col gap-6">
-      <div className="grid items-center gap-10 sm:grid-cols-[minmax(0,1fr)_minmax(0,14rem)]">
-        <header className="flex flex-col gap-3">
-          <h1>{t.titulo}</h1>
-          <p className="text-corpo">{t.intro}</p>
-        </header>
-        <ImagemComMascote {...CENA_DIREITOS} />
-      </div>
+      <header className="flex flex-col gap-3">
+        <h1>{t.titulo}</h1>
+        <p className="text-corpo">{t.intro}</p>
+      </header>
 
       <BalaoMascote mascote="onca" expressao="explicando">
         <p>{t.fala}</p>

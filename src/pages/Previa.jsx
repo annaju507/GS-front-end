@@ -11,9 +11,7 @@ import Botao from '../components/Botao.jsx'
 import Card from '../components/Card.jsx'
 import Etiqueta from '../components/Etiqueta.jsx'
 import EtiquetaDireito from '../components/EtiquetaDireito.jsx'
-import ImagemComMascote from '../components/ImagemComMascote.jsx'
 import ImagemRio from '../components/ImagemRio.jsx'
-import { CENA_AGORA, CENA_DIREITOS } from '../components/cenasRio.js'
 import NaoEncontrada from './NaoEncontrada.jsx'
 
 const t = textos.previa
@@ -94,13 +92,6 @@ function PreviaDireitos() {
 
 const CONTEUDO = { trilhas: PreviaTrilhas, agora: PreviaAgora, direitos: PreviaDireitos }
 
-// Ilustração do Rio ao lado do título. Trilhas não tem: as capas já ficam
-// nos cards das unidades.
-const CENA_DO_CABECALHO = {
-  agora: CENA_AGORA,
-  direitos: CENA_DIREITOS,
-}
-
 // Prévias públicas: uma amostra de cada área, sempre terminando no convite
 // para entrar. Nenhuma prévia dá acesso ao conteúdo interno.
 export default function Previa() {
@@ -128,16 +119,13 @@ export default function Previa() {
         </ul>
       </nav>
 
-      <div className="grid items-center gap-10 md:grid-cols-[minmax(0,1fr)_minmax(0,22rem)]">
-        <header className="flex max-w-leitura flex-col gap-3">
-          <p className="self-start rounded-full bg-lilas-claro px-3 py-1 font-titulo text-tag font-bold uppercase tracking-[0.05em] text-link">
-            {t.selo}
-          </p>
-          <h1>{t[area].titulo}</h1>
-          <p className="text-corpo">{t[area].intro}</p>
-        </header>
-        {CENA_DO_CABECALHO[area] && <ImagemComMascote {...CENA_DO_CABECALHO[area]} />}
-      </div>
+      <header className="flex max-w-leitura flex-col gap-3">
+        <p className="self-start rounded-full bg-lilas-claro px-3 py-1 font-titulo text-tag font-bold uppercase tracking-[0.05em] text-link">
+          {t.selo}
+        </p>
+        <h1>{t[area].titulo}</h1>
+        <p className="text-corpo">{t[area].intro}</p>
+      </header>
 
       <Conteudo />
 

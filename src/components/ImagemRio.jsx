@@ -7,7 +7,6 @@ const DIMENSOES = {
   'vista-baia': [1600, 900],
   'calcadao-copacabana': [1600, 960],
   'arcos-lapa': [1536, 1024],
-  'arcos-lapa-quadrado': [510, 508],
   'escadaria-selaron': [512, 509],
   'theatro-municipal': [511, 508],
   'bondinho-pao-de-acucar': [1586, 992],
