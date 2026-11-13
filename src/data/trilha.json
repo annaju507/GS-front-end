@@ -21,13 +21,6 @@
     },
     {
       "id": 2,
-      "titulo": "Democracia e Constituição",
-      "disponivel": false,
-      "descricao": "O que é democracia, o que a Constituição de 1988 garante e como ela pode ser mudada.",
-      "licoes": []
-    },
-    {
-      "id": 3,
       "titulo": "Os três Poderes",
       "disponivel": true,
       "descricao": "Quem faz as leis, quem governa e quem julga: como os três Poderes dividem o trabalho e se controlam.",
@@ -42,14 +35,7 @@
       }
     },
     {
-      "id": 4,
-      "titulo": "Quem faz o quê",
-      "disponivel": false,
-      "descricao": "Vereador, deputado, senador, prefeito, governador: o que cada cargo faz e quanto dura cada mandato.",
-      "licoes": []
-    },
-    {
-      "id": 5,
+      "id": 3,
       "titulo": "Esferas de governo",
       "disponivel": true,
       "descricao": "União, estado e município: quem cuida de quê, do ônibus à escola, e por que isso muda onde você deve pedir.",
@@ -64,14 +50,7 @@
       }
     },
     {
-      "id": 6,
-      "titulo": "Eleições e representação",
-      "disponivel": false,
-      "descricao": "Como funcionam as eleições, o que são votos válidos e como os votos viram vagas no Legislativo.",
-      "licoes": []
-    },
-    {
-      "id": 7,
+      "id": 4,
       "titulo": "Como nasce uma lei",
       "disponivel": true,
       "descricao": "O caminho de uma proposta até virar lei: quem pode propor, como é votada e o que acontece depois.",
@@ -83,6 +62,27 @@
         "siglaTipo": "PEC",
         "tema": "mudanças na Constituição (PEC)"
       }
+    },
+    {
+      "id": 5,
+      "titulo": "Democracia e Constituição",
+      "disponivel": false,
+      "descricao": "O que é democracia, o que a Constituição de 1988 garante e como ela pode ser mudada.",
+      "licoes": []
+    },
+    {
+      "id": 6,
+      "titulo": "Quem faz o quê",
+      "disponivel": false,
+      "descricao": "Vereador, deputado, senador, prefeito, governador: o que cada cargo faz e quanto dura cada mandato.",
+      "licoes": []
+    },
+    {
+      "id": 7,
+      "titulo": "Eleições e representação",
+      "disponivel": false,
+      "descricao": "Como funcionam as eleições, o que são votos válidos e como os votos viram vagas no Legislativo.",
+      "licoes": []
     },
     {
       "id": 8,

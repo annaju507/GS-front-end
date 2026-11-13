@@ -135,7 +135,7 @@
     },
     {
       "id": "q-u3-1",
-      "unidade": 3,
+      "unidade": 2,
       "pergunta": "Quais são os três Poderes da República?",
       "opcoes": [
         "Federal, estadual e municipal",
@@ -156,7 +156,7 @@
     },
     {
       "id": "q-u3-2",
-      "unidade": 3,
+      "unidade": 2,
       "pergunta": "Qual Poder tem como função principal fazer as leis?",
       "opcoes": [
         "O Legislativo",
@@ -177,7 +177,7 @@
     },
     {
       "id": "q-u3-3",
-      "unidade": 3,
+      "unidade": 2,
       "pergunta": "Quem chefia o Poder Executivo federal?",
       "opcoes": [
         "O presidente do Senado",
@@ -198,7 +198,7 @@
     },
     {
       "id": "q-u3-4",
-      "unidade": 3,
+      "unidade": 2,
       "pergunta": "Quais casas formam o Congresso Nacional?",
       "opcoes": [
         "O Senado e o Supremo Tribunal Federal",
@@ -219,7 +219,7 @@
     },
     {
       "id": "q-u3-5",
-      "unidade": 3,
+      "unidade": 2,
       "pergunta": "Qual destes órgãos faz parte do Poder Judiciário?",
       "opcoes": [
         "O Tribunal de Contas da União",
@@ -240,7 +240,7 @@
     },
     {
       "id": "q-u3-6",
-      "unidade": 3,
+      "unidade": 2,
       "pergunta": "Quem nomeia os ministros de Estado?",
       "opcoes": [
         "O Presidente da República",
@@ -261,7 +261,7 @@
     },
     {
       "id": "q-u5-1",
-      "unidade": 5,
+      "unidade": 3,
       "pergunta": "Como a Constituição organiza o país?",
       "opcoes": [
         "União e estados; os municípios dependem deles",
@@ -282,7 +282,7 @@
     },
     {
       "id": "q-u5-2",
-      "unidade": 5,
+      "unidade": 3,
       "pergunta": "Quem organiza o transporte coletivo de interesse local, como os ônibus da cidade?",
       "opcoes": [
         "O município",
@@ -303,7 +303,7 @@
     },
     {
       "id": "q-u5-3",
-      "unidade": 5,
+      "unidade": 3,
       "pergunta": "Quem atua prioritariamente na educação infantil e no ensino fundamental?",
       "opcoes": [
         "A União",
@@ -324,7 +324,7 @@
     },
     {
       "id": "q-u5-4",
-      "unidade": 5,
+      "unidade": 3,
       "pergunta": "Quem pode emitir moeda, o real, no Brasil?",
       "opcoes": [
         "Cada estado",
@@ -345,7 +345,7 @@
     },
     {
       "id": "q-u5-5",
-      "unidade": 5,
+      "unidade": 3,
       "pergunta": "Um estado pode ter a sua própria Constituição?",
       "opcoes": [
         "Não, só existe a Constituição Federal",
@@ -366,7 +366,7 @@
     },
     {
       "id": "q-u5-6",
-      "unidade": 5,
+      "unidade": 3,
       "pergunta": "Sobre que assuntos o município pode fazer leis?",
       "opcoes": [
         "Sobre assuntos de interesse local",
@@ -387,7 +387,7 @@
     },
     {
       "id": "q-u7-1",
-      "unidade": 7,
+      "unidade": 4,
       "pergunta": "O que significa a sigla PEC?",
       "opcoes": [
         "Projeto de Emenda ao Congresso",
@@ -408,7 +408,7 @@
     },
     {
       "id": "q-u7-2",
-      "unidade": 7,
+      "unidade": 4,
       "pergunta": "Depois que o Congresso aprova um projeto de lei, para onde ele vai?",
       "opcoes": [
         "Para o Presidente, que pode sancionar ou vetar",
@@ -429,7 +429,7 @@
     },
     {
       "id": "q-u7-3",
-      "unidade": 7,
+      "unidade": 4,
       "pergunta": "Um veto do Presidente pode ser derrubado?",
       "opcoes": [
         "Não, a decisão do Presidente é final",
@@ -450,7 +450,7 @@
     },
     {
       "id": "q-u7-4",
-      "unidade": 7,
+      "unidade": 4,
       "pergunta": "Quem pode apresentar um projeto de lei federal?",
       "opcoes": [
         "Só o Presidente da República",
@@ -471,7 +471,7 @@
     },
     {
       "id": "q-u7-5",
-      "unidade": 7,
+      "unidade": 4,
       "pergunta": "Um projeto aprovado na Câmara dos Deputados vai para onde?",
       "opcoes": [
         "Direto para o Presidente da República",
@@ -492,7 +492,7 @@
     },
     {
       "id": "q-u7-6",
-      "unidade": 7,
+      "unidade": 4,
       "pergunta": "Qual destes faz parte do processo legislativo previsto na Constituição?",
       "opcoes": [
         "A medida provisória",
