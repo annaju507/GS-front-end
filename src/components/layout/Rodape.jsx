@@ -32,13 +32,14 @@ const COLUNAS_INTERNAS = [
 const TITULO_COLUNA = 'font-titulo text-rotulo font-semibold text-texto'
 const LINK = 'inline-flex min-h-11 items-center gap-1.5 text-legenda text-texto-2 no-underline transition-colors duration-150 hover:text-texto hover:underline'
 
-// Rodapé em cartão índigo: marca e descrição à esquerda, colunas de links à
-// direita e o nome "Demokratos" grande e pontilhado na base (decorativo).
-// A classe tema-faixa troca os tokens de cor dentro do cartão, nos dois temas.
+// Rodapé índigo na largura toda da página: marca e descrição à esquerda,
+// colunas de links à direita e o nome "Demokratos" grande e pontilhado na
+// base (decorativo). O conteúdo fica centralizado na largura do site.
+// A classe tema-faixa troca os tokens de cor dentro do rodapé, nos dois temas.
 export default function Rodape() {
   return (
-    <footer className="mt-auto px-4 pb-4 pt-8 md:px-6 md:pb-6 lg:px-8">
-      <div className="tema-faixa mx-auto flex max-w-conteudo flex-col overflow-hidden rounded-modal bg-faixa">
+    <footer className="tema-faixa mt-auto overflow-hidden rounded-t-modal bg-faixa">
+      <div className="mx-auto flex max-w-conteudo flex-col">
         <div className="grid gap-10 px-6 pt-12 md:px-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)] lg:gap-16 lg:px-12 lg:pt-16">
           <div className="flex flex-col gap-5">
             <p className="font-titulo text-h3 font-extrabold text-texto">{textos.site.nome}</p>
