@@ -23,7 +23,7 @@
       "id": 2,
       "titulo": "Democracia e Constituição",
       "disponivel": false,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "descricao": "O que é democracia, o que a Constituição de 1988 garante e como ela pode ser mudada.",
       "licoes": []
     },
     {
@@ -45,7 +45,7 @@
       "id": 4,
       "titulo": "Quem faz o quê",
       "disponivel": false,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "descricao": "Vereador, deputado, senador, prefeito, governador: o que cada cargo faz e quanto dura cada mandato.",
       "licoes": []
     },
     {
@@ -67,14 +67,14 @@
       "id": 6,
       "titulo": "Eleições e representação",
       "disponivel": false,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "descricao": "Como funcionam as eleições, o que são votos válidos e como os votos viram vagas no Legislativo.",
       "licoes": []
     },
     {
       "id": 7,
       "titulo": "Como nasce uma lei",
       "disponivel": true,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "descricao": "O caminho de uma proposta até virar lei: quem pode propor, como é votada e o que acontece depois.",
       "licoes": [
         "u7-l1",
         "u7-l2"
@@ -88,7 +88,7 @@
       "id": 8,
       "titulo": "Fiscalização e informação",
       "disponivel": false,
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "descricao": "Como acompanhar o uso do dinheiro público e pedir informações a qualquer órgão do governo.",
       "licoes": []
     }
   ]

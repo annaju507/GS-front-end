@@ -388,19 +388,19 @@
     {
       "id": "q-u7-1",
       "unidade": 7,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "O que significa a sigla PEC?",
       "opcoes": [
-        "Lorem ipsum dolor",
-        "Sit amet consectetur",
-        "Adipiscing elit sed"
+        "Projeto de Emenda ao Congresso",
+        "Proposta de Emenda à Constituição",
+        "Plano de Execução Constitucional"
       ],
       "correta": 1,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "PEC é a Proposta de Emenda à Constituição, que pretende mudar o texto da Constituição. Ela é votada em dois turnos na Câmara e no Senado e precisa de três quintos dos votos.",
+      "analogia": "É como mudar o estatuto de um clube, que exige mais votos que uma decisão comum. A diferença é que alguns pontos da Constituição não podem ser abolidos.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 60",
+        "trecho": "art. 60, caput e § 2º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -409,19 +409,19 @@
     {
       "id": "q-u7-2",
       "unidade": 7,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Depois que o Congresso aprova um projeto de lei, para onde ele vai?",
       "opcoes": [
-        "Eiusmod tempor incididunt",
-        "Ut labore et dolore",
-        "Magna aliqua enim"
+        "Para o Presidente, que pode sancionar ou vetar",
+        "Direto para o Diário Oficial, já como lei",
+        "Para o STF, que decide se ele vira lei"
       ],
       "correta": 0,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "O projeto aprovado vai para o Presidente da República. Sancionar é concordar e transformar o projeto em lei; vetar é recusar, no todo ou em parte.",
+      "analogia": "É como um contrato que precisa de uma última assinatura. A diferença é que, se o Presidente vetar, o Congresso ainda pode derrubar o veto.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 66",
+        "trecho": "art. 66, caput e § 1º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -430,15 +430,15 @@
     {
       "id": "q-u7-3",
       "unidade": 7,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Um veto do Presidente pode ser derrubado?",
       "opcoes": [
-        "Minim veniam quis",
-        "Nostrud exercitation",
-        "Ullamco laboris nisi"
+        "Não, a decisão do Presidente é final",
+        "Sim, por decisão do STF",
+        "Sim, pelo Congresso Nacional"
       ],
       "correta": 2,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "O veto é analisado pelo Congresso em sessão conjunta. Se a maioria absoluta dos deputados e dos senadores votar contra o veto, ele é derrubado.",
+      "analogia": "É como um recurso contra uma decisão. A diferença é que quem decide sobre o veto são os parlamentares, em votação, e não um juiz.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -451,19 +451,19 @@
     {
       "id": "q-u7-4",
       "unidade": 7,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Quem pode apresentar um projeto de lei federal?",
       "opcoes": [
-        "Lorem ipsum dolor",
-        "Sit amet consectetur",
-        "Adipiscing elit sed"
+        "Só o Presidente da República",
+        "Só deputados e senadores",
+        "Parlamentares, o Presidente, tribunais e cidadãos"
       ],
       "correta": 2,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "Podem propor leis: deputados, senadores, comissões, o Presidente, o STF, os tribunais superiores, o Procurador-Geral da República e os cidadãos, por iniciativa popular.",
+      "analogia": "É como uma caixa de sugestões aberta a vários grupos. A diferença é que a proposta só vira lei se passar por todas as etapas de votação.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 61",
+        "trecho": "art. 61, caput e § 2º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -472,15 +472,15 @@
     {
       "id": "q-u7-5",
       "unidade": 7,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Um projeto aprovado na Câmara dos Deputados vai para onde?",
       "opcoes": [
-        "Eiusmod tempor incididunt",
-        "Ut labore et dolore",
-        "Magna aliqua enim"
+        "Direto para o Presidente da República",
+        "Para o Senado, que revisa o texto",
+        "Para a Câmara Municipal"
       ],
       "correta": 1,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "Um projeto aprovado em uma casa do Congresso é revisado pela outra. Se o Senado mudar o texto, ele volta para a Câmara analisar as mudanças.",
+      "analogia": "É como um texto revisado por outra pessoa antes da entrega. A diferença é que a revisão é feita por votação, e a casa revisora pode até rejeitar o projeto.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -493,15 +493,15 @@
     {
       "id": "q-u7-6",
       "unidade": 7,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Qual destes faz parte do processo legislativo previsto na Constituição?",
       "opcoes": [
-        "Minim veniam quis",
-        "Nostrud exercitation",
-        "Ullamco laboris nisi"
+        "A medida provisória",
+        "O decreto de um prefeito",
+        "A portaria de um ministério"
       ],
       "correta": 0,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "A Constituição lista o processo legislativo: emendas, leis complementares e ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções.",
+      "analogia": "É como um cardápio fixo: só valem os pratos da lista. A diferença é que cada tipo de norma tem regras próprias para ser criado e votado.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",

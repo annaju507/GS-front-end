@@ -288,30 +288,30 @@
       "id": "u7-l1",
       "unidade": 7,
       "ordem": 1,
-      "titulo": "Magna aliqua enim",
+      "titulo": "Do projeto à votação",
       "mascote": "capivara",
       "minutos": 3,
-      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "gancho": "Você sabe quem pode apresentar uma proposta de lei no Congresso? A lista é maior do que parece.",
       "blocos": [
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum [[pec|PEC]] e [[projeto-de-lei|projeto de lei]] dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          "texto": "Toda lei começa como uma proposta. A mais comum é o [[projeto-de-lei|projeto de lei]], que pode ser apresentado por deputados, senadores, pelo Presidente da República, por alguns tribunais e pelos cidadãos. Para mudar a Constituição, o caminho é outro: a [[pec|PEC]], Proposta de Emenda à Constituição."
         },
         {
           "tipo": "exemplo",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+          "texto": "Pense numa ideia para melhorar a sua rua: ela vira um pedido por escrito, é discutida e votada na associação de moradores. A diferença é que um projeto de lei segue etapas definidas na Constituição."
         },
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+          "texto": "A PEC tem regras mais rígidas que um projeto de lei. Ela é votada duas vezes na Câmara e duas no Senado, e só passa com três quintos dos votos em cada votação. Alguns pontos não podem ser abolidos nem por PEC, como os direitos e garantias individuais e o voto direto, secreto, universal e periódico."
         },
         {
           "tipo": "citacao",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "texto": "A proposta será discutida e votada em cada Casa do Congresso Nacional, em dois turnos, considerando-se aprovada se obtiver, em ambos, três quintos dos votos (...).",
           "fonte": {
             "instituicao": "Presidência da República (Planalto)",
             "documento": "Constituição Federal de 1988",
-            "trecho": "arts. 59 a 61",
+            "trecho": "art. 60, § 2º",
             "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
             "consultadoEm": "2026-11-10"
           }
@@ -320,7 +320,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "arts. 59 a 61",
+        "trecho": "art. 59; art. 60, §§ 2º e 4º; art. 61",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -334,30 +334,30 @@
       "id": "u7-l2",
       "unidade": 7,
       "ordem": 2,
-      "titulo": "Minim veniam quis",
+      "titulo": "Sanção, veto e lei",
       "mascote": "capivara",
       "minutos": 3,
-      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "gancho": "Uma proposta pode ser aprovada no Congresso e, mesmo assim, não virar lei. Como isso é possível?",
       "blocos": [
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum [[sancao|sanção]] e [[veto|veto]] dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          "texto": "Depois de aprovado pelas duas casas do Congresso, o projeto de lei vai para o Presidente da República. Ele pode dar a [[sancao|sanção]], ou seja, concordar e transformar o projeto em lei, ou aplicar o [[veto|veto]], recusando o texto inteiro ou só uma parte dele."
         },
         {
           "tipo": "exemplo",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+          "texto": "Imagine uma obra no prédio aprovada em assembleia, que ainda precisa da assinatura do síndico para começar. A diferença é que, no país, se houver veto, o Congresso ainda pode derrubá-lo."
         },
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+          "texto": "O Presidente tem 15 dias úteis para decidir. Se ficar em silêncio, o projeto é sancionado. Se houver veto, o Congresso o analisa em sessão conjunta e pode derrubá-lo pela maioria absoluta de deputados e senadores. Na cidade do Rio, é parecido: o prefeito sanciona ou veta o que a Câmara Municipal aprova."
         },
         {
           "tipo": "citacao",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "texto": "A Casa na qual tenha sido concluída a votação enviará o projeto de lei ao Presidente da República, que, aquiescendo, o sancionará.",
           "fonte": {
             "instituicao": "Presidência da República (Planalto)",
             "documento": "Constituição Federal de 1988",
-            "trecho": "arts. 64 a 69",
+            "trecho": "art. 66, caput",
             "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
             "consultadoEm": "2026-11-10"
           }
@@ -366,7 +366,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "arts. 64 a 69",
+        "trecho": "art. 65; art. 66, caput e §§ 1º, 3º e 4º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
