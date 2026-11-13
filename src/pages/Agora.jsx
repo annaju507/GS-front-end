@@ -17,6 +17,8 @@ import EstadoCarregando from '../components/EstadoCarregando.jsx'
 import EstadoErro from '../components/EstadoErro.jsx'
 import EstadoVazio from '../components/EstadoVazio.jsx'
 import FiltroAreas from '../components/FiltroAreas.jsx'
+import ImagemComMascote from '../components/ImagemComMascote.jsx'
+import { CENA_AGORA } from '../components/cenasRio.js'
 
 const t = textos.agora
 
@@ -116,10 +118,13 @@ export default function Agora() {
 
   return (
     <div className="mx-auto flex max-w-leitura flex-col gap-6">
-      <header className="flex flex-col gap-3">
-        <h1>{t.titulo}</h1>
-        <p className="text-corpo">{t.intro}</p>
-      </header>
+      <div className="grid items-center gap-8 sm:grid-cols-[minmax(0,1fr)_minmax(0,16rem)]">
+        <header className="flex flex-col gap-3">
+          <h1>{t.titulo}</h1>
+          <p className="text-corpo">{t.intro}</p>
+        </header>
+        <ImagemComMascote {...CENA_AGORA} />
+      </div>
 
       <BalaoMascote mascote="arara" expressao="explicando">
         <p>{t.fala}</p>

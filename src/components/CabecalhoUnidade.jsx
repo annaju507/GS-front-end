@@ -2,6 +2,7 @@ import { Link } from 'react-router'
 import { BookA, Lock } from 'lucide-react'
 import textos from '../data/textos.json'
 import { preencher } from '../domain/texto.js'
+import ImagemRio from './ImagemRio.jsx'
 
 const t = textos.trilha
 
@@ -10,7 +11,8 @@ const t = textos.trilha
 export function CabecalhoUnidade({ unidade }) {
   return (
     <div className="flex items-center justify-between gap-3 rounded-card bg-marca-botao p-4 text-marca-botao-texto shadow-[0_0.25rem_0_var(--marca-botao-degrau)] md:p-5">
-      <div>
+      {unidade.capa && <ImagemRio nome={unidade.capa} className="size-16 shrink-0 rounded-card-pequeno md:size-20" />}
+      <div className="flex-1">
         <p className="font-titulo text-tag font-bold uppercase tracking-[0.05em]">{preencher(t.unidade, { numero: unidade.id })}</p>
         <h2 className="text-h3 font-extrabold text-marca-botao-texto">{unidade.titulo}</h2>
       </div>

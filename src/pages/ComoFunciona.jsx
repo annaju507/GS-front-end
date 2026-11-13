@@ -4,6 +4,7 @@ import { MASCOTES } from '../domain/mascotes.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Botao from '../components/Botao.jsx'
 import Card from '../components/Card.jsx'
+import ImagemComMascote from '../components/ImagemComMascote.jsx'
 import Mascote from '../components/Mascote.jsx'
 
 const t = textos.comoFunciona
@@ -24,6 +25,17 @@ export default function ComoFunciona() {
         <h1>{t.titulo}</h1>
         <p className="text-corpo">{t.intro}</p>
       </header>
+
+      {/* Arcos da Lapa: um arco depois do outro, como os passos do site. O
+          Caramelo (o companheiro que ajuda a navegar) apresenta o caminho. */}
+      <ImagemComMascote
+        imagem="arcos-lapa"
+        mascote="caramelo"
+        expressao="explicando"
+        largura={128}
+        posicaoMascote="-bottom-6 right-2 md:right-8"
+        classeImagem="h-48 object-[center_40%] sm:h-64 md:h-80"
+      />
 
       {SECOES.map(({ chave, Icone, mascote }, indice) => (
         <section

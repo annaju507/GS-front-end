@@ -7,6 +7,8 @@ import { useTitulo } from '../hooks/useTitulo.js'
 import BalaoMascote from '../components/BalaoMascote.jsx'
 import CampoTexto from '../components/CampoTexto.jsx'
 import EstadoVazio from '../components/EstadoVazio.jsx'
+import ImagemComMascote from '../components/ImagemComMascote.jsx'
+import { CENA_GLOSSARIO } from '../components/cenasRio.js'
 
 const t = textos.glossario
 
@@ -17,7 +19,8 @@ export default function Glossario() {
   const { busca, setBusca, grupos, encontrados, total } = useGlossario()
 
   return (
-    <div className="mx-auto flex max-w-leitura flex-col gap-6">
+    <div className="mx-auto grid max-w-conteudo justify-center gap-12 lg:grid-cols-[minmax(0,45rem)_16rem]">
+    <div className="flex min-w-0 flex-col gap-6">
       <header className="flex flex-col gap-3">
         <h1>{t.titulo}</h1>
         <p className="text-corpo">{t.intro}</p>
@@ -75,6 +78,13 @@ export default function Glossario() {
           </section>
         ))
       )}
+    </div>
+
+      {/* Palmeiras do Jardim Botânico: o cantinho de estudo da capivara.
+          Só em telas largas, numa coluna ao lado da lista. */}
+      <aside aria-hidden="true" className="hidden lg:block">
+        <ImagemComMascote {...CENA_GLOSSARIO} className="sticky top-10" />
+      </aside>
     </div>
   )
 }

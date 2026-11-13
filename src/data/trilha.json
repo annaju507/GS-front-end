@@ -1,5 +1,5 @@
 {
-  "_sobre": "Unidades da trilha 'política do zero'. Títulos fixos; descrições editoriais com texto final. Cada unidade disponível lista suas lições (src/data/licoes.json) e a busca da proposta real sugerida depois da conquista: a mais recente de deputados do RJ sobre o tema.",
+  "_sobre": "Unidades da trilha 'política do zero'. Títulos fixos; descrições editoriais com texto final. Cada unidade disponível lista suas lições (src/data/licoes.json) e a busca da proposta real sugerida depois da conquista: a mais recente de deputados do RJ sobre o tema. Campo capa: nome da ilustração do Rio (src/assets/rio) mostrada no card da unidade.",
   "_max": {
     "descricao": 120
   },
@@ -17,7 +17,8 @@
         "siglaTipo": "PL",
         "keywords": "eleitoral",
         "tema": "eleições"
-      }
+      },
+      "capa": "escadaria-selaron"
     },
     {
       "id": 2,
@@ -32,7 +33,8 @@
         "siglaTipo": "PL",
         "keywords": "tribunal",
         "tema": "tribunais e Justiça"
-      }
+      },
+      "capa": "theatro-municipal"
     },
     {
       "id": 3,
@@ -47,7 +49,8 @@
         "siglaTipo": "PL",
         "keywords": "municípios",
         "tema": "municípios"
-      }
+      },
+      "capa": "bondinho-pao-de-acucar"
     },
     {
       "id": 4,
@@ -61,7 +64,8 @@
       "propostaSugerida": {
         "siglaTipo": "PEC",
         "tema": "mudanças na Constituição (PEC)"
-      }
+      },
+      "capa": "museu-do-amanha"
     },
     {
       "id": 5,
