@@ -19,8 +19,8 @@
         "obstrucao",
         "quorum"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Na votação de uma proposta, é quando o parlamentar está presente, mas não vota sim nem não. A abstenção fica registrada e é diferente de ausência. Nas eleições, a palavra indica o eleitor que não foi votar.",
+      "exemplo": "Numa votação nominal na Câmara Municipal do Rio, o registro mostra quem votou sim, quem votou não e quem se absteve. Quem faltou aparece como ausente."
     },
     {
       "id": "comissao",
@@ -28,7 +28,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 58",
+        "trecho": "art. 58, § 2º, incisos I e II",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -36,8 +36,8 @@
         "plenario",
         "projeto-de-lei"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Grupo menor de parlamentares que analisa propostas sobre um tema, como saúde ou educação, antes da votação final. Pode fazer audiências públicas e, em alguns casos, aprovar um projeto sem passar pelo plenário.",
+      "exemplo": "Na Câmara Municipal do Rio, um projeto sobre escolas costuma passar por uma comissão ligada à educação antes de chegar à votação de todos os vereadores."
     },
     {
       "id": "iniciativa-popular",
@@ -45,15 +45,15 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 14, inciso III, e art. 61, § 2º",
+        "trecho": "art. 14, inciso III; art. 29, inciso XIII; art. 61, § 2º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
       "relacionados": [
         "projeto-de-lei"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Direito de os próprios eleitores apresentarem um projeto de lei. No Congresso, é preciso reunir assinaturas de pelo menos 1% dos eleitores do país, distribuídos por no mínimo cinco estados.",
+      "exemplo": "Para propor uma lei para a cidade do Rio, a Constituição exige a assinatura de pelo menos 5% do eleitorado do município."
     },
     {
       "id": "legislatura",
@@ -68,8 +68,8 @@
       "relacionados": [
         "mandato"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Período de quatro anos de trabalho do Legislativo, entre uma eleição e outra. No Congresso, a legislatura coincide com o mandato dos deputados federais.",
+      "exemplo": "Os vereadores do Rio eleitos numa mesma eleição trabalham juntos durante uma legislatura de quatro anos na Câmara Municipal."
     },
     {
       "id": "mandato",
@@ -77,15 +77,15 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 44, parágrafo único, e art. 46, § 1º",
+        "trecho": "art. 44, parágrafo único; art. 46, § 1º; art. 29, inciso I",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
       "relacionados": [
         "legislatura"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Período em que uma pessoa eleita ocupa o cargo e representa quem votou. Deputados e vereadores têm mandato de quatro anos; senadores, de oito anos.",
+      "exemplo": "O prefeito do Rio e os vereadores da cidade são eleitos na mesma eleição e têm mandato de quatro anos."
     },
     {
       "id": "medida-provisoria",
@@ -94,15 +94,15 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 62",
+        "trecho": "art. 62, caput e § 3º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
       "relacionados": [
         "projeto-de-lei"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Norma com força de lei que o Presidente pode editar em casos de relevância e urgência. Ela vale na hora, mas o Congresso precisa votá-la em até 120 dias (60 dias, prorrogáveis por mais 60), ou ela perde a validade.",
+      "exemplo": "Uma MP vale em todo o país, inclusive no Rio, desde que é publicada. Se o Congresso não a aprovar a tempo, ela deixa de valer."
     },
     {
       "id": "obstrucao",
@@ -118,8 +118,8 @@
         "abstencao",
         "quorum"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Estratégia prevista nas regras das casas legislativas em que parlamentares tentam atrasar ou impedir uma votação, por exemplo deixando de registrar presença para que não se alcance o quórum.",
+      "exemplo": "Quando vereadores do Rio entram em obstrução, eles não estão votando contra: estão usando as regras da Câmara Municipal para adiar a decisão."
     },
     {
       "id": "orcamento",
@@ -128,13 +128,13 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 165",
+        "trecho": "art. 165, inciso III e § 5º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
       "relacionados": [],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Plano que mostra quanto dinheiro o governo espera arrecadar e quanto pode gastar em cada área no ano seguinte. É enviado pelo Executivo e votado pelo Legislativo como lei: a Lei Orçamentária Anual (LOA).",
+      "exemplo": "O orçamento da cidade do Rio é proposto pela Prefeitura e votado pela Câmara Municipal. Ele define, por exemplo, quanto pode ser gasto com saúde e educação."
     },
     {
       "id": "pec",
@@ -143,7 +143,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 60",
+        "trecho": "art. 60, §§ 2º e 3º; art. 29, caput",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -151,8 +151,8 @@
         "projeto-de-lei",
         "promulgacao"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Proposta para mudar o texto da Constituição. É votada em dois turnos na Câmara e no Senado e só é aprovada com três quintos dos votos. Depois, é promulgada pelo próprio Congresso, sem sanção do Presidente.",
+      "exemplo": "Uma PEC aprovada vale para todo o país. Para mudar a Lei Orgânica do Rio, o caminho é outro: uma emenda votada pela Câmara Municipal."
     },
     {
       "id": "plenario",
@@ -168,8 +168,8 @@
         "comissao",
         "quorum"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Reunião de todos os parlamentares de uma casa legislativa. É no plenário que a maioria das propostas tem a votação final. A palavra também indica o salão onde as sessões acontecem.",
+      "exemplo": "O plenário da Câmara Municipal do Rio fica no Palácio Pedro Ernesto, na Cinelândia, onde os vereadores se reúnem para votar."
     },
     {
       "id": "projeto-de-lei",
@@ -187,8 +187,8 @@
         "veto",
         "comissao"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Proposta de uma lei nova ou de mudança numa lei que já existe. Precisa ser discutida e aprovada pelo Legislativo e, depois, sancionada pelo chefe do Executivo para virar lei.",
+      "exemplo": "Um projeto de lei municipal no Rio é votado pela Câmara Municipal e depois vai para o prefeito, que pode sancionar ou vetar."
     },
     {
       "id": "promulgacao",
@@ -196,7 +196,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 66, §§ 5º e 7º",
+        "trecho": "art. 66, § 7º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -204,8 +204,8 @@
         "sancao",
         "pec"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Ato que declara oficialmente que uma lei existe e deve ser cumprida. Vem depois da sanção. Se o Presidente não promulgar no prazo, o presidente do Senado deve fazer isso.",
+      "exemplo": "Uma lei municipal do Rio passa a ser conhecida oficialmente depois de promulgada e publicada no Diário Oficial do Município."
     },
     {
       "id": "quorum",
@@ -221,8 +221,8 @@
         "plenario",
         "abstencao"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Número mínimo de parlamentares presentes ou de votos para que uma sessão aconteça ou uma decisão seja tomada. Em regra, decide a maioria dos votos, com a maioria absoluta dos membros presente.",
+      "exemplo": "Se poucos vereadores estiverem presentes na Câmara Municipal do Rio, a votação pode ser adiada por falta de quórum."
     },
     {
       "id": "sancao",
@@ -230,7 +230,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 66",
+        "trecho": "art. 66, caput e § 3º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -238,8 +238,8 @@
         "veto",
         "promulgacao"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Ato em que o chefe do Executivo concorda com um projeto aprovado pelo Legislativo e o transforma em lei. Pode ser expressa, com assinatura, ou tácita, quando o Presidente não se manifesta em 15 dias úteis.",
+      "exemplo": "Quando a Câmara Municipal do Rio aprova um projeto de lei, quem sanciona é o prefeito."
     },
     {
       "id": "veto",
@@ -254,8 +254,8 @@
       "relacionados": [
         "sancao"
       ],
-      "definicao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "exemplo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "definicao": "Recusa do chefe do Executivo a um projeto aprovado, no todo (veto total) ou em parte (veto parcial). O Legislativo pode manter ou derrubar o veto em votação.",
+      "exemplo": "Se o prefeito do Rio vetar um projeto, os vereadores podem votar na Câmara Municipal para derrubar o veto."
     }
   ]
 }
