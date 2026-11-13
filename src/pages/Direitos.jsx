@@ -21,7 +21,7 @@ export default function Direitos() {
         <p className="text-corpo">{t.intro}</p>
       </header>
 
-      <BalaoMascote mascote="caramelo" expressao="explicando">
+      <BalaoMascote mascote="onca" expressao="explicando">
         <p>{t.fala}</p>
       </BalaoMascote>
 
