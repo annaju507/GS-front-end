@@ -262,15 +262,15 @@
     {
       "id": "q-u5-1",
       "unidade": 5,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Como a Constituição organiza o país?",
       "opcoes": [
-        "Lorem ipsum dolor",
-        "Sit amet consectetur",
-        "Adipiscing elit sed"
+        "União e estados; os municípios dependem deles",
+        "União, estados, DF e municípios, todos autônomos",
+        "Em regiões comandadas pelo governo federal"
       ],
       "correta": 1,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "A Constituição organiza o país em União, estados, Distrito Federal e municípios. Todos têm autonomia: governo, leis e orçamento próprios, dentro das regras constitucionais.",
+      "analogia": "É como um prédio em que cada apartamento tem a sua chave. A diferença é que as esferas também dividem tarefas e precisam cooperar entre si.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -283,15 +283,15 @@
     {
       "id": "q-u5-2",
       "unidade": 5,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Quem organiza o transporte coletivo de interesse local, como os ônibus da cidade?",
       "opcoes": [
-        "Eiusmod tempor incididunt",
-        "Ut labore et dolore",
-        "Magna aliqua enim"
+        "O município",
+        "O governo federal",
+        "O governo do estado"
       ],
       "correta": 0,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "O transporte coletivo de interesse local é um serviço do município. No Rio, os ônibus municipais e o BRT são da Prefeitura; trens e metrô ficam com o governo do estado.",
+      "analogia": "É como cada prédio cuidar do próprio elevador. A diferença é que o município pode prestar o serviço direto ou por concessão a empresas.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -304,19 +304,19 @@
     {
       "id": "q-u5-3",
       "unidade": 5,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Quem atua prioritariamente na educação infantil e no ensino fundamental?",
       "opcoes": [
-        "Minim veniam quis",
-        "Nostrud exercitation",
-        "Ullamco laboris nisi"
+        "A União",
+        "Os estados",
+        "Os municípios"
       ],
       "correta": 2,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "A Constituição diz que os municípios atuam com prioridade na educação infantil e no ensino fundamental. Os estados priorizam o ensino fundamental e o médio.",
+      "analogia": "É como dividir as etapas de uma obra entre equipes. A diferença é que as esferas colaboram, e a União também ajuda com recursos.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 211, § 2º",
+        "trecho": "art. 211, §§ 2º e 3º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -325,19 +325,19 @@
     {
       "id": "q-u5-4",
       "unidade": 5,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Quem pode emitir moeda, o real, no Brasil?",
       "opcoes": [
-        "Lorem ipsum dolor",
-        "Sit amet consectetur",
-        "Adipiscing elit sed"
+        "Cada estado",
+        "Cada município",
+        "A União"
       ],
       "correta": 2,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "Emitir moeda é competência da União, assim como outras tarefas nacionais, como manter o serviço postal. Por isso o real é o mesmo em todo o país.",
+      "analogia": "É como as fichas de uma festa, que só o caixa central emite. A diferença é que a emissão de moeda segue leis e é feita pelo Banco Central.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 21",
+        "trecho": "art. 21, incisos VII e X; art. 164, caput",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -346,19 +346,19 @@
     {
       "id": "q-u5-5",
       "unidade": 5,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Um estado pode ter a sua própria Constituição?",
       "opcoes": [
-        "Eiusmod tempor incididunt",
-        "Ut labore et dolore",
-        "Magna aliqua enim"
+        "Não, só existe a Constituição Federal",
+        "Sim, desde que respeite a Constituição Federal",
+        "Sim, e ela vale mais que a Federal"
       ],
       "correta": 1,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "Cada estado se organiza pela sua Constituição e pelas suas leis, respeitando a Constituição Federal. A do estado do Rio de Janeiro foi promulgada em 1989.",
+      "analogia": "É como o regimento de um bloco dentro de um condomínio. A diferença é que, se houver conflito, vale a Constituição Federal.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 25",
+        "trecho": "art. 25, caput",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -367,19 +367,19 @@
     {
       "id": "q-u5-6",
       "unidade": 5,
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut?",
+      "pergunta": "Sobre que assuntos o município pode fazer leis?",
       "opcoes": [
-        "Minim veniam quis",
-        "Nostrud exercitation",
-        "Ullamco laboris nisi"
+        "Sobre assuntos de interesse local",
+        "Sobre qualquer assunto, sem limite",
+        "Só sobre impostos federais"
       ],
       "correta": 0,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-      "analogia": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "explicacao": "O município faz leis sobre assuntos de interesse local e tem a sua Lei Orgânica, uma espécie de Constituição da cidade. No Rio, essas leis são votadas pela Câmara Municipal.",
+      "analogia": "É como a associação de moradores decidindo coisas do bairro. A diferença é que a lei municipal é obrigatória para todos e precisa respeitar a Constituição.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 30, inciso I",
+        "trecho": "art. 29, caput; art. 30, inciso I",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },

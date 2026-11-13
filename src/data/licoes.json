@@ -196,30 +196,30 @@
       "id": "u5-l1",
       "unidade": 5,
       "ordem": 1,
-      "titulo": "Tempor incididunt",
+      "titulo": "Quem cuida de quê",
       "mascote": "capivara",
       "minutos": 3,
-      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "gancho": "Ônibus, escola do bairro, policiamento: você sabe qual governo cuida de cada um?",
       "blocos": [
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum [[orcamento|orçamento]] dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          "texto": "O Brasil é uma federação: o poder é dividido entre a União (o governo federal), os estados, o Distrito Federal e os municípios. Todos têm autonomia. Elegem seus governantes, fazem suas leis e cuidam do próprio [[orcamento|orçamento]], sempre dentro das regras da Constituição."
         },
         {
           "tipo": "exemplo",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+          "texto": "No Rio, os ônibus municipais e o BRT são responsabilidade da Prefeitura. Já os trens e o metrô são do governo do estado. Por isso, uma reclamação sobre cada um vai para um lugar diferente."
         },
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+          "texto": "A Constituição diz o que cabe a cada esfera. O município cuida dos serviços de interesse local, como o transporte coletivo da cidade, e atua com prioridade na educação infantil e no ensino fundamental. Os estados priorizam o ensino fundamental e o médio. Algumas tarefas, como cuidar da saúde, são das três esferas."
         },
         {
           "tipo": "citacao",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "texto": "A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos (...).",
           "fonte": {
             "instituicao": "Presidência da República (Planalto)",
             "documento": "Constituição Federal de 1988",
-            "trecho": "art. 18",
+            "trecho": "art. 18, caput",
             "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
             "consultadoEm": "2026-11-10"
           }
@@ -228,7 +228,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "art. 18",
+        "trecho": "art. 18; art. 23, inciso II; art. 30, inciso V; art. 211, §§ 2º e 3º",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
@@ -242,30 +242,30 @@
       "id": "u5-l2",
       "unidade": 5,
       "ordem": 2,
-      "titulo": "Labore et dolore",
+      "titulo": "Leis de cada esfera",
       "mascote": "capivara",
       "minutos": 3,
-      "gancho": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et?",
+      "gancho": "Por que a lei de trânsito vale no país inteiro, mas as regras da feira do bairro são decididas na cidade?",
       "blocos": [
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum [[legislatura|legislatura]] dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          "texto": "Cada esfera faz leis sobre o que a Constituição atribui a ela. A União legisla sobre temas nacionais, como trânsito e direito penal. Cada estado tem a sua própria Constituição: a do Rio de Janeiro é de 1989. E cada município tem a sua Lei Orgânica e faz leis sobre assuntos de interesse local."
         },
         {
           "tipo": "exemplo",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+          "texto": "Num condomínio, há a convenção, que vale para todos, e as regras de cada bloco, que não podem contrariar a convenção. A diferença é que, no país, a Constituição Federal fica acima de todas as leis."
         },
         {
           "tipo": "texto",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+          "texto": "Na cidade do Rio, as leis municipais são feitas pela Câmara Municipal. Cada [[legislatura|legislatura]] dura quatro anos, o mesmo tempo do mandato dos vereadores. As leis estaduais são feitas pela Assembleia Legislativa do Estado do Rio de Janeiro (Alerj), e as federais, pelo Congresso Nacional."
         },
         {
           "tipo": "citacao",
-          "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "texto": "Compete aos Municípios: (...) legislar sobre assuntos de interesse local.",
           "fonte": {
             "instituicao": "Presidência da República (Planalto)",
             "documento": "Constituição Federal de 1988",
-            "trecho": "arts. 21 a 30",
+            "trecho": "art. 30, inciso I",
             "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
             "consultadoEm": "2026-11-10"
           }
@@ -274,7 +274,7 @@
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
-        "trecho": "arts. 21 a 30",
+        "trecho": "arts. 21, 22, 25, 27, 29 e 30",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
         "consultadoEm": "2026-11-10"
       },
