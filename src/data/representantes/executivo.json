@@ -9,10 +9,11 @@
       "cargo": "prefeito",
       "situacao": "emExercicio",
       "mandato": "Assumiu em 20/03/2026; mandato até 2028",
-      "foto": null,
+      "foto": "/representantes/executivo/prefeito.jpg",
       "url": "https://prefeitura.rio/",
       "instituicao": "Prefeitura da Cidade do Rio de Janeiro",
-      "_conferir": "Confirmar no site oficial da Prefeitura."
+      "_conferir": "Confirmar no site oficial da Prefeitura.",
+      "fotoFonte": "Foto oficial do perfil na ALERJ, de quando era deputado estadual (https://www.alerj.rj.gov.br/Uploads/PerfilDeputado/Imagem/media_02072024_162217cavalieri.jpg), consultada em 13/11/2026"
     },
     {
       "id": "exec-governador",
