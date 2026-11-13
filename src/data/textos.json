@@ -147,24 +147,24 @@
     },
     "cards": {
       "simples": "Card simples",
-      "simplesTexto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "simplesTexto": "Um card simples agrupa um conteúdo curto.",
       "clicavel": "Card clicável",
       "clicavelTexto": "A área inteira é um link.",
       "destaque": "Card de destaque",
       "destaqueTexto": "Usado na lição atual."
     },
     "balao": {
-      "fala": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "fala": "Vamos entender isso juntos? Cada lição leva poucos minutos.",
       "_max": {
         "fala": 140
       }
     },
     "quiz": {
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod?",
+      "pergunta": "Quais são os três Poderes da República?",
       "opcoes": [
-        "Lorem ipsum dolor",
-        "Sit amet consectetur",
-        "Adipiscing elit sed"
+        "Legislativo, Executivo e Judiciário",
+        "Federal, estadual e municipal",
+        "Câmara, Senado e Prefeitura"
       ],
       "correta": 0,
       "acertou": "Mandou bem!",
@@ -183,7 +183,7 @@
       "consultadoEm": "2026-11-10"
     },
     "exemplo": {
-      "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "texto": "No prédio, o síndico cuida do dia a dia e a assembleia decide as regras. A diferença é que, no país, as regras principais estão na Constituição.",
       "_max": {
         "texto": 220
       }
@@ -303,14 +303,14 @@
     "teste": {
       "titulo": "Teste rápido",
       "intro": "Responda uma pergunta e veja como o quiz funciona.",
-      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor?",
+      "pergunta": "Quem organiza os ônibus que circulam dentro da cidade do Rio?",
       "opcoes": [
-        "Lorem ipsum dolor sit",
-        "Amet consectetur adipiscing",
-        "Elit sed do eiusmod"
+        "O governo federal",
+        "O município, pela Prefeitura",
+        "O governo do estado"
       ],
       "correta": 1,
-      "explicacao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "explicacao": "A Constituição diz que o transporte coletivo de interesse local, como os ônibus da cidade, é responsabilidade do município. No Rio, isso cabe à Prefeitura.",
       "fonte": {
         "instituicao": "Presidência da República (Planalto)",
         "documento": "Constituição Federal de 1988",
@@ -426,23 +426,25 @@
     "agora": {
       "titulo": "Prévia do Agora",
       "intro": "Propostas que estão sendo discutidas e afetam quem mora no Rio, explicadas em linguagem simples.",
-      "nota": "Exemplos ilustrativos. Dentro do site, as propostas vêm da Câmara dos Deputados, com a fonte oficial.",
+      "nota": "Exemplos reais da Câmara dos Deputados, consultados em 12/11/2026. A situação de cada proposta pode ter mudado.",
       "_max": {
         "titulo": 90,
         "resumo": 160
       },
       "exemplos": [
         {
-          "titulo": "Lorem ipsum dolor sit amet consectetur adipiscing elit",
-          "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "titulo": "PL 3414/2026: transporte gratuito para estudantes de cursos técnicos",
+          "resumo": "Propõe gratuidade no transporte coletivo público para quem faz curso de qualificação profissional ou técnico de nível médio. Está na Comissão de Educação.",
           "area": "cidade",
-          "status": "comissao"
+          "status": "comissao",
+          "fonte": "https://www.camara.leg.br/propostas-legislativas/2636460"
         },
         {
-          "titulo": "Sed do eiusmod tempor incididunt ut labore",
-          "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "titulo": "PL 5788/2026: exames para identificar cedo diabetes tipo 1 e doença celíaca em crianças",
+          "resumo": "Propõe que o SUS faça exames para identificar cedo o diabetes tipo 1 e a doença celíaca em crianças. Foi apresentado em 6/11/2026.",
           "area": "saude",
-          "status": "apresentada"
+          "status": "apresentada",
+          "fonte": "https://www.camara.leg.br/propostas-legislativas/2651275"
         }
       ]
     },
@@ -502,7 +504,7 @@
       "tituloAba": "Boas-vindas",
       "titulo": "Boas-vindas, {apelido}!",
       "texto": "Aqui você aprende política do zero, no seu ritmo. Vamos ajustar duas coisas rapidinho?",
-      "fala": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "fala": "Oi! Vou te acompanhar por aqui. Política dá para entender, sim: um passo de cada vez.",
       "_max": {
         "fala": 140
       },
@@ -729,7 +731,7 @@
     "tituloAba": "Agora",
     "titulo": "Agora",
     "intro": "Propostas apresentadas por deputados federais do RJ na Câmara, das mais novas para as mais antigas.",
-    "fala": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+    "fala": "Aqui chegam as propostas novas da Câmara! Lembre: proposta apresentada ainda não é lei, então confira sempre a situação.",
     "_max": {
       "fala": 140
     },
@@ -763,7 +765,7 @@
     "tituloAba": "Glossário",
     "titulo": "Glossário",
     "intro": "Palavras da política explicadas de um jeito simples, de A a Z.",
-    "fala": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+    "fala": "Achou uma palavra estranha numa lição ou notícia? Procure aqui, que eu explico com calma e com exemplos do Rio.",
     "_max": {
       "fala": 140
     },
@@ -939,7 +941,7 @@
     "tituloAba": "Direitos",
     "titulo": "Direitos",
     "intro": "Serviços públicos explicados passo a passo: quem tem direito, o que levar e onde pedir, sempre com o canal oficial.",
-    "fala": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+    "fala": "Aqui cada passo tem fonte oficial e data de consulta. Antes de sair de casa, confira o canal oficial: as regras podem mudar.",
     "_max": {
       "fala": 140
     },
