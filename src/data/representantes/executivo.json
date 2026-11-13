@@ -33,10 +33,11 @@
       "cargo": "presidente",
       "situacao": "emExercicio",
       "mandato": "Mandato de 2023 a 2026; o próximo presidente toma posse em janeiro de 2027",
-      "foto": null,
+      "foto": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/20322002026/280002542548/BR",
       "url": "https://www.gov.br/planalto/pt-br",
       "instituicao": "Presidência da República",
-      "_conferir": "Confirmar no site oficial do Planalto."
+      "_conferir": "Confirmar no site oficial do Planalto.",
+      "fotoFonte": "Foto de candidatura registrada no TSE (DivulgaCandContas, eleição de 2026), consultada em 13/11/2026"
     }
   ]
 }
