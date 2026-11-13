@@ -22,10 +22,11 @@
       "cargo": "governador",
       "situacao": "interino",
       "mandato": "Governador em exercício desde 23/03/2026, até a posse do governador eleito em janeiro de 2027",
-      "foto": null,
+      "foto": "/representantes/executivo/governador.jpg",
       "url": "https://www.rj.gov.br/",
       "instituicao": "Governo do Estado do Rio de Janeiro",
-      "_conferir": "Confirmar no site oficial do Governo do RJ. Presidente do Tribunal de Justiça no exercício do cargo, sem partido."
+      "_conferir": "Confirmar no site oficial do Governo do RJ. Presidente do Tribunal de Justiça no exercício do cargo, sem partido.",
+      "fotoFonte": "Foto oficial do Tribunal de Justiça do RJ (https://www.tjrj.jus.br/documents/d/guest/des_ricardo_couto-jpg), consultada em 13/11/2026"
     },
     {
       "id": "exec-presidente",
