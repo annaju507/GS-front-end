@@ -38,9 +38,9 @@ export function medalhasGanhas(progresso, sequencia, unidades) {
 
   const ganhas = new Set()
   if (Object.keys(concluidas).length > 0) ganhas.add('primeiraLicao')
-  if (unidadeConcluida(unidadePorId(unidades, 2), concluidas)) ganhas.add('tresPoderes')
-  if (unidadeConcluida(unidadePorId(unidades, 3), concluidas)) ganhas.add('esferas')
-  if (unidadeConcluida(unidadePorId(unidades, 4), concluidas)) ganhas.add('comoNasceUmaLei')
+  if (unidadeConcluida(unidadePorId(unidades, 3), concluidas)) ganhas.add('tresPoderes')
+  if (unidadeConcluida(unidadePorId(unidades, 4), concluidas)) ganhas.add('esferas')
+  if (unidadeConcluida(unidadePorId(unidades, 8), concluidas)) ganhas.add('comoNasceUmaLei')
   if (progresso.fontesConsultadas > 0) ganhas.add('chequeiAFonte')
   if (progresso.propostasLidas.length > 0) ganhas.add('primeiraProposta')
   if (progresso.anotacoesFeitas > 0) ganhas.add('primeiraAnotacao')

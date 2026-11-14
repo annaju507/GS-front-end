@@ -336,7 +336,7 @@
     "secoes": {
       "trilhas": {
         "titulo": "Trilhas de aprendizado",
-        "texto": "A trilha começa do básico e vai por partes: o que é política, os três Poderes, quem faz o quê e como nasce uma lei. Cada lição leva de 2 a 5 minutos."
+        "texto": "A trilha começa pelo porquê de entender política e vai por partes: democracia, os três Poderes, quem cuida de quê, dinheiro público, partidos, eleições e como nasce uma lei. São 8 unidades com 4 lições cada, de 3 a 5 minutos."
       },
       "quiz": {
         "titulo": "Quiz com explicação",
@@ -648,7 +648,7 @@
     "comoGanhar": {
       "primeiraLicao": "Conclua sua primeira lição.",
       "tresPoderes": "Conclua a unidade Os três Poderes.",
-      "esferas": "Conclua a unidade Esferas de governo.",
+      "esferas": "Conclua a unidade Cidade, estado e país.",
       "comoNasceUmaLei": "Conclua a unidade Como nasce uma lei.",
       "chequeiAFonte": "Abra a fonte oficial de uma proposta.",
       "primeiraProposta": "Leia a página de uma proposta.",
