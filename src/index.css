@@ -669,3 +669,34 @@
 .colecao-selos > li:nth-child(3n + 1) .selo-medalha { transform: rotate(-4deg); }
 .colecao-selos > li:nth-child(3n + 2) .selo-medalha { transform: rotate(3deg); }
 .colecao-selos > li:nth-child(3n) .selo-medalha { transform: rotate(-1.5deg); }
+
+/* Ficha de biblioteca (Glossário): papel pautado, linha laranja no topo e
+   furinho embaixo. O papel é sempre claro, nos dois temas. A posição fica
+   nas classes do Tailwind (relative no celular, absolute no computador). */
+.ficha-biblioteca {
+  background-color: #FFFFFF;
+  background-image: repeating-linear-gradient(transparent 0 1.4375rem, #DCE6F2 1.4375rem 1.5rem);
+  color: #1A1A1A;
+}
+.ficha-biblioteca::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 3.25rem;
+  height: 0.125rem;
+  background: var(--color-mico);
+  opacity: 0.7;
+}
+.ficha-biblioteca::after {
+  content: "";
+  position: absolute;
+  bottom: 0.625rem;
+  left: 50%;
+  width: 0.875rem;
+  height: 0.875rem;
+  border-radius: 9999px;
+  background: var(--fundo);
+  transform: translateX(-50%);
+  box-shadow: inset 0 0.0625rem 0.125rem rgb(0 0 0 / 0.25);
+}

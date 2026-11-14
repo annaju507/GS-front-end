@@ -776,6 +776,8 @@
     "vazio": "Nenhum termo encontrado para \"{busca}\".",
     "limparBusca": "Limpar busca",
     "letra": "Letra {letra}",
+    "estante": "Ir direto para a letra",
+    "irParaLetra": "Ir para a letra {letra}",
     "termo": {
       "voltar": "Voltar para o glossário",
       "relacionados": "Termos relacionados"

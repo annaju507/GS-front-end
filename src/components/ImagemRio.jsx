@@ -23,6 +23,7 @@ const DIMENSOES = {
   'ilha-fiscal': [900, 675],
   'sambodromo': [900, 675],
   'vista-chinesa': [900, 675],
+  'biblioteca': [1400, 788],
 }
 
 // Ilustração de um lugar do Rio. É decorativa (alt=""): nenhuma informação

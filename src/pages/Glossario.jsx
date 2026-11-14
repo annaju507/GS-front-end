@@ -7,23 +7,27 @@ import { useTitulo } from '../hooks/useTitulo.js'
 import BalaoMascote from '../components/BalaoMascote.jsx'
 import CampoTexto from '../components/CampoTexto.jsx'
 import EstadoVazio from '../components/EstadoVazio.jsx'
-import ImagemComMascote from '../components/ImagemComMascote.jsx'
-import { CENA_GLOSSARIO } from '../components/cenasRio.js'
+import EstanteLetras from '../components/EstanteLetras.jsx'
+import ImagemRio from '../components/ImagemRio.jsx'
 
 const t = textos.glossario
 
 // Glossário de A a Z com busca em tempo real (a lista filtra a cada letra).
-// A capivara (professora) apresenta; a busca vazia mostra a onça procurando.
+// A biblioteca no topo, com o título numa ficha de biblioteca; as letras
+// viram lombadas numa prateleira. A capivara (professora) apresenta e a busca
+// vazia mostra a onça procurando.
 export default function Glossario() {
   useTitulo(t.tituloAba)
   const { busca, setBusca, grupos, encontrados, total } = useGlossario()
 
   return (
-    <div className="mx-auto grid max-w-conteudo justify-center gap-12 lg:grid-cols-[minmax(0,45rem)_16rem]">
-    <div className="flex min-w-0 flex-col gap-6">
-      <header className="flex flex-col gap-3">
-        <h1>{t.titulo}</h1>
-        <p className="text-corpo">{t.intro}</p>
+    <div className="mx-auto flex max-w-[56rem] flex-col gap-6">
+      <header className="relative sm:mb-12">
+        <ImagemRio nome="biblioteca" prioridade className="h-40 w-full rounded-card object-cover sm:h-60" />
+        <div className="ficha-biblioteca relative mx-4 -mt-10 rounded-card-pequeno px-5 pb-9 pt-3 shadow-modal sm:absolute sm:-bottom-12 sm:left-6 sm:mx-0 sm:mt-0 sm:w-[24rem]">
+          <h1 className="leading-tight text-indigo">{t.titulo}</h1>
+          <p className="mt-4 leading-6">{t.intro}</p>
+        </div>
       </header>
 
       <BalaoMascote mascote="capivara" expressao="explicando">
@@ -45,6 +49,8 @@ export default function Glossario() {
         {preencher(t.contagem, { n: encontrados, total })}
       </p>
 
+      {grupos.length > 0 && <EstanteLetras letras={grupos.map((grupo) => grupo.letra)} />}
+
       {grupos.length === 0 ? (
         <EstadoVazio
           mascote="onca"
@@ -54,7 +60,7 @@ export default function Glossario() {
         />
       ) : (
         grupos.map((grupo) => (
-          <section key={grupo.letra} aria-labelledby={`letra-${grupo.letra}`} className="flex flex-col gap-2">
+          <section key={grupo.letra} id={`secao-${grupo.letra}`} aria-labelledby={`letra-${grupo.letra}`} className="flex scroll-mt-24 flex-col gap-2">
             <h2 id={`letra-${grupo.letra}`} className="text-h3 text-link">
               <span className="sr-only">{preencher(t.letra, { letra: grupo.letra })}</span>
               <span aria-hidden="true">{grupo.letra}</span>
@@ -78,13 +84,6 @@ export default function Glossario() {
           </section>
         ))
       )}
-    </div>
-
-      {/* Palmeiras do Jardim Botânico: o cantinho de estudo da capivara.
-          Só em telas largas, numa coluna ao lado da lista. */}
-      <aside aria-hidden="true" className="hidden lg:block">
-        <ImagemComMascote {...CENA_GLOSSARIO} className="sticky top-10" />
-      </aside>
     </div>
   )
 }
