@@ -7,6 +7,7 @@ import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
 import Botao from '../components/Botao.jsx'
 import Card from '../components/Card.jsx'
+import CenaEmbarque from '../components/CenaEmbarque.jsx'
 import CampoTexto from '../components/CampoTexto.jsx'
 import CampoSenha from '../components/CampoSenha.jsx'
 
@@ -55,7 +56,7 @@ export default function Cadastro() {
   }
 
   return (
-    <div className="mx-auto max-w-md px-4 py-12 md:px-6">
+    <CenaEmbarque>
       <Card className="flex flex-col gap-5">
         <header className="flex flex-col gap-2">
           <h1>{t.cadastro.titulo}</h1>
@@ -104,6 +105,6 @@ export default function Cadastro() {
           {t.cadastro.temConta} <Link to="/entrar">{t.cadastro.entrar}</Link>
         </p>
       </Card>
-    </div>
+    </CenaEmbarque>
   )
 }

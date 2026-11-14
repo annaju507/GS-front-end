@@ -8,6 +8,7 @@ import { useCaderno } from '../hooks/useCaderno.js'
 import { useProgresso } from '../hooks/useProgresso.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import BarraProgresso from '../components/BarraProgresso.jsx'
+import ImagemRio from '../components/ImagemRio.jsx'
 import Botao from '../components/Botao.jsx'
 import BotaoTema from '../components/BotaoTema.jsx'
 import Card from '../components/Card.jsx'
@@ -41,9 +42,17 @@ export default function Perfil() {
 
   return (
     <div className="mx-auto flex max-w-leitura flex-col gap-8">
-      <header>
-        <h1>{t.titulo}</h1>
-        <p className="text-texto-2">{usuario.apelido}</p>
+      {/* Roda-gigante do Porto numa janela em arco, como os Arcos da Lapa. */}
+      <header className="grid items-center gap-6 sm:grid-cols-[11rem_1fr]">
+        <ImagemRio
+          nome="roda-gigante-porto"
+          prioridade
+          className="hidden h-56 w-full rounded-b-card rounded-t-full object-[35%_center] sm:block"
+        />
+        <div>
+          <h1>{t.titulo}</h1>
+          <p className="text-texto-2">{usuario.apelido}</p>
+        </div>
       </header>
 
       <section aria-labelledby="perfil-resumo" className="flex flex-col gap-3">
@@ -62,7 +71,7 @@ export default function Perfil() {
 
       <section aria-labelledby="perfil-medalhas" className="flex flex-col gap-4">
         <h2 id="perfil-medalhas" className="text-h3">{textos.medalhas.titulo}</h2>
-        <ul className="grid grid-cols-2 gap-6 sm:grid-cols-3">
+        <ul className="colecao-selos grid grid-cols-2 gap-6 sm:grid-cols-3">
           {medalhas.map((medalha) => (
             <Medalha key={medalha.id} medalha={medalha} />
           ))}

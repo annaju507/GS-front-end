@@ -602,3 +602,70 @@
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+/* ---------- Formatos das ilustrações do Rio ---------- */
+
+/* Borda de baixo em ondas, como o desenho do calçadão de Copacabana. */
+.borda-onda-baixo {
+  -webkit-mask: radial-gradient(1rem at 50% calc(100% + 0.375rem), #0000 98%, #000) 50% 0 / 2rem 100% repeat-x;
+  mask: radial-gradient(1rem at 50% calc(100% + 0.375rem), #0000 98%, #000) 50% 0 / 2rem 100% repeat-x;
+}
+
+/* Selo postal: a borda é picotada (os furinhos são recortados pela máscara). */
+.selo-picotado {
+  --furo: 0.25rem;
+  padding: 0.4375rem;
+  -webkit-mask: radial-gradient(var(--furo) at var(--furo) var(--furo), #0000 97%, #000) calc(-1 * var(--furo)) calc(-1 * var(--furo)) / calc(3 * var(--furo)) calc(3 * var(--furo)) round, linear-gradient(#000 0 0) content-box;
+  mask: radial-gradient(var(--furo) at var(--furo) var(--furo), #0000 97%, #000) calc(-1 * var(--furo)) calc(-1 * var(--furo)) / calc(3 * var(--furo)) calc(3 * var(--furo)) round, linear-gradient(#000 0 0) content-box;
+}
+
+/* Polaroide: moldura branca com a parte de baixo mais larga e uma fita lilás. */
+.polaroide {
+  background: #fff;
+  padding: 0.5rem 0.5rem 1.5rem;
+  box-shadow: 0 0.375rem 0.875rem rgb(20 17 28 / 0.2);
+}
+.polaroide-fita {
+  position: absolute;
+  top: -0.5625rem;
+  left: 50%;
+  width: 4rem;
+  height: 1.125rem;
+  transform: translateX(-50%) rotate(-4deg);
+  background: rgb(161 134 239 / 0.6);
+}
+
+/* Carimbo circular decorativo (borda dupla). */
+.carimbo {
+  border: 0.15625rem solid var(--link);
+  border-radius: 9999px;
+  text-align: center;
+  transform: rotate(-14deg);
+}
+.carimbo::after {
+  content: "";
+  position: absolute;
+  inset: 0.3125rem;
+  border: 0.09375rem dashed var(--link);
+  border-radius: 9999px;
+}
+
+/* Folha pautada do caderno, com a margem lilás à esquerda. */
+.folha-pautada {
+  background-color: var(--superficie);
+  background-image: repeating-linear-gradient(transparent 0 1.6875rem, var(--borda) 1.6875rem 1.75rem);
+}
+.folha-pautada::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1.25rem;
+  width: 0.125rem;
+  background: var(--color-lilas);
+}
+
+/* Medalhas como selos: inclinação alternada, como uma coleção colada no álbum. */
+.colecao-selos > li:nth-child(3n + 1) .selo-medalha { transform: rotate(-4deg); }
+.colecao-selos > li:nth-child(3n + 2) .selo-medalha { transform: rotate(3deg); }
+.colecao-selos > li:nth-child(3n) .selo-medalha { transform: rotate(-1.5deg); }

@@ -3,6 +3,7 @@ import { Newspaper } from 'lucide-react'
 import textos from '../data/textos.json'
 import { plural, preencher } from '../domain/texto.js'
 import { buscarPropostaLocal } from '../services/conteudoLocal.js'
+import { useAuth } from '../hooks/useAuth.js'
 import { useCaderno } from '../hooks/useCaderno.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
@@ -11,6 +12,7 @@ import CardAnotacao from '../components/CardAnotacao.jsx'
 import EstadoCarregando from '../components/EstadoCarregando.jsx'
 import EstadoErro from '../components/EstadoErro.jsx'
 import EstadoVazio from '../components/EstadoVazio.jsx'
+import ImagemRio from '../components/ImagemRio.jsx'
 import ModalConfirmacao from '../components/ModalConfirmacao.jsx'
 import Toast from '../components/Toast.jsx'
 
@@ -20,6 +22,7 @@ const t = textos.caderno
 // anotação e exclui com confirmação. Criar acontece na página da proposta.
 export default function Caderno() {
   useTitulo(t.tituloAba)
+  const { usuario } = useAuth()
   const { carregando, erro, anotacoes, tentarDeNovo, editar, excluir } = useCaderno()
   const [editandoId, setEditandoId] = useState(null)
   const [paraExcluir, setParaExcluir] = useState(null)
@@ -96,9 +99,21 @@ export default function Caderno() {
 
       <Aviso tipo="info">{t.aviso}</Aviso>
 
-      <section aria-label={t.titulo} aria-busy={carregando} className="flex flex-col gap-4">
-        {conteudo}
-      </section>
+      {/* Caderno aberto: a capa (Parque Lage, elástico e etiqueta) e a folha
+          pautada com as anotações. A capa é só enfeite; o texto fica na folha. */}
+      <div className="grid overflow-hidden rounded-modal shadow-modal md:grid-cols-[13rem_1fr]">
+        <div aria-hidden="true" className="relative bg-indigo p-3">
+          <ImagemRio nome="parque-lage-fachada" className="h-32 w-full rounded-card-pequeno md:h-full md:min-h-72" />
+          <span className="absolute inset-y-0 right-6 w-2 bg-mico" />
+          <span className="absolute left-6 right-12 top-6 rounded-card-pequeno bg-white px-3 py-2 shadow-card">
+            <span className="block font-titulo text-legenda font-extrabold text-indigo">{t.etiqueta.titulo}</span>
+            <span className="block text-tag text-[#5F6B76]">{preencher(t.etiqueta.dono, { apelido: usuario.apelido })}</span>
+          </span>
+        </div>
+        <section aria-label={t.titulo} aria-busy={carregando} className="folha-pautada relative flex flex-col gap-4 p-4 pl-10 md:p-6 md:pl-12">
+          {conteudo}
+        </section>
+      </div>
 
       <ModalConfirmacao
         aberto={paraExcluir !== null}

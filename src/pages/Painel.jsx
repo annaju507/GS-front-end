@@ -12,6 +12,7 @@ import BarraProgresso from '../components/BarraProgresso.jsx'
 import Botao from '../components/Botao.jsx'
 import Card from '../components/Card.jsx'
 import CardProposta from '../components/CardProposta.jsx'
+import ImagemRio from '../components/ImagemRio.jsx'
 import SequenciaDias from '../components/SequenciaDias.jsx'
 
 const t = textos.painel
@@ -44,7 +45,18 @@ export default function Painel() {
 
   return (
     <div className="flex flex-col gap-6">
-      <h1>{preencher(t.ola, { apelido: usuario.apelido })}</h1>
+      {/* Topo: Vidigal e Dois Irmãos com a borda do calçadão. O "Olá" fica num
+          cartão branco por cima da borda, nunca direto sobre a foto. */}
+      <div className="relative mb-6">
+        <ImagemRio
+          nome="vidigal-dois-irmaos"
+          prioridade
+          className="borda-onda-baixo h-40 w-full rounded-t-card object-[center_55%] sm:h-52 lg:h-60"
+        />
+        <div className="absolute -bottom-7 left-4 max-w-[calc(100%-2rem)] rounded-card bg-superficie px-5 py-3 shadow-modal md:left-6 md:px-6 md:py-4">
+          <h1 className="text-h2 md:text-h1">{preencher(t.ola, { apelido: usuario.apelido })}</h1>
+        </div>
+      </div>
 
       <div className="grid gap-4 lg:grid-cols-3">
         <Card como="section" destaque aria-labelledby="painel-continuar" className="flex flex-col gap-4 lg:col-span-2">

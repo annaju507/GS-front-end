@@ -12,6 +12,17 @@ const DIMENSOES = {
   'bondinho-pao-de-acucar': [1586, 992],
   'museu-do-amanha': [510, 509],
   'palmeiras-jardim-botanico': [1024, 1536],
+  'vidigal-dois-irmaos': [1448, 1086],
+  'roda-gigante-porto': [900, 675],
+  'vista-baia-sem-cristo': [900, 675],
+  'bonde-rua-santa-teresa': [1400, 1050],
+  'pao-de-acucar-perto': [700, 525],
+  'parque-lage-fachada': [900, 675],
+  'museu-nacional': [700, 525],
+  'feira-sao-cristovao': [900, 675],
+  'ilha-fiscal': [900, 675],
+  'sambodromo': [900, 675],
+  'vista-chinesa': [900, 675],
 }
 
 // Ilustração de um lugar do Rio. É decorativa (alt=""): nenhuma informação

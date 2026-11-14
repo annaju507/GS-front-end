@@ -473,7 +473,12 @@
       "apelidoLongo": "Use no máximo 30 caracteres.",
       "emailEmUso": "Já existe uma conta com este e-mail. Tente entrar.",
       "credenciais": "E-mail ou senha não conferem. Confira e tente de novo."
-    }
+    },
+    "carimbo": [
+      "Próxima",
+      "parada:",
+      "Demokratos"
+    ]
   },
   "boasVindas": {
     "passo": "Passo {atual} de {total}",
@@ -573,7 +578,12 @@
     "comecar": "Começar",
     "noConcluido": "Lição {ordem}: {titulo}. Concluída.",
     "noAtual": "Começar {titulo} (lição {ordem})",
-    "noBloqueado": "Lição {ordem}: {titulo}. Bloqueada: termine a lição anterior."
+    "noBloqueado": "Lição {ordem}: {titulo}. Bloqueada: termine a lição anterior.",
+    "bilhete": {
+      "rotulo": "Seu bilhete",
+      "resumo": "{unidades} unidades · {licoes} paradas",
+      "concluido": "concluído"
+    }
   },
   "licao": {
     "tituloAba": "Lição",
@@ -804,7 +814,11 @@
       "titulo": "Seu caderno está esperando a primeira proposta",
       "botao": "Explorar propostas"
     },
-    "carregando": "Abrindo seu caderno…"
+    "carregando": "Abrindo seu caderno…",
+    "etiqueta": {
+      "titulo": "Caderno cívico",
+      "dono": "de {apelido}"
+    }
   },
   "representantes": {
     "tituloAba": "Representantes",

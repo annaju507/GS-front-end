@@ -25,19 +25,21 @@ const FUNDOS = {
   mico: 'bg-mico-fundo',
 }
 
-// Medalha (seção 10): selo redondo com borda lilás, ícone no centro e fundo
-// na cor do mascote que entrega. Ainda não ganha: cinza, com cadeado e o
-// que falta para conquistar.
+// Medalha (seção 10) em formato de selo postal picotado, com o ícone no centro e
+// o fundo na cor do mascote que entrega. Ainda não ganha: cinza, com cadeado e
+// o que falta para conquistar. Na coleção, os selos ficam levemente inclinados.
 export default function Medalha({ medalha, como: Tag = 'li' }) {
   const Icone = medalha.ganha ? (ICONES[medalha.id] ?? Award) : Lock
   const selo = medalha.ganha
-    ? `border-lilas text-texto ${FUNDOS[medalha.mascote]}`
-    : 'border-borda-campo bg-desativado text-texto-2'
+    ? `text-texto ${FUNDOS[medalha.mascote]}`
+    : 'bg-desativado text-texto-2'
 
   return (
     <Tag className="flex flex-col items-center gap-2 text-center">
-      <span className={`flex size-20 items-center justify-center rounded-full border-4 ${selo}`}>
-        <Icone size={32} strokeWidth={2} aria-hidden="true" />
+      <span className="selo-medalha selo-picotado bg-white drop-shadow-[0_0.1875rem_0.25rem_rgb(42_0_129/0.22)]">
+        <span className={`flex h-20 w-16 items-center justify-center ${selo}`}>
+          <Icone size={30} strokeWidth={2} aria-hidden="true" />
+        </span>
       </span>
       <span className="font-titulo text-tag font-semibold">{t.nomes[medalha.id]}</span>
       <span className="text-tag text-texto-2">

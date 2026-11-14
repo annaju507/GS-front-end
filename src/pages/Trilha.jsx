@@ -6,7 +6,7 @@ import { preencher } from '../domain/texto.js'
 import { UNIDADES, buscarLicao } from '../services/conteudoLocal.js'
 import { useProgresso } from '../hooks/useProgresso.js'
 import { useTitulo } from '../hooks/useTitulo.js'
-import BarraProgresso from '../components/BarraProgresso.jsx'
+import BilheteProgresso from '../components/BilheteProgresso.jsx'
 import Mascote from '../components/Mascote.jsx'
 import NoTrilha from '../components/NoTrilha.jsx'
 import SequenciaDias from '../components/SequenciaDias.jsx'
@@ -42,7 +42,12 @@ export default function Trilha() {
             {preencher(textos.painel.medalhas, { n: ganhas, total: medalhas.length })}
           </Link>
         </div>
-        <BarraProgresso valor={porcentagemConcluida(ORDEM, concluidas)} rotulo={t.progresso} />
+        <BilheteProgresso
+          valor={porcentagemConcluida(ORDEM, concluidas)}
+          rotulo={t.progresso}
+          unidades={UNIDADES.filter((unidade) => unidade.disponivel).length}
+          licoes={ORDEM.length}
+        />
       </header>
 
       {UNIDADES.map((unidade) => {
