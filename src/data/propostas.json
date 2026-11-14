@@ -1,0 +1,369 @@
+{
+  "_sobre": "Seleção fixa de 60 propostas (12 por área), escolhidas pelo tema, nunca pelo autor ou partido. Textos editoriais (título simples e resumo) escritos com o Algoritmo de Comunicação Cidadã. Dados oficiais em propostas-oficiais.json, gerado por scripts/coleta-propostas.js.",
+  "_max": {
+    "titulo": 70,
+    "resumo": 180
+  },
+  "propostas": [
+    {
+      "id": 2651275,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2650489,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2652516,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2649658,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2648940,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2647295,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2649057,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646979,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646978,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2647194,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2648697,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646987,
+      "area": "saude",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2652518,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2651219,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2649212,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2647726,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2647690,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2647140,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646863,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2645073,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2643736,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2644601,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2643383,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646344,
+      "area": "educacao",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2652911,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2651243,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2651069,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2650083,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2649633,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2647651,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2647296,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646955,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2651185,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646865,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2649652,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2648420,
+      "area": "seguranca",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2649644,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2641328,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2641324,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2641297,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2641203,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2642433,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2648391,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646829,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2503919,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2641369,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646539,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2641732,
+      "area": "cidade",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2649753,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2644600,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646968,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2649747,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2649523,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2638475,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2640839,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2646308,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2649215,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2647523,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2644304,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    },
+    {
+      "id": 2485767,
+      "area": "outros",
+      "titulo": "",
+      "resumo": ""
+    }
+  ]
+}

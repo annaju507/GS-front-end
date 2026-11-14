@@ -1,0 +1,1661 @@
+{
+  "_sobre": "Gerado por scripts/coleta-propostas.js a partir da API de Dados Abertos da Câmara dos Deputados. Não editar à mão: rodar o script de novo.",
+  "fonte": {
+    "instituicao": "Câmara dos Deputados",
+    "documento": "API de Dados Abertos",
+    "url": "https://dadosabertos.camara.leg.br"
+  },
+  "consultadoEm": "2026-11-14",
+  "propostas": {
+    "2485767": {
+      "id": 2485767,
+      "siglaTipo": "PEC",
+      "numero": 9,
+      "ano": 2025,
+      "ementa": "Acrescenta o § 16 ao art. 198 da Constituição Federal, para dispor sobre as diretrizes para os Planos de Carreira e os pisos salariais nacionais dos profissionais de saúde do Sistema Único de Saúde.",
+      "dataApresentacao": "2025-02-27",
+      "situacao": {
+        "etapa": "comissao",
+        "descricao": "Aguardando Parecer",
+        "ultimaTramitacao": "Designação de Relator(a)",
+        "orgao": "CCJC",
+        "data": "2026-06-10"
+      },
+      "autores": [
+        {
+          "nome": "Acácio Favacho",
+          "tipo": "Deputado(a)",
+          "partido": "MDB",
+          "uf": "AP"
+        },
+        {
+          "nome": "Adail Filho",
+          "tipo": "Deputado(a)",
+          "partido": "MDB",
+          "uf": "AM"
+        },
+        {
+          "nome": "Adilson Barroso",
+          "tipo": "Deputado(a)",
+          "partido": "PL",
+          "uf": "SP"
+        }
+      ],
+      "totalAutores": 184,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2485767",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2862005",
+      "consultadoEm": "2026-11-14"
+    },
+    "2503919": {
+      "id": 2503919,
+      "siglaTipo": "PEC",
+      "numero": 20,
+      "ano": 2025,
+      "ementa": "Altera o art. 6º da Constituição Federal para incluir, entre os direitos sociais, o direito ao saneamento básico.",
+      "dataApresentacao": "2025-05-05",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+        "ultimaTramitacao": "Publicação de Documento",
+        "orgao": "MESA",
+        "data": "2025-05-06"
+      },
+      "autores": [
+        {
+          "nome": "Senado Federal - Randolfe Rodrigues",
+          "tipo": "Órgão do Poder Legislativo",
+          "partido": "",
+          "uf": ""
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2503919",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2898170",
+      "consultadoEm": "2026-11-14"
+    },
+    "2638475": {
+      "id": 2638475,
+      "siglaTipo": "PLP",
+      "numero": 204,
+      "ano": 2026,
+      "ementa": "Institui a Política Nacional de Proteção e Promoção dos Direitos da Mãe Solo.",
+      "dataApresentacao": "2026-07-09",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-07-09"
+      },
+      "autores": [
+        {
+          "nome": "Eduardo da Fonte",
+          "tipo": "Deputado(a)",
+          "partido": "PP",
+          "uf": "PE"
+        },
+        {
+          "nome": "Lula da Fonte",
+          "tipo": "Deputado(a)",
+          "partido": "PP",
+          "uf": "PE"
+        }
+      ],
+      "totalAutores": 2,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2638475",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3159924",
+      "consultadoEm": "2026-11-14"
+    },
+    "2640839": {
+      "id": 2640839,
+      "siglaTipo": "PLP",
+      "numero": 218,
+      "ano": 2026,
+      "ementa": "Altera a Lei Complementar nº 150, de 1º de junho de 2015, para instituir diretrizes para o Programa Nacional de Acolhimento e Reinserção de Vítimas de Trabalho Escravo Doméstico e dispor sobre a indisponibilidade patrimonial de imóvel como medida de garantia de direitos, e dá outras providências.",
+      "dataApresentacao": "2026-07-17",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-07-17"
+      },
+      "autores": [
+        {
+          "nome": "Amom Mandel",
+          "tipo": "Deputado(a)",
+          "partido": "REPUBLICANOS",
+          "uf": "AM"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2640839",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3164595",
+      "consultadoEm": "2026-11-14"
+    },
+    "2641203": {
+      "id": 2641203,
+      "siglaTipo": "PL",
+      "numero": 4515,
+      "ano": 2026,
+      "ementa": "Institui o Programa Nacional de Calçadas Acessíveis Essenciais, destinado à implantação, adequação e padronização mínima de calçadas em áreas de acesso a serviços públicos essenciais, e dá outras providências.",
+      "dataApresentacao": "2026-07-17",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-10-28"
+      },
+      "autores": [
+        {
+          "nome": "Duda Ramos",
+          "tipo": "Deputado(a)",
+          "partido": "PODE",
+          "uf": "RR"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2641203",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3165099",
+      "consultadoEm": "2026-11-14"
+    },
+    "2641297": {
+      "id": 2641297,
+      "siglaTipo": "PL",
+      "numero": 4602,
+      "ano": 2026,
+      "ementa": "Institui o Programa Nacional PERIFERIA SEM ALAGAMENTO, ÁGUA FORA, destinado à execução de microobras de drenagem em áreas urbanas vulneráveis, estabelece critérios técnicos de dimensionamento, metas obrigatórias, mecanismos de controle, transparência e responsabilização por omissão.",
+      "dataApresentacao": "2026-07-17",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-07-17"
+      },
+      "autores": [
+        {
+          "nome": "Duda Ramos",
+          "tipo": "Deputado(a)",
+          "partido": "PODE",
+          "uf": "RR"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2641297",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3165205",
+      "consultadoEm": "2026-11-14"
+    },
+    "2641324": {
+      "id": 2641324,
+      "siglaTipo": "PL",
+      "numero": 4629,
+      "ano": 2026,
+      "ementa": "Institui a Política Nacional CAMINHO ILUMINADO, destinada à garantia de iluminação pública adequada em rotas de acesso a estabelecimentos de ensino e unidades básicas de saúde, estabelece indicadores obrigatórios de cobertura, critérios técnicos de desempenho e mecanismos de responsabilização por omissão.",
+      "dataApresentacao": "2026-07-17",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Despacho de Apensação",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "Duda Ramos",
+          "tipo": "Deputado(a)",
+          "partido": "PODE",
+          "uf": "RR"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2641324",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3165248",
+      "consultadoEm": "2026-11-14"
+    },
+    "2641328": {
+      "id": 2641328,
+      "siglaTipo": "PL",
+      "numero": 4633,
+      "ano": 2026,
+      "ementa": "Institui diretrizes nacionais para a implantação de cobertura, sombra e condições mínimas de conforto em paradas de transporte coletivo urbano, e dá outras providências.",
+      "dataApresentacao": "2026-07-17",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Despacho de Apensação",
+        "orgao": "MESA",
+        "data": "2026-11-12"
+      },
+      "autores": [
+        {
+          "nome": "Duda Ramos",
+          "tipo": "Deputado(a)",
+          "partido": "PODE",
+          "uf": "RR"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2641328",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3165252",
+      "consultadoEm": "2026-11-14"
+    },
+    "2641369": {
+      "id": 2641369,
+      "siglaTipo": "PL",
+      "numero": 4674,
+      "ano": 2026,
+      "ementa": "Institui a Política Nacional de Incentivo Econômico à Mobilidade Ativa, estabelece medidas para redução do custo de bicicletas e componentes essenciais, e cria diretrizes para estímulo ao uso da bicicleta como meio de transporte urbano e instrumento de descarbonização.",
+      "dataApresentacao": "2026-07-17",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Despacho de Apensação",
+        "orgao": "MESA",
+        "data": "2026-11-12"
+      },
+      "autores": [
+        {
+          "nome": "Duda Ramos",
+          "tipo": "Deputado(a)",
+          "partido": "PODE",
+          "uf": "RR"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2641369",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3165294",
+      "consultadoEm": "2026-11-14"
+    },
+    "2641732": {
+      "id": 2641732,
+      "siglaTipo": "PL",
+      "numero": 4830,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 10.098, de 19 de dezembro de 2000 e a Lei nº 10.257, de 10 de julho de 2001, para promover a acessibilidade em praias e assegurar o direito ao lazer de pessoas com deficiência ou com mobilidade reduzida.",
+      "dataApresentacao": "2026-07-30",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Despacho de Apensação",
+        "orgao": "MESA",
+        "data": "2026-10-26"
+      },
+      "autores": [
+        {
+          "nome": "Laura Carneiro",
+          "tipo": "Deputado(a)",
+          "partido": "PSD",
+          "uf": "RJ"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2641732",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3167348",
+      "consultadoEm": "2026-11-14"
+    },
+    "2642433": {
+      "id": 2642433,
+      "siglaTipo": "PL",
+      "numero": 4964,
+      "ano": 2026,
+      "ementa": "Institui a Política Nacional de Bebedouros Públicos e Fontes de Água Potável em Espaços Públicos, destinada a assegurar o acesso gratuito à água potável, promover a saúde e o bem-estar da população, fortalecer a adaptação das cidades às mudanças climáticas e reduzir o uso de embalagens plásticas descartáveis.",
+      "dataApresentacao": "2026-08-10",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Despacho de Apensação",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "Paulo Teixeira",
+          "tipo": "Deputado(a)",
+          "partido": "PT",
+          "uf": "SP"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2642433",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3169810",
+      "consultadoEm": "2026-11-14"
+    },
+    "2643383": {
+      "id": 2643383,
+      "siglaTipo": "PL",
+      "numero": 5048,
+      "ano": 2026,
+      "ementa": "Institui a Política Nacional de Prevenção e Enfrentamento ao Cyberbullying em Estabelecimentos de Ensino e Instituições que Atuam com Crianças e Adolescentes, e dá outras providências.",
+      "dataApresentacao": "2026-08-12",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-12"
+      },
+      "autores": [
+        {
+          "nome": "Vinicius Carvalho",
+          "tipo": "Deputado(a)",
+          "partido": "PL",
+          "uf": "SP"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2643383",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3171557",
+      "consultadoEm": "2026-11-14"
+    },
+    "2643736": {
+      "id": 2643736,
+      "siglaTipo": "PL",
+      "numero": 5072,
+      "ano": 2026,
+      "ementa": "Institui o Passe Enem, benefício tarifário destinado a assegurar gratuidade no transporte público coletivo aos participantes do Exame Nacional do Ensino Médio nos dias de aplicação das provas, e dispõe sobre seu custeio pela União.",
+      "dataApresentacao": "2026-08-13",
+      "situacao": {
+        "etapa": "votacao",
+        "descricao": "Pronta para Pauta",
+        "ultimaTramitacao": "Apresentação de Requerimento",
+        "orgao": "MESA",
+        "data": "2026-11-11"
+      },
+      "autores": [
+        {
+          "nome": "Alice Portugal",
+          "tipo": "Deputado(a)",
+          "partido": "PCdoB",
+          "uf": "BA"
+        },
+        {
+          "nome": "Daiana Santos",
+          "tipo": "Deputado(a)",
+          "partido": "PCdoB",
+          "uf": "RS"
+        },
+        {
+          "nome": "Daniel Almeida",
+          "tipo": "Deputado(a)",
+          "partido": "PCdoB",
+          "uf": "BA"
+        }
+      ],
+      "totalAutores": 11,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2643736",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3172248",
+      "consultadoEm": "2026-11-14"
+    },
+    "2644304": {
+      "id": 2644304,
+      "siglaTipo": "PL",
+      "numero": 5138,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 12.527, de 18 de novembro de 2011 (Lei de Acesso a Informação), para dispor sobre a obrigatoriedade de disponibilização de informações em linguagem simples e acessível pelos entes da administração pública direta e indireta em seus portais e sítios eletrônicos oficiais.",
+      "dataApresentacao": "2026-08-20",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Despacho de Apensação",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "Cezinha de Madureira",
+          "tipo": "Deputado(a)",
+          "partido": "PL",
+          "uf": "SP"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2644304",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3174311",
+      "consultadoEm": "2026-11-14"
+    },
+    "2644600": {
+      "id": 2644600,
+      "siglaTipo": "PL",
+      "numero": 5179,
+      "ano": 2026,
+      "ementa": "Institui o Estatuto da Segurança Digital do Idoso, estabelece diretrizes para a proteção de pessoas idosas em ambientes virtuais, cria o Canal Nacional de Denúncias e dá outras providências.",
+      "dataApresentacao": "2026-08-26",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Despacho de Apensação",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "Marreca Filho",
+          "tipo": "Deputado(a)",
+          "partido": "PRD",
+          "uf": "MA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2644600",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3174999",
+      "consultadoEm": "2026-11-14"
+    },
+    "2644601": {
+      "id": 2644601,
+      "siglaTipo": "PL",
+      "numero": 5180,
+      "ano": 2026,
+      "ementa": "Institui a Política Nacional de Infraestrutura Escolar Digital e dá outras providências.",
+      "dataApresentacao": "2026-08-26",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Despacho de Apensação",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "Marreca Filho",
+          "tipo": "Deputado(a)",
+          "partido": "PRD",
+          "uf": "MA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2644601",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3175001",
+      "consultadoEm": "2026-11-14"
+    },
+    "2645073": {
+      "id": 2645073,
+      "siglaTipo": "PL",
+      "numero": 5244,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para estabelecer a oferta mínima de três aulas semanais de Educação Física no ensino fundamental e no ensino médio e dispor sobre a Educação Física na educação infantil.",
+      "dataApresentacao": "2026-09-01",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-12"
+      },
+      "autores": [
+        {
+          "nome": "Julio Cesar Ribeiro",
+          "tipo": "Deputado(a)",
+          "partido": "REPUBLICANOS",
+          "uf": "DF"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2645073",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3176073",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646308": {
+      "id": 2646308,
+      "siglaTipo": "PL",
+      "numero": 5331,
+      "ano": 2026,
+      "ementa": "Institui o Extrato Profissional Digital, assegura ao trabalhador que presta serviços intermediados por plataforma digital o acesso, a portabilidade e o uso de seu histórico profissional digital e estabelece obrigações às plataformas digitais de intermediação.",
+      "dataApresentacao": "2026-09-09",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-12"
+      },
+      "autores": [
+        {
+          "nome": "Glaycon Franco",
+          "tipo": "Deputado(a)",
+          "partido": "",
+          "uf": ""
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646308",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3179453",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646344": {
+      "id": 2646344,
+      "siglaTipo": "PL",
+      "numero": 5343,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 9.870, de 23 de novembro de 1999, para estabelecer regras de transparência, antecedência e estabilidade na divulgação da relação de livros e materiais escolares exigidos pelas instituições de ensino da educação básica.",
+      "dataApresentacao": "2026-09-10",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Despacho de Apensação",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "Julio Cesar Ribeiro",
+          "tipo": "Deputado(a)",
+          "partido": "REPUBLICANOS",
+          "uf": "DF"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646344",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3179634",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646539": {
+      "id": 2646539,
+      "siglaTipo": "PL",
+      "numero": 5391,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 12.608, de 10 de abril de 2012, para fortalecer a cooperação entre os Estados e os Municípios na prevenção de riscos de desastres associados a eventos climáticos extremos, respeitadas a autonomia municipal e as características de cada território, e altera a Lei nº 10.257, de 10 de julho de 2001, para determinar que informações técnicas oficiais sobre esses riscos sejam consideradas na elaboração e na revisão dos planos diretores.",
+      "dataApresentacao": "2026-09-17",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-12"
+      },
+      "autores": [
+        {
+          "nome": "Sergio Souza",
+          "tipo": "Deputado(a)",
+          "partido": "MDB",
+          "uf": "PR"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646539",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3180776",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646829": {
+      "id": 2646829,
+      "siglaTipo": "PL",
+      "numero": 5407,
+      "ano": 2026,
+      "ementa": "Institui a Política Nacional de Micromobilidade Elétrica.",
+      "dataApresentacao": "2026-09-18",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "Evair Vieira de Melo",
+          "tipo": "Deputado(a)",
+          "partido": "REPUBLICANOS",
+          "uf": "ES"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646829",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3181361",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646863": {
+      "id": 2646863,
+      "siglaTipo": "PL",
+      "numero": 5417,
+      "ano": 2026,
+      "ementa": "Assegura prioridade na matrícula em creche, pré-escola e em escola de tempo integral das redes públicas de ensino aos filhos e dependentes de mulheres em situação de violência doméstica e familiar.",
+      "dataApresentacao": "2026-09-21",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Autorização do Despacho",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-09-21"
+      },
+      "autores": [
+        {
+          "nome": "Jorge Araújo",
+          "tipo": "Deputado(a)",
+          "partido": "",
+          "uf": ""
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646863",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3181422",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646865": {
+      "id": 2646865,
+      "siglaTipo": "PL",
+      "numero": 5418,
+      "ano": 2026,
+      "ementa": "Assegura às mulheres em situação de violência doméstica e familiar prioridade de acesso às ações de qualificação profissional e de intermediação de mão de obra do Sistema Nacional de Emprego.",
+      "dataApresentacao": "2026-09-21",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "Jorge Araújo",
+          "tipo": "Deputado(a)",
+          "partido": "",
+          "uf": ""
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646865",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3181424",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646955": {
+      "id": 2646955,
+      "siglaTipo": "PL",
+      "numero": 5449,
+      "ano": 2026,
+      "ementa": "Dispõe que o equipamento de monitoração eletrônica usado por agressor em cumprimento de medida protetiva de urgência possa ser dotado de mecanismo interno de condução de energia do tipo eletrochoque (taser) destinado à sua incapacitação física temporária na hipótese de rompimento do perímetro de exclusão fixado judicialmente.",
+      "dataApresentacao": "2026-09-23",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-09-23"
+      },
+      "autores": [
+        {
+          "nome": "Antônia Lúcia",
+          "tipo": "Deputado(a)",
+          "partido": "MDB",
+          "uf": "AC"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646955",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3181741",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646968": {
+      "id": 2646968,
+      "siglaTipo": "PL",
+      "numero": 5454,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 10.779, de 25 de novembro de 2003, para dispor sobre o prazo de requerimento do seguro-desemprego do pescador profissional artesanal.",
+      "dataApresentacao": "2026-09-23",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "Raimundo Costa",
+          "tipo": "Deputado(a)",
+          "partido": "PSD",
+          "uf": "BA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646968",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3181764",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646978": {
+      "id": 2646978,
+      "siglaTipo": "PL",
+      "numero": 5460,
+      "ano": 2026,
+      "ementa": "Dispõe sobre o direito do paciente a plano de alta hospitalar segura, compreensível e acessível.",
+      "dataApresentacao": "2026-09-24",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Autorização do Despacho",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-09-24"
+      },
+      "autores": [
+        {
+          "nome": "Valdir Trindade",
+          "tipo": "Deputado(a)",
+          "partido": "",
+          "uf": ""
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646978",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3181783",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646979": {
+      "id": 2646979,
+      "siglaTipo": "PL",
+      "numero": 5461,
+      "ano": 2026,
+      "ementa": "Dispõe sobre a comunicação ativa de resultados críticos de exames e procedimentos diagnósticos e estabelece garantias de informação e segurança ao paciente.",
+      "dataApresentacao": "2026-09-24",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Autorização do Despacho",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-09-24"
+      },
+      "autores": [
+        {
+          "nome": "Valdir Trindade",
+          "tipo": "Deputado(a)",
+          "partido": "",
+          "uf": ""
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646979",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3181784",
+      "consultadoEm": "2026-11-14"
+    },
+    "2646987": {
+      "id": 2646987,
+      "siglaTipo": "PL",
+      "numero": 5467,
+      "ano": 2026,
+      "ementa": "Institui o Programa de Acesso Orientado à Atividade Física para pessoas de baixa renda e estabelece diretrizes para sua implementação",
+      "dataApresentacao": "2026-09-24",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-12"
+      },
+      "autores": [
+        {
+          "nome": "Rogéria Santos",
+          "tipo": "Deputado(a)",
+          "partido": "REPUBLICANOS",
+          "uf": "BA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2646987",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3181793",
+      "consultadoEm": "2026-11-14"
+    },
+    "2647140": {
+      "id": 2647140,
+      "siglaTipo": "PL",
+      "numero": 5472,
+      "ano": 2026,
+      "ementa": "Institui a Política Nacional de Adequação do Tamanho das Turmas da Educação Básica, estabelece limites máximos de estudantes por turma e cria o Índice Nacional de Superlotação de Turmas.",
+      "dataApresentacao": "2026-09-25",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Autorização do Despacho",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-09-25"
+      },
+      "autores": [
+        {
+          "nome": "Duda Salabert",
+          "tipo": "Deputado(a)",
+          "partido": "PSOL",
+          "uf": "MG"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2647140",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3182018",
+      "consultadoEm": "2026-11-14"
+    },
+    "2647194": {
+      "id": 2647194,
+      "siglaTipo": "PL",
+      "numero": 5487,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 9.656, de 3 de junho de 1998, para prever, nos planos privados de assistência à saúde, a cobertura do serviço de cuidador de pessoa idosa no âmbito da internação domiciliar prestada em substituição à internação hospitalar.",
+      "dataApresentacao": "2026-09-29",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Autorização do Despacho",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-09-29"
+      },
+      "autores": [
+        {
+          "nome": "Murilo Galdino",
+          "tipo": "Deputado(a)",
+          "partido": "REPUBLICANOS",
+          "uf": "PB"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2647194",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3182219",
+      "consultadoEm": "2026-11-14"
+    },
+    "2647295": {
+      "id": 2647295,
+      "siglaTipo": "PL",
+      "numero": 5517,
+      "ano": 2026,
+      "ementa": "Estabelece medidas destinadas a garantir o acesso à água potável e a proteção da saúde dos consumidores em eventos abertos ao público.",
+      "dataApresentacao": "2026-10-02",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Autorização do Despacho",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-02"
+      },
+      "autores": [
+        {
+          "nome": "Laura Carneiro",
+          "tipo": "Deputado(a)",
+          "partido": "PSD",
+          "uf": "RJ"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2647295",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3182622",
+      "consultadoEm": "2026-11-14"
+    },
+    "2647296": {
+      "id": 2647296,
+      "siglaTipo": "PL",
+      "numero": 5518,
+      "ano": 2026,
+      "ementa": "Institui a Certidão Nacional de Antecedentes Criminais por Violência contra a Mulher (CNVM).",
+      "dataApresentacao": "2026-10-02",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Autorização do Despacho",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-02"
+      },
+      "autores": [
+        {
+          "nome": "Juninho do Pneu",
+          "tipo": "Deputado(a)",
+          "partido": "PSDB",
+          "uf": "RJ"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2647296",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3182623",
+      "consultadoEm": "2026-11-14"
+    },
+    "2647523": {
+      "id": 2647523,
+      "siglaTipo": "PL",
+      "numero": 5552,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 5.768, de 20 de dezembro de 1971, para proibir a utilização de animais vivos como prêmio em rifas, sorteios, concursos, promoções e operações assemelhadas, inclusive em ambientes digitais, e estabelece medidas de fiscalização e sanções.",
+      "dataApresentacao": "2026-10-13",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-13"
+      },
+      "autores": [
+        {
+          "nome": "Neto Carletto",
+          "tipo": "Deputado(a)",
+          "partido": "AVANTE",
+          "uf": "BA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2647523",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3183646",
+      "consultadoEm": "2026-11-14"
+    },
+    "2647651": {
+      "id": 2647651,
+      "siglaTipo": "PL",
+      "numero": 5563,
+      "ano": 2026,
+      "ementa": "Dispõe sobre a criação do Sistema Nacional de Alertas Climáticos e Proteção Civil Digital (SINACPD) e do aplicativo “Clima Brasil”, e institui mecanismos de incentivo à participação cidadã em ações de sustentabilidade ambiental.",
+      "dataApresentacao": "2026-10-14",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Autorização do Despacho",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-14"
+      },
+      "autores": [
+        {
+          "nome": "Prof. Reginaldo Veras",
+          "tipo": "Deputado(a)",
+          "partido": "PV",
+          "uf": "DF"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2647651",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3183908",
+      "consultadoEm": "2026-11-14"
+    },
+    "2647690": {
+      "id": 2647690,
+      "siglaTipo": "PL",
+      "numero": 5570,
+      "ano": 2026,
+      "ementa": "Institui diretrizes nacionais para o fortalecimento da alfabetização estruturada e para o desenvolvimento de competências fundamentais para a vida, o trabalho, a educação financeira, o empreendedorismo, a ciência, a tecnologia e a inovação na educação básica; altera a Lei nº 9.394, de 20 de dezembro de 1996, e dá outras providências.",
+      "dataApresentacao": "2026-10-14",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "José Medeiros",
+          "tipo": "Deputado(a)",
+          "partido": "PL",
+          "uf": "MT"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2647690",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3183965",
+      "consultadoEm": "2026-11-14"
+    },
+    "2647726": {
+      "id": 2647726,
+      "siglaTipo": "PL",
+      "numero": 5574,
+      "ano": 2026,
+      "ementa": "Institui o Programa Nacional Acolher de Tutoria e Reforço Escolar entre Estudantes, destinado à melhoria da aprendizagem na educação básica, à redução das desigualdades educacionais e à valorização da cooperação entre alunos, e dá outras providências.",
+      "dataApresentacao": "2026-10-14",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "José Medeiros",
+          "tipo": "Deputado(a)",
+          "partido": "PL",
+          "uf": "MT"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2647726",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3184053",
+      "consultadoEm": "2026-11-14"
+    },
+    "2648391": {
+      "id": 2648391,
+      "siglaTipo": "PL",
+      "numero": 5603,
+      "ano": 2026,
+      "ementa": "Institui o Programa Federal Lixo com Destino Certo para a gestão regionalizada de resíduos sólidos urbanos, o encerramento e a recuperação de lixões e a inclusão dos catadores.",
+      "dataApresentacao": "2026-10-19",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Distribuição",
+        "orgao": "MESA",
+        "data": "2026-11-13"
+      },
+      "autores": [
+        {
+          "nome": "Professor Alcides",
+          "tipo": "Deputado(a)",
+          "partido": "PSDB",
+          "uf": "GO"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2648391",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3184995",
+      "consultadoEm": "2026-11-14"
+    },
+    "2648420": {
+      "id": 2648420,
+      "siglaTipo": "PL",
+      "numero": 5613,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estabelecer prazo para instalação de equipamento de monitoração eletrônica e incentivar ações de policiamento preventivo no enfrentamento à violência doméstica e familiar contra a mulher.",
+      "dataApresentacao": "2026-10-20",
+      "situacao": {
+        "etapa": "emAnalise",
+        "descricao": "Aguardando Autorização do Despacho",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-20"
+      },
+      "autores": [
+        {
+          "nome": "Delegado Palumbo",
+          "tipo": "Deputado(a)",
+          "partido": "PODE",
+          "uf": "SP"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2648420",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3185115",
+      "consultadoEm": "2026-11-14"
+    },
+    "2648697": {
+      "id": 2648697,
+      "siglaTipo": "PL",
+      "numero": 5641,
+      "ano": 2026,
+      "ementa": "Institui a Política Nacional de Transparência, Controle da Qualidade e Combate à Adulteração de Suplementos Alimentares; estabelece diretrizes para monitoramento laboratorial, autocontrole, rastreabilidade, divulgação de informações, recolhimento de produtos e fiscalização do comércio eletrônico; altera a Lei nº 6.437, de 20 de agosto de 1977; e dá outras providências.",
+      "dataApresentacao": "2026-10-21",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-21"
+      },
+      "autores": [
+        {
+          "nome": "Delegado Bruno Lima",
+          "tipo": "Deputado(a)",
+          "partido": "PODE",
+          "uf": "SP"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2648697",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3185593",
+      "consultadoEm": "2026-11-14"
+    },
+    "2648940": {
+      "id": 2648940,
+      "siglaTipo": "PL",
+      "numero": 5664,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 9.797, de 6 de maio de 1999, para instituir o Kit de Reabilitação Pós-Mastectomia no âmbito do Sistema Único de Saúde (SUS), com o fornecimento de sutiã adaptado, prótese mamária externa, micropigmentação do complexo aréolo-mamilar e malha de compressão",
+      "dataApresentacao": "2026-10-27",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-27"
+      },
+      "autores": [
+        {
+          "nome": "Célio Studart",
+          "tipo": "Deputado(a)",
+          "partido": "PSD",
+          "uf": "CE"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2648940",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3186210",
+      "consultadoEm": "2026-11-14"
+    },
+    "2649057": {
+      "id": 2649057,
+      "siglaTipo": "PL",
+      "numero": 5670,
+      "ano": 2026,
+      "ementa": "Estabelece que as infrações de trânsito atribuídas a ambulâncias deverão ser anuladas de ofício pelos órgãos autuadores.",
+      "dataApresentacao": "2026-10-27",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-27"
+      },
+      "autores": [
+        {
+          "nome": "Doutor Luizinho",
+          "tipo": "Deputado(a)",
+          "partido": "PP",
+          "uf": "RJ"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2649057",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3186504",
+      "consultadoEm": "2026-11-14"
+    },
+    "2649212": {
+      "id": 2649212,
+      "siglaTipo": "PL",
+      "numero": 5678,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 13.656, de 30 de abril de 2018, para isentar do pagamento de taxa de inscrição em concursos públicos federais os candidatos de baixa renda que tenham cursado o ensino médio na rede pública ou em situação equiparada.",
+      "dataApresentacao": "2026-10-28",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-28"
+      },
+      "autores": [
+        {
+          "nome": "Dr. Francisco",
+          "tipo": "Deputado(a)",
+          "partido": "PT",
+          "uf": "PI"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2649212",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3186821",
+      "consultadoEm": "2026-11-14"
+    },
+    "2649215": {
+      "id": 2649215,
+      "siglaTipo": "PL",
+      "numero": 5680,
+      "ano": 2026,
+      "ementa": "Dispõe sobre a proibição de criação de contas de crianças em redes sociais classificadas como de alto risco para crianças.",
+      "dataApresentacao": "2026-10-28",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-28"
+      },
+      "autores": [
+        {
+          "nome": "Jorge Goetten",
+          "tipo": "Deputado(a)",
+          "partido": "REPUBLICANOS",
+          "uf": "SC"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2649215",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3186826",
+      "consultadoEm": "2026-11-14"
+    },
+    "2649523": {
+      "id": 2649523,
+      "siglaTipo": "PL",
+      "numero": 5694,
+      "ano": 2026,
+      "ementa": "Institui o Programa Nacional de Reinserção Profissional da Mulher, destinado a promover o retorno ao mercado de trabalho de mulheres que tenham interrompido ou reduzido sua atividade profissional em razão de responsabilidades de cuidado, enfermidade de dependente ou situação de violência.",
+      "dataApresentacao": "2026-10-29",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-29"
+      },
+      "autores": [
+        {
+          "nome": "Dani Cunha",
+          "tipo": "Deputado(a)",
+          "partido": "PL",
+          "uf": "RJ"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2649523",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187476",
+      "consultadoEm": "2026-11-14"
+    },
+    "2649633": {
+      "id": 2649633,
+      "siglaTipo": "PL",
+      "numero": 5704,
+      "ano": 2026,
+      "ementa": "Institui o Programa Nacional Escola Segura, Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências.",
+      "dataApresentacao": "2026-10-29",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-29"
+      },
+      "autores": [
+        {
+          "nome": "Aline Gurgel",
+          "tipo": "Deputado(a)",
+          "partido": "UNIÃO",
+          "uf": "AP"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2649633",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187754",
+      "consultadoEm": "2026-11-14"
+    },
+    "2649644": {
+      "id": 2649644,
+      "siglaTipo": "PL",
+      "numero": 5705,
+      "ano": 2026,
+      "ementa": "Institui diretrizes nacionais para a prevenção e a mitigação das ilhas de calor urbanas e dá outras providências.",
+      "dataApresentacao": "2026-10-30",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-30"
+      },
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "tipo": "Deputado(a)",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2649644",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187858",
+      "consultadoEm": "2026-11-14"
+    },
+    "2649652": {
+      "id": 2649652,
+      "siglaTipo": "PL",
+      "numero": 5711,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 12.845, de 1º de agosto de 2013, para dispor sobre a padronização, a preservação, o prazo de processamento e a inserção em bancos de perfis genéticos dos vestígios biológicos coletados no atendimento às pessoas em situação de violência sexual.",
+      "dataApresentacao": "2026-10-30",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-30"
+      },
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "tipo": "Deputado(a)",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2649652",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187867",
+      "consultadoEm": "2026-11-14"
+    },
+    "2649658": {
+      "id": 2649658,
+      "siglaTipo": "PL",
+      "numero": 5717,
+      "ano": 2026,
+      "ementa": "Dispõe sobre a emissão de atestados médicos e odontológicos com mecanismo de verificação de autenticidade e altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar a comercialização de atestados falsos.",
+      "dataApresentacao": "2026-10-30",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-10-30"
+      },
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "tipo": "Deputado(a)",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2649658",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187874",
+      "consultadoEm": "2026-11-14"
+    },
+    "2649747": {
+      "id": 2649747,
+      "siglaTipo": "PL",
+      "numero": 5727,
+      "ano": 2026,
+      "ementa": "Institui o Programa Talento Sênior, estabelece medidas para promover a qualificação profissional, prevenir a discriminação por idade no trabalho e estimular a contratação de pessoas idosas.",
+      "dataApresentacao": "2026-11-03",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-03"
+      },
+      "autores": [
+        {
+          "nome": "Dimas Gadelha",
+          "tipo": "Deputado(a)",
+          "partido": "PT",
+          "uf": "RJ"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2649747",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3188096",
+      "consultadoEm": "2026-11-14"
+    },
+    "2649753": {
+      "id": 2649753,
+      "siglaTipo": "PL",
+      "numero": 5728,
+      "ano": 2026,
+      "ementa": "Estabelece medidas de segurança para prevenção à transferência fraudulenta de números telefônicos e à apropriação indevida de contas digitais de comunicação, e altera a Lei nº 12.965, de 23 de abril de 2014.",
+      "dataApresentacao": "2026-11-03",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-03"
+      },
+      "autores": [
+        {
+          "nome": "José Medeiros",
+          "tipo": "Deputado(a)",
+          "partido": "PL",
+          "uf": "MT"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2649753",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3188102",
+      "consultadoEm": "2026-11-14"
+    },
+    "2650083": {
+      "id": 2650083,
+      "siglaTipo": "PL",
+      "numero": 5743,
+      "ano": 2026,
+      "ementa": "Institui o Protocolo Nacional Alerta Neuro, no âmbito da Política Nacional de Busca de Pessoas Desaparecidas, para resposta prioritária ao desaparecimento de pessoa com deficiência ou condição do neurodesenvolvimento ou neurocognitiva que implique risco aumentado de desorientação, dificuldade de comunicação ou de autoproteção, independentemente da idade, e estabelece mecanismos de informação preventiva e proteção de dados pessoais.",
+      "dataApresentacao": "2026-11-03",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-03"
+      },
+      "autores": [
+        {
+          "nome": "Marcos Tavares",
+          "tipo": "Deputado(a)",
+          "partido": "PDT",
+          "uf": "RJ"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2650083",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3188546",
+      "consultadoEm": "2026-11-14"
+    },
+    "2650489": {
+      "id": 2650489,
+      "siglaTipo": "PL",
+      "numero": 5751,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para assegurar ajuda de custo ou transporte a pacientes do Sistema Único de Saúde que necessitem realizar tratamento em outro município.",
+      "dataApresentacao": "2026-11-04",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-04"
+      },
+      "autores": [
+        {
+          "nome": "Clarissa Tércio",
+          "tipo": "Deputado(a)",
+          "partido": "PP",
+          "uf": "PE"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2650489",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3189179",
+      "consultadoEm": "2026-11-14"
+    },
+    "2651069": {
+      "id": 2651069,
+      "siglaTipo": "PL",
+      "numero": 5771,
+      "ano": 2026,
+      "ementa": "Institui o Programa Nacional de Bombeiros Civis Comunitários e altera a Lei nº 11.901, de 12 de janeiro de 2009, que dispõe sobre a profissão de Bombeiro Civil, para dispor sobre a atuação desses profissionais em situações de desastres naturais e climáticos, calamidades públicas e emergências de grande proporção.",
+      "dataApresentacao": "2026-11-04",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-04"
+      },
+      "autores": [
+        {
+          "nome": "Gutemberg Reis",
+          "tipo": "Deputado(a)",
+          "partido": "MDB",
+          "uf": "RJ"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2651069",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190254",
+      "consultadoEm": "2026-11-14"
+    },
+    "2651185": {
+      "id": 2651185,
+      "siglaTipo": "PL",
+      "numero": 5778,
+      "ano": 2026,
+      "ementa": "Dispõe sobre a obrigatoriedade da presença de Agentes de Proteção da Infância e Juventude em eventos públicos de grande porte, estabelece medidas de prevenção à violação dos direitos de crianças e adolescentes e dá outras providências.",
+      "dataApresentacao": "2026-11-05",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-05"
+      },
+      "autores": [
+        {
+          "nome": "Leo Prates",
+          "tipo": "Deputado(a)",
+          "partido": "REPUBLICANOS",
+          "uf": "BA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2651185",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190532",
+      "consultadoEm": "2026-11-14"
+    },
+    "2651219": {
+      "id": 2651219,
+      "siglaTipo": "PL",
+      "numero": 5782,
+      "ano": 2026,
+      "ementa": "Dispõe sobre a garantia de direitos acadêmicos às estudantes vítimas de violência doméstica em todos os níveis de ensino, na rede pública e privada",
+      "dataApresentacao": "2026-11-05",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-05"
+      },
+      "autores": [
+        {
+          "nome": "Alice Portugal",
+          "tipo": "Deputado(a)",
+          "partido": "PCdoB",
+          "uf": "BA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2651219",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190646",
+      "consultadoEm": "2026-11-14"
+    },
+    "2651243": {
+      "id": 2651243,
+      "siglaTipo": "PL",
+      "numero": 5784,
+      "ano": 2026,
+      "ementa": "Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências.",
+      "dataApresentacao": "2026-11-05",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-05"
+      },
+      "autores": [
+        {
+          "nome": "Renilce Nicodemos",
+          "tipo": "Deputado(a)",
+          "partido": "MDB",
+          "uf": "PA"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2651243",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190708",
+      "consultadoEm": "2026-11-14"
+    },
+    "2651275": {
+      "id": 2651275,
+      "siglaTipo": "PL",
+      "numero": 5788,
+      "ano": 2026,
+      "ementa": "Dispõe sobre o rastreamento precoce do diabetes mellitus tipo 1 e da doença celíaca na população pediátrica, no âmbito do Sistema Único de Saúde (SUS), e altera a Lei nº 13.895, de 30 de outubro de 2019, que institui a Política Nacional de Prevenção do Diabetes e de Assistência Integral à Pessoa Diabética.",
+      "dataApresentacao": "2026-11-06",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-06"
+      },
+      "autores": [
+        {
+          "nome": "Aureo Ribeiro",
+          "tipo": "Deputado(a)",
+          "partido": "SOLIDARIEDADE",
+          "uf": "RJ"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2651275",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191009",
+      "consultadoEm": "2026-11-14"
+    },
+    "2652516": {
+      "id": 2652516,
+      "siglaTipo": "PL",
+      "numero": 5812,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 10.858, de 13 de abril de 2004, para estabelecer diretrizes para a entrega domiciliar de medicamentos e outros produtos disponibilizados no âmbito do Programa Farmácia Popular do Brasil, admitir a participação de operadores logísticos privados e dispor sobre condições de segurança, rastreabilidade e responsabilidade sanitária.",
+      "dataApresentacao": "2026-11-10",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-10"
+      },
+      "autores": [
+        {
+          "nome": "Bibo Nunes",
+          "tipo": "Deputado(a)",
+          "partido": "PL",
+          "uf": "RS"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2652516",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193164",
+      "consultadoEm": "2026-11-14"
+    },
+    "2652518": {
+      "id": 2652518,
+      "siglaTipo": "PL",
+      "numero": 5814,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 13.185, de 6 de novembro de 2015, para estabelecer procedimentos obrigatórios de prevenção e enfrentamento à intimidação sistemática (bullying) nos estabelecimentos de ensino, assegurar atendimento às vítimas e prever medidas de responsabilização das instituições e dos agressores.",
+      "dataApresentacao": "2026-11-10",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-10"
+      },
+      "autores": [
+        {
+          "nome": "Jonas Donizette",
+          "tipo": "Deputado(a)",
+          "partido": "PSB",
+          "uf": "SP"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2652518",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193167",
+      "consultadoEm": "2026-11-14"
+    },
+    "2652911": {
+      "id": 2652911,
+      "siglaTipo": "PL",
+      "numero": 5822,
+      "ano": 2026,
+      "ementa": "Altera a Lei nº 13.812, de 16 de março de 2019, para aperfeiçoar o acompanhamento das ocorrências de desaparecimento de pessoas, os procedimentos de divulgação de alertas urgentes, a assistência às pessoas localizadas e a avaliação dos resultados das ações de busca.",
+      "dataApresentacao": "2026-11-11",
+      "situacao": {
+        "etapa": "apresentada",
+        "descricao": "",
+        "ultimaTramitacao": "Apresentação de Proposição",
+        "orgao": "MESA",
+        "data": "2026-11-11"
+      },
+      "autores": [
+        {
+          "nome": "Cabo Gilberto Silva",
+          "tipo": "Deputado(a)",
+          "partido": "PL",
+          "uf": "PB"
+        }
+      ],
+      "totalAutores": 1,
+      "urlCamara": "https://www.camara.leg.br/propostas-legislativas/2652911",
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193925",
+      "consultadoEm": "2026-11-14"
+    }
+  }
+}
