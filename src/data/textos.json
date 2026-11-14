@@ -493,7 +493,8 @@
       "_max": {
         "fala": 140
       },
-      "botao": "Vamos lá"
+      "botao": "Vamos lá",
+      "carimbo": ["Boas-vindas", "ao", "Demokratos"]
     },
     "pontoDePartida": {
       "tituloAba": "Ponto de partida",
