@@ -42,7 +42,7 @@ export default function Trilha() {
             {preencher(textos.painel.medalhas, { n: ganhas, total: medalhas.length })}
           </Link>
         </div>
-        <BarraProgresso valor={porcentagemConcluida(ORDEM, concluidas)} rotulo={t.progresso} comMico />
+        <BarraProgresso valor={porcentagemConcluida(ORDEM, concluidas)} rotulo={t.progresso} />
       </header>
 
       {UNIDADES.map((unidade) => {
