@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
-import { Link, useNavigate } from 'react-router'
+import { Link, Navigate, useNavigate } from 'react-router'
 import textos from '../data/textos.json'
-import { APELIDO_MAXIMO, validarCadastro } from '../domain/auth.js'
+import { APELIDO_MAXIMO, decidirDestinoAposCadastro, validarCadastro } from '../domain/auth.js'
 import { useAuth } from '../hooks/useAuth.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
@@ -16,7 +16,7 @@ const ORDEM_CAMPOS = ['apelido', 'email', 'senha']
 
 export default function Cadastro() {
   useTitulo(t.cadastro.titulo)
-  const { cadastrar } = useAuth()
+  const { usuario, cadastrar } = useAuth()
   const navegar = useNavigate()
 
   const [dados, setDados] = useState({ apelido: '', email: '', senha: '' })
@@ -48,11 +48,16 @@ export default function Cadastro() {
     const resposta = await cadastrar(dados)
     setEnviando(false)
     if (resposta.ok) {
-      navegar('/boas-vindas', { replace: true })
+      navegar(decidirDestinoAposCadastro(resposta.usuario), { replace: true })
     } else {
       setErroGeral(t.erros[resposta.erro])
       campos.email.current.focus()
     }
+  }
+
+  // Quem já está logado não precisa criar conta de novo.
+  if (usuario) {
+    return <Navigate to={decidirDestinoAposCadastro(usuario)} replace />
   }
 
   return (

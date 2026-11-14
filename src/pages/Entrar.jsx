@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { Link, useLocation, useNavigate } from 'react-router'
+import { Link, Navigate, useLocation, useNavigate } from 'react-router'
 import textos from '../data/textos.json'
 import { decidirDestinoAposEntrar, validarEntrada } from '../domain/auth.js'
 import { useAuth } from '../hooks/useAuth.js'
@@ -16,7 +16,7 @@ const ORDEM_CAMPOS = ['email', 'senha']
 
 export default function Entrar() {
   useTitulo(t.entrar.titulo)
-  const { entrar } = useAuth()
+  const { usuario, entrar } = useAuth()
   const navegar = useNavigate()
   const local = useLocation()
 
@@ -50,10 +50,15 @@ export default function Entrar() {
     const resposta = await entrar(dados)
     setEnviando(false)
     if (resposta.ok) {
-      navegar(decidirDestinoAposEntrar(resposta.usuario, local.state?.paginaPedida), { replace: true })
+      navegar(decidirDestinoAposEntrar(local.state?.paginaPedida), { replace: true })
     } else {
       setErroGeral(t.erros[resposta.erro])
     }
+  }
+
+  // Quem já está logado não precisa ver o formulário: vai direto para dentro.
+  if (usuario) {
+    return <Navigate to={decidirDestinoAposEntrar(local.state?.paginaPedida)} replace />
   }
 
   return (

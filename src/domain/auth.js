@@ -65,13 +65,21 @@ export function validarCadastro({ apelido, email, senha }) {
   })
 }
 
-// Para onde vai a pessoa depois de entrar: boas-vindas só na primeira vez;
-// depois, a página que ela tentou abrir ou o painel.
-export function decidirDestinoAposEntrar(usuario, paginaPedida) {
+// Para onde vai a pessoa depois de entrar: direto para a área interna (a
+// página que ela tentou abrir ou o painel). As boas-vindas só aparecem
+// logo depois de criar a conta, nunca no login.
+export function decidirDestinoAposEntrar(paginaPedida) {
+  if (paginaPedida && paginaPedida.startsWith('/app')) {
+    return paginaPedida
+  } else {
+    return '/app'
+  }
+}
+
+// Depois de criar a conta: boas-vindas se ainda não viu; senão, o painel.
+export function decidirDestinoAposCadastro(usuario) {
   if (!usuario.boasVindasConcluidas) {
     return '/boas-vindas'
-  } else if (paginaPedida && paginaPedida.startsWith('/app')) {
-    return paginaPedida
   } else {
     return '/app'
   }
