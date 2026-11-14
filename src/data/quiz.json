@@ -8,8 +8,248 @@
   },
   "perguntas": [
     {
-      "id": "q-u1-1",
+      "id": "q-un1-l1-1",
       "unidade": 1,
+      "pergunta": "O que é política, no sentido mais simples?",
+      "opcoes": [
+        "Um assunto só de quem trabalha no governo",
+        "O jeito de uma sociedade decidir questões comuns",
+        "Uma disputa que só acontece em época de eleição"
+      ],
+      "correta": 1,
+      "explicacao": "Política é como a sociedade decide, em conjunto, problemas comuns e o uso do dinheiro público. Ela acontece o tempo todo, e não só nas eleições.",
+      "analogia": "É como uma reunião de condomínio que decide regras para todos. A diferença é que, na política, as decisões seguem leis e a Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 1º, parágrafo único",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l1-2",
+      "unidade": 1,
+      "pergunta": "Qual destes serviços depende de decisões políticas?",
+      "opcoes": [
+        "O transporte público da cidade",
+        "Nenhum: os serviços funcionam sozinhos",
+        "Só os serviços do governo federal"
+      ],
+      "correta": 0,
+      "explicacao": "Transporte, saúde, educação e segurança dependem de decisões de governantes e parlamentares, como quanto dinheiro investir e quais regras seguir.",
+      "analogia": "É como um time: o jogo depende de quem escala e treina. A diferença é que, nos serviços públicos, quem decide responde à população e às leis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 6º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l1-3",
+      "unidade": 1,
+      "pergunta": "Para que serve entender política?",
+      "opcoes": [
+        "Para ter que escolher um partido",
+        "Para decorar nomes de políticos",
+        "Para saber quem decide e como cobrar"
+      ],
+      "correta": 2,
+      "explicacao": "Entender política ajuda a saber quem decide cada coisa e a cobrar a pessoa certa. Não exige escolher partido: cada pessoa forma a própria opinião.",
+      "analogia": "É como saber quem é o síndico antes de reclamar do elevador. A diferença é que, na cidade, há vários responsáveis, cada um com sua função.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 1º, inciso II",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l2-1",
+      "unidade": 1,
+      "pergunta": "Na cidade do Rio, quem a população elege?",
+      "opcoes": [
+        "Só o prefeito",
+        "O prefeito, o vice-prefeito e os vereadores",
+        "Os secretários municipais"
+      ],
+      "correta": 1,
+      "explicacao": "A população elege o prefeito, o vice-prefeito e os vereadores, para mandato de quatro anos. Os secretários municipais são escolhidos pelo prefeito.",
+      "analogia": "É como eleger o síndico e o conselho do prédio. A diferença é que a eleição municipal segue leis e é organizada pela Justiça Eleitoral.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 29, inciso I",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l2-2",
+      "unidade": 1,
+      "pergunta": "Quanto dura o mandato de um vereador?",
+      "opcoes": [
+        "Quatro anos",
+        "Dois anos",
+        "Oito anos"
+      ],
+      "correta": 0,
+      "explicacao": "O mandato de vereadores e do prefeito dura quatro anos. Depois disso, há uma nova eleição, e a população decide quem vai ocupar os cargos.",
+      "analogia": "É como um contrato com data para acabar. A diferença é que, no fim do mandato, quem decide se a pessoa continua é a população, pelo voto.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 29, inciso I",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l2-3",
+      "unidade": 1,
+      "pergunta": "Depois de eleito, o representante deve explicações a quem?",
+      "opcoes": [
+        "Só a quem votou nele",
+        "Só ao partido dele",
+        "A toda a população"
+      ],
+      "correta": 2,
+      "explicacao": "O eleito representa toda a população, e não só seus eleitores. Por isso, a administração pública deve seguir princípios como a publicidade dos seus atos.",
+      "analogia": "É como o representante de turma, que fala por todos os alunos. A diferença é que o político tem deveres previstos na Constituição e nas leis.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 37, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l3-1",
+      "unidade": 1,
+      "pergunta": "Quem decide onde a Prefeitura vai fazer uma obra?",
+      "opcoes": [
+        "O vereador da região",
+        "O Executivo, chefiado pelo prefeito",
+        "Os moradores, por votação"
+      ],
+      "correta": 1,
+      "explicacao": "Executar obras e serviços é tarefa do Executivo, chefiado pelo prefeito. O vereador pode propor leis, fazer pedidos e fiscalizar, mas não executa a obra.",
+      "analogia": "É como o síndico, que contrata o conserto, enquanto o conselho confere. A diferença é que, na cidade, as funções estão definidas em lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 30, inciso V",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l3-2",
+      "unidade": 1,
+      "pergunta": "Qual pergunta ajuda a avaliar uma promessa de campanha?",
+      "opcoes": [
+        "O candidato prometeu mais que os outros?",
+        "A promessa depende da função do cargo disputado?",
+        "A promessa foi repetida muitas vezes?"
+      ],
+      "correta": 1,
+      "explicacao": "Cada cargo tem funções definidas. Conferir se a promessa depende daquele cargo ajuda a separar o que a pessoa pode fazer do que depende de outros.",
+      "analogia": "É como pedir ao porteiro para trocar o elevador: ele pode avisar, mas quem contrata é o síndico. A diferença é que as funções públicas estão na lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 29 e 30",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l3-3",
+      "unidade": 1,
+      "pergunta": "Qual princípio obriga a administração a mostrar o que faz?",
+      "opcoes": [
+        "Publicidade",
+        "Sigilo",
+        "Exclusividade"
+      ],
+      "correta": 0,
+      "explicacao": "A publicidade é um dos princípios da administração pública na Constituição, ao lado de legalidade, impessoalidade, moralidade e eficiência.",
+      "analogia": "É como a prestação de contas do condomínio, aberta a todos os moradores. A diferença é que, no governo, isso é um dever constitucional.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 37, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l4-1",
+      "unidade": 1,
+      "pergunta": "Para pedir uma informação a um órgão público, é preciso explicar o motivo?",
+      "opcoes": [
+        "Sim, sempre",
+        "Não, a lei proíbe exigir o motivo",
+        "Só para informações federais"
+      ],
+      "correta": 1,
+      "explicacao": "A Lei de Acesso à Informação proíbe exigir os motivos de um pedido de informação de interesse público. Basta se identificar e dizer o que você quer saber.",
+      "analogia": "É como pedir o extrato no banco: você não precisa justificar. A diferença é que a informação pública é um direito garantido pela Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei de Acesso à Informação (Lei nº 12.527/2011)",
+        "trecho": "art. 10, § 3º",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l4-2",
+      "unidade": 1,
+      "pergunta": "Como eleitores podem propor uma lei sem ser parlamentares?",
+      "opcoes": [
+        "Por iniciativa popular, com assinaturas",
+        "Enviando uma carta ao prefeito",
+        "Não podem, em nenhum caso"
+      ],
+      "correta": 0,
+      "explicacao": "Pela iniciativa popular, eleitores apresentam um projeto de lei com um número mínimo de assinaturas. Para leis da cidade, a exigência é de 5% do eleitorado.",
+      "analogia": "Parece um abaixo-assinado de moradores. A diferença é que o projeto ainda precisa ser votado e só vira lei se for aprovado.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 29, inciso XIII; art. 61, § 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un1-l4-3",
+      "unidade": 1,
+      "pergunta": "Onde usuários do SUS participam das decisões de saúde?",
+      "opcoes": [
+        "Na Justiça Eleitoral",
+        "No Tribunal de Contas",
+        "Nos conselhos de saúde"
+      ],
+      "correta": 2,
+      "explicacao": "Os conselhos de saúde reúnem representantes do governo, dos profissionais e dos usuários do SUS, que têm metade das vagas. Eles acompanham a política de saúde.",
+      "analogia": "É como o conselho de pais de uma escola. A diferença é que os conselhos de saúde estão previstos em lei e existem em todas as esferas.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei nº 8.142/1990 (participação da comunidade no SUS)",
+        "trecho": "art. 1º, § 2º e § 4º",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8142.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-u1-1",
+      "unidade": 2,
       "pergunta": "Na democracia brasileira, de quem vem o poder?",
       "opcoes": [
         "Do presidente da República",
@@ -30,7 +270,7 @@
     },
     {
       "id": "q-u1-2",
-      "unidade": 1,
+      "unidade": 2,
       "pergunta": "Para quem o voto é obrigatório?",
       "opcoes": [
         "Para quem é alfabetizado e tem de 18 a 70 anos",
@@ -51,7 +291,7 @@
     },
     {
       "id": "q-u1-3",
-      "unidade": 1,
+      "unidade": 2,
       "pergunta": "Um grupo de cidadãos pode apresentar um projeto de lei?",
       "opcoes": [
         "Não, só deputados e senadores podem",
@@ -71,8 +311,128 @@
       "_baseadaEm": "Pergunta 1.3 do documento de conteúdo"
     },
     {
+      "id": "q-un2-l2-1",
+      "unidade": 2,
+      "pergunta": "Qual é a lei mais importante do Brasil?",
+      "opcoes": [
+        "O Código Civil",
+        "A Constituição Federal",
+        "A Lei Orgânica do Município"
+      ],
+      "correta": 1,
+      "explicacao": "A Constituição está acima de todas as outras normas. Nenhuma lei pode contrariá-la, e o Supremo Tribunal Federal tem a função de guardá-la.",
+      "analogia": "É como o regulamento geral de um campeonato. A diferença é que a Constituição foi feita por representantes eleitos e só muda por regras especiais.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 102, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un2-l2-2",
+      "unidade": 2,
+      "pergunta": "Em que ano foi promulgada a Constituição atual?",
+      "opcoes": [
+        "1946",
+        "1964",
+        "1988"
+      ],
+      "correta": 2,
+      "explicacao": "A Constituição atual foi promulgada em 5 de outubro de 1988. Desde então, ela já recebeu várias emendas, mas continua sendo a mesma Constituição.",
+      "analogia": "É como uma casa que passa por reformas sem deixar de ser a mesma casa. A diferença é que algumas partes da Constituição não podem ser abolidas.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "data de promulgação",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un2-l2-3",
+      "unidade": 2,
+      "pergunta": "O que diz o começo do artigo 5º da Constituição?",
+      "opcoes": [
+        "Que todos são iguais perante a lei",
+        "Que o voto é facultativo para todos",
+        "Que o Presidente pode mudar leis sozinho"
+      ],
+      "correta": 0,
+      "explicacao": "O artigo 5º começa garantindo que todos são iguais perante a lei, sem distinção de qualquer natureza, e lista direitos e garantias individuais.",
+      "analogia": "É como uma regra de jogo que vale igual para todos os jogadores. A diferença é que, na Constituição, a igualdade é um direito fundamental.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 5º, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un2-l3-1",
+      "unidade": 2,
+      "pergunta": "Qual destes é um direito social previsto na Constituição?",
+      "opcoes": [
+        "O transporte",
+        "Ter um carro próprio",
+        "Ter um plano de saúde privado"
+      ],
+      "correta": 0,
+      "explicacao": "O transporte está na lista de direitos sociais da Constituição, ao lado de educação, saúde, alimentação, trabalho, moradia, lazer e segurança.",
+      "analogia": "É como os itens básicos de uma lista de compras da casa. A diferença é que os direitos sociais orientam políticas públicas para toda a população.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 6º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un2-l3-2",
+      "unidade": 2,
+      "pergunta": "Quem pode ter assistência jurídica gratuita da Defensoria Pública?",
+      "opcoes": [
+        "Qualquer empresa",
+        "Quem comprovar que não tem recursos",
+        "Só servidores públicos"
+      ],
+      "correta": 1,
+      "explicacao": "A Constituição garante assistência jurídica integral e gratuita a quem comprovar insuficiência de recursos. Esse atendimento é feito pela Defensoria Pública.",
+      "analogia": "É como um plantão de ajuda para quem não pode pagar um profissional. A diferença é que a Defensoria é um órgão público previsto na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 5º, inciso LXXIV; art. 134",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un2-l3-3",
+      "unidade": 2,
+      "pergunta": "Segundo a Constituição, a educação é dever de quem?",
+      "opcoes": [
+        "Só das escolas particulares",
+        "Só da família",
+        "Do Estado e da família"
+      ],
+      "correta": 2,
+      "explicacao": "A Constituição diz que a educação é direito de todos e dever do Estado e da família, com a colaboração da sociedade.",
+      "analogia": "É como um time em que cada um tem sua parte no jogo. A diferença é que, na educação, os deveres de cada um estão escritos na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 205",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
       "id": "q-u1-4",
-      "unidade": 1,
+      "unidade": 2,
       "pergunta": "Como é o voto nas eleições brasileiras?",
       "opcoes": [
         "Aberto, para todos verem em quem você votou",
@@ -93,7 +453,7 @@
     },
     {
       "id": "q-u1-5",
-      "unidade": 1,
+      "unidade": 2,
       "pergunta": "Como a cidadania aparece na Constituição?",
       "opcoes": [
         "Como um assunto só da época de eleição",
@@ -114,7 +474,7 @@
     },
     {
       "id": "q-u1-6",
-      "unidade": 1,
+      "unidade": 2,
       "pergunta": "Para se candidatar, a pessoa precisa estar filiada a um partido?",
       "opcoes": [
         "Sim, é uma das condições da Constituição",
@@ -135,7 +495,7 @@
     },
     {
       "id": "q-u3-1",
-      "unidade": 2,
+      "unidade": 3,
       "pergunta": "Quais são os três Poderes da República?",
       "opcoes": [
         "Federal, estadual e municipal",
@@ -156,7 +516,7 @@
     },
     {
       "id": "q-u3-2",
-      "unidade": 2,
+      "unidade": 3,
       "pergunta": "Qual Poder tem como função principal fazer as leis?",
       "opcoes": [
         "O Legislativo",
@@ -177,7 +537,7 @@
     },
     {
       "id": "q-u3-3",
-      "unidade": 2,
+      "unidade": 3,
       "pergunta": "Quem chefia o Poder Executivo federal?",
       "opcoes": [
         "O presidente do Senado",
@@ -198,7 +558,7 @@
     },
     {
       "id": "q-u3-4",
-      "unidade": 2,
+      "unidade": 3,
       "pergunta": "Quais casas formam o Congresso Nacional?",
       "opcoes": [
         "O Senado e o Supremo Tribunal Federal",
@@ -219,7 +579,7 @@
     },
     {
       "id": "q-u3-5",
-      "unidade": 2,
+      "unidade": 3,
       "pergunta": "Qual destes órgãos faz parte do Poder Judiciário?",
       "opcoes": [
         "O Tribunal de Contas da União",
@@ -240,7 +600,7 @@
     },
     {
       "id": "q-u3-6",
-      "unidade": 2,
+      "unidade": 3,
       "pergunta": "Quem nomeia os ministros de Estado?",
       "opcoes": [
         "O Presidente da República",
@@ -260,8 +620,128 @@
       "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
     },
     {
-      "id": "q-u5-1",
+      "id": "q-un3-l3-1",
       "unidade": 3,
+      "pergunta": "Quem faz as leis da cidade do Rio de Janeiro?",
+      "opcoes": [
+        "A Alerj",
+        "A Câmara Municipal",
+        "O Tribunal de Justiça"
+      ],
+      "correta": 1,
+      "explicacao": "O município tem seu próprio Legislativo: a Câmara Municipal, formada pelos vereadores. A Alerj faz as leis do estado do Rio.",
+      "analogia": "É como o conselho do prédio, que cria regras só para aquele condomínio. A diferença é que as leis municipais seguem a Constituição e a Lei Orgânica.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 29, caput; art. 30, inciso I",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un3-l3-2",
+      "unidade": 3,
+      "pergunta": "Quem chefia o Poder Executivo do estado do Rio de Janeiro?",
+      "opcoes": [
+        "O governador",
+        "O prefeito do Rio",
+        "O presidente da Alerj"
+      ],
+      "correta": 0,
+      "explicacao": "Cada estado tem um governador eleito, que chefia o Executivo estadual. O prefeito chefia o Executivo da cidade, e a Alerj é o Legislativo do estado.",
+      "analogia": "É como a direção de uma rede de escolas, acima da direção de cada unidade. A diferença é que estado e município têm autonomia, sem hierarquia entre eles.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 28",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un3-l3-3",
+      "unidade": 3,
+      "pergunta": "Quem ajuda a Câmara Municipal a fiscalizar as contas da Prefeitura?",
+      "opcoes": [
+        "A Polícia Civil",
+        "O Senado Federal",
+        "O Tribunal de Contas do Município"
+      ],
+      "correta": 2,
+      "explicacao": "O controle externo da Câmara Municipal é feito com o auxílio de um tribunal de contas. No Rio, quem cumpre esse papel é o Tribunal de Contas do Município.",
+      "analogia": "É como um auditor que confere as contas do condomínio para o conselho. A diferença é que o tribunal de contas é um órgão público previsto na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 31, § 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un3-l4-1",
+      "unidade": 3,
+      "pergunta": "Como se chama o equilíbrio em que um Poder limita o outro?",
+      "opcoes": [
+        "Freios e contrapesos",
+        "Hierarquia dos Poderes",
+        "Poder moderador"
+      ],
+      "correta": 0,
+      "explicacao": "Freios e contrapesos é o nome dado ao equilíbrio entre os Poderes: são independentes e harmônicos, e cada um tem formas de limitar os outros.",
+      "analogia": "É como um jogo com árbitro e VAR, em que um confere o outro. A diferença é que, entre os Poderes, nenhum manda nos outros.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 2º; art. 66",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un3-l4-2",
+      "unidade": 3,
+      "pergunta": "Quem tem a função principal de guardar a Constituição?",
+      "opcoes": [
+        "O Presidente da República",
+        "O Supremo Tribunal Federal",
+        "A Câmara dos Deputados"
+      ],
+      "correta": 1,
+      "explicacao": "Cabe ao Supremo Tribunal Federal, principalmente, a guarda da Constituição. Ele pode decidir se uma lei ou ato está de acordo com ela.",
+      "analogia": "É como o árbitro final das dúvidas sobre o regulamento. A diferença é que o STF só age quando é acionado por um processo.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 102, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un3-l4-3",
+      "unidade": 3,
+      "pergunta": "Em um crime de responsabilidade do Presidente, quem julga?",
+      "opcoes": [
+        "O Supremo Tribunal Federal",
+        "A Câmara Municipal",
+        "O Senado Federal"
+      ],
+      "correta": 2,
+      "explicacao": "A Câmara dos Deputados autoriza a abertura do processo, e o Senado Federal julga o Presidente por crime de responsabilidade.",
+      "analogia": "É como um processo em duas etapas: uma comissão aceita a denúncia e outra decide. A diferença é que tudo segue regras da Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 51, inciso I; art. 52, inciso I",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-u5-1",
+      "unidade": 4,
       "pergunta": "Como a Constituição organiza o país?",
       "opcoes": [
         "União e estados; os municípios dependem deles",
@@ -282,7 +762,7 @@
     },
     {
       "id": "q-u5-2",
-      "unidade": 3,
+      "unidade": 4,
       "pergunta": "Quem organiza o transporte coletivo de interesse local, como os ônibus da cidade?",
       "opcoes": [
         "O município",
@@ -303,7 +783,7 @@
     },
     {
       "id": "q-u5-3",
-      "unidade": 3,
+      "unidade": 4,
       "pergunta": "Quem atua prioritariamente na educação infantil e no ensino fundamental?",
       "opcoes": [
         "A União",
@@ -324,7 +804,7 @@
     },
     {
       "id": "q-u5-4",
-      "unidade": 3,
+      "unidade": 4,
       "pergunta": "Quem pode emitir moeda, o real, no Brasil?",
       "opcoes": [
         "Cada estado",
@@ -345,7 +825,7 @@
     },
     {
       "id": "q-u5-5",
-      "unidade": 3,
+      "unidade": 4,
       "pergunta": "Um estado pode ter a sua própria Constituição?",
       "opcoes": [
         "Não, só existe a Constituição Federal",
@@ -366,7 +846,7 @@
     },
     {
       "id": "q-u5-6",
-      "unidade": 3,
+      "unidade": 4,
       "pergunta": "Sobre que assuntos o município pode fazer leis?",
       "opcoes": [
         "Sobre assuntos de interesse local",
@@ -386,8 +866,908 @@
       "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
     },
     {
-      "id": "q-u7-1",
+      "id": "q-un4-l3-1",
       "unidade": 4,
+      "pergunta": "A Polícia Militar do Rio responde a quem?",
+      "opcoes": [
+        "Ao prefeito",
+        "Ao governador",
+        "Ao Presidente da República"
+      ],
+      "correta": 1,
+      "explicacao": "As polícias militares e civis e os bombeiros militares respondem aos governadores. Por isso, policiamento é responsabilidade do governo do estado.",
+      "analogia": "É como uma equipe que responde a uma única direção. A diferença é que a subordinação das polícias está definida na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 144, § 6º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un4-l3-2",
+      "unidade": 4,
+      "pergunta": "Para que serve a Guarda Municipal, pela Constituição?",
+      "opcoes": [
+        "Proteger bens, serviços e instalações da cidade",
+        "Substituir a Polícia Civil",
+        "Julgar crimes na cidade"
+      ],
+      "correta": 0,
+      "explicacao": "A Constituição permite que os municípios criem guardas municipais para proteger seus bens, serviços e instalações, conforme a lei.",
+      "analogia": "É como a equipe de segurança de um condomínio, que cuida das áreas comuns. A diferença é que a Guarda segue regras previstas em lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 144, § 8º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un4-l3-3",
+      "unidade": 4,
+      "pergunta": "Quem fiscaliza o governo do estado do Rio?",
+      "opcoes": [
+        "Os vereadores",
+        "Os senadores",
+        "Os deputados estaduais"
+      ],
+      "correta": 2,
+      "explicacao": "Os deputados estaduais, na Alerj, fazem as leis do estado e fiscalizam o governo estadual, com a ajuda do Tribunal de Contas do Estado.",
+      "analogia": "É como o conselho fiscal de uma associação. A diferença é que, no estado, a fiscalização tem regras na Constituição Federal e na estadual.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 27; art. 75",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un4-l4-1",
+      "unidade": 4,
+      "pergunta": "Cuidar da saúde é tarefa de qual esfera de governo?",
+      "opcoes": [
+        "Só da União",
+        "Só do município",
+        "Das três esferas, em conjunto"
+      ],
+      "correta": 2,
+      "explicacao": "Cuidar da saúde é competência comum da União, dos estados, do Distrito Federal e dos municípios. No SUS, cada esfera tem a sua parte.",
+      "analogia": "É como uma tarefa de casa dividida entre irmãos. A diferença é que, no SUS, a divisão das responsabilidades está em leis e acordos oficiais.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 23, inciso II",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un4-l4-2",
+      "unidade": 4,
+      "pergunta": "No Rio, as Clínicas da Família são de qual governo?",
+      "opcoes": [
+        "Da Prefeitura",
+        "Do governo federal",
+        "Do Tribunal de Justiça"
+      ],
+      "correta": 0,
+      "explicacao": "Na cidade do Rio, a atenção primária, feita nas Clínicas da Família e nos Centros Municipais de Saúde, é responsabilidade da Prefeitura.",
+      "analogia": "É como o posto de atendimento mais perto de casa de uma grande rede. A diferença é que, no SUS, cada esfera responde por uma parte do serviço.",
+      "fonte": {
+        "instituicao": "Prefeitura do Rio (Carioca Digital)",
+        "documento": "Atendimento em unidades de atenção primária em saúde",
+        "trecho": "",
+        "url": "https://carioca.rio/servicos/atendimento-em-unidades-de-atencao-primaria-em-saude/",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un4-l4-3",
+      "unidade": 4,
+      "pergunta": "Na educação, qual esfera prioriza o ensino médio?",
+      "opcoes": [
+        "Os municípios",
+        "Os estados",
+        "A União"
+      ],
+      "correta": 1,
+      "explicacao": "A Constituição diz que os estados atuam com prioridade no ensino fundamental e no médio. Os municípios priorizam a educação infantil e o fundamental.",
+      "analogia": "É como dividir as etapas de uma obra entre equipes. A diferença é que as esferas colaboram, e a União também ajuda com recursos.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 211, §§ 2º e 3º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l1-1",
+      "unidade": 5,
+      "pergunta": "De onde vem a maior parte do dinheiro público?",
+      "opcoes": [
+        "De tributos pagos por pessoas e empresas",
+        "De doações de políticos",
+        "Da impressão de dinheiro pelo governo"
+      ],
+      "correta": 0,
+      "explicacao": "A principal fonte do dinheiro público são os tributos, como impostos e taxas. Também entram transferências entre governos e outras receitas previstas em lei.",
+      "analogia": "É como a taxa de condomínio, que paga as despesas do prédio. A diferença é que os tributos são obrigatórios e definidos em lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 145",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l1-2",
+      "unidade": 5,
+      "pergunta": "O IPTU da sua casa vai para qual governo?",
+      "opcoes": [
+        "Para a União",
+        "Para o município",
+        "Para o estado"
+      ],
+      "correta": 1,
+      "explicacao": "O IPTU é um imposto municipal, cobrado sobre imóveis urbanos. No Rio, ele vai para a Prefeitura. A reforma tributária não mexe no IPTU.",
+      "analogia": "É como a taxa de um serviço do prédio, paga direto ao condomínio. A diferença é que o IPTU é obrigatório e segue a lei municipal.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 156, inciso I",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l1-3",
+      "unidade": 5,
+      "pergunta": "Por que o estado do Rio recebe royalties do petróleo?",
+      "opcoes": [
+        "Por ter mais habitantes que outros estados",
+        "Por decisão da Prefeitura do Rio",
+        "Como compensação pela exploração de petróleo"
+      ],
+      "correta": 2,
+      "explicacao": "A Constituição garante a estados e municípios participação no resultado ou compensação financeira pela exploração de petróleo em seu território ou no mar próximo.",
+      "analogia": "É como receber uma parte quando alguém usa algo do seu terreno. A diferença é que o petróleo é da União, e a divisão segue a lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 20, § 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l2-1",
+      "unidade": 5,
+      "pergunta": "Quem prepara a proposta de orçamento?",
+      "opcoes": [
+        "O Poder Executivo",
+        "O Poder Judiciário",
+        "Os eleitores, por votação"
+      ],
+      "correta": 0,
+      "explicacao": "As leis do orçamento são de iniciativa do Executivo: ele prepara a proposta e a envia ao Legislativo, que discute, pode fazer mudanças e vota.",
+      "analogia": "É como o síndico que monta a previsão de gastos para a assembleia votar. A diferença é que o orçamento público vira lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 165; art. 166",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l2-2",
+      "unidade": 5,
+      "pergunta": "Qual lei diz quanto pode ser gasto em cada área no ano?",
+      "opcoes": [
+        "A Lei de Acesso à Informação",
+        "A Lei Orçamentária Anual (LOA)",
+        "O Código Penal"
+      ],
+      "correta": 1,
+      "explicacao": "A Lei Orçamentária Anual (LOA) traz a previsão de receitas e as despesas autorizadas para o ano, área por área.",
+      "analogia": "É como a planilha de gastos da casa para o ano. A diferença é que a LOA é lei, aprovada pelos representantes eleitos.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 165, inciso III e § 5º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l2-3",
+      "unidade": 5,
+      "pergunta": "O governo pode gastar sem previsão no orçamento?",
+      "opcoes": [
+        "Sim, se o chefe do Executivo quiser",
+        "Sim, em qualquer obra",
+        "Não, a Constituição proíbe"
+      ],
+      "correta": 2,
+      "explicacao": "A Constituição proíbe despesas que passem dos créditos do orçamento. Há exceções previstas, como créditos extraordinários para situações urgentes.",
+      "analogia": "É como gastar além do combinado no orçamento da casa. A diferença é que, no governo, isso é proibido pela Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 167, inciso II",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l3-1",
+      "unidade": 5,
+      "pergunta": "Quanto da receita de impostos o município deve aplicar em educação, no mínimo?",
+      "opcoes": [
+        "10%",
+        "25%",
+        "50%"
+      ],
+      "correta": 1,
+      "explicacao": "A Constituição exige que estados e municípios apliquem pelo menos 25% da receita de impostos, incluindo transferências, na educação.",
+      "analogia": "É como reservar uma parte fixa do salário para os estudos dos filhos. A diferença é que, no governo, o mínimo está na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 212, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l3-2",
+      "unidade": 5,
+      "pergunta": "E na saúde, qual é o mínimo para os municípios?",
+      "opcoes": [
+        "15%",
+        "5%",
+        "30%"
+      ],
+      "correta": 0,
+      "explicacao": "Pela lei, os municípios devem aplicar pelo menos 15% da sua receita de impostos e transferências em ações e serviços públicos de saúde.",
+      "analogia": "É como separar uma parte do orçamento da casa para consultas e remédios. A diferença é que o mínimo é obrigatório e fiscalizado.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei Complementar nº 141/2012 (mínimos de saúde)",
+        "trecho": "art. 7º",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp141.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l3-3",
+      "unidade": 5,
+      "pergunta": "Quem vota o orçamento da cidade do Rio?",
+      "opcoes": [
+        "A Alerj",
+        "O Tribunal de Contas",
+        "A Câmara Municipal"
+      ],
+      "correta": 2,
+      "explicacao": "A Prefeitura prepara a proposta de orçamento e a envia à Câmara Municipal, que discute, pode mudar e vota, como o Congresso faz com o orçamento federal.",
+      "analogia": "É como a assembleia do condomínio, que aprova a previsão de gastos. A diferença é que o orçamento da cidade vira lei municipal.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 165 e 166; art. 29",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l4-1",
+      "unidade": 5,
+      "pergunta": "Um gasto novo e permanente pode ser criado sem dizer de onde vem o dinheiro?",
+      "opcoes": [
+        "Sim, se for popular",
+        "Não, a lei exige indicar a origem",
+        "Sim, em ano de eleição"
+      ],
+      "correta": 1,
+      "explicacao": "Pela Lei de Responsabilidade Fiscal, criar uma despesa obrigatória que dure mais de dois anos exige estimar o impacto e indicar a origem dos recursos.",
+      "analogia": "É como assinar uma mensalidade: antes, você precisa saber de onde vai sair o dinheiro. A diferença é que, no governo, isso é exigido por lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal)",
+        "trecho": "arts. 16 e 17",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l4-2",
+      "unidade": 5,
+      "pergunta": "Qual lei exige planejamento e transparência nas contas públicas?",
+      "opcoes": [
+        "A Lei de Responsabilidade Fiscal",
+        "A Lei Maria da Penha",
+        "O Estatuto da Cidade"
+      ],
+      "correta": 0,
+      "explicacao": "A Lei de Responsabilidade Fiscal, de 2000, define regras para que a gestão do dinheiro público seja planejada, transparente e equilibrada.",
+      "analogia": "É como um manual de regras para o caixa de uma associação. A diferença é que a lei vale para todos os governos e prevê punições.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal)",
+        "trecho": "art. 1º, § 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un5-l4-3",
+      "unidade": 5,
+      "pergunta": "Diante de uma promessa que custa dinheiro, o que vale perguntar?",
+      "opcoes": [
+        "Se outro candidato já fez a mesma promessa",
+        "Se a promessa cabe em um só mandato",
+        "Quanto custa e de onde sai o recurso"
+      ],
+      "correta": 2,
+      "explicacao": "Toda promessa com custo precisa caber no orçamento. Perguntar quanto custa e de onde sai o dinheiro ajuda a avaliar se ela é possível.",
+      "analogia": "É como planejar uma viagem: primeiro você vê o preço e de onde vai tirar o dinheiro. A diferença é que, no governo, o dinheiro é de todos.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal)",
+        "trecho": "arts. 16 e 17",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l1-1",
+      "unidade": 6,
+      "pergunta": "O que é um partido político?",
+      "opcoes": [
+        "Um órgão do governo federal",
+        "Uma organização de pessoas em torno de ideias e propostas",
+        "Um tipo de tribunal eleitoral"
+      ],
+      "correta": 1,
+      "explicacao": "Partido é uma organização de pessoas, com personalidade jurídica de direito privado, que reúne ideias e propostas para disputar eleições e representar a população.",
+      "analogia": "É como um grupo que se organiza em torno de um objetivo comum. A diferença é que o partido segue regras da lei e disputa cargos públicos.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei dos Partidos Políticos (Lei nº 9.096/1995)",
+        "trecho": "art. 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9096.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l1-2",
+      "unidade": 6,
+      "pergunta": "É permitido criar novos partidos no Brasil?",
+      "opcoes": [
+        "Sim, respeitando as regras da Constituição",
+        "Não, o número de partidos é fixo",
+        "Só com autorização do Presidente"
+      ],
+      "correta": 0,
+      "explicacao": "A Constituição diz que é livre criar, juntar e extinguir partidos, desde que respeitem a soberania nacional, o regime democrático e o pluripartidarismo.",
+      "analogia": "É como abrir uma nova associação de moradores, seguindo as regras. A diferença é que o partido precisa de registro na Justiça Eleitoral.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 17, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l1-3",
+      "unidade": 6,
+      "pergunta": "Qual destes princípios todo partido precisa respeitar?",
+      "opcoes": [
+        "A existência de um partido único",
+        "O fim das eleições",
+        "O regime democrático"
+      ],
+      "correta": 2,
+      "explicacao": "A Constituição exige que os partidos respeitem a soberania nacional, o regime democrático, o pluripartidarismo e os direitos fundamentais da pessoa.",
+      "analogia": "É como as regras básicas que todo time precisa seguir para entrar no campeonato. A diferença é que essas regras estão na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 17, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l2-1",
+      "unidade": 6,
+      "pergunta": "Qual fundamento da República garante a existência de ideias diferentes?",
+      "opcoes": [
+        "O pluralismo político",
+        "A soberania nacional",
+        "O voto obrigatório"
+      ],
+      "correta": 0,
+      "explicacao": "O pluralismo político é um dos fundamentos da República. Ele garante que ideias diferentes possam existir, se organizar e disputar eleições.",
+      "analogia": "É como uma roda de samba em que cabem várias vozes. A diferença é que, na política, a convivência das ideias segue regras da Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 1º, inciso V",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l2-2",
+      "unidade": 6,
+      "pergunta": "Onde os partidos registram seus estatutos?",
+      "opcoes": [
+        "Na Prefeitura",
+        "No Tribunal Superior Eleitoral",
+        "Na Câmara dos Deputados"
+      ],
+      "correta": 1,
+      "explicacao": "Depois de se tornarem pessoas jurídicas, os partidos registram seus estatutos no Tribunal Superior Eleitoral, o TSE.",
+      "analogia": "É como registrar o estatuto de uma associação em cartório. A diferença é que o partido registra o seu na Justiça Eleitoral.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 17, § 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l2-3",
+      "unidade": 6,
+      "pergunta": "Partidos podem se coligar nas eleições de vereadores e deputados?",
+      "opcoes": [
+        "Sim, livremente",
+        "Só em cidades pequenas",
+        "Não, mas podem formar federações"
+      ],
+      "correta": 2,
+      "explicacao": "A Constituição proíbe coligações nas eleições proporcionais. Partidos podem formar federações, que funcionam como um só partido por pelo menos quatro anos.",
+      "analogia": "É como times que se juntam numa só equipe por uma temporada inteira. A diferença é que a federação tem regras na lei e prazo mínimo.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei nº 14.208/2021 (federações partidárias)",
+        "trecho": "art. 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14208.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l3-1",
+      "unidade": 6,
+      "pergunta": "Onde um partido diz quais são seus objetivos políticos?",
+      "opcoes": [
+        "No programa do partido",
+        "Em comentários nas redes sociais",
+        "No Diário Oficial do município"
+      ],
+      "correta": 0,
+      "explicacao": "A lei diz que o partido é livre para fixar seus objetivos políticos no seu programa. É o documento oficial em que ele se apresenta.",
+      "analogia": "É como o regulamento de um clube, que diz para que ele existe. A diferença é que o programa do partido é registrado na Justiça Eleitoral.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei dos Partidos Políticos (Lei nº 9.096/1995)",
+        "trecho": "art. 14",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9096.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l3-2",
+      "unidade": 6,
+      "pergunta": "Quais candidatos precisam registrar propostas de governo?",
+      "opcoes": [
+        "Só os candidatos a vereador",
+        "Os candidatos a prefeito, governador e presidente",
+        "Nenhum candidato"
+      ],
+      "correta": 1,
+      "explicacao": "A Lei das Eleições exige que candidatos a prefeito, governador e presidente apresentem suas propostas no pedido de registro da candidatura.",
+      "analogia": "É como entregar um plano de trabalho antes de assumir uma função. A diferença é que essas propostas ficam públicas para todos os eleitores.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei das Eleições (Lei nº 9.504/1997)",
+        "trecho": "art. 11, § 1º, inciso IX",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l3-3",
+      "unidade": 6,
+      "pergunta": "Onde consultar as propostas registradas pelos candidatos?",
+      "opcoes": [
+        "Em grupos de mensagens",
+        "No Diário Oficial",
+        "No DivulgaCandContas, do TSE"
+      ],
+      "correta": 2,
+      "explicacao": "O DivulgaCandContas, do TSE, mostra os dados das candidaturas, incluindo as propostas registradas por candidatos a cargos do Executivo.",
+      "analogia": "É como consultar a ficha oficial de um produto no site do fabricante. A diferença é que, aqui, a fonte é a Justiça Eleitoral.",
+      "fonte": {
+        "instituicao": "Tribunal Superior Eleitoral (TSE)",
+        "documento": "DivulgaCandContas",
+        "trecho": "",
+        "url": "https://divulgacandcontas.tse.jus.br",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l4-1",
+      "unidade": 6,
+      "pergunta": "Onde conferir como um deputado federal votou?",
+      "opcoes": [
+        "No registro de votações da Câmara",
+        "Na propaganda eleitoral",
+        "Em pesquisas de opinião"
+      ],
+      "correta": 0,
+      "explicacao": "A Câmara dos Deputados registra e publica as votações nominais, com o voto de cada deputado. Esses dados estão nos Dados Abertos da Câmara.",
+      "analogia": "É como conferir a súmula oficial de um jogo, em vez do comentário de um torcedor. A diferença é que o registro do voto é público.",
+      "fonte": {
+        "instituicao": "Câmara dos Deputados",
+        "documento": "Dados Abertos: votações nominais",
+        "trecho": "",
+        "url": "https://dadosabertos.camara.leg.br",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l4-2",
+      "unidade": 6,
+      "pergunta": "Se o parlamentar faltou à votação, isso conta como voto contra?",
+      "opcoes": [
+        "Sim, sempre",
+        "Não, ausência não é voto contrário",
+        "Só se o partido orientar assim"
+      ],
+      "correta": 1,
+      "explicacao": "Ausência, abstenção e voto contrário são coisas diferentes. Quem faltou não votou, e isso não pode ser contado como voto contra.",
+      "analogia": "É como um aluno que faltou à prova: ele não tirou nota zero por escolha, ele não fez. A diferença é que o registro de votos mostra cada situação.",
+      "fonte": {
+        "instituicao": "Congresso Nacional (Câmara dos Deputados e Senado Federal)",
+        "documento": "Glossário de Termos Legislativos",
+        "trecho": "verbete \"Abstenção\"",
+        "url": "https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-legislativo",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un6-l4-3",
+      "unidade": 6,
+      "pergunta": "Quem deve definir regras de fidelidade partidária?",
+      "opcoes": [
+        "O TSE, igual para todos",
+        "O Presidente da República",
+        "O estatuto de cada partido"
+      ],
+      "correta": 2,
+      "explicacao": "A Constituição diz que os estatutos dos partidos devem estabelecer normas de disciplina e fidelidade partidária.",
+      "analogia": "É como o regulamento interno de um clube, que define as regras para os sócios. A diferença é que o partido segue também a lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 17, § 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l1-1",
+      "unidade": 7,
+      "pergunta": "Nas eleições municipais, quais cargos são escolhidos?",
+      "opcoes": [
+        "Prefeito, vice-prefeito e vereadores",
+        "Presidente e senadores",
+        "Governador e deputados"
+      ],
+      "correta": 0,
+      "explicacao": "Nas eleições municipais, escolhemos prefeito, vice-prefeito e vereadores. Presidente, governador, senadores e deputados são escolhidos nas eleições gerais.",
+      "analogia": "É como a eleição do condomínio, separada da eleição da associação do bairro. A diferença é que todas seguem regras da Justiça Eleitoral.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 29, inciso I",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l1-2",
+      "unidade": 7,
+      "pergunta": "Quem organiza as eleições no Brasil?",
+      "opcoes": [
+        "O Congresso Nacional",
+        "A Justiça Eleitoral",
+        "Os partidos políticos"
+      ],
+      "correta": 1,
+      "explicacao": "A Justiça Eleitoral, formada pelo TSE, pelos tribunais regionais, pelos juízes e pelas juntas eleitorais, organiza e fiscaliza as eleições.",
+      "analogia": "É como a comissão organizadora de um campeonato, que não joga. A diferença é que a Justiça Eleitoral é um órgão do Judiciário.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 118",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l1-3",
+      "unidade": 7,
+      "pergunta": "Com que frequência há eleições no Brasil?",
+      "opcoes": [
+        "A cada quatro anos, para todos os cargos",
+        "Todo ano",
+        "A cada dois anos, alternando os cargos"
+      ],
+      "correta": 2,
+      "explicacao": "Há eleições a cada dois anos, alternando: municipais em um ano e gerais dois anos depois. Cada mandato dura quatro anos, menos o de senador, que dura oito.",
+      "analogia": "É como um calendário com dois campeonatos que se revezam. A diferença é que as datas e os mandatos estão na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 28; art. 29, inciso I; art. 46, § 1º; art. 77",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l2-1",
+      "unidade": 7,
+      "pergunta": "Como são eleitos os vereadores e os deputados?",
+      "opcoes": [
+        "Pelo sistema majoritário",
+        "Por sorteio",
+        "Pelo sistema proporcional"
+      ],
+      "correta": 2,
+      "explicacao": "Vereadores e deputados são eleitos pelo sistema proporcional: as vagas são divididas conforme os votos de partidos e federações e, depois, dos candidatos.",
+      "analogia": "É como uma gincana em que a pontuação da equipe define quantas vagas ela tem. A diferença é que o cálculo segue regras do Código Eleitoral.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 45, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l2-2",
+      "unidade": 7,
+      "pergunta": "Quando há segundo turno para prefeito no Rio?",
+      "opcoes": [
+        "Quando ninguém tem mais da metade dos votos válidos",
+        "Sempre",
+        "Nunca, porque a eleição é municipal"
+      ],
+      "correta": 0,
+      "explicacao": "Em cidades com mais de 200 mil eleitores, como o Rio, há segundo turno quando nenhum candidato a prefeito tem mais da metade dos votos válidos.",
+      "analogia": "É como uma final entre os dois primeiros colocados. A diferença é que a regra vale só para cidades grandes e está na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 29, inciso II",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l2-3",
+      "unidade": 7,
+      "pergunta": "Votos em branco e nulos contam como votos válidos?",
+      "opcoes": [
+        "Sim, os dois",
+        "Não",
+        "Só os votos em branco"
+      ],
+      "correta": 1,
+      "explicacao": "Os votos válidos são só os dados a candidatos ou partidos. Votos em branco e nulos não entram nessa conta.",
+      "analogia": "É como uma votação em que só contam as cédulas com um nome escolhido. A diferença é que a regra eleitoral está na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 77, § 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l3-1",
+      "unidade": 7,
+      "pergunta": "Onde ver os bens declarados por um candidato?",
+      "opcoes": [
+        "No DivulgaCandContas, do TSE",
+        "Nas redes sociais do candidato",
+        "No cartório da cidade"
+      ],
+      "correta": 0,
+      "explicacao": "O pedido de registro da candidatura inclui a declaração de bens. Esses dados ficam públicos no DivulgaCandContas, do TSE.",
+      "analogia": "É como ver a ficha oficial de um imóvel antes de alugar. A diferença é que os dados do candidato são entregues à Justiça Eleitoral.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei das Eleições (Lei nº 9.504/1997)",
+        "trecho": "art. 11, § 1º, inciso IV",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l3-2",
+      "unidade": 7,
+      "pergunta": "A prestação de contas de campanha mostra o quê?",
+      "opcoes": [
+        "As notas escolares do candidato",
+        "Quem doou e como o dinheiro foi gasto",
+        "As propostas de outros partidos"
+      ],
+      "correta": 1,
+      "explicacao": "Candidatos e partidos prestam contas à Justiça Eleitoral sobre o dinheiro da campanha: quanto arrecadaram, de quem e como gastaram.",
+      "analogia": "É como a prestação de contas de uma festa feita com vaquinha. A diferença é que, na eleição, as contas são analisadas pela Justiça.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei das Eleições (Lei nº 9.504/1997)",
+        "trecho": "arts. 28 e 29",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l3-3",
+      "unidade": 7,
+      "pergunta": "Qual documento o candidato precisa entregar sobre a situação na Justiça?",
+      "opcoes": [
+        "Carta de recomendação",
+        "Atestado médico",
+        "Certidões criminais"
+      ],
+      "correta": 2,
+      "explicacao": "O pedido de registro da candidatura precisa ter certidões criminais fornecidas pela Justiça. Elas ficam disponíveis para consulta no TSE.",
+      "analogia": "É como o atestado de antecedentes pedido em alguns empregos. A diferença é que, na eleição, a exigência está na Lei das Eleições.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei das Eleições (Lei nº 9.504/1997)",
+        "trecho": "art. 11, § 1º, inciso VII",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l4-1",
+      "unidade": 7,
+      "pergunta": "Por quanto tempo a Ficha Limpa pode deixar alguém inelegível após cumprir a pena?",
+      "opcoes": [
+        "Dois anos",
+        "Oito anos",
+        "Para sempre"
+      ],
+      "correta": 1,
+      "explicacao": "Nos crimes previstos na lei, a pessoa fica inelegível desde a condenação por órgão colegiado até oito anos depois de cumprida a pena.",
+      "analogia": "É como uma suspensão longa num campeonato, com prazo para acabar. A diferença é que a regra está na lei e quem aplica é a Justiça.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei Complementar nº 64/1990, com a redação da Lei da Ficha Limpa (Lei Complementar nº 135/2010)",
+        "trecho": "art. 1º, inciso I, alínea e",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l4-2",
+      "unidade": 7,
+      "pergunta": "Quem decide se uma candidatura pode ser registrada?",
+      "opcoes": [
+        "A Justiça Eleitoral",
+        "O partido adversário",
+        "A Prefeitura"
+      ],
+      "correta": 0,
+      "explicacao": "A Justiça Eleitoral analisa cada pedido de registro de candidatura e confere se a pessoa cumpre as condições e não tem impedimentos previstos em lei.",
+      "analogia": "É como a comissão que confere a inscrição de cada atleta antes do torneio. A diferença é que a Justiça Eleitoral segue a lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei das Eleições (Lei nº 9.504/1997)",
+        "trecho": "art. 11",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un7-l4-3",
+      "unidade": 7,
+      "pergunta": "Ter as contas de um cargo público rejeitadas por irregularidade grave pode causar o quê?",
+      "opcoes": [
+        "Perda automática do título de eleitor",
+        "Prisão imediata",
+        "Inelegibilidade, conforme a lei"
+      ],
+      "correta": 2,
+      "explicacao": "Quem teve as contas de um cargo público rejeitadas por irregularidade grave, que configure ato doloso de improbidade, pode ficar inelegível, segundo a lei.",
+      "analogia": "É como um tesoureiro que não pode voltar ao cargo se as contas dele foram reprovadas. A diferença é que, na política, a regra está na lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei Complementar nº 64/1990, com a redação da Lei da Ficha Limpa (Lei Complementar nº 135/2010)",
+        "trecho": "art. 1º, inciso I, alínea g",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un8-l1-1",
+      "unidade": 8,
+      "pergunta": "Alguém pode ser obrigado a fazer algo sem uma lei que exija?",
+      "opcoes": [
+        "Sim, se for uma autoridade",
+        "Sim, se for urgente",
+        "Não, a Constituição proíbe"
+      ],
+      "correta": 2,
+      "explicacao": "A Constituição garante que ninguém é obrigado a fazer ou deixar de fazer algo a não ser em virtude de lei. É o princípio da legalidade.",
+      "analogia": "É como num jogo: ninguém pode inventar uma regra no meio da partida. A diferença é que, no país, as regras só valem se forem aprovadas como lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 5º, inciso II",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un8-l1-2",
+      "unidade": 8,
+      "pergunta": "Qual norma está no topo de todas as outras?",
+      "opcoes": [
+        "A Constituição",
+        "O decreto do prefeito",
+        "A portaria de um ministério"
+      ],
+      "correta": 0,
+      "explicacao": "A Constituição está acima de todas as outras normas. Leis, decretos e portarias precisam respeitá-la.",
+      "analogia": "É como o regulamento geral de um campeonato, acima das regras de cada jogo. A diferença é que a Constituição só muda por emenda.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 59; art. 102",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un8-l1-3",
+      "unidade": 8,
+      "pergunta": "Quem cria as leis?",
+      "opcoes": [
+        "O Judiciário",
+        "O Legislativo, com participação do Executivo",
+        "Os tribunais de contas"
+      ],
+      "correta": 1,
+      "explicacao": "As leis são votadas pelo Legislativo. O Executivo também participa: pode propor projetos e sancionar ou vetar o que foi aprovado.",
+      "analogia": "É como um regulamento escrito pelo conselho e assinado pelo síndico. A diferença é que, no país, as etapas estão na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 59, 61 e 66",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-u7-1",
+      "unidade": 8,
       "pergunta": "O que significa a sigla PEC?",
       "opcoes": [
         "Projeto de Emenda ao Congresso",
@@ -408,7 +1788,7 @@
     },
     {
       "id": "q-u7-2",
-      "unidade": 4,
+      "unidade": 8,
       "pergunta": "Depois que o Congresso aprova um projeto de lei, para onde ele vai?",
       "opcoes": [
         "Para o Presidente, que pode sancionar ou vetar",
@@ -429,7 +1809,7 @@
     },
     {
       "id": "q-u7-3",
-      "unidade": 4,
+      "unidade": 8,
       "pergunta": "Um veto do Presidente pode ser derrubado?",
       "opcoes": [
         "Não, a decisão do Presidente é final",
@@ -450,7 +1830,7 @@
     },
     {
       "id": "q-u7-4",
-      "unidade": 4,
+      "unidade": 8,
       "pergunta": "Quem pode apresentar um projeto de lei federal?",
       "opcoes": [
         "Só o Presidente da República",
@@ -471,7 +1851,7 @@
     },
     {
       "id": "q-u7-5",
-      "unidade": 4,
+      "unidade": 8,
       "pergunta": "Um projeto aprovado na Câmara dos Deputados vai para onde?",
       "opcoes": [
         "Direto para o Presidente da República",
@@ -492,7 +1872,7 @@
     },
     {
       "id": "q-u7-6",
-      "unidade": 4,
+      "unidade": 8,
       "pergunta": "Qual destes faz parte do processo legislativo previsto na Constituição?",
       "opcoes": [
         "A medida provisória",
@@ -510,6 +1890,66 @@
         "consultadoEm": "2026-11-10"
       },
       "_conferir": "Pergunta extra: confirmar o artigo da fonte quando o texto for escrito."
+    },
+    {
+      "id": "q-un8-l4-1",
+      "unidade": 8,
+      "pergunta": "Quem ajuda o Congresso a fiscalizar as contas do governo federal?",
+      "opcoes": [
+        "O Tribunal de Contas da União",
+        "O Supremo Tribunal Federal",
+        "A Polícia Federal"
+      ],
+      "correta": 0,
+      "explicacao": "O controle externo das contas federais é feito pelo Congresso Nacional, com o auxílio do Tribunal de Contas da União, o TCU.",
+      "analogia": "É como um conselho fiscal que conta com um auditor. A diferença é que o TCU é um órgão previsto na Constituição.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 70 e 71",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un8-l4-2",
+      "unidade": 8,
+      "pergunta": "Em quanto tempo um órgão deve responder a um pedido de informação?",
+      "opcoes": [
+        "Em até 60 dias",
+        "Em até 20 dias, prorrogáveis por mais 10",
+        "Não há prazo"
+      ],
+      "correta": 1,
+      "explicacao": "Pela Lei de Acesso à Informação, o órgão tem até 20 dias para responder, prazo que pode ser prorrogado por mais 10, com justificativa.",
+      "analogia": "É como um protocolo de atendimento com prazo para a resposta. A diferença é que o prazo do pedido de informação está na lei.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei de Acesso à Informação (Lei nº 12.527/2011)",
+        "trecho": "art. 11, §§ 1º e 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+        "consultadoEm": "2026-11-14"
+      }
+    },
+    {
+      "id": "q-un8-l4-3",
+      "unidade": 8,
+      "pergunta": "No Rio, quem analisa as contas da Prefeitura?",
+      "opcoes": [
+        "O Tribunal de Contas da União",
+        "A Alerj",
+        "O Tribunal de Contas do Município"
+      ],
+      "correta": 2,
+      "explicacao": "As contas da Prefeitura do Rio são analisadas pelo Tribunal de Contas do Município, que auxilia a Câmara Municipal no controle externo.",
+      "analogia": "É como o auditor que confere as contas do condomínio para o conselho. A diferença é que o tribunal de contas é um órgão público.",
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 31, § 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      }
     }
   ]
 }

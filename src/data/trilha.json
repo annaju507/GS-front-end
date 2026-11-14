@@ -6,91 +6,131 @@
   "unidades": [
     {
       "id": 1,
-      "titulo": "Política e cidadania",
+      "titulo": "Por que entender política",
       "disponivel": true,
-      "descricao": "De onde vem o poder no Brasil, quem vota e como você pode participar das decisões, no voto e fora dele.",
+      "descricao": "Por que política tem a ver com o seu dia a dia e o que muda quando você sabe quem decide cada coisa.",
       "licoes": [
-        "u1-l1",
-        "u1-l2"
+        "un1-l1",
+        "un1-l2",
+        "un1-l3",
+        "un1-l4"
       ],
+      "capa": "calcadao-copacabana",
       "propostaSugerida": {
         "id": 2644304,
-        "tema": "acesso à informação"
-      },
-      "capa": "escadaria-selaron"
+        "tema": "participação e informação pública"
+      }
     },
     {
       "id": 2,
+      "titulo": "Democracia, Constituição e cidadania",
+      "disponivel": true,
+      "descricao": "O poder vem do povo: o que é a Constituição, quais direitos e deveres ela garante e como é votar e ser votado.",
+      "licoes": [
+        "u1-l1",
+        "un2-l2",
+        "un2-l3",
+        "u1-l2"
+      ],
+      "capa": "escadaria-selaron",
+      "propostaSugerida": {
+        "id": 2503919,
+        "tema": "direitos sociais na Constituição"
+      }
+    },
+    {
+      "id": 3,
       "titulo": "Os três Poderes",
       "disponivel": true,
       "descricao": "Quem faz as leis, quem governa e quem julga: como os três Poderes dividem o trabalho e se controlam.",
       "licoes": [
         "u3-l1",
-        "u3-l2"
+        "u3-l2",
+        "un3-l3",
+        "un3-l4"
       ],
+      "capa": "theatro-municipal",
       "propostaSugerida": {
-        "id": 2643736,
+        "id": 2647140,
         "tema": "o trabalho do Legislativo"
-      },
-      "capa": "theatro-municipal"
-    },
-    {
-      "id": 3,
-      "titulo": "Esferas de governo",
-      "disponivel": true,
-      "descricao": "União, estado e município: quem cuida de quê, do ônibus à escola, e por que isso muda onde você deve pedir.",
-      "licoes": [
-        "u5-l1",
-        "u5-l2"
-      ],
-      "propostaSugerida": {
-        "id": 2646539,
-        "tema": "estados e municípios"
-      },
-      "capa": "bondinho-pao-de-acucar"
+      }
     },
     {
       "id": 4,
-      "titulo": "Como nasce uma lei",
+      "titulo": "Cidade, estado e país",
       "disponivel": true,
-      "descricao": "O caminho de uma proposta até virar lei: quem pode propor, como é votada e o que acontece depois.",
+      "descricao": "União, estado e município: quem cuida de quê, do ônibus à escola, e a quem cobrar cada coisa no Rio.",
       "licoes": [
-        "u7-l1",
-        "u7-l2"
+        "u5-l1",
+        "u5-l2",
+        "un4-l3",
+        "un4-l4"
       ],
+      "capa": "bondinho-pao-de-acucar",
       "propostaSugerida": {
-        "id": 2503919,
-        "tema": "mudanças na Constituição (PEC)"
-      },
-      "capa": "museu-do-amanha"
+        "id": 2646539,
+        "tema": "estados e municípios"
+      }
     },
     {
       "id": 5,
-      "titulo": "Democracia e Constituição",
-      "disponivel": false,
-      "descricao": "O que é democracia, o que a Constituição de 1988 garante e como ela pode ser mudada.",
-      "licoes": []
+      "titulo": "Dinheiro público",
+      "disponivel": true,
+      "descricao": "De onde vem o dinheiro dos governos, quem decide como gastar e como avaliar se uma promessa cabe no orçamento.",
+      "licoes": [
+        "un5-l1",
+        "un5-l2",
+        "un5-l3",
+        "un5-l4"
+      ],
+      "capa": "arcos-lapa",
+      "propostaSugerida": {
+        "id": 2643736,
+        "tema": "quem paga a conta de uma política pública"
+      }
     },
     {
       "id": 6,
-      "titulo": "Quem faz o quê",
-      "disponivel": false,
-      "descricao": "Vereador, deputado, senador, prefeito, governador: o que cada cargo faz e quanto dura cada mandato.",
-      "licoes": []
+      "titulo": "Partidos e suas ideias",
+      "disponivel": true,
+      "descricao": "O que é um partido, por que existem vários e como conferir, nas fontes oficiais, o que cada um defende.",
+      "licoes": [
+        "un6-l1",
+        "un6-l2",
+        "un6-l3",
+        "un6-l4"
+      ],
+      "capa": "palmeiras-jardim-botanico"
     },
     {
       "id": 7,
-      "titulo": "Eleições e representação",
-      "disponivel": false,
-      "descricao": "Como funcionam as eleições, o que são votos válidos e como os votos viram vagas no Legislativo.",
-      "licoes": []
+      "titulo": "Eleições e voto consciente",
+      "disponivel": true,
+      "descricao": "Como funcionam as eleições, como os votos viram vagas e como pesquisar um candidato antes de votar.",
+      "licoes": [
+        "un7-l1",
+        "un7-l2",
+        "un7-l3",
+        "un7-l4"
+      ],
+      "capa": "vista-baia"
     },
     {
       "id": 8,
-      "titulo": "Fiscalização e informação",
-      "disponivel": false,
-      "descricao": "Como acompanhar o uso do dinheiro público e pedir informações a qualquer órgão do governo.",
-      "licoes": []
+      "titulo": "Como nasce uma lei",
+      "disponivel": true,
+      "descricao": "O que é uma lei, o caminho de uma proposta até virar lei e como acompanhar e fiscalizar o que é decidido.",
+      "licoes": [
+        "un8-l1",
+        "u7-l1",
+        "u7-l2",
+        "un8-l4"
+      ],
+      "capa": "museu-do-amanha",
+      "propostaSugerida": {
+        "id": 2485767,
+        "tema": "mudanças na Constituição (PEC)"
+      }
     }
   ]
 }

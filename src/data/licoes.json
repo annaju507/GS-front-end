@@ -9,8 +9,192 @@
   },
   "licoes": [
     {
-      "id": "u1-l1",
+      "id": "un1-l1",
       "unidade": 1,
+      "ordem": 1,
+      "titulo": "Política no dia a dia",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "O ônibus que você pega, a escola do bairro e o posto de saúde: quem decide como eles funcionam?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Política é o jeito de uma sociedade decidir, em conjunto, como resolver problemas comuns e usar o dinheiro de todos. A tarifa do ônibus, a vaga na creche e o remédio do posto dependem de decisões de pessoas eleitas ou de quem elas nomeiam."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Pense nas regras do seu prédio: alguém decide a taxa do condomínio e onde gastar. A diferença é que, na cidade, as decisões valem para milhões de pessoas e seguem leis e a Constituição."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Entender política não é escolher um lado. É saber quem decide cada coisa, de onde vem o dinheiro e como acompanhar. Com isso, fica mais fácil cobrar a pessoa certa, avaliar promessas e participar das decisões que afetam a sua rua e o seu bairro."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 6º",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 1º, parágrafo único; art. 6º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un1-l1-1",
+        "q-un1-l1-2",
+        "q-un1-l1-3"
+      ]
+    },
+    {
+      "id": "un1-l2",
+      "unidade": 1,
+      "ordem": 2,
+      "titulo": "Quem decide por você",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Você não vota em cada lei. Então como a sua opinião chega até quem decide?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Numa democracia representativa, a população escolhe pessoas para decidir em seu nome. Na cidade do Rio, você elege o prefeito, que governa, e os vereadores, que fazem as leis municipais e fiscalizam a Prefeitura. Cada um exerce um [[mandato|mandato]] de quatro anos."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "É como a turma que escolhe um representante para falar com a direção da escola. A diferença é que o mandato político tem regras na lei e o eleito decide também por quem não votou nele."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Seu voto escolhe quem vai decidir sobre ônibus, escolas e postos. Depois da eleição, o representante continua devendo explicações a toda a população, e não só a quem votou nele. Por isso, acompanhar o que ele faz é tão importante quanto votar."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "(...) eleição do Prefeito, do Vice-Prefeito e dos Vereadores, para mandato de quatro anos, mediante pleito direto e simultâneo realizado em todo o País (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 29, inciso I",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 1º, parágrafo único; art. 29, inciso I; art. 37, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un1-l2-1",
+        "q-un1-l2-2",
+        "q-un1-l2-3"
+      ]
+    },
+    {
+      "id": "un1-l3",
+      "unidade": 1,
+      "ordem": 3,
+      "titulo": "Cobrar quem pode",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Um candidato a vereador promete asfaltar a sua rua. Isso depende mesmo dele?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Cada cargo tem uma função. O prefeito administra a cidade e decide onde aplicar o dinheiro, como em obras e serviços. O vereador faz leis e fiscaliza a Prefeitura, mas não executa obras. Por isso, vale perguntar se a promessa depende mesmo daquele cargo."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "No condomínio, quem contrata o conserto do portão é o síndico, e o conselho confere as contas. A diferença é que, na cidade, essas funções estão na Constituição e na Lei Orgânica do Rio."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Acompanhar a política também é ver se o dinheiro público é usado com transparência. A Constituição exige que a administração siga princípios como legalidade, impessoalidade e publicidade. Isso permite que qualquer pessoa confira o que foi feito e pergunte por quê."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A administração pública direta e indireta de qualquer dos Poderes (...) obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 37, caput",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 29, 30 e 31; art. 37, caput",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un1-l3-1",
+        "q-un1-l3-2",
+        "q-un1-l3-3"
+      ]
+    },
+    {
+      "id": "un1-l4",
+      "unidade": 1,
+      "ordem": 4,
+      "titulo": "Além do voto",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Votar a cada dois anos é o único jeito de participar? A Constituição diz que não.",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Participar da política vai além da urna. Qualquer pessoa pode pedir informações a órgãos públicos, sem explicar o motivo, e acompanhar audiências públicas. Eleitores também podem propor leis pela [[iniciativa-popular|iniciativa popular]], juntando assinaturas."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "No Rio, dá para fazer um pedido ou uma reclamação à Prefeitura pela Central 1746 e assistir às sessões da Câmara Municipal, que são abertas ao público. É participar sem esperar a próxima eleição."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Também há espaços de participação em políticas públicas, como os conselhos de saúde, com representantes dos usuários do SUS. E as comissões do Legislativo podem fazer audiências públicas com a sociedade civil. Assim, dá para acompanhar e opinar antes e depois das decisões."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "(...) todos têm direito a receber dos órgãos públicos informações de seu interesse particular, ou de interesse coletivo ou geral (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 5º, inciso XXXIII",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 5º, inciso XXXIII; art. 58, § 2º, inciso II; art. 61, § 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un1-l4-1",
+        "q-un1-l4-2",
+        "q-un1-l4-3"
+      ]
+    },
+    {
+      "id": "u1-l1",
+      "unidade": 2,
       "ordem": 1,
       "titulo": "O poder vem do povo",
       "mascote": "capivara",
@@ -55,9 +239,101 @@
       ]
     },
     {
-      "id": "u1-l2",
-      "unidade": 1,
+      "id": "un2-l2",
+      "unidade": 2,
       "ordem": 2,
+      "titulo": "A Constituição de 1988",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Existe uma lei acima de todas as outras no Brasil. Você sabe qual é e por que ela importa?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "A Constituição é a lei mais importante do país. Ela organiza o Estado, diz quem tem cada poder e garante os direitos de todas as pessoas. Nenhuma outra lei, decreto ou regra pode contrariá-la. A atual foi promulgada em 5 de outubro de 1988."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Pense no regulamento de um campeonato, que vale acima das regras de cada jogo. A diferença é que a Constituição foi feita por representantes eleitos e só muda por regras especiais."
+        },
+        {
+          "tipo": "texto",
+          "texto": "A Constituição de 1988 veio depois de um período sem eleições diretas para presidente e ficou conhecida como Constituição Cidadã, por ampliar direitos. Logo no artigo 5º, ela garante a igualdade de todos perante a lei e liberdades como as de expressão e de crença."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Todos são iguais perante a lei, sem distinção de qualquer natureza (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 5º, caput",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 5º; art. 60; art. 102",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un2-l2-1",
+        "q-un2-l2-2",
+        "q-un2-l2-3"
+      ]
+    },
+    {
+      "id": "un2-l3",
+      "unidade": 2,
+      "ordem": 3,
+      "titulo": "Direitos e deveres",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Saúde e escola são direitos. Mas a cidadania também tem deveres. Quais são?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "A Constituição lista direitos sociais, como educação, saúde, moradia, transporte e segurança. Eles orientam o que o governo deve oferecer. A cidadania também tem deveres, como votar (para quem é obrigado), respeitar as leis e pagar tributos, que financiam esses serviços."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "No Rio, quem precisa de ajuda jurídica e não pode pagar advogado pode procurar a Defensoria Pública do estado, que presta assistência gratuita. É um direito previsto na Constituição."
+        },
+        {
+          "tipo": "texto",
+          "texto": "A educação é direito de todos e dever do Estado e da família, segundo a Constituição, e tem entre seus objetivos preparar a pessoa para exercer a cidadania. Quando um direito não é respeitado, há caminhos oficiais, como ouvidorias, Defensoria e Ministério Público."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A educação, direito de todos e dever do Estado e da família (...) visando ao pleno desenvolvimento da pessoa, seu preparo para o exercício da cidadania (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 205",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 5º, inciso LXXIV; art. 6º; art. 134; art. 205",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un2-l3-1",
+        "q-un2-l3-2",
+        "q-un2-l3-3"
+      ]
+    },
+    {
+      "id": "u1-l2",
+      "unidade": 2,
+      "ordem": 4,
       "titulo": "Votar e ser votado",
       "mascote": "capivara",
       "minutos": 3,
@@ -102,7 +378,7 @@
     },
     {
       "id": "u3-l1",
-      "unidade": 2,
+      "unidade": 3,
       "ordem": 1,
       "titulo": "Cada Poder, uma tarefa",
       "mascote": "capivara",
@@ -148,7 +424,7 @@
     },
     {
       "id": "u3-l2",
-      "unidade": 2,
+      "unidade": 3,
       "ordem": 2,
       "titulo": "Os Poderes por dentro",
       "mascote": "capivara",
@@ -193,8 +469,100 @@
       ]
     },
     {
-      "id": "u5-l1",
+      "id": "un3-l3",
       "unidade": 3,
+      "ordem": 3,
+      "titulo": "Os Poderes no Rio",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Na cidade do Rio, quem governa, quem faz as leis e quem julga? Nem tudo é com a Prefeitura.",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Na cidade, o Executivo é a Prefeitura, chefiada pelo prefeito, e o Legislativo é a Câmara Municipal, com 51 vereadores. No estado, o governador chefia o Executivo e a Alerj faz as leis estaduais. O Judiciário que atua no Rio é estadual e federal: o município não tem Judiciário próprio."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Uma rua esburacada é assunto da Prefeitura. Uma lei sobre regras da cidade é votada pela Câmara Municipal. Um conflito sobre um contrato vai para a Justiça. A diferença está em quem tem cada função."
+        },
+        {
+          "tipo": "texto",
+          "texto": "A Câmara Municipal também fiscaliza a Prefeitura e conta com a ajuda do Tribunal de Contas do Município do Rio, que analisa como o dinheiro público foi gasto. Os vereadores podem convocar secretários e criar comissões para investigar fatos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 31, caput",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 25, 27, 28, 29 e 31",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un3-l3-1",
+        "q-un3-l3-2",
+        "q-un3-l3-3"
+      ]
+    },
+    {
+      "id": "un3-l4",
+      "unidade": 3,
+      "ordem": 4,
+      "titulo": "Freios e contrapesos",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Se o Presidente vetar uma lei, a história acaba aí? E quem confere se uma lei respeita a Constituição?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Os Poderes são independentes, mas um limita o outro. Esse equilíbrio é chamado de sistema de freios e contrapesos. O Executivo pode vetar leis; o Legislativo pode derrubar o veto e fiscaliza o governo; o Judiciário pode decidir se uma lei respeita a Constituição."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Num jogo no Maracanã, o árbitro aplica as regras e o VAR revisa lances importantes. A diferença é que, entre os Poderes, o controle é de mão dupla e segue regras da Constituição."
+        },
+        {
+          "tipo": "texto",
+          "texto": "O Supremo Tribunal Federal é o guardião da Constituição e pode declarar uma lei inconstitucional. O Congresso pode criar comissões parlamentares de inquérito para investigar fatos. Em casos de crime de responsabilidade, a Câmara autoriza e o Senado julga o Presidente."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Compete ao Supremo Tribunal Federal, precipuamente, a guarda da Constituição (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 102, caput",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 2º; art. 51, inciso I; art. 52, inciso I; art. 58, § 3º; art. 66; art. 102",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un3-l4-1",
+        "q-un3-l4-2",
+        "q-un3-l4-3"
+      ]
+    },
+    {
+      "id": "u5-l1",
+      "unidade": 4,
       "ordem": 1,
       "titulo": "Quem cuida de quê",
       "mascote": "capivara",
@@ -240,7 +608,7 @@
     },
     {
       "id": "u5-l2",
-      "unidade": 3,
+      "unidade": 4,
       "ordem": 2,
       "titulo": "Leis de cada esfera",
       "mascote": "capivara",
@@ -285,9 +653,699 @@
       ]
     },
     {
-      "id": "u7-l1",
+      "id": "un4-l3",
       "unidade": 4,
+      "ordem": 3,
+      "titulo": "A quem cobrar no Rio",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Faltou policiamento na sua rua. A quem cobrar: vereador, prefeito, deputado ou governador?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "As polícias Militar e Civil são do governo do estado e respondem ao governador. A Prefeitura pode ter uma Guarda Municipal, que protege bens, serviços e instalações da cidade. Por isso, policiamento se cobra do estado, e o deputado estadual fiscaliza o governo do estado."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "No Rio, buraco, iluminação e coleta de lixo são da Prefeitura: dá para pedir pela Central 1746. Já trem e metrô são do governo do estado. Saber disso evita bater na porta errada."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Cada esfera tem quem executa e quem fiscaliza. Na cidade, o prefeito e os vereadores. No estado, o governador e os deputados estaduais. No país, o Presidente, os deputados federais e os senadores. Antes de cobrar, vale perguntar de qual esfera é o serviço."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "As polícias militares e os corpos de bombeiros militares (...) subordinam-se, juntamente com as polícias civis (...), aos Governadores dos Estados (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 144, § 6º",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 27; art. 144, §§ 6º e 8º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un4-l3-1",
+        "q-un4-l3-2",
+        "q-un4-l3-3"
+      ]
+    },
+    {
+      "id": "un4-l4",
+      "unidade": 4,
+      "ordem": 4,
+      "titulo": "Tarefas em conjunto",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Se cuidar da saúde é tarefa de todos os governos, quem responde quando o posto não funciona?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Algumas tarefas são comuns à União, aos estados e aos municípios, como cuidar da saúde, da educação e do meio ambiente. No SUS, as três esferas dividem responsabilidades e dinheiro. No Rio, por exemplo, as Clínicas da Família e os Centros Municipais de Saúde são da Prefeitura."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Pense numa obra feita por três empresas, cada uma com sua parte. A diferença é que, no SUS, a divisão é definida em leis e em acordos entre os governos, e o cidadão pode cobrar cada um."
+        },
+        {
+          "tipo": "texto",
+          "texto": "A Constituição também manda as esferas colaborarem na educação: os municípios priorizam creche e ensino fundamental, os estados, o fundamental e o médio, e a União ajuda com recursos. Quando a tarefa é comum, conferir quem faz cada parte ajuda a cobrar a pessoa certa."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "É competência comum da União, dos Estados, do Distrito Federal e dos Municípios: (...) cuidar da saúde e assistência pública (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 23, inciso II",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 23; art. 198; art. 211",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un4-l4-1",
+        "q-un4-l4-2",
+        "q-un4-l4-3"
+      ]
+    },
+    {
+      "id": "un5-l1",
+      "unidade": 5,
       "ordem": 1,
+      "titulo": "De onde vem o dinheiro",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "O governo não fabrica dinheiro para pagar escolas e hospitais. Então de onde ele vem?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "A maior parte do dinheiro público vem dos tributos que pessoas e empresas pagam, como impostos e taxas. Também entram transferências entre governos e, no estado do Rio, recursos dos royalties do petróleo. Esse dinheiro é de todos e paga serviços como saúde, escola e transporte."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Ao comprar algo no mercado, parte do preço é imposto. O IPTU da casa vai para a Prefeitura do Rio, e o IPVA do carro vai para o estado, que repassa metade ao município onde o carro é registrado."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Cada esfera cobra os seus impostos: o município, por exemplo, o IPTU e o ISS; o estado, o ICMS e o IPVA; a União, o Imposto de Renda. Parte do que a União e os estados arrecadam é repassada às cidades, conforme regras da Constituição."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A União, os Estados, o Distrito Federal e os Municípios poderão instituir os seguintes tributos: (...) impostos; (...) taxas (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 145",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 20, § 1º; arts. 145, 153, 155, 156 e 158",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un5-l1-1",
+        "q-un5-l1-2",
+        "q-un5-l1-3"
+      ]
+    },
+    {
+      "id": "un5-l2",
+      "unidade": 5,
+      "ordem": 2,
+      "titulo": "O plano de gastos",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Quem decide quanto dinheiro vai para a saúde e quanto vai para as obras no próximo ano?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "O dinheiro público é gasto conforme um plano aprovado em lei: o [[orcamento|orçamento]]. O Executivo prepara a proposta, e o Legislativo discute, pode mudar e vota. Sem previsão no orçamento, o governo não pode simplesmente gastar."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Pense no planejamento de uma família para o ano: aluguel, comida, escola. A diferença é que o orçamento público é lei, envolve dinheiro de todos e é aprovado pelos representantes eleitos."
+        },
+        {
+          "tipo": "texto",
+          "texto": "São três leis, uma ligada à outra: o Plano Plurianual (PPA), com metas para quatro anos; a Lei de Diretrizes Orçamentárias (LDO), com as prioridades do ano seguinte; e a Lei Orçamentária Anual (LOA), que diz quanto pode ser gasto em cada área."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Leis de iniciativa do Poder Executivo estabelecerão: (...) o plano plurianual; (...) as diretrizes orçamentárias; (...) os orçamentos anuais.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 165",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "arts. 165, 166 e 167",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un5-l2-1",
+        "q-un5-l2-2",
+        "q-un5-l2-3"
+      ]
+    },
+    {
+      "id": "un5-l3",
+      "unidade": 5,
+      "ordem": 3,
+      "titulo": "O dinheiro no Rio",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Uma parte do orçamento da cidade não pode ir para qualquer lugar. Você sabe qual?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "No Rio, a Prefeitura envia a proposta de orçamento e a Câmara Municipal vota. A Constituição e as leis exigem gastos mínimos: os municípios devem aplicar pelo menos 25% da receita de impostos em educação e 15% em saúde. O resto é dividido entre as outras áreas."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "É como uma família que separa primeiro o aluguel e a escola antes de decidir o resto. A diferença é que, no governo, esses mínimos estão na lei e são fiscalizados."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Para acompanhar, a lei obriga os governos a divulgar receitas e despesas na internet. A Prefeitura do Rio tem um portal de transparência, e o Tribunal de Contas do Município analisa as contas. Assim, qualquer pessoa pode ver para onde o dinheiro foi."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "(...) os Estados, o Distrito Federal e os Municípios vinte e cinco por cento, no mínimo, da receita resultante de impostos (...) na manutenção e desenvolvimento do ensino.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 212, caput",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 31; art. 165; art. 212",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un5-l3-1",
+        "q-un5-l3-2",
+        "q-un5-l3-3"
+      ]
+    },
+    {
+      "id": "un5-l4",
+      "unidade": 5,
+      "ordem": 4,
+      "titulo": "Quem paga a promessa",
+      "mascote": "capivara",
+      "minutos": 5,
+      "gancho": "Passagem grátis, mais hospitais e menos impostos: dá para fazer tudo ao mesmo tempo?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Toda promessa que custa dinheiro precisa caber no orçamento. Se um gasto aumenta, é preciso dizer de onde vem o recurso: aumentar a arrecadação, cortar outra despesa ou pegar empréstimo. A Lei de Responsabilidade Fiscal exige planejamento e transparência nas contas."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "É como o orçamento de casa: para pagar uma academia, é preciso cortar algo ou ganhar mais. A diferença é que, no governo, a lei exige estimar o impacto antes de criar um gasto permanente."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Pela lei, criar uma despesa obrigatória que dure mais de dois anos exige estimar o impacto e indicar a origem do dinheiro. Por isso, diante de uma promessa, vale perguntar: quanto custa, de onde sai o recurso e o que deixa de ser feito?"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "(...) a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal)",
+            "trecho": "art. 1º, § 1º",
+            "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal)",
+        "trecho": "art. 1º, § 1º; arts. 16 e 17",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un5-l4-1",
+        "q-un5-l4-2",
+        "q-un5-l4-3"
+      ]
+    },
+    {
+      "id": "un6-l1",
+      "unidade": 6,
+      "ordem": 1,
+      "titulo": "O que é um partido",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Por que ninguém pode se candidatar sozinho no Brasil, sem um partido?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Partido político é uma organização de pessoas que se juntam em torno de ideias e propostas para disputar eleições e atuar no governo e no Legislativo. No Brasil, estar filiado a um partido é uma das condições para ser candidato. É livre criar partidos, desde que respeitem a democracia."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Pense num bloco de carnaval: cada um tem sua identidade, suas regras e seus integrantes. A diferença é que o partido tem regras na lei, registro na Justiça Eleitoral e disputa cargos públicos."
+        },
+        {
+          "tipo": "texto",
+          "texto": "A lei diz que o partido existe para garantir a autenticidade do sistema representativo e defender os direitos fundamentais. Cada partido decide a sua organização interna e precisa respeitar a soberania nacional, o regime democrático e o pluripartidarismo."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 17, caput",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 14, § 3º, inciso V; art. 17",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un6-l1-1",
+        "q-un6-l1-2",
+        "q-un6-l1-3"
+      ]
+    },
+    {
+      "id": "un6-l2",
+      "unidade": 6,
+      "ordem": 2,
+      "titulo": "Vários partidos",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Existem dezenas de partidos no Brasil. Por que a Constituição permite tantos?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "A Constituição tem o pluralismo político como um dos fundamentos da República. Isso significa que ideias diferentes podem existir, se organizar e disputar eleições. Por isso, não há um número fixo de partidos: um grupo pode criar um partido, seguindo as regras da lei."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Numa roda de samba, cabem vozes e instrumentos diferentes tocando juntos. A diferença é que, na política, a convivência de ideias segue regras: eleições, leis e respeito à Constituição."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Para funcionar, o partido precisa registrar seu estatuto no Tribunal Superior Eleitoral (TSE). Uma mudança de 2017 proibiu coligações nas eleições de vereadores e deputados, mas os partidos podem formar federações, que atuam como um só partido por pelo menos quatro anos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A República Federativa do Brasil (...) tem como fundamentos: (...) o pluralismo político.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 1º, inciso V",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 1º, inciso V; art. 17, §§ 1º e 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un6-l2-1",
+        "q-un6-l2-2",
+        "q-un6-l2-3"
+      ]
+    },
+    {
+      "id": "un6-l3",
+      "unidade": 6,
+      "ordem": 3,
+      "titulo": "O que cada um defende",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Quer saber o que um partido defende? Não precisa adivinhar nem acreditar em boato.",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Cada partido escreve o seu programa, com os seus objetivos políticos, e o seu estatuto, com as regras internas. Esses documentos são registrados na Justiça Eleitoral. Assim, quem diz o que o partido defende é o próprio partido, em documento oficial, e não um comentário na internet."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "É como ler o regulamento de um clube antes de se associar, em vez de acreditar no que dizem na porta. A diferença é que o programa do partido é público e registrado na Justiça Eleitoral."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Na eleição, candidatos a prefeito, governador e presidente também precisam registrar suas propostas na Justiça Eleitoral. Elas ficam no DivulgaCandContas, do TSE. Comparar o programa do partido com as propostas do candidato ajuda a formar a sua opinião."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "(...) o partido é livre para fixar, em seu programa, seus objetivos políticos e para estabelecer, em seu estatuto, a sua estrutura interna, organização e funcionamento.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Lei dos Partidos Políticos (Lei nº 9.096/1995)",
+            "trecho": "art. 14",
+            "url": "https://www.planalto.gov.br/ccivil_03/leis/l9096.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei dos Partidos Políticos (Lei nº 9.096/1995)",
+        "trecho": "art. 14",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9096.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un6-l3-1",
+        "q-un6-l3-2",
+        "q-un6-l3-3"
+      ]
+    },
+    {
+      "id": "un6-l4",
+      "unidade": 6,
+      "ordem": 4,
+      "titulo": "Discurso e prática",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "O partido diz uma coisa no programa. Mas como os parlamentares dele votam de verdade?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Uma forma de conhecer um partido é comparar o que ele diz com o que seus parlamentares fazem. Nas votações nominais, a Câmara e o Senado registram o voto de cada parlamentar: sim, não, [[abstencao|abstenção]] ou ausência. Esses registros são públicos."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "É como comparar o cardápio com o prato que chega à mesa. A diferença é que, na política, o registro do voto é oficial, e qualquer pessoa pode conferir sem depender da opinião de ninguém."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Cuidado ao tirar conclusões: ausência não é voto contrário, e a orientação do partido nem sempre é o voto de cada um. Os estatutos devem ter regras de fidelidade partidária, mas o voto individual é o que fica registrado. Por isso, confira sempre a fonte oficial."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "(...) devendo os seus estatutos estabelecer normas de disciplina e fidelidade partidária.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 17, § 1º",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 17, § 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un6-l4-1",
+        "q-un6-l4-2",
+        "q-un6-l4-3"
+      ]
+    },
+    {
+      "id": "un7-l1",
+      "unidade": 7,
+      "ordem": 1,
+      "titulo": "Como é uma eleição",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "De dois em dois anos tem eleição no Brasil, mas os cargos mudam. Quais são escolhidos em cada uma?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "As eleições acontecem a cada dois anos, alternando. Nas municipais, escolhemos prefeito e vereadores. Nas gerais, Presidente, governador, senadores e deputados federais e estaduais. O voto é na urna eletrônica, e a Justiça Eleitoral organiza tudo, do cadastro à apuração."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "No Rio, a eleição de 2024 escolheu prefeito e vereadores, e a de 2026, Presidente, governador, senadores e deputados. É a mesma urna, mas os cargos mudam a cada eleição."
+        },
+        {
+          "tipo": "texto",
+          "texto": "A Justiça Eleitoral tem o Tribunal Superior Eleitoral (TSE), os tribunais regionais, como o TRE do Rio de Janeiro, os juízes e as juntas eleitorais. Ela registra candidaturas, fiscaliza a propaganda e as contas de campanha e divulga os resultados oficiais."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "São órgãos da Justiça Eleitoral: (...) o Tribunal Superior Eleitoral; (...) os Tribunais Regionais Eleitorais; (...) os Juízes Eleitorais; (...) as Juntas Eleitorais.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 118",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 28; art. 29, inciso I; art. 77; art. 118",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un7-l1-1",
+        "q-un7-l1-2",
+        "q-un7-l1-3"
+      ]
+    },
+    {
+      "id": "un7-l2",
+      "unidade": 7,
+      "ordem": 2,
+      "titulo": "Como votos viram vagas",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Por que um candidato a deputado com muitos votos pode não ser eleito, e outro com menos, sim?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Há dois sistemas. No majoritário, vence quem tem mais votos: vale para prefeito, governador, Presidente e senador. No proporcional, usado para vereadores e deputados, as vagas são divididas entre partidos e federações pelo total de votos, e depois entre os seus mais votados."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "Pense numa gincana em que os pontos de cada equipe definem quantas vagas ela ganha na final. A diferença é que, nas eleições, o cálculo segue o Código Eleitoral, com o quociente eleitoral."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Para Presidente, governador e prefeito de cidade com mais de 200 mil eleitores, como o Rio, vence no primeiro turno quem tem mais da metade dos votos válidos. Se ninguém chegar lá, há segundo turno. Votos em branco e nulos não entram nos votos válidos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A Câmara dos Deputados compõe-se de representantes do povo, eleitos, pelo sistema proporcional, em cada Estado, em cada Território e no Distrito Federal.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 45, caput",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 29, inciso II; art. 45; art. 46; art. 77",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un7-l2-1",
+        "q-un7-l2-2",
+        "q-un7-l2-3"
+      ]
+    },
+    {
+      "id": "un7-l3",
+      "unidade": 7,
+      "ordem": 3,
+      "titulo": "Pesquisar o candidato",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "Antes de votar, dá para ver os bens, as propostas e a situação na Justiça de um candidato?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Sim. No DivulgaCandContas, do TSE, ficam os dados de cada candidatura: bens declarados, certidões criminais, partido, propostas (para cargos do Executivo) e as contas de campanha, com quem doou e como o dinheiro foi gasto. São informações oficiais, públicas e gratuitas."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "É como pesquisar a ficha de um prestador antes de contratar um serviço para casa. A diferença é que, na eleição, a ficha é oficial, feita pela Justiça Eleitoral, e vale para todos os candidatos."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Se o candidato já teve mandato, vale ver o que fez: projetos apresentados e como votou, nos sites da Câmara, do Senado, da Alerj ou da Câmara do Rio. Olhar os partidos e políticos que o apoiam também ajuda a entender as alianças. A decisão final é sempre sua."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "(...) propostas defendidas pelo candidato a Prefeito, a Governador de Estado e a Presidente da República.",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Lei das Eleições (Lei nº 9.504/1997)",
+            "trecho": "art. 11, § 1º, inciso IX",
+            "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei das Eleições (Lei nº 9.504/1997)",
+        "trecho": "art. 11, § 1º; arts. 28 e 29",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un7-l3-1",
+        "q-un7-l3-2",
+        "q-un7-l3-3"
+      ]
+    },
+    {
+      "id": "un7-l4",
+      "unidade": 7,
+      "ordem": 4,
+      "titulo": "Ficha Limpa e contas",
+      "mascote": "capivara",
+      "minutos": 5,
+      "gancho": "Uma pessoa condenada pela Justiça pode se candidatar? Uma lei de 2010 mudou essa resposta.",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "A Lei da Ficha Limpa, de 2010, tornou inelegíveis pessoas condenadas por certos crimes por decisão de um grupo de juízes (órgão colegiado), desde a condenação até oito anos depois de cumprida a pena. Ela nasceu de um projeto de iniciativa popular."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "É como a regra de um clube que impede quem foi expulso por falta grave de concorrer à diretoria por um tempo. A diferença é que, na eleição, a regra está na lei e quem decide é a Justiça Eleitoral."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Também podem ficar inelegíveis, por exemplo, quem teve o mandato cassado ou as contas de um cargo público rejeitadas por irregularidade grave. A Justiça Eleitoral analisa cada pedido de candidatura e pode negar o registro. No DivulgaCandContas, dá para ver a situação de cada um."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "(...) os que forem condenados, em decisão transitada em julgado ou proferida por órgão judicial colegiado (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Lei Complementar nº 64/1990, com a redação da Lei da Ficha Limpa (Lei Complementar nº 135/2010)",
+            "trecho": "art. 1º, inciso I, alínea e",
+            "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Lei Complementar nº 64/1990, com a redação da Lei da Ficha Limpa (Lei Complementar nº 135/2010)",
+        "trecho": "art. 1º, inciso I, alíneas b, e e g",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un7-l4-1",
+        "q-un7-l4-2",
+        "q-un7-l4-3"
+      ]
+    },
+    {
+      "id": "un8-l1",
+      "unidade": 8,
+      "ordem": 1,
+      "titulo": "Para que servem leis",
+      "mascote": "capivara",
+      "minutos": 3,
+      "gancho": "Por que você não pode ser obrigado a fazer algo só porque alguém mandou?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Leis são regras que valem para todos e organizam a vida em sociedade. Pela Constituição, ninguém é obrigado a fazer ou deixar de fazer algo a não ser por lei. Elas são criadas pelo Legislativo, num caminho com debate, votação e participação do Executivo."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "No Rio, uma lei municipal vale só na cidade, enquanto o Código de Trânsito vale no país inteiro. Por isso, algumas regras mudam de uma cidade para outra, e outras são iguais em todo lugar."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Existem tipos diferentes de normas. A Constituição está no topo. Abaixo dela vêm as leis complementares e ordinárias, as [[medida-provisoria|medidas provisórias]] e outras normas. Decretos do Executivo servem para aplicar as leis e não podem criar obrigações que a lei não prevê."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "(...) ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 5º, inciso II",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 5º, inciso II; art. 59; art. 84, inciso IV",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un8-l1-1",
+        "q-un8-l1-2",
+        "q-un8-l1-3"
+      ]
+    },
+    {
+      "id": "u7-l1",
+      "unidade": 8,
+      "ordem": 2,
       "titulo": "Do projeto à votação",
       "mascote": "capivara",
       "minutos": 3,
@@ -332,8 +1390,8 @@
     },
     {
       "id": "u7-l2",
-      "unidade": 4,
-      "ordem": 2,
+      "unidade": 8,
+      "ordem": 3,
       "titulo": "Sanção, veto e lei",
       "mascote": "capivara",
       "minutos": 3,
@@ -374,6 +1432,52 @@
         "q-u7-4",
         "q-u7-5",
         "q-u7-6"
+      ]
+    },
+    {
+      "id": "un8-l4",
+      "unidade": 8,
+      "ordem": 4,
+      "titulo": "Acompanhe e fiscalize",
+      "mascote": "capivara",
+      "minutos": 4,
+      "gancho": "A lei foi aprovada. E agora, como saber se ela está sendo cumprida e como o dinheiro está sendo usado?",
+      "blocos": [
+        {
+          "tipo": "texto",
+          "texto": "Fiscalizar é papel do Legislativo, com a ajuda dos tribunais de contas, mas qualquer cidadão também pode acompanhar. Pela Lei de Acesso à Informação, os órgãos públicos devem divulgar dados de interesse geral e responder pedidos em até 20 dias, prorrogáveis por mais 10."
+        },
+        {
+          "tipo": "exemplo",
+          "texto": "No Rio, as contas da Prefeitura são analisadas pelo Tribunal de Contas do Município, e as do governo do estado, pelo Tribunal de Contas do Estado. É um controle feito de fora do Executivo."
+        },
+        {
+          "tipo": "texto",
+          "texto": "No Demokratos, a área Agora mostra a situação e as últimas movimentações de propostas reais, direto da Câmara. Nos sites oficiais, dá para acompanhar a tramitação, ler o texto completo e ver como cada parlamentar votou. Assim, a participação continua depois da eleição."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União (...) será exercida pelo Congresso Nacional, mediante controle externo (...).",
+          "fonte": {
+            "instituicao": "Presidência da República (Planalto)",
+            "documento": "Constituição Federal de 1988",
+            "trecho": "art. 70, caput",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+            "consultadoEm": "2026-11-14"
+          }
+        }
+      ],
+      "fonte": {
+        "instituicao": "Presidência da República (Planalto)",
+        "documento": "Constituição Federal de 1988",
+        "trecho": "art. 31; art. 70; art. 71",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "consultadoEm": "2026-11-14"
+      },
+      "quiz": [
+        "q-un8-l4-1",
+        "q-un8-l4-2",
+        "q-un8-l4-3"
       ]
     }
   ]
