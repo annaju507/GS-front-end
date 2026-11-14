@@ -120,9 +120,6 @@ export default function Previa() {
       </nav>
 
       <header className="flex max-w-leitura flex-col gap-3">
-        <p className="self-start rounded-full bg-lilas-claro px-3 py-1 font-titulo text-tag font-bold uppercase tracking-[0.05em] text-link">
-          {t.selo}
-        </p>
         <h1>{t[area].titulo}</h1>
         <p className="text-corpo">{t[area].intro}</p>
       </header>
