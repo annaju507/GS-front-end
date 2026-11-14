@@ -1,5 +1,5 @@
 {
-  "_sobre": "Aba Direitos (documento de conteúdo, parte 2). Textos finais escritos a partir da norma e do catálogo oficial de serviços (Carioca Digital), consultados na data indicada. Itens com [CONFERIR] precisam de confirmação no canal oficial.",
+  "_sobre": "Aba Direitos (documento de conteúdo, parte 2). Textos finais escritos a partir da norma e das páginas oficiais de serviço, consultadas na data indicada. Só entra o que foi confirmado na fonte oficial.",
   "_max": {
     "resumo": 100,
     "quemTemDireito": 200,
@@ -116,8 +116,7 @@
         "Atendimento na hora ou agendado em até 30 dias"
       ],
       "documentos": [
-        "Documento de identidade com foto e CPF",
-        "[CONFERIR: documentos pedidos no CAPS]"
+        "Documento de identidade com foto e CPF"
       ],
       "comoPedir": [
         "Veja no site da Secretaria de Saúde qual CAPS atende o seu bairro.",
@@ -160,8 +159,7 @@
       "quemTemDireito": "Qualquer pessoa. A saúde bucal faz parte do SUS. No Rio, o primeiro atendimento é na Clínica da Família ou no Centro Municipal de Saúde do seu endereço.",
       "requisitos": [
         "Estar cadastrado na unidade de saúde do seu endereço",
-        "Casos complexos são encaminhados a especialistas",
-        "[CONFERIR: oferta de dentista em cada unidade]"
+        "Casos complexos são encaminhados a especialistas"
       ],
       "documentos": [
         "Documento de identidade com foto e CPF",
@@ -192,13 +190,6 @@
           "trecho": "",
           "url": "https://carioca.rio/servicos/atendimento-em-unidades-de-atencao-primaria-em-saude/",
           "consultadoEm": "2026-11-14"
-        },
-        {
-          "instituicao": "Presidência da República (Planalto)",
-          "documento": "Lei nº 14.572/2023 (Política Nacional de Saúde Bucal no SUS) [CONFERIR]",
-          "trecho": "",
-          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14572.htm",
-          "consultadoEm": "2026-11-14"
         }
       ]
     },
@@ -210,7 +201,6 @@
       "quemTemDireito": "Qualquer pessoa atendida pelo SUS pode ver seus dados: carteira de vacinação, resultados de exames, remédios retirados no Farmácia Popular e posição na fila de transplante.",
       "requisitos": [
         "Ter acesso à internet, pelo celular ou computador",
-        "[CONFERIR: se o login é pela conta gov.br]",
         "Os dados dependem do registro feito pelas unidades"
       ],
       "documentos": [
@@ -370,12 +360,10 @@
       "quemTemDireito": "O programa federal PNATE apoia o transporte de alunos da rede pública que moram em áreas rurais. Na cidade do Rio, a gratuidade de estudantes no transporte segue regras próprias da Prefeitura.",
       "requisitos": [
         "Estar matriculado na rede pública",
-        "No PNATE, morar em área rural",
-        "[CONFERIR: critérios da gratuidade estudantil no Rio]"
+        "No PNATE, morar em área rural"
       ],
       "documentos": [
-        "Declaração escolar ou comprovante de matrícula",
-        "[CONFERIR: documentos da gratuidade]"
+        "Declaração escolar ou comprovante de matrícula"
       ],
       "comoPedir": [
         "Pergunte à escola ou à Secretaria de Educação sobre o transporte.",
@@ -566,8 +554,7 @@
       "quemTemDireito": "Qualquer pessoa que foi vítima ou testemunha de um crime. O registro é feito pela Polícia Civil do estado, em qualquer delegacia. Alguns casos podem começar por um pré-registro na Delegacia Online.",
       "requisitos": [
         "Em emergência, ligue 190 (Polícia Militar)",
-        "Casos graves devem ser registrados na delegacia",
-        "[CONFERIR: crimes aceitos na Delegacia Online]"
+        "Casos graves devem ser registrados na delegacia"
       ],
       "documentos": [
         "Documento de identidade com foto",
@@ -776,8 +763,7 @@
         "Valer para um serviço da Prefeitura, não do estado"
       ],
       "documentos": [
-        "Endereço ou ponto de referência do problema",
-        "[CONFERIR: dados pedidos no cadastro do 1746]"
+        "Endereço ou ponto de referência do problema"
       ],
       "comoPedir": [
         "Ligue 1746, dentro do município do Rio, ou use o aplicativo 1746 Rio.",
@@ -881,11 +867,10 @@
       "area": "cidade",
       "titulo": "Tarifa Social de energia elétrica",
       "resumo": "Como saber se a sua família tem direito a desconto na conta de luz.",
-      "quemTemDireito": "Famílias no Cadastro Único com renda por pessoa de até meio salário mínimo, ou com alguém que recebe o Benefício de Prestação Continuada (BPC). [CONFERIR: descontos atuais na ANEEL]",
+      "quemTemDireito": "Famílias no Cadastro Único com renda por pessoa de até meio salário mínimo, ou com alguém que recebe o Benefício de Prestação Continuada (BPC).",
       "requisitos": [
         "Estar no Cadastro Único, com os dados atualizados",
-        "Renda por pessoa de até meio salário mínimo, ou BPC",
-        "[CONFERIR: se o desconto entra automaticamente]"
+        "Renda por pessoa de até meio salário mínimo, ou BPC"
       ],
       "documentos": [
         "Número de Identificação Social (NIS)",
@@ -1043,12 +1028,10 @@
       "quemTemDireito": "Qualquer pessoa. O Estatuto da Cidade prevê a participação da população na gestão da cidade, como nas audiências do plano diretor. A Câmara Municipal faz audiências públicas, até sobre o orçamento.",
       "requisitos": [
         "Sessões e audiências da Câmara são públicas",
-        "Alguns conselhos têm vagas para a sociedade civil",
-        "[CONFERIR: como se inscrever para falar]"
+        "Alguns conselhos têm vagas para a sociedade civil"
       ],
       "documentos": [
-        "Nenhum para acompanhar pela internet",
-        "[CONFERIR: documento para entrar na Câmara]"
+        "Nenhum para acompanhar pela internet"
       ],
       "comoPedir": [
         "Veja a agenda de sessões e audiências no site da Câmara Municipal.",
