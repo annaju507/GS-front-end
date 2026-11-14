@@ -19,22 +19,6 @@ async function buscarJson(caminho, parametros = {}) {
   return corpo.dados
 }
 
-// Proposições de autoria de deputados do RJ, das mais novas para as mais antigas.
-// codTema: lista de temas da Câmara (ver TEMAS_DA_CAMARA em domain/areas.js).
-export function buscarProposicoes({ siglaTipo, keywords, codTema, itens = 10, pagina = 1, dataApresentacaoInicio } = {}) {
-  return buscarJson('/proposicoes', {
-    siglaUfAutor: 'RJ',
-    siglaTipo,
-    keywords,
-    codTema,
-    itens,
-    pagina,
-    dataApresentacaoInicio,
-    ordem: 'DESC',
-    ordenarPor: 'id',
-  })
-}
-
 export function buscarProposicao(id) {
   return buscarJson(`/proposicoes/${id}`)
 }

@@ -2,6 +2,7 @@ import { useCallback, useState } from 'react'
 import { Newspaper } from 'lucide-react'
 import textos from '../data/textos.json'
 import { plural, preencher } from '../domain/texto.js'
+import { buscarPropostaLocal } from '../services/conteudoLocal.js'
 import { useCaderno } from '../hooks/useCaderno.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
@@ -67,6 +68,7 @@ export default function Caderno() {
             <li key={anotacao.id}>
               <CardAnotacao
                 anotacao={anotacao}
+                proposta={buscarPropostaLocal(anotacao.propostaId)}
                 editando={editandoId === anotacao.id}
                 onEditar={() => setEditandoId(anotacao.id)}
                 onCancelar={() => setEditandoId(null)}

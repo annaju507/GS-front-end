@@ -1,5 +1,5 @@
 {
-  "_sobre": "Unidades da trilha 'política do zero'. Títulos fixos; descrições editoriais com texto final. Cada unidade disponível lista suas lições (src/data/licoes.json) e a busca da proposta real sugerida depois da conquista: a mais recente de deputados do RJ sobre o tema. Campo capa: nome da ilustração do Rio (src/assets/rio) mostrada no card da unidade.",
+  "_sobre": "Unidades da trilha 'política do zero'. Títulos fixos; descrições editoriais com texto final. Cada unidade disponível lista suas lições (src/data/licoes.json) e a proposta real sugerida depois da conquista (id de uma proposta da seleção em propostas.json e o tema que liga as duas). Campo capa: nome da ilustração do Rio (src/assets/rio) mostrada no card da unidade.",
   "_max": {
     "descricao": 120
   },
@@ -14,9 +14,8 @@
         "u1-l2"
       ],
       "propostaSugerida": {
-        "siglaTipo": "PL",
-        "keywords": "eleitoral",
-        "tema": "eleições"
+        "id": 2644304,
+        "tema": "acesso à informação"
       },
       "capa": "escadaria-selaron"
     },
@@ -30,9 +29,8 @@
         "u3-l2"
       ],
       "propostaSugerida": {
-        "siglaTipo": "PL",
-        "keywords": "tribunal",
-        "tema": "tribunais e Justiça"
+        "id": 2643736,
+        "tema": "o trabalho do Legislativo"
       },
       "capa": "theatro-municipal"
     },
@@ -46,9 +44,8 @@
         "u5-l2"
       ],
       "propostaSugerida": {
-        "siglaTipo": "PL",
-        "keywords": "municípios",
-        "tema": "municípios"
+        "id": 2646539,
+        "tema": "estados e municípios"
       },
       "capa": "bondinho-pao-de-acucar"
     },
@@ -62,7 +59,7 @@
         "u7-l2"
       ],
       "propostaSugerida": {
-        "siglaTipo": "PEC",
+        "id": 2503919,
         "tema": "mudanças na Constituição (PEC)"
       },
       "capa": "museu-do-amanha"

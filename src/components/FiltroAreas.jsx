@@ -1,14 +1,15 @@
-import { BookOpen, Bus, HeartPulse, LayoutGrid, ShieldCheck } from 'lucide-react'
+import { BookOpen, Bus, HeartPulse, LayoutGrid, Shapes, ShieldCheck } from 'lucide-react'
 import textos from '../data/textos.json'
 import { AREAS } from '../domain/areas.js'
 
-const ICONES = { todas: LayoutGrid, saude: HeartPulse, educacao: BookOpen, seguranca: ShieldCheck, cidade: Bus }
+const ICONES = { todas: LayoutGrid, saude: HeartPulse, educacao: BookOpen, seguranca: ShieldCheck, cidade: Bus, outros: Shapes }
 
 // Filtro por área temática: botões que ficam marcados (aria-pressed).
-// "valor" vazio significa todas as áreas.
-export default function FiltroAreas({ valor, onMudar, rotulo }) {
+// "valor" vazio significa todas as áreas. "areas": quais áreas mostrar
+// (as propostas usam também "outros").
+export default function FiltroAreas({ valor, onMudar, rotulo, areas = AREAS }) {
   const opcoes = [{ chave: '', nome: textos.agora.filtros.todas, Icone: ICONES.todas }].concat(
-    AREAS.map((area) => ({ chave: area, nome: textos.areas[area], Icone: ICONES[area] })),
+    areas.map((area) => ({ chave: area, nome: textos.areas[area], Icone: ICONES[area] })),
   )
 
   return (

@@ -50,7 +50,8 @@
     "saude": "Saúde",
     "educacao": "Educação",
     "seguranca": "Segurança",
-    "cidade": "Cidade e serviços públicos"
+    "cidade": "Cidade e serviços públicos",
+    "outros": "Outros temas"
   },
   "esferas": {
     "municipal": "Municipal · Rio",
@@ -422,28 +423,8 @@
     },
     "agora": {
       "titulo": "Prévia do Agora",
-      "intro": "Propostas que estão sendo discutidas e afetam quem mora no Rio, explicadas em linguagem simples.",
-      "nota": "Exemplos reais da Câmara dos Deputados, consultados em 12/11/2026. A situação de cada proposta pode ter mudado.",
-      "_max": {
-        "titulo": 90,
-        "resumo": 160
-      },
-      "exemplos": [
-        {
-          "titulo": "PL 3414/2026: transporte gratuito para estudantes de cursos técnicos",
-          "resumo": "Propõe gratuidade no transporte coletivo público para quem faz curso de qualificação profissional ou técnico de nível médio. Está na Comissão de Educação.",
-          "area": "cidade",
-          "status": "comissao",
-          "fonte": "https://www.camara.leg.br/propostas-legislativas/2636460"
-        },
-        {
-          "titulo": "PL 5788/2026: exames para identificar cedo diabetes tipo 1 e doença celíaca em crianças",
-          "resumo": "Propõe que o SUS faça exames para identificar cedo o diabetes tipo 1 e a doença celíaca em crianças. Foi apresentado em 6/11/2026.",
-          "area": "saude",
-          "status": "apresentada",
-          "fonte": "https://www.camara.leg.br/propostas-legislativas/2651275"
-        }
-      ]
+      "intro": "Propostas reais da Câmara dos Deputados, explicadas em linguagem simples, com a situação de cada uma.",
+      "nota": "Exemplos reais da seleção do Demokratos, com dados da Câmara dos Deputados consultados em {data}."
     },
     "direitos": {
       "titulo": "Prévia dos Direitos",
@@ -579,9 +560,7 @@
     "verPerfil": "Ver medalhas",
     "propostaDoDia": {
       "titulo": "Proposta do dia",
-      "texto": "A proposta mais recente apresentada por deputados federais do RJ, direto da Câmara. A escolha é automática.",
-      "ver": "Entender a proposta",
-      "vazio": "A Câmara não trouxe propostas agora. Tente de novo mais tarde."
+      "texto": "Uma das propostas da seleção do Demokratos, que muda a cada dia. A escolha é automática: não é destaque nem recomendação."
     }
   },
   "trilha": {
@@ -632,11 +611,8 @@
     "medalhaNova": "Medalha nova!",
     "proposta": {
       "titulo": "Agora veja isso na vida real",
-      "texto": "A proposta mais recente de deputados federais do RJ sobre {tema}. A escolha é automática: não é destaque nem recomendação.",
-      "semProposta": "Não encontramos uma proposta sobre esse tema agora."
+      "texto": "Uma proposta real sobre {tema}, da seleção do Demokratos. A ligação é só pelo tema: não é destaque nem recomendação."
     },
-    "continuar": "Ver a proposta",
-    "irAgora": "Ver outras propostas",
     "rever": "Rever a lição",
     "voltarTrilha": "Voltar para a trilha",
     "semResultado": "Esta lição ainda não foi concluída.",
@@ -695,7 +671,7 @@
     "semAutores": "A Câmara não informou os autores.",
     "linhaDoTempo": "Últimas movimentações",
     "passoAtual": "Situação atual",
-    "aviso": "Proposta em análise ainda não é lei. Tudo nesta página vem direto da Câmara dos Deputados.",
+    "aviso": "Proposta em análise ainda não é lei. O resumo simples foi escrito pela equipe a partir do texto oficial; confira sempre a fonte.",
     "lerTexto": "Ler o texto completo da proposta",
     "fonteInstituicao": "Câmara dos Deputados (Dados Abertos)",
     "fonteDocumento": "Ficha da proposição {sigla}",
@@ -708,7 +684,14 @@
       "botao": "Salvar no caderno",
       "jaSalva": "Esta proposta já está no seu caderno.",
       "abrir": "Abrir o caderno"
-    }
+    },
+    "resumoSimples": "Em poucas palavras",
+    "avisoAoVivo": "Proposta em análise ainda não é lei. Tudo nesta página vem direto da Câmara dos Deputados.",
+    "situacaoConsultadaEm": "Situação consultada na Câmara em {data}.",
+    "aoVivo": "Ao vivo da Câmara",
+    "carregandoMovimentacoes": "Buscando as últimas movimentações na Câmara…",
+    "semMovimentacoes": "A Câmara ainda não registrou movimentações para esta proposta.",
+    "maisAutores": "e mais {n} autores"
   },
   "perfil": {
     "tituloAba": "Perfil",
@@ -727,12 +710,12 @@
   "agora": {
     "tituloAba": "Agora",
     "titulo": "Agora",
-    "intro": "Propostas apresentadas por deputados federais do RJ na Câmara, das mais novas para as mais antigas.",
-    "fala": "Aqui chegam as propostas novas da Câmara! Lembre: proposta apresentada ainda não é lei, então confira sempre a situação.",
+    "intro": "Propostas reais da Câmara dos Deputados sobre saúde, educação, segurança, cidade e outros temas, explicadas em linguagem simples.",
+    "fala": "Cada proposta aqui tem um resumo simples e a fonte oficial. Lembre: proposta apresentada ainda não é lei, então confira a situação.",
     "_max": {
       "fala": 140
     },
-    "nota": "A lista vem direto da Câmara dos Deputados. Ela mostra o que foi apresentado, não o que virou lei.",
+    "nota": "São {total} propostas escolhidas pela equipe, pelo tema, nunca pelo autor ou partido. A situação foi consultada na Câmara em {data}. As últimas movimentações aparecem ao vivo na página de cada proposta.",
     "filtros": {
       "titulo": "Filtrar propostas",
       "area": "Área",
@@ -750,13 +733,11 @@
       "limpar": "Limpar filtros"
     },
     "lista": "Propostas encontradas",
-    "pagina": "Página {pagina}",
-    "maisRecentes": "Mais recentes",
-    "maisAntigas": "Mais antigas",
-    "apresentadaEm": "Apresentada em {data}",
-    "ver": "Entender a proposta",
-    "carregando": "Buscando propostas na Câmara…",
-    "vazio": "Não encontramos propostas com esses filtros."
+    "pagina": "Página {pagina} de {total}",
+    "vazio": "Não encontramos propostas com esses filtros.",
+    "paginaAnterior": "Página anterior",
+    "proximaPagina": "Próxima página",
+    "contagem": "{n} de {total} propostas"
   },
   "glossario": {
     "tituloAba": "Glossário",
@@ -960,5 +941,9 @@
       "sms": "Envie SMS para {valor}"
     },
     "limite": "O Demokratos explica como funciona, mas quem confirma se você tem direito é o órgão responsável."
+  },
+  "cardProposta": {
+    "apresentadaEm": "Apresentada em {data}",
+    "ver": "Entender a proposta"
   }
 }

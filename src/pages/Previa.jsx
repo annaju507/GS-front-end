@@ -4,12 +4,14 @@ import textos from '../data/textos.json'
 import trilha from '../data/trilha.json'
 import direitos from '../data/direitos.json'
 import { AREAS_PREVIA, ehAreaPrevia } from '../domain/previas.js'
+import { formatarData } from '../domain/datas.js'
 import { preencher } from '../domain/texto.js'
+import { PROPOSTAS_CONSULTADAS_EM, buscarPropostaLocal } from '../services/conteudoLocal.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
 import Botao from '../components/Botao.jsx'
 import Card from '../components/Card.jsx'
-import Etiqueta from '../components/Etiqueta.jsx'
+import CardProposta from '../components/CardProposta.jsx'
 import EtiquetaDireito from '../components/EtiquetaDireito.jsx'
 import ImagemRio from '../components/ImagemRio.jsx'
 import NaoEncontrada from './NaoEncontrada.jsx'
@@ -54,20 +56,19 @@ function PreviaTrilhas() {
   )
 }
 
+// Duas propostas reais da seleção, no mesmo card usado dentro do site
+// (sem link: a página da proposta é só para quem entrou).
+const IDS_PREVIA_AGORA = [2643736, 2651275]
+
 function PreviaAgora() {
   return (
     <>
-      <Aviso tipo="info">{t.agora.nota}</Aviso>
+      <Aviso tipo="info">{preencher(t.agora.nota, { data: formatarData(PROPOSTAS_CONSULTADAS_EM) })}</Aviso>
       <ul className="grid gap-3 md:grid-cols-2">
-        {t.agora.exemplos.map((exemplo) => (
-          <Card key={exemplo.titulo} como="li" className="flex flex-col gap-3">
-            <div className="flex flex-wrap gap-2">
-              <Etiqueta tipo="area" valor={exemplo.area} />
-              <Etiqueta tipo="status" valor={exemplo.status} />
-            </div>
-            <h2 className="text-h3">{exemplo.titulo}</h2>
-            <p className="text-texto-2">{exemplo.resumo}</p>
-          </Card>
+        {IDS_PREVIA_AGORA.map(buscarPropostaLocal).filter(Boolean).map((proposta) => (
+          <li key={proposta.id}>
+            <CardProposta proposta={proposta} link={false} />
+          </li>
         ))}
       </ul>
     </>

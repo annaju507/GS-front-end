@@ -1,62 +1,36 @@
 import { useLocation, useParams } from 'react-router'
-import { ArrowRight, Clock, Flame, Target } from 'lucide-react'
+import { Clock, Flame, Target } from 'lucide-react'
 import textos from '../data/textos.json'
 import { MEDALHAS, avaliarResultado } from '../domain/conquistas.js'
 import { dividirTempo } from '../domain/quiz.js'
 import { unidadeDaLicao } from '../domain/trilha.js'
 import { plural, preencher } from '../domain/texto.js'
-import { UNIDADES, buscarLicao } from '../services/conteudoLocal.js'
+import { UNIDADES, buscarLicao, buscarPropostaLocal } from '../services/conteudoLocal.js'
 import { useProgresso } from '../hooks/useProgresso.js'
-import { useProposicoes } from '../hooks/useProposicoes.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Botao from '../components/Botao.jsx'
-import Card from '../components/Card.jsx'
+import CardProposta from '../components/CardProposta.jsx'
 import CardEstatistica from '../components/CardEstatistica.jsx'
 import Confete from '../components/Confete.jsx'
-import EstadoCarregando from '../components/EstadoCarregando.jsx'
-import EstadoErro from '../components/EstadoErro.jsx'
 import Mascote from '../components/Mascote.jsx'
 import Medalha from '../components/Medalha.jsx'
 import OndasCalcadao from '../components/OndasCalcadao.jsx'
 
 const t = textos.conquista
 
-// Proposta real ligada ao tema da unidade: a mais recente de deputados do RJ.
-function PropostaSugerida({ busca }) {
-  const { tema, ...filtros } = busca
-  const { carregando, erro, lista, tentarDeNovo } = useProposicoes({ ...filtros, itens: 1 })
-
-  let conteudo
-  if (carregando) {
-    conteudo = <EstadoCarregando />
-  } else if (erro) {
-    conteudo = <EstadoErro semConexao={erro === 'semConexao'} onTentarDeNovo={tentarDeNovo} />
-  } else if (lista.length === 0) {
-    conteudo = (
-      <div className="flex flex-col items-start gap-3">
-        <p>{t.proposta.semProposta}</p>
-        <Botao variante="primario" para="/app/agora">{t.irAgora}</Botao>
-      </div>
-    )
-  } else {
-    const proposta = lista[0]
-    conteudo = (
-      <div className="flex flex-col items-start gap-3">
-        <p className="font-titulo font-bold">{proposta.sigla}</p>
-        <p className="line-clamp-4">{proposta.ementa}</p>
-        <Botao variante="primario" para={`/app/proposta/${proposta.id}`} icone={ArrowRight}>
-          {t.continuar}
-        </Botao>
-      </div>
-    )
+// Proposta real ligada ao tema da unidade, da seleção do Demokratos.
+function PropostaSugerida({ sugestao }) {
+  const proposta = buscarPropostaLocal(sugestao.id)
+  if (!proposta) {
+    return null
   }
 
   return (
-    <Card como="section" aria-labelledby="conquista-proposta" className="flex flex-col gap-3">
+    <section aria-labelledby="conquista-proposta" className="flex flex-col gap-3">
       <h2 id="conquista-proposta" className="text-h3">{t.proposta.titulo}</h2>
-      <p className="text-legenda text-texto-2">{preencher(t.proposta.texto, { tema })}</p>
-      {conteudo}
-    </Card>
+      <p className="text-legenda text-texto-2">{preencher(t.proposta.texto, { tema: sugestao.tema })}</p>
+      <CardProposta proposta={proposta} />
+    </section>
   )
 }
 
@@ -135,7 +109,7 @@ export default function Conquista() {
           </section>
         )}
 
-        {unidade?.propostaSugerida && <PropostaSugerida busca={unidade.propostaSugerida} />}
+        {unidade?.propostaSugerida && <PropostaSugerida sugestao={unidade.propostaSugerida} />}
 
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <Botao variante="secundario" para={`/app/licao/${id}`}>{t.rever}</Botao>

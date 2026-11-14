@@ -1,52 +1,33 @@
 import { ArrowRight } from 'lucide-react'
 import textos from '../data/textos.json'
 import { ordemDasLicoes, porcentagemConcluida, proximaLicao, unidadeDaLicao } from '../domain/trilha.js'
+import { dataLocalIso } from '../domain/progresso.js'
+import { escolherPropostaDoDia } from '../domain/propostas.js'
 import { preencher } from '../domain/texto.js'
-import { UNIDADES, buscarLicao } from '../services/conteudoLocal.js'
+import { UNIDADES, buscarLicao, listarPropostas } from '../services/conteudoLocal.js'
 import { useAuth } from '../hooks/useAuth.js'
 import { useProgresso } from '../hooks/useProgresso.js'
-import { useProposicoes } from '../hooks/useProposicoes.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import BarraProgresso from '../components/BarraProgresso.jsx'
 import Botao from '../components/Botao.jsx'
 import Card from '../components/Card.jsx'
-import EstadoCarregando from '../components/EstadoCarregando.jsx'
-import EstadoErro from '../components/EstadoErro.jsx'
+import CardProposta from '../components/CardProposta.jsx'
 import SequenciaDias from '../components/SequenciaDias.jsx'
 
 const t = textos.painel
 const ORDEM = ordemDasLicoes(UNIDADES)
 
-// Proposta do dia: a mais recente de deputados do RJ (Câmara). Sem mascote.
+// Proposta do dia: uma da seleção, que muda a cada dia (escolha automática
+// pela data, não é destaque nem recomendação). Sem mascote.
 function PropostaDoDia() {
-  const { carregando, erro, lista, tentarDeNovo } = useProposicoes({ siglaTipo: 'PL', itens: 1 })
-
-  let conteudo
-  if (carregando) {
-    conteudo = <EstadoCarregando />
-  } else if (erro) {
-    conteudo = <EstadoErro semConexao={erro === 'semConexao'} onTentarDeNovo={tentarDeNovo} />
-  } else if (lista.length === 0) {
-    conteudo = <p className="text-texto-2">{t.propostaDoDia.vazio}</p>
-  } else {
-    const proposta = lista[0]
-    conteudo = (
-      <div className="flex flex-col items-start gap-3">
-        <p className="font-titulo font-bold">{proposta.sigla}</p>
-        <p className="line-clamp-4">{proposta.ementa}</p>
-        <Botao variante="secundario" para={`/app/proposta/${proposta.id}`}>
-          {t.propostaDoDia.ver}
-        </Botao>
-      </div>
-    )
-  }
+  const proposta = escolherPropostaDoDia(listarPropostas(), dataLocalIso(new Date()))
 
   return (
-    <Card como="section" aria-labelledby="painel-proposta" className="flex flex-col gap-3 lg:col-span-2">
+    <section aria-labelledby="painel-proposta" className="flex flex-col gap-3 lg:col-span-2">
       <h2 id="painel-proposta" className="text-h3">{t.propostaDoDia.titulo}</h2>
       <p className="text-legenda text-texto-2">{t.propostaDoDia.texto}</p>
-      {conteudo}
-    </Card>
+      {proposta && <CardProposta proposta={proposta} />}
+    </section>
   )
 }
 

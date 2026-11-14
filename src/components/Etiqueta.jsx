@@ -15,6 +15,7 @@ import {
   Layers,
   Map as IconeMapa,
   PenLine,
+  Shapes,
   ArrowRightLeft,
   ShieldCheck,
   Undo2,
@@ -28,6 +29,7 @@ import { ehEtapaValida } from '../domain/tramitacao.js'
 
 // Etiquetas em pílula (seção 6.6): área temática, esfera de governo e
 // status da tramitação. O status nunca usa verde ou vermelho.
+// "outros" (só nas propostas) usa o estilo neutro: não é uma quinta área.
 const AREAS = {
   saude: { Icone: HeartPulse, classes: 'bg-area-saude-fundo text-area-saude border-area-saude-borda' },
   educacao: { Icone: BookOpen, classes: 'bg-area-educacao-fundo text-area-educacao border-area-educacao-borda' },
@@ -61,6 +63,8 @@ const STATUS = 'bg-lilas-claro text-link border-lilas-claro'
 function escolherEstilo(tipo, valor) {
   if (tipo === 'area' && ehAreaValida(valor)) {
     return { ...AREAS[valor], rotulo: textos.areas[valor] }
+  } else if (tipo === 'area' && valor === 'outros') {
+    return { Icone: Shapes, classes: NEUTRA, rotulo: textos.areas.outros }
   } else if (tipo === 'esfera' && ehEsferaValida(valor)) {
     return { Icone: ESFERAS[valor], classes: NEUTRA, rotulo: textos.esferas[valor] }
   } else if (tipo === 'status' && ehEtapaValida(valor)) {

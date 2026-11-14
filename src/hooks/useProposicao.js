@@ -3,8 +3,9 @@ import { buscarAutores, buscarProposicao, buscarTramitacoes } from '../services/
 import { detalharProposicao, listarAutores, ultimasTramitacoes } from '../domain/proposicoes.js'
 
 // Uma proposição da Câmara com autores e tramitação.
-// Estados: carregando, erro (com tentarDeNovo) e dados. Como em
-// useProposicoes, a resposta guarda de qual pedido ela é.
+// Usada só para propostas fora da seleção (as da seleção têm dados locais).
+// Estados: carregando, erro (com tentarDeNovo) e dados. A resposta guarda
+// de qual pedido ela é.
 export function useProposicao(id) {
   const [tentativa, setTentativa] = useState(0)
   const chave = `${id}#${tentativa}`

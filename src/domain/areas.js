@@ -7,11 +7,10 @@ export function ehAreaValida(area) {
   return AREAS.includes(area)
 }
 
-// Temas oficiais da Câmara que entram em cada área (códigos de
-// /referencias/proposicoes/codTema). Usados no filtro da área Agora.
-export const TEMAS_DA_CAMARA = {
-  saude: [56],
-  educacao: [46, 35],
-  seguranca: [57],
-  cidade: [41, 61],
+// As propostas da seleção usam as 4 áreas e mais "outros", para assuntos
+// que não se encaixam em nenhuma delas (sem forçar uma área errada).
+export const AREAS_DAS_PROPOSTAS = [...AREAS, 'outros']
+
+export function ehAreaDaProposta(area) {
+  return AREAS_DAS_PROPOSTAS.includes(area)
 }
