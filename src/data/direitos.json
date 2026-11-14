@@ -7,7 +7,7 @@
     "documentos": 60,
     "comoPedir": 90
   },
-  "consultadoEm": "2026-11-12",
+  "consultadoEm": "2026-11-14",
   "temas": [
     {
       "id": "atendimento-no-sus",
@@ -58,6 +58,195 @@
           "trecho": "",
           "url": "https://carioca.rio/servicos/atendimento-em-unidades-de-atencao-primaria-em-saude/",
           "consultadoEm": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "remedios-gratuitos",
+      "area": "saude",
+      "titulo": "Conseguir remédios gratuitos",
+      "resumo": "Como retirar de graça remédios do Farmácia Popular e da rede do SUS.",
+      "quemTemDireito": "Qualquer pessoa com receita médica válida, do SUS ou particular. Desde fevereiro de 2025, todos os remédios e insumos da lista do Farmácia Popular são gratuitos.",
+      "requisitos": [
+        "Ter receita médica dentro do prazo de validade",
+        "O remédio precisa estar na lista do programa",
+        "Retirar em farmácia credenciada ou unidade do SUS"
+      ],
+      "documentos": [
+        "Documento oficial com foto e número do CPF",
+        "Receita médica válida, do SUS ou particular"
+      ],
+      "comoPedir": [
+        "Veja no painel do Ministério da Saúde as farmácias credenciadas perto de você.",
+        "Leve a receita e o documento com CPF à farmácia ou à unidade de saúde.",
+        "Dúvidas ou problemas: ligue 136, a Ouvidoria do SUS."
+      ],
+      "orgaoResponsavel": "Ministério da Saúde (Programa Farmácia Popular)",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Farmácia Popular (Ministério da Saúde)",
+          "url": "https://www.gov.br/saude/pt-br/composicao/sectics/farmacia-popular"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Ouvidoria do SUS",
+          "valor": "136"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Ministério da Saúde",
+          "documento": "Programa Farmácia Popular do Brasil",
+          "trecho": "",
+          "url": "https://www.gov.br/saude/pt-br/composicao/sectics/farmacia-popular",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "saude-mental",
+      "area": "saude",
+      "titulo": "Buscar atendimento de saúde mental",
+      "resumo": "Onde procurar acolhimento psicológico ou psiquiátrico na rede pública do Rio.",
+      "quemTemDireito": "Qualquer pessoa. Na cidade do Rio, os Centros de Atenção Psicossocial (CAPS) atendem pessoas em sofrimento mental, incluindo crianças e quem tem uso problemático de álcool e outras drogas.",
+      "requisitos": [
+        "Pode procurar o CAPS direto, sem encaminhamento",
+        "Também é possível começar pela Clínica da Família",
+        "Atendimento na hora ou agendado em até 30 dias"
+      ],
+      "documentos": [
+        "Documento de identidade com foto e CPF",
+        "[CONFERIR: documentos pedidos no CAPS]"
+      ],
+      "comoPedir": [
+        "Veja no site da Secretaria de Saúde qual CAPS atende o seu bairro.",
+        "Vá ao CAPS ou à sua Clínica da Família e peça acolhimento.",
+        "Em crise, procure uma emergência ou ligue 192 (SAMU)."
+      ],
+      "orgaoResponsavel": "Secretaria Municipal de Saúde do Rio de Janeiro",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital: atendimento nos CAPS",
+          "url": "https://carioca.rio/servicos/atendimento-em-centros-de-atencao-psicossocial-caps/"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Endereços dos CAPS (Secretaria de Saúde)",
+          "url": "https://saude.prefeitura.rio/caps/"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Central 1746",
+          "valor": "1746"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Prefeitura do Rio (Carioca Digital)",
+          "documento": "Atendimento em Centros de Atenção Psicossocial (CAPS)",
+          "trecho": "",
+          "url": "https://carioca.rio/servicos/atendimento-em-centros-de-atencao-psicossocial-caps/",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "saude-bucal",
+      "area": "saude",
+      "titulo": "Atendimento de dentista pelo SUS",
+      "resumo": "Como buscar consultas, prevenção e tratamento dentário na rede pública do Rio.",
+      "quemTemDireito": "Qualquer pessoa. A saúde bucal faz parte do SUS. No Rio, o primeiro atendimento é na Clínica da Família ou no Centro Municipal de Saúde do seu endereço.",
+      "requisitos": [
+        "Estar cadastrado na unidade de saúde do seu endereço",
+        "Casos complexos são encaminhados a especialistas",
+        "[CONFERIR: oferta de dentista em cada unidade]"
+      ],
+      "documentos": [
+        "Documento de identidade com foto e CPF",
+        "Comprovante de residência"
+      ],
+      "comoPedir": [
+        "Descubra a sua unidade de referência no mapa do Carioca Digital.",
+        "Vá à unidade e peça atendimento de saúde bucal.",
+        "Se precisar de especialista, a equipe da unidade faz o encaminhamento."
+      ],
+      "orgaoResponsavel": "Secretaria Municipal de Saúde do Rio de Janeiro",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital: atendimento na atenção primária",
+          "url": "https://carioca.rio/servicos/atendimento-em-unidades-de-atencao-primaria-em-saude/"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Central 1746",
+          "valor": "1746"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Prefeitura do Rio (Carioca Digital)",
+          "documento": "Atendimento em unidades de atenção primária em saúde",
+          "trecho": "",
+          "url": "https://carioca.rio/servicos/atendimento-em-unidades-de-atencao-primaria-em-saude/",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 14.572/2023 (Política Nacional de Saúde Bucal no SUS) [CONFERIR]",
+          "trecho": "",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14572.htm",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "meu-sus-digital",
+      "area": "saude",
+      "titulo": "Ver seus registros no Meu SUS Digital",
+      "resumo": "Como consultar vacinas, exames e remédios retirados pelo aplicativo do SUS.",
+      "quemTemDireito": "Qualquer pessoa atendida pelo SUS pode ver seus dados: carteira de vacinação, resultados de exames, remédios retirados no Farmácia Popular e posição na fila de transplante.",
+      "requisitos": [
+        "Ter acesso à internet, pelo celular ou computador",
+        "[CONFERIR: se o login é pela conta gov.br]",
+        "Os dados dependem do registro feito pelas unidades"
+      ],
+      "documentos": [
+        "Número do CPF",
+        "Celular ou computador com internet"
+      ],
+      "comoPedir": [
+        "Baixe o aplicativo Meu SUS Digital ou acesse pelo navegador.",
+        "Entre com seus dados e confira vacinas, exames e documentos.",
+        "Dúvidas: ligue 136, a Ouvidoria do SUS."
+      ],
+      "orgaoResponsavel": "Ministério da Saúde",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Meu SUS Digital pelo navegador",
+          "url": "https://meususdigital.saude.gov.br/login"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Meu SUS Digital (Ministério da Saúde)",
+          "url": "https://www.gov.br/saude/pt-br/composicao/seidigi/meu-sus-digital"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Ouvidoria do SUS",
+          "valor": "136"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Ministério da Saúde",
+          "documento": "Meu SUS Digital",
+          "trecho": "",
+          "url": "https://www.gov.br/saude/pt-br/composicao/seidigi/meu-sus-digital",
+          "consultadoEm": "2026-11-14"
         }
       ]
     },
@@ -115,6 +304,463 @@
           "trecho": "",
           "url": "https://carioca.rio/servicos/matricula-na-rede-publica-municipal-de-ensino-2025/",
           "consultadoEm": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "alimentacao-escolar",
+      "area": "educacao",
+      "titulo": "Ter acesso à merenda escolar",
+      "resumo": "O direito à alimentação na escola pública e onde reclamar se algo estiver errado.",
+      "quemTemDireito": "Todos os alunos da educação básica pública: creche, pré-escola, ensino fundamental, ensino médio e EJA. A lei diz que a alimentação escolar é direito do aluno e dever do Estado.",
+      "requisitos": [
+        "Estar matriculado na rede pública de educação básica",
+        "A escola precisa estar no Censo Escolar",
+        "Não há cobrança nem critério de renda"
+      ],
+      "documentos": [
+        "Nenhum documento extra: basta a matrícula",
+        "Para denunciar: nome da escola e o problema"
+      ],
+      "comoPedir": [
+        "Se faltar merenda ou houver problema, avise a direção da escola.",
+        "Procure o Conselho de Alimentação Escolar (CAE), que fiscaliza a merenda.",
+        "Também dá para denunciar ao FNDE: 0800 616161, dias úteis, das 8h às 20h."
+      ],
+      "orgaoResponsavel": "Rede de ensino (Prefeitura ou Governo do Estado) e FNDE",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Programa Nacional de Alimentação Escolar (FNDE)",
+          "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Atendimento do FNDE",
+          "valor": "0800 616161"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Ouvidoria da Prefeitura do Rio",
+          "url": "https://ouvidoria.prefeitura.rio/manifestacoes-de-ouvidoria"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 11.947/2009 (alimentação escolar)",
+          "trecho": "arts. 2º, 3º, 10, 18 e 19",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l11947.htm",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Fundo Nacional de Desenvolvimento da Educação (FNDE)",
+          "documento": "Programa Nacional de Alimentação Escolar (PNAE)",
+          "trecho": "",
+          "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "transporte-escolar",
+      "area": "educacao",
+      "titulo": "Transporte escolar gratuito",
+      "resumo": "Quem tem direito a transporte gratuito para estudar e onde conferir as regras.",
+      "quemTemDireito": "O programa federal PNATE apoia o transporte de alunos da rede pública que moram em áreas rurais. Na cidade do Rio, a gratuidade de estudantes no transporte segue regras próprias da Prefeitura.",
+      "requisitos": [
+        "Estar matriculado na rede pública",
+        "No PNATE, morar em área rural",
+        "[CONFERIR: critérios da gratuidade estudantil no Rio]"
+      ],
+      "documentos": [
+        "Declaração escolar ou comprovante de matrícula",
+        "[CONFERIR: documentos da gratuidade]"
+      ],
+      "comoPedir": [
+        "Pergunte à escola ou à Secretaria de Educação sobre o transporte.",
+        "Na cidade, consulte as regras de gratuidade no Carioca Digital.",
+        "A declaração escolar da rede municipal pode ser emitida pela internet."
+      ],
+      "orgaoResponsavel": "Rede de ensino, Prefeitura do Rio e FNDE (PNATE)",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital: gratuidade no transporte municipal",
+          "url": "https://carioca.rio/servicos/informacoes-sobre-gratuidade-em-onibus/"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Declaração escolar da rede municipal",
+          "url": "https://web-educacao.apps.rio.gov.br/declaracoes"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "PNATE (FNDE)",
+          "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnate"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Fundo Nacional de Desenvolvimento da Educação (FNDE)",
+          "documento": "Programa Nacional de Apoio ao Transporte do Escolar (PNATE)",
+          "trecho": "",
+          "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnate",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "inclusao-escolar",
+      "area": "educacao",
+      "titulo": "Pedir apoio para inclusão escolar",
+      "resumo": "Como buscar atendimento especializado e acessibilidade para estudantes com deficiência.",
+      "quemTemDireito": "Estudantes com deficiência, em escolas públicas e particulares. A lei garante educação inclusiva, atendimento educacional especializado (AEE) e apoio escolar, sem cobrança extra nas particulares.",
+      "requisitos": [
+        "Estar matriculado na escola",
+        "Pode haver avaliação por equipe multiprofissional",
+        "A escola deve ter um plano de atendimento especializado"
+      ],
+      "documentos": [
+        "Documento de matrícula do estudante",
+        "Laudos ou relatórios de saúde, se houver"
+      ],
+      "comoPedir": [
+        "Converse com a direção e peça o plano de atendimento educacional especializado.",
+        "Na rede municipal, procure também a Coordenadoria Regional de Educação.",
+        "Se o direito não for atendido, procure a Defensoria Pública ou o Ministério Público."
+      ],
+      "orgaoResponsavel": "Escola e rede de ensino (no Rio, a Secretaria Municipal de Educação)",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Ouvidoria da Prefeitura do Rio",
+          "url": "https://ouvidoria.prefeitura.rio/manifestacoes-de-ouvidoria"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Central 1746",
+          "valor": "1746"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei Brasileira de Inclusão (Lei nº 13.146/2015)",
+          "trecho": "arts. 27 e 28",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "bullying-escola",
+      "area": "educacao",
+      "titulo": "Proteção contra bullying na escola",
+      "resumo": "Como comunicar bullying ou discriminação na escola e pedir providências.",
+      "quemTemDireito": "Todos os estudantes. A lei obriga as escolas a prevenir e combater o bullying, inclusive o cyberbullying. Desde 2024, a intimidação sistemática também é crime previsto no Código Penal.",
+      "requisitos": [
+        "Bullying é violência intencional e repetitiva",
+        "Vale para escolas públicas e particulares",
+        "A escola tem o dever de prevenir e combater"
+      ],
+      "documentos": [
+        "Registro dos fatos: datas, o que houve, quem viu",
+        "Prints, no caso de cyberbullying"
+      ],
+      "comoPedir": [
+        "Comunique a direção da escola e peça providências por escrito.",
+        "Casos graves envolvendo crianças: ligue 100 ou procure o Conselho Tutelar.",
+        "Na rede municipal, a Ouvidoria da Prefeitura também recebe reclamações."
+      ],
+      "orgaoResponsavel": "Escola e rede de ensino",
+      "canais": [
+        {
+          "tipo": "telefone",
+          "rotulo": "Disque 100 (Direitos Humanos)",
+          "valor": "100"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Ouvidoria da Prefeitura do Rio",
+          "url": "https://ouvidoria.prefeitura.rio/manifestacoes-de-ouvidoria"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 13.185/2015 (combate à intimidação sistemática)",
+          "trecho": "arts. 1º e 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13185.htm",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 14.811/2024 (crime de intimidação sistemática)",
+          "trecho": "art. 6º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14811.htm",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "alertas-de-chuva",
+      "area": "seguranca",
+      "titulo": "Receber alertas de chuva e risco da Defesa Civil",
+      "resumo": "Como receber no celular os avisos de chuva forte e de outros riscos na área que você escolher.",
+      "quemTemDireito": "Qualquer pessoa que more no Rio ou queira receber alertas sobre uma área da cidade. O serviço é gratuito, e alguns alertas chegam ao celular sem cadastro, por transmissão direta (cell broadcast).",
+      "requisitos": [
+        "Ter um celular",
+        "Saber o CEP da área que quer acompanhar",
+        "Pode cadastrar quantos CEPs quiser, um de cada vez"
+      ],
+      "documentos": [
+        "Nenhum documento: basta o CEP da área",
+        "No WhatsApp, basta mandar a palavra \"oi\""
+      ],
+      "comoPedir": [
+        "Envie o CEP por SMS para 40199 e espere a mensagem de confirmação.",
+        "Ou mande \"oi\" pelo WhatsApp para (61) 2034-4611.",
+        "Para cancelar, envie \"sair\" e o CEP para 40199."
+      ],
+      "orgaoResponsavel": "Defesa Civil do Município do Rio de Janeiro",
+      "canais": [
+        {
+          "tipo": "sms",
+          "rotulo": "SMS 40199 (envie o seu CEP)",
+          "valor": "40199"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "WhatsApp da Defesa Civil: (61) 2034-4611",
+          "url": "https://wa.me/556120344611"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital: mensagens de alerta da Defesa Civil",
+          "url": "https://carioca.rio/servicos/informacoes-sobre-as-mensagens-de-alerta-da-defesa-civil/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 12.608/2012 (Política Nacional de Proteção e Defesa Civil)",
+          "trecho": "",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
+          "consultadoEm": "2026-11-11"
+        },
+        {
+          "instituicao": "Prefeitura do Rio (Carioca Digital)",
+          "documento": "Mensagens de alerta da Defesa Civil",
+          "trecho": "",
+          "url": "https://carioca.rio/servicos/informacoes-sobre-as-mensagens-de-alerta-da-defesa-civil/",
+          "consultadoEm": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "boletim-ocorrencia",
+      "area": "seguranca",
+      "titulo": "Registrar um boletim de ocorrência",
+      "resumo": "Como comunicar um crime à Polícia Civil e quando dá para começar pela internet.",
+      "quemTemDireito": "Qualquer pessoa que foi vítima ou testemunha de um crime. O registro é feito pela Polícia Civil do estado, em qualquer delegacia. Alguns casos podem começar por um pré-registro na Delegacia Online.",
+      "requisitos": [
+        "Em emergência, ligue 190 (Polícia Militar)",
+        "Casos graves devem ser registrados na delegacia",
+        "[CONFERIR: crimes aceitos na Delegacia Online]"
+      ],
+      "documentos": [
+        "Documento de identidade com foto",
+        "Dados do fato: data, local e o que aconteceu"
+      ],
+      "comoPedir": [
+        "Vá à delegacia mais próxima ou faça o pré-registro na Delegacia Online.",
+        "Conte o que aconteceu com o máximo de detalhes.",
+        "Guarde o número do registro para acompanhar o caso."
+      ],
+      "orgaoResponsavel": "Polícia Civil do Estado do Rio de Janeiro",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Delegacia Online da Polícia Civil",
+          "url": "https://delegaciaonline.pcivil.rj.gov.br/"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Polícia Militar (emergência)",
+          "valor": "190"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Polícia Civil do RJ",
+          "url": "https://www.policiacivil.rj.gov.br/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Polícia Civil do Estado do Rio de Janeiro",
+          "documento": "Portal da Polícia Civil (Delegacia Online)",
+          "trecho": "",
+          "url": "https://www.policiacivil.rj.gov.br/",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "violencia-domestica",
+      "area": "seguranca",
+      "titulo": "Proteção em casos de violência doméstica",
+      "resumo": "Como pedir ajuda e medidas protetivas em casos de violência doméstica contra a mulher.",
+      "quemTemDireito": "Mulheres em situação de violência doméstica e familiar. A Lei Maria da Penha garante medidas protetivas, como afastar o agressor de casa e proibir que ele se aproxime.",
+      "requisitos": [
+        "O pedido pode ser feito na delegacia",
+        "O juiz decide o pedido em até 48 horas",
+        "Qualquer pessoa pode ligar para o 180"
+      ],
+      "documentos": [
+        "Documento de identidade, se tiver",
+        "Provas que tiver, como mensagens ou fotos"
+      ],
+      "comoPedir": [
+        "Em perigo agora, ligue 190.",
+        "Peça a medida protetiva na delegacia, de preferência numa DEAM.",
+        "Ligue 180 (grátis, 24h) para orientação. WhatsApp: (61) 9610-0180."
+      ],
+      "orgaoResponsavel": "Polícia Civil do RJ (DEAMs), Justiça e Ministério das Mulheres (Ligue 180)",
+      "canais": [
+        {
+          "tipo": "telefone",
+          "rotulo": "Central de Atendimento à Mulher",
+          "valor": "180"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "WhatsApp do Ligue 180: (61) 9610-0180",
+          "url": "https://wa.me/5561961000180"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Atendimento à mulher (Polícia Civil do RJ)",
+          "url": "https://www.policiacivil.rj.gov.br/atendimentoMulher"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei Maria da Penha (Lei nº 11.340/2006)",
+          "trecho": "arts. 18, 19 e 22",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Ministério das Mulheres (gov.br)",
+          "documento": "Denunciar e buscar ajuda a vítimas de violência contra mulheres",
+          "trecho": "",
+          "url": "https://www.gov.br/pt-br/servicos/denunciar-e-buscar-ajuda-a-vitimas-de-violencia-contra-mulheres",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "denunciar-direitos-humanos",
+      "area": "seguranca",
+      "titulo": "Denunciar violações de direitos humanos",
+      "resumo": "Como denunciar violência e discriminação contra crianças, idosos e pessoas com deficiência.",
+      "quemTemDireito": "Qualquer pessoa, vítima ou testemunha. O Disque 100 recebe denúncias de violência contra crianças, pessoas idosas e pessoas com deficiência, discriminação, trabalho escravo e outras violações.",
+      "requisitos": [
+        "A ligação é gratuita, 24 horas, todos os dias",
+        "Pode ligar de telefone fixo ou celular",
+        "Guarde o protocolo para acompanhar"
+      ],
+      "documentos": [
+        "O que aconteceu, onde e quando",
+        "Dados de quem sofreu a violação, se souber"
+      ],
+      "comoPedir": [
+        "Ligue 100 ou mande mensagem no WhatsApp (61) 99611-0100.",
+        "Também dá para denunciar pelo site da Ouvidoria Nacional, com chat e Libras.",
+        "Para acompanhar, ligue 100 e informe o número do protocolo."
+      ],
+      "orgaoResponsavel": "Ministério dos Direitos Humanos e da Cidadania",
+      "canais": [
+        {
+          "tipo": "telefone",
+          "rotulo": "Disque 100",
+          "valor": "100"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "WhatsApp do Disque 100: (61) 99611-0100",
+          "url": "https://wa.me/5561996110100"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Ouvidoria Nacional de Direitos Humanos",
+          "url": "https://www.gov.br/mdh/pt-br/ondh"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Ministério dos Direitos Humanos e da Cidadania (gov.br)",
+          "documento": "Denunciar violação de direitos humanos",
+          "trecho": "",
+          "url": "https://www.gov.br/pt-br/servicos/denunciar-violacao-de-direitos-humanos",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "desaparecimento",
+      "area": "seguranca",
+      "titulo": "Comunicar o desaparecimento de uma pessoa",
+      "resumo": "O que fazer quando alguém desaparece e por que não é preciso esperar para comunicar.",
+      "quemTemDireito": "A família ou quem souber do desaparecimento. A lei trata a busca como prioridade urgente e não prevê prazo de espera para comunicar a polícia: não é preciso esperar 24 horas.",
+      "requisitos": [
+        "Não existe prazo de espera na lei",
+        "Se for criança ou adolescente, o Conselho Tutelar é avisado",
+        "Avise a polícia se a pessoa reaparecer"
+      ],
+      "documentos": [
+        "Foto recente da pessoa",
+        "Dados da pessoa, roupa e último local visto"
+      ],
+      "comoPedir": [
+        "Comunique numa delegacia ou pelo registro online da Polícia Civil.",
+        "No Rio, a Delegacia de Descoberta de Paradeiros (DDPA) cuida desses casos.",
+        "DDPA: (21) 2202-0338 ou WhatsApp (21) 98322-0228."
+      ],
+      "orgaoResponsavel": "Polícia Civil do RJ (Delegacia de Descoberta de Paradeiros)",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Pessoas desaparecidas (Polícia Civil do RJ)",
+          "url": "https://www.policiacivil.rj.gov.br/desaparecidos"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Delegacia de Descoberta de Paradeiros",
+          "valor": "(21) 2202-0338"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "WhatsApp da DDPA: (21) 98322-0228",
+          "url": "https://wa.me/5521983220228"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 13.812/2019 (Política Nacional de Busca de Pessoas Desaparecidas)",
+          "trecho": "arts. 3º e 8º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13812.htm",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Polícia Civil do Estado do Rio de Janeiro",
+          "documento": "Pessoas desaparecidas (DDPA)",
+          "trecho": "",
+          "url": "https://www.policiacivil.rj.gov.br/desaparecidos",
+          "consultadoEm": "2026-11-14"
         }
       ]
     },
@@ -231,57 +877,211 @@
       ]
     },
     {
-      "id": "alertas-de-chuva",
-      "area": "seguranca",
-      "titulo": "Receber alertas de chuva e risco da Defesa Civil",
-      "resumo": "Como receber no celular os avisos de chuva forte e de outros riscos na área que você escolher.",
-      "quemTemDireito": "Qualquer pessoa que more no Rio ou queira receber alertas sobre uma área da cidade. O serviço é gratuito, e alguns alertas chegam ao celular sem cadastro, por transmissão direta (cell broadcast).",
+      "id": "tarifa-social-energia",
+      "area": "cidade",
+      "titulo": "Tarifa Social de energia elétrica",
+      "resumo": "Como saber se a sua família tem direito a desconto na conta de luz.",
+      "quemTemDireito": "Famílias no Cadastro Único com renda por pessoa de até meio salário mínimo, ou com alguém que recebe o Benefício de Prestação Continuada (BPC). [CONFERIR: descontos atuais na ANEEL]",
       "requisitos": [
-        "Ter um celular",
-        "Saber o CEP da área que quer acompanhar",
-        "Pode cadastrar quantos CEPs quiser, um de cada vez"
+        "Estar no Cadastro Único, com os dados atualizados",
+        "Renda por pessoa de até meio salário mínimo, ou BPC",
+        "[CONFERIR: se o desconto entra automaticamente]"
       ],
       "documentos": [
-        "Nenhum documento: basta o CEP da área",
-        "No WhatsApp, basta mandar a palavra \"oi\""
+        "Número de Identificação Social (NIS)",
+        "Dados da conta de luz (número da instalação)"
       ],
       "comoPedir": [
-        "Envie o CEP por SMS para 40199 e espere a mensagem de confirmação.",
-        "Ou mande \"oi\" pelo WhatsApp para (61) 2034-4611.",
-        "Para cancelar, envie \"sair\" e o CEP para 40199."
+        "Faça ou atualize o Cadastro Único na Prefeitura, pelo cadunico.rio ou pelo 1746.",
+        "Confira na conta de luz se aparece o desconto da Tarifa Social.",
+        "Se não aparecer, procure a distribuidora de energia com o seu NIS."
       ],
-      "orgaoResponsavel": "Defesa Civil do Município do Rio de Janeiro",
+      "orgaoResponsavel": "ANEEL e distribuidora de energia; Cadastro Único pela Prefeitura do Rio",
       "canais": [
         {
-          "tipo": "sms",
-          "rotulo": "SMS 40199 (envie o seu CEP)",
-          "valor": "40199"
+          "tipo": "site",
+          "rotulo": "Cadastro Único no Rio (agendamento)",
+          "url": "http://cadunico.rio/"
         },
         {
           "tipo": "site",
-          "rotulo": "WhatsApp da Defesa Civil: (61) 2034-4611",
-          "url": "https://wa.me/556120344611"
+          "rotulo": "Carioca Digital: Cadastro Único",
+          "url": "https://carioca.rio/servicos/informacoes-sobre-o-cadastro-unico/"
         },
         {
-          "tipo": "site",
-          "rotulo": "Carioca Digital: mensagens de alerta da Defesa Civil",
-          "url": "https://carioca.rio/servicos/informacoes-sobre-as-mensagens-de-alerta-da-defesa-civil/"
+          "tipo": "telefone",
+          "rotulo": "Central 1746",
+          "valor": "1746"
         }
       ],
       "fontes": [
         {
           "instituicao": "Presidência da República (Planalto)",
-          "documento": "Lei nº 12.608/2012 (Política Nacional de Proteção e Defesa Civil)",
-          "trecho": "",
-          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm",
-          "consultadoEm": "2026-11-11"
+          "documento": "Lei nº 12.212/2010 (Tarifa Social de Energia Elétrica)",
+          "trecho": "art. 2º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12212.htm",
+          "consultadoEm": "2026-11-14"
         },
         {
           "instituicao": "Prefeitura do Rio (Carioca Digital)",
-          "documento": "Mensagens de alerta da Defesa Civil",
+          "documento": "Informações sobre o Cadastro Único",
           "trecho": "",
-          "url": "https://carioca.rio/servicos/informacoes-sobre-as-mensagens-de-alerta-da-defesa-civil/",
-          "consultadoEm": "2026-11-12"
+          "url": "https://carioca.rio/servicos/informacoes-sobre-o-cadastro-unico/",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "cras-cadastro-unico",
+      "area": "cidade",
+      "titulo": "Assistência social e Cadastro Único",
+      "resumo": "Como fazer o Cadastro Único e receber orientação sobre benefícios no Rio.",
+      "quemTemDireito": "Famílias com renda mensal de até meio salário mínimo por pessoa. Famílias com renda maior podem se cadastrar para programas específicos. O cadastro dá acesso a programas sociais.",
+      "requisitos": [
+        "Agendar pelo site cadunico.rio ou pelo 1746",
+        "Usar o CPF do responsável pela família",
+        "Comparecer no dia e horário marcados"
+      ],
+      "documentos": [
+        "CPF e documento com foto do responsável pela família",
+        "Certidão de nascimento ou casamento de todos da casa",
+        "Comprovante de endereço ou declaração de residência"
+      ],
+      "comoPedir": [
+        "Agende pelo cadunico.rio ou pelo 1746, com o CPF do responsável.",
+        "Confirme o agendamento no site e leve os documentos no dia.",
+        "O Carioca Digital lista os endereços das Centrais CADRio e dos CRAS."
+      ],
+      "orgaoResponsavel": "Secretaria Municipal de Assistência Social do Rio (SMAS)",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Cadastro Único no Rio (agendamento)",
+          "url": "http://cadunico.rio/"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital: Cadastro Único e endereços dos CRAS",
+          "url": "https://carioca.rio/servicos/informacoes-sobre-o-cadastro-unico/"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Central 1746",
+          "valor": "1746"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Prefeitura do Rio (Carioca Digital)",
+          "documento": "Informações sobre o Cadastro Único",
+          "trecho": "",
+          "url": "https://carioca.rio/servicos/informacoes-sobre-o-cadastro-unico/",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "acessibilidade",
+      "area": "cidade",
+      "titulo": "Exigir acessibilidade em espaços e serviços",
+      "resumo": "Como pedir atendimento acessível e comunicar barreiras em espaços e serviços.",
+      "quemTemDireito": "Pessoas com deficiência ou mobilidade reduzida. A Lei Brasileira de Inclusão garante acesso a espaços, transportes, informação e comunicação, com segurança e autonomia.",
+      "requisitos": [
+        "Barreiras podem ser físicas, de comunicação ou de atitude",
+        "Vale para locais públicos e privados abertos ao público",
+        "Qualquer pessoa pode comunicar uma violação"
+      ],
+      "documentos": [
+        "Endereço do local e descrição da barreira",
+        "Fotos, se puder"
+      ],
+      "comoPedir": [
+        "Serviço da Prefeitura: registre pela Central 1746 ou pela Ouvidoria.",
+        "Para orientação sobre direitos, procure o COMDEF-RIO, conselho municipal da área.",
+        "Se nada mudar, procure o Ministério Público ou a Defensoria Pública."
+      ],
+      "orgaoResponsavel": "Órgão responsável pelo local; Secretaria Municipal da Pessoa com Deficiência do Rio",
+      "canais": [
+        {
+          "tipo": "telefone",
+          "rotulo": "Central 1746",
+          "valor": "1746"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Ouvidoria da Prefeitura do Rio",
+          "url": "https://ouvidoria.prefeitura.rio/manifestacoes-de-ouvidoria"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital: Secretaria da Pessoa com Deficiência",
+          "url": "https://carioca.rio/orgao/secretaria-municipal-da-pessoa-com-deficiencia-smpd/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei Brasileira de Inclusão (Lei nº 13.146/2015)",
+          "trecho": "arts. 3º e 7º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Prefeitura do Rio (Carioca Digital)",
+          "documento": "Secretaria Municipal da Pessoa com Deficiência (SMPD)",
+          "trecho": "",
+          "url": "https://carioca.rio/orgao/secretaria-municipal-da-pessoa-com-deficiencia-smpd/",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "participar-decisoes",
+      "area": "cidade",
+      "titulo": "Participar das decisões da cidade",
+      "resumo": "Como acompanhar audiências públicas, sessões da Câmara e conselhos municipais.",
+      "quemTemDireito": "Qualquer pessoa. O Estatuto da Cidade prevê a participação da população na gestão da cidade, como nas audiências do plano diretor. A Câmara Municipal faz audiências públicas, até sobre o orçamento.",
+      "requisitos": [
+        "Sessões e audiências da Câmara são públicas",
+        "Alguns conselhos têm vagas para a sociedade civil",
+        "[CONFERIR: como se inscrever para falar]"
+      ],
+      "documentos": [
+        "Nenhum para acompanhar pela internet",
+        "[CONFERIR: documento para entrar na Câmara]"
+      ],
+      "comoPedir": [
+        "Veja a agenda de sessões e audiências no site da Câmara Municipal.",
+        "Envie sugestões de leis pelo menu Cidadania Ativa do site da Câmara.",
+        "Conheça conselhos municipais, como o COMDEF-RIO, no Carioca Digital."
+      ],
+      "orgaoResponsavel": "Câmara Municipal do Rio de Janeiro e Prefeitura do Rio",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Câmara Municipal do Rio",
+          "url": "https://www.camara.rio/"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Agenda da Câmara Municipal",
+          "url": "https://www.camara.rio/comunicacao/agenda"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Estatuto da Cidade (Lei nº 10.257/2001)",
+          "trecho": "art. 2º, inciso II; art. 40, § 4º, inciso I",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Câmara Municipal do Rio de Janeiro",
+          "documento": "Portal da Câmara Municipal",
+          "trecho": "",
+          "url": "https://www.camara.rio/",
+          "consultadoEm": "2026-11-14"
         }
       ]
     },
@@ -332,6 +1132,211 @@
           "trecho": "art. 10, caput e § 3º; art. 11, §§ 1º e 2º",
           "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
           "consultadoEm": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "carta-servicos",
+      "area": "transversal",
+      "titulo": "Conhecer as regras e os prazos de um serviço",
+      "resumo": "Onde ver documentos, etapas e prazos de um serviço público antes de pedir.",
+      "quemTemDireito": "Qualquer pessoa. A lei obriga os órgãos públicos a publicar a Carta de Serviços ao Usuário, com requisitos, documentos, etapas, prazo máximo e onde reclamar.",
+      "requisitos": [
+        "Cada órgão deve manter a carta atualizada",
+        "A carta deve informar o prazo máximo",
+        "Ela também indica onde fazer reclamações"
+      ],
+      "documentos": [
+        "Nenhum: a carta é pública",
+        "Anote o nome do serviço que você procura"
+      ],
+      "comoPedir": [
+        "Serviços da Prefeitura do Rio: procure no Carioca Digital.",
+        "Serviços federais: procure no portal gov.br.",
+        "Se a regra não for cumprida, registre na ouvidoria do órgão."
+      ],
+      "orgaoResponsavel": "Cada órgão público que presta o serviço",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Carioca Digital (serviços da Prefeitura)",
+          "url": "https://carioca.rio/"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Portal gov.br (serviços federais)",
+          "url": "https://www.gov.br/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 13.460/2017 (direitos do usuário de serviço público)",
+          "trecho": "art. 7º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "pedir-melhorias",
+      "area": "transversal",
+      "titulo": "Pedir melhorias para sua comunidade",
+      "resumo": "Como encaminhar pedidos de mais vagas, profissionais ou serviços no seu bairro.",
+      "quemTemDireito": "Qualquer pessoa ou grupo. A Constituição garante o direito de petição aos Poderes Públicos, sem pagar taxa, em defesa de direitos ou contra ilegalidade ou abuso de poder.",
+      "requisitos": [
+        "Nenhuma manifestação pode ser recusada",
+        "A resposta sai em até 30 dias, prorrogáveis uma vez",
+        "Não é preciso explicar os seus motivos"
+      ],
+      "documentos": [
+        "A sua identificação",
+        "Descrição do pedido e do local"
+      ],
+      "comoPedir": [
+        "Faça o pedido pela Central 1746. Reclamações sobre ele vão à Ouvidoria.",
+        "Moradores podem assinar juntos e levar o pedido à Câmara Municipal.",
+        "Guarde o protocolo e cobre a resposta dentro do prazo."
+      ],
+      "orgaoResponsavel": "Ouvidoria Geral do Município do Rio; Câmara Municipal",
+      "canais": [
+        {
+          "tipo": "telefone",
+          "rotulo": "Central 1746",
+          "valor": "1746"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Ouvidoria da Prefeitura do Rio",
+          "url": "https://ouvidoria.prefeitura.rio/manifestacoes-de-ouvidoria"
+        },
+        {
+          "tipo": "telefone",
+          "rotulo": "Ouvidoria Geral do Município",
+          "valor": "3460-1746"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Constituição Federal de 1988",
+          "trecho": "art. 5º, inciso XXXIV, alínea a",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 13.460/2017 (direitos do usuário de serviço público)",
+          "trecho": "arts. 9º a 16",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Prefeitura do Rio",
+          "documento": "Ouvidoria Geral do Município: manifestações",
+          "trecho": "",
+          "url": "https://ouvidoria.prefeitura.rio/manifestacoes-de-ouvidoria",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "seus-dados",
+      "area": "transversal",
+      "titulo": "Ver seus dados guardados por órgãos públicos",
+      "resumo": "Como pedir acesso ou correção dos seus dados pessoais em órgãos públicos.",
+      "quemTemDireito": "Qualquer pessoa. A Lei Geral de Proteção de Dados (LGPD) garante saber se um órgão usa seus dados, ter acesso a eles e pedir correção, sem custo. Na Justiça, há ainda o habeas data.",
+      "requisitos": [
+        "O pedido é feito ao órgão que guarda os dados",
+        "Cada órgão deve indicar um encarregado de dados",
+        "A resposta completa sai em até 15 dias"
+      ],
+      "documentos": [
+        "Documento de identificação",
+        "Quais dados você quer ver ou corrigir"
+      ],
+      "comoPedir": [
+        "Procure no site do órgão o canal do encarregado de dados (LGPD).",
+        "Peça a confirmação, o acesso ou a correção dos seus dados.",
+        "Se não for atendido, reclame à ANPD pela plataforma Fala.BR."
+      ],
+      "orgaoResponsavel": "O órgão que guarda os dados; Autoridade Nacional de Proteção de Dados (ANPD)",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Autoridade Nacional de Proteção de Dados",
+          "url": "https://www.gov.br/anpd/pt-br"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Fala.BR (ouvidorias federais)",
+          "url": "https://falabr.cgu.gov.br/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei Geral de Proteção de Dados (Lei nº 13.709/2018)",
+          "trecho": "arts. 18, 19, 23 e 41",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Constituição Federal de 1988",
+          "trecho": "art. 5º, incisos LXXII e LXXVII",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+          "consultadoEm": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "avaliar-servicos",
+      "area": "transversal",
+      "titulo": "Avaliar os serviços públicos",
+      "resumo": "Como dar a sua opinião e participar da avaliação do atendimento público.",
+      "quemTemDireito": "Qualquer usuário de serviço público. A lei garante participar da avaliação e manda os órgãos fazerem pesquisa de satisfação pelo menos uma vez por ano, com resultado publicado.",
+      "requisitos": [
+        "Elogios, sugestões e críticas são manifestações",
+        "Os órgãos devem ter conselhos de usuários",
+        "O resultado das avaliações deve ser público"
+      ],
+      "documentos": [
+        "A sua identificação, quando pedida",
+        "Nome do serviço e da unidade avaliados"
+      ],
+      "comoPedir": [
+        "Mande elogio, sugestão ou crítica pela Ouvidoria da Prefeitura.",
+        "Responda às pesquisas de satisfação dos órgãos públicos.",
+        "Acompanhe os relatórios das ouvidorias, que devem ser publicados."
+      ],
+      "orgaoResponsavel": "Ouvidoria de cada órgão; no Rio, a Ouvidoria Geral do Município",
+      "canais": [
+        {
+          "tipo": "site",
+          "rotulo": "Ouvidoria da Prefeitura do Rio",
+          "url": "https://ouvidoria.prefeitura.rio/manifestacoes-de-ouvidoria"
+        },
+        {
+          "tipo": "site",
+          "rotulo": "Fala.BR (ouvidorias federais)",
+          "url": "https://falabr.cgu.gov.br/"
+        }
+      ],
+      "fontes": [
+        {
+          "instituicao": "Presidência da República (Planalto)",
+          "documento": "Lei nº 13.460/2017 (direitos do usuário de serviço público)",
+          "trecho": "art. 6º, inciso I; arts. 18 a 21; art. 23",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm",
+          "consultadoEm": "2026-11-14"
+        },
+        {
+          "instituicao": "Prefeitura do Rio",
+          "documento": "Ouvidoria Geral do Município: manifestações",
+          "trecho": "",
+          "url": "https://ouvidoria.prefeitura.rio/manifestacoes-de-ouvidoria",
+          "consultadoEm": "2026-11-14"
         }
       ]
     }

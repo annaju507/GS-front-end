@@ -75,10 +75,13 @@ function PreviaAgora() {
   )
 }
 
+// Uma página de cada área, para mostrar a variedade da aba.
+const IDS_PREVIA_DIREITOS = ['atendimento-no-sus', 'matricula-rede-municipal', 'pedir-servico-prefeitura']
+
 function PreviaDireitos() {
   return (
     <ul className="grid gap-3 md:grid-cols-3">
-      {direitos.temas.slice(0, 3).map((exemplo) => (
+      {IDS_PREVIA_DIREITOS.map((id) => direitos.temas.find((tema) => tema.id === id)).filter(Boolean).map((exemplo) => (
         <Card key={exemplo.titulo} como="li" className="flex flex-col gap-3">
           <div>
             <EtiquetaDireito area={exemplo.area} />
