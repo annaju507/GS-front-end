@@ -1,6 +1,11 @@
 import { useNavigate } from 'react-router'
-import { Award, BookCheck, Bookmark, Flame, LogOut } from 'lucide-react'
+import { Award, BookCheck, Bookmark, Flame, LogOut, Trash2 } from 'lucide-react'
 import textos from '../data/textos.json'
+import { mesEAno } from '../domain/foto.js'
+import { preencher } from '../domain/texto.js'
+import { useFotoPerfil } from '../hooks/useFotoPerfil.js'
+import Aviso from '../components/Aviso.jsx'
+import AvatarFoto from '../components/AvatarFoto.jsx'
 import { ordemDasLicoes, porcentagemConcluida } from '../domain/trilha.js'
 import { UNIDADES } from '../services/conteudoLocal.js'
 import { useAuth } from '../hooks/useAuth.js'
@@ -27,6 +32,7 @@ export default function Perfil() {
   const { usuario, sair } = useAuth()
   const { progresso, sequencia, medalhas } = useProgresso()
   const caderno = useCaderno()
+  const { foto, erro, salvando, escolherFoto, tirarFoto } = useFotoPerfil()
 
   const numeros = [
     { Icone: Flame, cor: 'text-mico', valor: sequencia, rotulo: t.estatisticas.dias },
@@ -42,16 +48,32 @@ export default function Perfil() {
 
   return (
     <div className="mx-auto flex max-w-leitura flex-col gap-8">
-      {/* Roda-gigante do Porto numa janela em arco, como os Arcos da Lapa. */}
-      <header className="grid items-center gap-6 sm:grid-cols-[11rem_1fr]">
+      {/* Capa com a roda-gigante do Porto e a bolinha da foto por cima. */}
+      <header className="flex flex-col">
         <ImagemRio
           nome="roda-gigante-porto"
           prioridade
-          className="hidden h-56 w-full rounded-b-card rounded-t-full object-[35%_center] sm:block"
+          className="h-32 w-full rounded-card object-cover object-[center_40%] sm:h-44"
         />
-        <div>
-          <h1>{t.titulo}</h1>
-          <p className="text-texto-2">{usuario.apelido}</p>
+        <div className="-mt-14 flex flex-col items-center gap-3 px-4 text-center sm:-mt-11 sm:flex-row sm:items-end sm:gap-5 sm:text-left">
+          <AvatarFoto apelido={usuario.apelido} foto={foto} salvando={salvando} onEscolher={escolherFoto} />
+          <div className="flex flex-col gap-1 sm:pb-1">
+            <h1>
+              <span className="sr-only">{t.titulo}: </span>
+              {usuario.apelido}
+            </h1>
+            <p className="text-texto-2">{preencher(t.desde, { data: mesEAno(usuario.criadoEm) })}</p>
+          </div>
+        </div>
+        <div className="mt-3 flex flex-col items-center gap-2 sm:items-start sm:pl-4" aria-live="polite">
+          {salvando && <p className="text-legenda text-texto-2">{t.foto.salvando}</p>}
+          {erro && <Aviso tipo="erro">{t.foto.erros[erro]}</Aviso>}
+          {foto && !salvando && (
+            <Botao variante="terciario" icone={Trash2} onClick={tirarFoto}>
+              {t.foto.tirar}
+            </Botao>
+          )}
+          <p className="text-legenda text-texto-2">{t.foto.aviso}</p>
         </div>
       </header>
 

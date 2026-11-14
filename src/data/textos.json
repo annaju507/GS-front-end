@@ -715,7 +715,20 @@
     },
     "ajustes": "Ajustes de leitura",
     "sair": "Sair da conta",
-    "trilha": "Progresso da trilha"
+    "trilha": "Progresso da trilha",
+    "desde": "No Demokratos desde {data}",
+    "foto": {
+      "escolher": "Escolher foto do perfil",
+      "trocar": "Trocar foto do perfil",
+      "tirar": "Tirar foto",
+      "salvando": "Salvando a foto...",
+      "aviso": "A foto fica guardada só neste navegador.",
+      "erros": {
+        "tipo": "Esse arquivo não é uma imagem. Escolha uma foto.",
+        "tamanho": "Essa foto é muito grande. Escolha uma de até 10 MB.",
+        "leitura": "Não deu para abrir essa foto. Tente outra."
+      }
+    }
   },
   "agora": {
     "tituloAba": "Agora",
