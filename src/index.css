@@ -706,7 +706,7 @@
    um leve passo além do ponto, como uma mola. */
 .virar { perspective: 75rem; touch-action: pan-y; }
 .virar-interno { position: relative; height: 100%; transform-style: preserve-3d; will-change: transform; }
-.virar-mola { transition: transform 0.8s cubic-bezier(0.34, 1.45, 0.5, 1); }
+.virar-mola { transition: transform 0.9s cubic-bezier(0.45, 0.05, 0.25, 1.25); }
 .virar-face { position: absolute; inset: 0; overflow: hidden; border-radius: var(--radius-modal); backface-visibility: hidden; -webkit-backface-visibility: hidden; }
 .virar-verso { transform: rotateY(180deg); }
 @media (prefers-reduced-motion: reduce) {
