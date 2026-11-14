@@ -700,3 +700,16 @@
   transform: translateX(-50%);
   box-shadow: inset 0 0.0625rem 0.125rem rgb(0 0 0 / 0.25);
 }
+
+/* Card que vira (mascotes no Como funciona): giro em 3D no eixo Y.
+   O ângulo é aplicado pelo JavaScript; "virar-mola" liga a transição com
+   um leve passo além do ponto, como uma mola. */
+.virar { perspective: 75rem; touch-action: pan-y; }
+.virar-interno { position: relative; height: 100%; transform-style: preserve-3d; will-change: transform; }
+.virar-mola { transition: transform 0.8s cubic-bezier(0.34, 1.45, 0.5, 1); }
+.virar-face { position: absolute; inset: 0; overflow: hidden; border-radius: var(--radius-modal); backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.virar-verso { transform: rotateY(180deg); }
+@media (prefers-reduced-motion: reduce) {
+  .virar-mola { transition: none; }
+}
+.reduzir-animacoes .virar-mola { transition: none; }

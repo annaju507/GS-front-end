@@ -3,7 +3,7 @@ import textos from '../data/textos.json'
 import { MASCOTES } from '../domain/mascotes.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Botao from '../components/Botao.jsx'
-import Card from '../components/Card.jsx'
+import CardMascoteVirar from '../components/CardMascoteVirar.jsx'
 import ImagemComMascote from '../components/ImagemComMascote.jsx'
 import Mascote from '../components/Mascote.jsx'
 
@@ -60,15 +60,10 @@ export default function ComoFunciona() {
           {t.secoes.mascotes.titulo}
         </h2>
         <p className="max-w-leitura">{t.secoes.mascotes.texto}</p>
-        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <p className="text-legenda text-texto-2">{t.dicaVirar}</p>
+        <ul className="grid grid-cols-2 gap-4 lg:grid-cols-5 lg:gap-5">
           {MASCOTES.map((mascote) => (
-            <Card key={mascote} como="li" className="flex items-center gap-4">
-              <Mascote nome={mascote} expressao="feliz" largura={72} />
-              <p>
-                <span className="block font-titulo font-semibold">{textos.mascotes[mascote]}</span>
-                <span className="text-texto-2">{t.papeis[mascote]}</span>
-              </p>
-            </Card>
+            <CardMascoteVirar key={mascote} mascote={mascote} />
           ))}
         </ul>
       </section>

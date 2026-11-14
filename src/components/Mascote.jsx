@@ -10,6 +10,7 @@ function caminhoDaImagem(nome, expressao, tamanho) {
 // Imagem de um mascote. alt="" quando está ao lado de um balão com o texto
 // (decorativo); alt descritivo só quando o mascote transmite algo sozinho.
 // "largura" é em pixels de referência e vira rem (cresce com o A+).
+// Com largura={null}, quem define o tamanho é a className.
 export default function Mascote({
   nome,
   expressao = 'feliz',
@@ -32,7 +33,7 @@ export default function Mascote({
       alt={alt}
       loading={prioridade ? 'eager' : 'lazy'}
       decoding="async"
-      style={{ width: `${largura / 16}rem`, height: 'auto' }}
+      style={largura ? { width: `${largura / 16}rem`, height: 'auto' } : undefined}
       className={`shrink-0 ${fundo} ${className}`}
     />
   )

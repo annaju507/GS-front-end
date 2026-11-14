@@ -351,12 +351,14 @@
         "texto": "Tudo o que ensinamos vem de documentos públicos, como a Constituição e os sites da Câmara, do Senado, da ALERJ e da Câmara do Rio. Cada conteúdo mostra a fonte, a data da consulta e o link."
       }
     },
+    "dicaVirar": "Passe o mouse, toque ou arraste o card para ver o papel de cada um.",
+    "virar": "Ver o papel de {nome}",
     "papeis": {
-      "caramelo": "O companheiro: recebe você e mostra o caminho.",
-      "capivara": "A professora: explica com calma.",
-      "arara": "A mensageira: traz as novidades.",
-      "onca": "A investigadora: confere as fontes.",
-      "mico": "O explorador: comemora suas conquistas."
+      "caramelo": { "papel": "O companheiro", "texto": "Recebe você e mostra o caminho." },
+      "capivara": { "papel": "A professora", "texto": "Explica com calma." },
+      "arara": { "papel": "A mensageira", "texto": "Traz as novidades." },
+      "onca": { "papel": "A investigadora", "texto": "Confere as fontes." },
+      "mico": { "papel": "O explorador", "texto": "Comemora suas conquistas." }
     },
     "convite": "Pronto para começar?",
     "comecar": "Começar agora"
