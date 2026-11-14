@@ -368,7 +368,7 @@
     "intro": "O Demokratos é um projeto de estudantes de Engenharia de Software da FIAP, no Rio de Janeiro. Queremos que ninguém tenha medo de não entender política.",
     "equipe": {
       "titulo": "Quem somos",
-      "texto": "Somos um grupo de estudantes do primeiro ano de Engenharia de Software da FIAP, no Rio. Criamos o Demokratos na Global Solution, um desafio da faculdade sobre tecnologia a serviço do cidadão. Não somos políticos nem temos partido. Nosso papel é facilitar e ampliar o conhecimento da população carioca, com fontes confiáveis.",
+      "texto": "Somos um grupo de estudantes do primeiro ano de Engenharia de Software da FIAP, no Rio. Criamos o Demokratos na Global Solution, um desafio da faculdade. Não somos políticos nem temos partido. Nosso papel é facilitar e ampliar o conhecimento da população carioca, com fontes confiáveis.",
       "_max": {
         "texto": 300
       }
