@@ -60,7 +60,7 @@ export default function CabecalhoPublico() {
           </ul>
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="-mr-2 flex items-center gap-0 sm:mr-0 sm:gap-2">
           <BotaoTema compacto />
           <span className="hidden sm:block">
             <Botao variante="pilula" para={acaoConta.para}>
@@ -72,11 +72,10 @@ export default function CabecalhoPublico() {
             onClick={() => setMenuAberto(!menuAberto)}
             aria-expanded={menuAberto}
             aria-controls={idMenu}
-            className="inline-flex min-h-12 items-center gap-2 rounded-full px-3 font-titulo text-rotulo font-semibold text-texto hover:bg-lilas-claro lg:hidden"
+            className="inline-flex size-11 items-center justify-center rounded-full text-texto hover:bg-lilas-claro lg:hidden"
           >
-            {menuAberto ? <X size={24} strokeWidth={2} aria-hidden="true" /> : <Menu size={24} strokeWidth={2} aria-hidden="true" />}
+            {menuAberto ? <X size={20} strokeWidth={2} aria-hidden="true" /> : <Menu size={20} strokeWidth={2} aria-hidden="true" />}
             <span className="sr-only">{menuAberto ? t.fecharMenu : t.abrirMenu}</span>
-            <span aria-hidden="true">{t.menu}</span>
           </button>
         </div>
       </div>

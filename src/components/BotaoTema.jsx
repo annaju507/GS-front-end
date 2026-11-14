@@ -17,9 +17,9 @@ export default function BotaoTema({ compacto = false }) {
         aria-pressed={tema.escuro}
         aria-label={rotulo}
         title={rotulo}
-        className="inline-flex size-12 items-center justify-center rounded-full text-texto transition-colors duration-150 hover:bg-lilas-claro"
+        className="inline-flex size-11 items-center justify-center rounded-full text-texto transition-colors duration-150 hover:bg-lilas-claro"
       >
-        <Icone size={24} strokeWidth={2} aria-hidden="true" />
+        <Icone size={20} strokeWidth={2} aria-hidden="true" />
       </button>
     )
   }
