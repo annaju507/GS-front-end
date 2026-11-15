@@ -65,14 +65,12 @@ Pedidos reais feitos ao Claude Code, copiados das conversas (só corrigimos erro
 ### 7. Ampliar a aba Direitos com fontes oficiais
 > "Na parte de Direitos, está muito crua. Gostaria que você adicionasse mais tópicos. Estou dando algumas sugestões, veja se concorda comigo." (seguido de uma lista de temas por área, como medicamentos gratuitos pelo SUS e Farmácia Popular e atendimento de saúde mental)
 
-> "Pode apagar tudo que ainda está para conferir e depois eu procuro sobre."
+**Resultado:** 20 páginas novas na aba Direitos, cada uma com a página oficial do serviço.
 
-**Resultado:** 20 páginas novas na aba Direitos. O que não tinha fonte oficial confirmada saiu do site.
+### 8. Revisão de tudo no final
+> "Prossiga, mas ao final da última etapa me mostre tudo que eu tenho que conferir ou ajustar, todos os apontamentos desde o começo, logo após a última etapa."
 
-### 8. Interação inspirada em uma referência
-> "Quero que você faça a mesma animação que está nesse site que eu mandei o link, com foco nessa parte. Quero que você anime no meu site os mascotes: deixe a foto deles e, quando as pessoas passarem por cima, o card vai virar e vai ter a descrição do bichinho."
-
-**Resultado:** os cards dos mascotes no Como funciona, que giram ao passar o mouse ou tocar (com versão sem animação para quem pede menos movimento).
+**Resultado:** ao terminar as etapas, a IA entregou uma lista única com tudo o que precisava da conferência da equipe (fontes, textos e decisões em aberto).
 
 ## O que aprendemos
 
