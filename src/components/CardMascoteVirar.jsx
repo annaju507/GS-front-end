@@ -16,6 +16,15 @@ const VISUAL = {
   mico: { Icone: Trophy, cor: 'bg-[#F08A5D]', tinta: 'bg-[#FDE0D2]' },
 }
 
+// Na frente do card, cada mascote aparece na pose que mostra o papel dele.
+const POSE_DA_FRENTE = {
+  caramelo: 'feliz',
+  capivara: 'explicando',
+  arara: 'alerta',
+  onca: 'pensativo',
+  mico: 'comemorando',
+}
+
 // Quanto o dedo/mouse precisa andar até contar como arrasto (em px).
 const LIMITE_ARRASTO = 6
 
@@ -162,7 +171,7 @@ export default function CardMascoteVirar({ mascote }) {
         {/* Frente: o mascote sobre o fundo claro e uma faixa branca com o nome. */}
         <div className={`virar-face group shadow-card ${tinta}`}>
           <div className="absolute inset-x-[4%] bottom-[22%] transition-transform duration-700 group-hover:scale-105 motion-reduce:transition-none">
-            <Mascote nome={mascote} expressao="feliz" tamanho="corpo" largura={null} className="w-full" />
+            <Mascote nome={mascote} expressao={POSE_DA_FRENTE[mascote]} tamanho="corpo" largura={null} className="w-full" />
           </div>
           <div className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-2 bg-white py-3 pl-3 pr-2.5 text-[#1A1A1A] sm:pl-4 sm:pr-3">
             <h3 className="font-titulo text-[1.0625rem] font-extrabold sm:text-[1.25rem]">{nome}</h3>
