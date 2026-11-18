@@ -57,11 +57,11 @@ export default function Caderno() {
 
   let conteudo
   if (carregando) {
-    conteudo = <EstadoCarregando texto={t.carregando} />
+    conteudo = <EstadoCarregando texto={t.carregando} comMascote />
   } else if (erro) {
     conteudo = <EstadoErro semConexao={erro === 'semConexao'} onTentarDeNovo={tentarDeNovo} />
   } else if (anotacoes.length === 0) {
-    conteudo = <EstadoVazio mascote="caramelo" expressao="feliz" titulo={t.vazio.titulo} acao={{ rotulo: t.vazio.botao, para: '/app/agora' }} />
+    conteudo = <EstadoVazio mascote="caramelo" expressao="explicando" titulo={t.vazio.titulo} acao={{ rotulo: t.vazio.botao, para: '/app/agora' }} />
   } else {
     conteudo = (
       <>
