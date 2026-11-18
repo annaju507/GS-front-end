@@ -13,6 +13,7 @@ import CitacaoOficial from '../components/CitacaoOficial.jsx'
 import ControleTamanhoLetra from '../components/ControleTamanhoLetra.jsx'
 import ExemploCarioca from '../components/ExemploCarioca.jsx'
 import FonteOficial from '../components/FonteOficial.jsx'
+import Mascote from '../components/Mascote.jsx'
 import TextoComTermos from '../components/TextoComTermos.jsx'
 import NaoEncontrada from './NaoEncontrada.jsx'
 
@@ -76,7 +77,7 @@ export default function Licao() {
         </p>
       </header>
 
-      <BalaoMascote mascote={licao.mascote} expressao="explicando">
+      <BalaoMascote mascote={licao.mascote} expressao="explicando" corpoInteiro>
         <p>{licao.gancho}</p>
       </BalaoMascote>
 
@@ -86,7 +87,9 @@ export default function Licao() {
 
       <FonteOficial fonte={licao.fonte} />
 
-      <div>
+      {/* No fim, a capivara feliz convida para o quiz. */}
+      <div className="flex items-center gap-3">
+        <Mascote nome={licao.mascote} expressao="feliz" tamanho="corpo" largura={96} />
         <Botao variante="primario" para={`/app/quiz/${licao.id}`} icone={CircleHelp}>
           {t.testar}
         </Botao>

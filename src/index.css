@@ -525,6 +525,31 @@
   background: rgb(0 0 0 / 0.45);
 }
 
+/* Setinha do balão ao lado do mascote de corpo inteiro: aponta para baixo no
+   celular (mascote embaixo) e para a esquerda a partir de 40rem. */
+.balao-corpo::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -0.5625rem;
+  width: 1rem;
+  height: 1rem;
+  background: var(--color-superficie);
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0 0 2px 2px;
+  transform: translateX(-50%) rotate(-45deg);
+}
+
+@media (min-width: 40rem) {
+  .balao-corpo::before {
+    left: -0.5625rem;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%) rotate(45deg);
+  }
+}
+
 /* Hachura do voto "Ausente": a cor nunca é a única informação. */
 .hachura-ausencia {
   background-image: repeating-linear-gradient(
