@@ -28,7 +28,7 @@ export default function GavetaFeedback({ resultado, pergunta, ultima, continuarR
         <span aria-hidden="true" className="mx-auto h-1 w-8 rounded-full bg-borda-campo" />
 
         <div className="flex items-center gap-3">
-          <Mascote nome={acertou ? 'mico' : 'capivara'} expressao={acertou ? 'comemorando' : 'ops'} largura={56} />
+          <Mascote nome={acertou ? 'mico' : 'capivara'} expressao={acertou ? 'comemorando' : 'ops'} tamanho="corpo" largura={88} />
           <div className={acertou ? 'text-sucesso' : 'text-erro'}>
             <p className="flex items-center gap-2 font-titulo text-h3 font-extrabold">
               <Icone size={24} strokeWidth={2} aria-hidden="true" />

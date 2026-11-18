@@ -1,6 +1,7 @@
 import { Link, Navigate, useNavigate, useParams } from 'react-router'
 import { X } from 'lucide-react'
 import textos from '../data/textos.json'
+import { poseDaPergunta } from '../domain/mascotes.js'
 import { estadoDaLicao, ordemDasLicoes } from '../domain/trilha.js'
 import { preencher } from '../domain/texto.js'
 import { UNIDADES, buscarLicao, perguntasDaLicao } from '../services/conteudoLocal.js'
@@ -73,7 +74,7 @@ function QuizDaLicao({ licao }) {
           <h1 className="text-h3">{licao.titulo}</h1>
         </div>
 
-        <BalaoMascote mascote="capivara" expressao="pensativo" pergunta>
+        <BalaoMascote mascote="capivara" expressao={poseDaPergunta(resultado)} pergunta>
           <p>{atual.pergunta}</p>
         </BalaoMascote>
 

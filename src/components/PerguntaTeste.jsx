@@ -1,4 +1,5 @@
 import textos from '../data/textos.json'
+import { poseDaPergunta } from '../domain/mascotes.js'
 import { useQuestao } from '../hooks/useQuestao.js'
 import BalaoMascote from './BalaoMascote.jsx'
 import OpcoesQuiz from './OpcoesQuiz.jsx'
@@ -20,7 +21,7 @@ export default function PerguntaTeste() {
       <h2 id="titulo-teste">{t.titulo}</h2>
       <p className="text-texto-2">{t.intro}</p>
 
-      <BalaoMascote mascote="capivara" expressao="pensativo" pergunta>
+      <BalaoMascote mascote="capivara" expressao={poseDaPergunta(resultado)} pergunta>
         <p>{t.pergunta}</p>
       </BalaoMascote>
 
@@ -39,7 +40,7 @@ export default function PerguntaTeste() {
         {respondido && (
           <>
             <div className="flex items-center gap-3">
-              <Mascote nome={acertou ? 'mico' : 'capivara'} expressao={acertou ? 'comemorando' : 'ops'} largura={72} />
+              <Mascote nome={acertou ? 'mico' : 'capivara'} expressao={acertou ? 'comemorando' : 'ops'} tamanho="corpo" largura={96} />
               <Aviso tipo={acertou ? 'sucesso' : 'erro'}>
                 <p className="font-titulo font-extrabold">{acertou ? t.acertou : t.errou}</p>
               </Aviso>
