@@ -2,12 +2,14 @@ import { useLocation, useParams } from 'react-router'
 import { Clock, Flame, Target } from 'lucide-react'
 import textos from '../data/textos.json'
 import { MEDALHAS, avaliarResultado } from '../domain/conquistas.js'
+import { poseDaConquista } from '../domain/mascotes.js'
 import { dividirTempo } from '../domain/quiz.js'
 import { unidadeDaLicao } from '../domain/trilha.js'
 import { plural, preencher } from '../domain/texto.js'
 import { UNIDADES, buscarLicao, buscarPropostaLocal } from '../services/conteudoLocal.js'
 import { useProgresso } from '../hooks/useProgresso.js'
 import { useTitulo } from '../hooks/useTitulo.js'
+import Animacao from '../components/Animacao.jsx'
 import Botao from '../components/Botao.jsx'
 import CardProposta from '../components/CardProposta.jsx'
 import CardEstatistica from '../components/CardEstatistica.jsx'
@@ -69,7 +71,7 @@ export default function Conquista() {
       <section className="relative overflow-hidden bg-hero">
         {comemorar && <Confete />}
         <div className="relative mx-auto flex max-w-leitura flex-col items-center gap-3 px-4 pb-6 pt-8 text-center">
-          <Mascote nome="mico" expressao={comemorar ? 'comemorando' : 'feliz'} tamanho="corpo" largura={150} prioridade />
+          <Mascote nome="mico" expressao={poseDaConquista(avaliacao)} tamanho="corpo" largura={150} prioridade />
           <h1 className="text-h1">{t.titulos[avaliacao]}</h1>
           <p className="text-corpo">{preencher(t.subtitulos[avaliacao], { titulo: licao.titulo })}</p>
         </div>
@@ -100,7 +102,10 @@ export default function Conquista() {
 
         {novas.length > 0 && (
           <section aria-labelledby="conquista-medalhas" className="flex flex-col gap-3">
-            <h2 id="conquista-medalhas" className="text-h3">{t.medalhaNova}</h2>
+            <div className="flex items-center gap-2">
+              <Animacao arquivo="extra/medalha" repetir={false} className="size-14 shrink-0" />
+              <h2 id="conquista-medalhas" className="text-h3">{t.medalhaNova}</h2>
+            </div>
             <ul className="flex flex-wrap justify-center gap-6">
               {novas.map((medalha) => (
                 <Medalha key={medalha.id} medalha={medalha} />
