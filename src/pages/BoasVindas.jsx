@@ -41,7 +41,7 @@ export default function BoasVindas() {
 
           {/* A fala do caramelo como recado escrito à mão, assinado por ele. */}
           <div className="mt-1 flex items-start gap-3">
-            <Mascote nome="caramelo" expressao="feliz" largura={48} />
+            <Mascote nome="caramelo" expressao="feliz" tamanho="corpo" largura={88} />
             <p className="font-mao text-[1.375rem] leading-tight text-[#4B2BB5]">
               {t.fala}
               <span className="mt-1 block text-[#8A5A1E]">{textos.mascotes.caramelo}</span>
