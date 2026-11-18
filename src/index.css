@@ -165,6 +165,8 @@
   /* Fundo do balão de cada mascote */
   --caramelo-fundo: #FDF0DC;
   --capivara-fundo: #F3EAE2;
+  --calcada: #F1ECE4;
+  --calcada-linha: #E2D9CC;
   --arara-fundo: #E3EEFB;
   --onca-fundo: #FBF4DA;
   --mico-fundo: #FDE8DE;
@@ -252,6 +254,8 @@
   /* Balão dos mascotes */
   --caramelo-fundo: #1F1A2E;
   --capivara-fundo: #1F1A2E;
+  --calcada: #1F1A2E;
+  --calcada-linha: #2E2842;
   --arara-fundo: #1F1A2E;
   --onca-fundo: #1F1A2E;
   --mico-fundo: #1F1A2E;
@@ -336,6 +340,8 @@
 
   --color-caramelo-fundo: var(--caramelo-fundo);
   --color-capivara-fundo: var(--capivara-fundo);
+  --color-calcada: var(--calcada);
+  --color-calcada-linha: var(--calcada-linha);
   --color-arara-fundo: var(--arara-fundo);
   --color-onca-fundo: var(--onca-fundo);
   --color-mico-fundo: var(--mico-fundo);
@@ -588,7 +594,387 @@
 
 .subir-gaveta { animation: subir-gaveta 250ms ease-out 1; }
 
-/* O confete da conquista agora é uma animação LottieFiles (Confete.jsx). */
+/* Paradas da trilha com relevo de "pastilha": a face de cima com brilho e
+   borda clara, a lateral grossa na cor --lado e a sombra no chão. */
+.botao-trilha {
+  position: relative;
+  box-shadow:
+    inset 0 0.25rem 0 rgb(255 255 255 / 0.35),
+    inset 0 -0.3125rem 0 rgb(0 0 0 / 0.12),
+    0 0.5rem 0 var(--lado),
+    0 0.875rem 0.625rem rgb(20 17 28 / 0.2);
+  transition: transform 120ms ease-out, box-shadow 120ms ease-out;
+}
+
+.botao-trilha::before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  left: 0.875rem;
+  width: 1.25rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.5);
+  transform: rotate(-24deg);
+}
+
+.group:hover .botao-trilha {
+  transform: translateY(-0.125rem);
+}
+
+.group:active .botao-trilha {
+  transform: translateY(0.375rem);
+  box-shadow:
+    inset 0 0.25rem 0 rgb(255 255 255 / 0.35),
+    inset 0 -0.3125rem 0 rgb(0 0 0 / 0.12),
+    0 0.125rem 0 var(--lado),
+    0 0.25rem 0.375rem rgb(20 17 28 / 0.2);
+}
+
+/* As pegadas andam até a lição recém-liberada, e ela "pula" ao abrir. */
+@keyframes pisar {
+  from { opacity: 0; transform: scale(0.3); }
+  70% { opacity: 1; transform: scale(1.25); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.pegada-andando {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pisar 320ms ease-out both;
+}
+
+@keyframes desbloquear {
+  0% { transform: scale(0.7); }
+  60% { transform: scale(1.18); }
+  100% { transform: scale(1); }
+}
+
+.desbloqueando {
+  animation: desbloquear 500ms cubic-bezier(0.3, 1.5, 0.4, 1) both;
+}
+
+.reduzir-animacoes .pegada-andando,
+.reduzir-animacoes .desbloqueando {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pegada-andando, .desbloqueando { animation: none; }
+  .group:hover .botao-trilha, .group:active .botao-trilha { transform: none; }
+}
+
+/* Troca de tema: a tela nova aparece num círculo que cresce a partir do
+   botão (--tema-x e --tema-y vêm do useTheme). */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-new(root) {
+  animation: revelar-tema 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes revelar-tema {
+  from { clip-path: circle(0 at var(--tema-x, 50%) var(--tema-y, 50%)); }
+  to { clip-path: circle(150vmax at var(--tema-x, 50%) var(--tema-y, 50%)); }
+}
+
+/* Ícone do botão de tema gira ao trocar (sol vira lua e vice-versa). */
+@keyframes girar-icone {
+  from { opacity: 0; transform: rotate(-120deg) scale(0.4); }
+  to { opacity: 1; transform: rotate(0) scale(1); }
+}
+
+.girar-icone {
+  animation: girar-icone 450ms cubic-bezier(0.3, 1.4, 0.5, 1) both;
+}
+
+/* Menu do celular: o painel desliza da direita e o fundo escurece aos poucos. */
+@keyframes entrar-menu {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes escurecer-fundo {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.menu-celular[open] {
+  animation: entrar-menu 280ms cubic-bezier(0.3, 1, 0.4, 1) both;
+}
+
+.menu-celular[open]::backdrop {
+  animation: escurecer-fundo 280ms ease-out both;
+}
+
+/* Ilustração viva (ImagemViva): zoom lento e contínuo e inclinação com o mouse. */
+.imagem-viva {
+  transform: perspective(56rem) rotateX(var(--inclina-x, 0deg)) rotateY(var(--inclina-y, 0deg));
+  transition: transform 250ms ease-out;
+}
+
+@keyframes passeio {
+  from { transform: scale(1); }
+  to { transform: scale(1.1); }
+}
+
+.imagem-viva img {
+  animation: passeio 14s ease-in-out infinite alternate;
+}
+
+/* Colagem do topo das prévias: as imagens menores flutuam. */
+@keyframes boiar {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -0.6rem; }
+}
+
+.boiar { animation: boiar 7s ease-in-out infinite; }
+.boiar-lento { animation: boiar 8s ease-in-out infinite reverse; }
+
+/* Mascote espiando pela borda de uma seção. */
+@keyframes espiar {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  45% { transform: translateY(-0.6rem) rotate(-3deg); }
+  55% { transform: translateY(-0.6rem) rotate(3deg); }
+}
+
+.espiando { animation: espiar 6s ease-in-out infinite; }
+
+/* Revelar ao rolar (Revelar.jsx): o bloco sobe e aparece ao chegar na tela. */
+.revelar {
+  opacity: 0;
+  transform: translateY(1.5rem);
+  transition: opacity 700ms ease-out, transform 800ms cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+.revelar.revelado {
+  opacity: 1;
+  transform: none;
+}
+
+.reduzir-animacoes .revelar {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .revelar { opacity: 1; transform: none; }
+}
+
+/* Balança da neutralidade: pende para um lado e para o outro, e volta ao meio. */
+@keyframes balancar {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(-12deg); }
+  75% { transform: rotate(12deg); }
+}
+
+.balancar { animation: balancar 3.5s ease-in-out infinite; transform-origin: 50% 20%; }
+
+/* Card dos desenvolvedores: vira e o mascote surge por trás para cumprimentar. */
+.dev-miolo {
+  transform-style: preserve-3d;
+  transition: transform 700ms cubic-bezier(0.3, 1.2, 0.4, 1);
+}
+
+.card-dev:hover .dev-miolo,
+.card-dev.virado .dev-miolo {
+  transform: rotateY(180deg);
+}
+
+.dev-face {
+  grid-area: 1 / 1;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.dev-verso { transform: rotateY(180deg); }
+
+.dev-espia {
+  opacity: 0;
+  transform: translate(-50%, 40%) scale(0.6);
+  transition: transform 450ms cubic-bezier(0.3, 1.5, 0.4, 1), opacity 250ms ease-out;
+}
+
+.card-dev:hover .dev-espia,
+.card-dev.virado .dev-espia,
+.card-dev:focus-within .dev-espia {
+  opacity: 1;
+  transform: translate(-50%, -62%) scale(1);
+}
+
+/* Faixa de foto que desliza devagar de um lado para o outro. */
+@keyframes panorama {
+  from { transform: translateX(0); }
+  to { transform: translateX(-16%); }
+}
+
+.panoramica img {
+  width: 120%;
+  max-width: none;
+  animation: panorama 30s linear infinite alternate;
+}
+
+/* Blocos do nome (Sobre) flutuam devagar; a seta do projeto vai e volta. */
+@keyframes flutuar-bloco {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -0.4rem; }
+}
+
+.flutua-bloco { animation: flutuar-bloco 5s ease-in-out infinite; }
+
+@keyframes seta-vai {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(0.5rem); }
+}
+
+.seta-vai svg { animation: seta-vai 1.8s ease-in-out infinite; }
+
+/* Calçada do Início: os mascotes andam gingando; parado, o bicho se vira e
+   mostra o balão com o nome e o papel. As pegadas somem sozinhas. */
+.andante { will-change: transform; width: 8.5rem; height: 8.5rem; }
+
+@keyframes gingado {
+  from { transform: translateY(0) rotate(-2deg); }
+  to { transform: translateY(-0.35rem) rotate(2deg); }
+}
+
+.corpo-andante { animation: gingado 0.6s ease-in-out infinite alternate; }
+.andante.parado { z-index: 10; }
+.andante.parado .corpo-andante { animation: none; transform: scaleX(-1); }
+
+.balao-andante {
+  opacity: 0;
+  transform: translate(-50%, 0.5rem) scale(0.9);
+  transition: opacity 200ms ease-out, transform 200ms ease-out;
+}
+
+.andante.parado .balao-andante { opacity: 1; transform: translate(-50%, 0) scale(1); }
+
+@keyframes sumir-pegada {
+  from { opacity: 0.5; }
+  to { opacity: 0; }
+}
+
+.pegada-calcada {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  transform: rotate(90deg);
+  pointer-events: none;
+  animation: sumir-pegada 3.5s linear forwards;
+}
+
+/* "com neutralidade." em marca-texto (índigo no claro, azul-céu no escuro). */
+.marca-neutra {
+  display: inline-block;
+  padding: 0.02em 0.3em 0.08em;
+  margin-top: 0.15em;
+  background: var(--color-indigo);
+  color: #FFFFFF;
+}
+
+.dark .marca-neutra {
+  background: var(--color-azul-ceu);
+  color: #14111C;
+}
+
+/* Turma dos mascotes (Entrar e Criar conta): cada um balança no seu ritmo. */
+@keyframes turma {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -0.5rem; }
+}
+
+.turma-bicho { animation: turma 3.2s ease-in-out infinite; }
+
+/* Telas de entrada em janelas baixas: a frase de boas-vindas sai para o
+   formulário caber sem rolar (ela é só cordialidade). */
+@media (max-height: 720px) {
+  .intro-entrada { display: none; }
+}
+
+/* O confete da conquista agora é uma animação Lottie (Confete.jsx). */
+
+/* ==========================================================================
+   Interações no estilo de lição (inspiradas em apps de estudo): entrada das
+   páginas, opções que afundam, sequência de acertos, barra de progresso com
+   brilho e números que sobem. Tudo some com "reduzir animações" (regra geral).
+   ========================================================================== */
+
+/* Página nova aparece suave. Só opacidade: transform num ancestral quebraria
+   os elementos fixos (gaveta do quiz, confete). */
+@keyframes entrar-pagina {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.entrar-pagina {
+  animation: entrar-pagina 260ms ease-out both;
+}
+
+/* Elementos que sobem ao entrar, um depois do outro (atraso no style). */
+@keyframes subir-entrar {
+  from { opacity: 0; transform: translateY(0.75rem) scale(0.96); }
+  to { opacity: 1; transform: none; }
+}
+
+.subir-entrar {
+  /* backwards: invisível até começar e, no fim, solta o elemento (o hover
+     pode mover o card de novo). */
+  animation: subir-entrar 420ms cubic-bezier(0.3, 1.3, 0.5, 1) backwards;
+}
+
+/* Selo da sequência de acertos no quiz: surge com um pulinho. */
+@keyframes surgir-selo {
+  0% { opacity: 0; transform: scale(0.4) rotate(-8deg); }
+  60% { opacity: 1; transform: scale(1.15) rotate(3deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0); }
+}
+
+.surgir-selo {
+  animation: surgir-selo 450ms cubic-bezier(0.3, 1.5, 0.5, 1) both;
+}
+
+/* Lição atual da trilha "chama" com um balanço leve, sem parar. Fica numa
+   camada própria (will-change) para o número não tremer enquanto sobe e desce. */
+@keyframes chamar {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -0.25rem, 0); }
+}
+
+.chamar {
+  animation: chamar 2s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Opções do quiz e outros blocos "apertáveis": afundam ao clicar. */
+.apertavel {
+  transition: transform 90ms ease-out, box-shadow 90ms ease-out, border-color 150ms ease-out, background-color 150ms ease-out;
+}
+
+.apertavel:active {
+  transform: translateY(0.1875rem);
+  box-shadow: none !important;
+}
+
+/* Brilho na barra de progresso: uma faixa clara por cima do preenchimento. */
+.brilho-progresso {
+  position: relative;
+  overflow: hidden;
+}
+
+.brilho-progresso::after {
+  content: "";
+  position: absolute;
+  top: 22%;
+  left: 0.375rem;
+  right: 0.375rem;
+  height: 28%;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.4);
+}
 .reduzir-animacoes .subir-gaveta {
   animation: none;
 }

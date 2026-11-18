@@ -39,3 +39,62 @@ export function unidadeDaLicao(unidades, idLicao) {
 export function unidadeConcluida(unidade, concluidas) {
   return unidade.licoes.length > 0 && unidade.licoes.every((idLicao) => concluidas[idLicao])
 }
+
+// Estrelas de uma lição concluída, pelos acertos no quiz (3 perguntas):
+// acertou todas = 3, 2 de 3 = 2, alguma = 1, nenhuma = 0.
+export function contarEstrelas(resultado) {
+  if (!resultado || !resultado.total) {
+    return 0
+  }
+  const proporcao = resultado.acertos / resultado.total
+  if (proporcao === 1) {
+    return 3
+  } else if (proporcao >= 2 / 3) {
+    return 2
+  } else if (proporcao > 0) {
+    return 1
+  } else {
+    return 0
+  }
+}
+
+// Posição de cada lição no caminho sinuoso, em % da largura. O caminho vai e
+// volta; nas unidades ímpares ele é espelhado, para alternar os lados.
+const CAMINHO = [50, 78, 50, 22]
+
+export function posicaoNoCaminho(indiceNaUnidade, indiceDaUnidade) {
+  const base = CAMINHO[indiceNaUnidade % CAMINHO.length]
+  const espelhar = indiceDaUnidade % 2 === 1
+  const x = espelhar ? 100 - base : base
+  // O nome fica do lado que tem mais espaço.
+  let lado
+  if (x > 50) {
+    lado = 'esquerda'
+  } else if (x < 50) {
+    lado = 'direita'
+  } else {
+    lado = espelhar ? 'esquerda' : 'direita'
+  }
+  return { x, lado }
+}
+
+// Cada unidade da trilha deixa as pegadas de um mascote, em rodízio.
+const BICHOS_DAS_PEGADAS = ['caramelo', 'capivara', 'arara', 'onca', 'mico']
+
+export function bichoDaUnidade(indiceDaUnidade) {
+  return BICHOS_DAS_PEGADAS[indiceDaUnidade % BICHOS_DAS_PEGADAS.length]
+}
+
+// A pessoa terminou uma lição desde a última vez que viu a trilha? Então as
+// pegadas andam até a nova lição liberada. Devolve o id dela, ou null.
+export function licaoParaDesbloquear(ultimaVista, atual, concluidas) {
+  if (!ultimaVista || !atual) {
+    return null
+  } else if (ultimaVista === atual) {
+    return null
+  } else if (concluidas[ultimaVista]) {
+    return atual
+  } else {
+    return null
+  }
+}

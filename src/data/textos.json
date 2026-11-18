@@ -10,7 +10,11 @@
   "preferencias": {
     "titulo": "Ajustes de leitura",
     "tema": {
-      "rotulo": "Modo escuro"
+      "rotulo": "Modo escuro",
+      "claro": "Modo claro",
+      "escuro": "Modo escuro",
+      "trocarParaEscuro": "Toque para usar o modo escuro",
+      "trocarParaClaro": "Toque para usar o modo claro"
     },
     "letra": {
       "grupo": "Tamanho da letra",
@@ -223,6 +227,7 @@
     "nav": {
       "rotulo": "Navegação principal",
       "inicio": "Demokratos, página inicial",
+      "paginaInicial": "Início",
       "comoFunciona": "Como funciona",
       "sobre": "Sobre",
       "trilhas": "Trilhas",
@@ -275,10 +280,11 @@
     "comoFunciona": {
       "titulo": "Como o Demokratos ajuda",
       "chamada": [
-        "Aprenda. Confira.",
-        "Forme sua opinião."
+        "Facilitamos o seu caminho para entender política,",
+        "com neutralidade."
       ],
-      "texto": "Lições curtas explicam quem faz o quê na cidade, no estado e no país. Depois de cada lição, um teste rápido ajuda a fixar. Toda informação mostra de onde veio.",
+      "texto": "A gente não diz em quem votar nem o que pensar. Mostramos os fatos e a fonte oficial, e",
+      "textoDestaque": "a conclusão é sua.",
       "estatisticas": [
         {
           "valor": "8",
@@ -286,14 +292,15 @@
         },
         {
           "valor": "5",
-          "rotulo": "mascotes para guiar você"
+          "rotulo": "mascotes te acompanhando"
         },
         {
           "valor": "100%",
           "rotulo": "do conteúdo com fonte oficial"
         }
       ],
-      "saibaMais": "Ver como funciona"
+      "saibaMais": "Ver como funciona",
+      "calcadaDica": "Os bichinhos atravessam a calçada. Passe o mouse (ou toque) em um deles."
     },
     "faixa": {
       "pergunta": "Você sabe quem cuida do buraco da sua rua?",
@@ -366,12 +373,77 @@
   "sobre": {
     "titulo": "Sobre o Demokratos",
     "intro": "O Demokratos é um projeto de estudantes de Engenharia de Software da FIAP, no Rio de Janeiro. Queremos que ninguém tenha medo de não entender política.",
+    "lead": "Uma plataforma para quem mora no Rio entender como a política funciona, do zero, em linguagem simples e sempre com a fonte oficial."
+,
+    "nome": {
+      "titulo": "Por que Demokratos?",
+      "partes": [
+        {
+          "palavra": "Demo",
+          "origem": "do grego demos",
+          "sentido": "povo"
+        },
+        {
+          "palavra": "kratos",
+          "origem": "do grego kratos",
+          "sentido": "poder"
+        }
+      ],
+      "resultado": {
+        "palavra": "Demokratos",
+        "sentido": "o poder do povo"
+      },
+      "texto": "É a mesma raiz da palavra \"democracia\". Escolhemos esse nome porque a democracia é um valor de todos, sem bandeira de partido: quanto mais gente entende como as decisões são tomadas, mais o poder fica, de fato, nas mãos do povo."
+    },
+    "projeto": {
+      "titulo": "O projeto",
+      "texto": "O Demokratos traduz assuntos políticos para uma linguagem simples, ensina o básico em trilhas curtas e ajuda a acompanhar o que está sendo decidido, quem decide e quais direitos e serviços existem para quem mora no Rio. A plataforma não diz o que pensar: oferece contexto e fontes verificáveis para cada pessoa tirar as próprias conclusões.",
+      "problemaTitulo": "O problema que queremos resolver",
+      "problemas": [
+        {
+          "titulo": "Linguagem difícil e distante",
+          "texto": "Muita gente não sabe a diferença entre os Poderes, os cargos e quem cuida de quê."
+        },
+        {
+          "titulo": "Difícil acompanhar o que acontece",
+          "texto": "Projetos de lei, votações e tramitações aparecem em formatos técnicos e longos."
+        },
+        {
+          "titulo": "Direitos pouco conhecidos",
+          "texto": "Serviços, benefícios e canais de atendimento ficam escondidos ou espalhados."
+        }
+      ],
+      "respostaTitulo": "Nossa resposta",
+      "respostas": [
+        "Lições curtas, do básico ao avançado",
+        "Propostas reais explicadas em linguagem simples",
+        "Representantes do Rio, todos no mesmo formato",
+        "Direitos e serviços com o canal oficial"
+      ],
+      "publicoTitulo": "Para quem?",
+      "publico": "Para moradores do Rio de todas as idades, principalmente quem tem curiosidade sobre política, mas evita o assunto por achar complicado, distante ou polarizado."
+    },
+    "destaque": {
+      "frase": "Não somos políticos nem temos partido.",
+      "texto": "Por isso cada informação aqui vem com a fonte oficial, a data e o link."
+    },
     "equipe": {
       "titulo": "Quem somos",
       "texto": "Somos um grupo de estudantes do primeiro ano de Engenharia de Software da FIAP, no Rio. Criamos o Demokratos na Global Solution, um desafio da faculdade. Não somos políticos nem temos partido. Nosso papel é facilitar e ampliar o conhecimento da população carioca, com fontes confiáveis.",
+      "feitoPor": "Os desenvolvedores",
+      "dicaVirar": "Passe o mouse, toque ou use Enter no card para ver o que cada um fez.",
+      "virar": "Ver o que {nome} fez",
+      "papelVazio": "O que fez: em breve",
+      "integrantes": [
+        { "nome": "Anna Júlia Elias Andrade", "curto": "Anna Júlia", "foto": "anna", "mascote": "onca", "papel": "" },
+        { "nome": "Arthur Alen Amorelli Pereira", "curto": "Arthur", "foto": "arthur", "mascote": "caramelo", "papel": "" },
+        { "nome": "Clara Diel Gama Secco", "curto": "Clara", "foto": "clara", "mascote": "capivara", "papel": "" }
+      ],
       "_max": {
-        "texto": 300
-      }
+        "texto": 300,
+        "papel": 80
+      },
+      "_obs": "papel: o que cada integrante fez. Fica vazio até a equipe confirmar; vazio, não aparece."
     },
     "dados": {
       "titulo": "De onde vêm os dados",
@@ -421,16 +493,76 @@
     "unidade": "Unidade {numero}",
     "trilhas": {
       "titulo": "Prévia das trilhas",
-      "intro": "A trilha vai do básico até como nasce uma lei. Veja as unidades."
+      "intro": "A trilha vai do básico até como nasce uma lei. São 8 unidades, com 4 lições curtas cada, numa sequência pensada para quem está começando.",
+      "unidadesTitulo": "As 8 unidades"
+    },
+    "vitrine": {
+      "titulo": "Veja por dentro",
+      "texto": "Prints de verdade do Demokratos. Clique em cada passo ou deixe passar sozinho.",
+      "rotulo": "Telas do aplicativo",
+      "endereco": "demokratos / {tela}",
+      "pausar": "Pausar a troca automática",
+      "continuar": "Continuar a troca automática",
+      "telas": [
+        {
+          "chave": "trilha",
+          "nome": "Trilha",
+          "texto": "As lições em um caminho, com estrelas pelos acertos.",
+          "alt": "Tela da trilha com as lições numeradas, estrelas e pegadas do caramelo"
+        },
+        {
+          "chave": "licao",
+          "nome": "Lição",
+          "texto": "Texto curto, exemplo carioca e a fonte oficial.",
+          "alt": "Tela de uma lição com a capivara explicando ao lado da pergunta de abertura"
+        },
+        {
+          "chave": "quiz",
+          "nome": "Quiz",
+          "texto": "A capivara reage ao acerto e ao erro.",
+          "alt": "Tela do quiz com a resposta certa marcada e a gaveta Mandou bem"
+        },
+        {
+          "chave": "conquista",
+          "nome": "Conquista",
+          "texto": "Confete, medalhas e a sua sequência de dias.",
+          "alt": "Tela de conquista com o mico, os acertos, a sequência e o tempo"
+        }
+      ]
     },
     "agora": {
       "titulo": "Prévia do Agora",
-      "intro": "Propostas reais da Câmara dos Deputados, explicadas em linguagem simples, com a situação de cada uma.",
-      "nota": "Exemplos reais da seleção do Demokratos, com dados da Câmara dos Deputados consultados em {data}."
+      "intro": "Propostas reais da Câmara dos Deputados, explicadas em linguagem simples, com a situação de cada uma e o texto oficial do lado.",
+      "exemplosTitulo": "Duas propostas reais",
+      "nota": "Exemplos reais da seleção do Demokratos, com dados da Câmara dos Deputados consultados em {data}. Os mascotes ficam longe das propostas, pela regra de neutralidade.",
+      "textoOficial": "Texto oficial (ementa)",
+      "ondeEsta": "Onde está agora",
+      "etapas": [
+        "Apresentada",
+        "Em análise",
+        "Comissões",
+        "Pronta para votação",
+        "Virou lei"
+      ],
+      "etapasRotulo": "Etapas da proposta. Agora: {etapa}.",
+      "rodape": "Apresentada em {data} · Situação oficial: {situacao}",
+      "printAlt": "Print da página Agora por dentro, com filtros por área e cards de propostas",
+      "convite": "Dentro do Demokratos você filtra por área, busca por tema e salva propostas no seu caderno."
     },
     "direitos": {
       "titulo": "Prévia dos Direitos",
-      "intro": "Como pedir um serviço público: quem tem direito, o que levar e onde ir, sempre com o canal oficial."
+      "intro": "Como pedir um serviço público, sempre no mesmo jeito: quem tem direito, o que levar e onde ir, com o canal oficial.",
+      "exemplosTitulo": "Três exemplos, um de cada área",
+      "dica": "Toque nas abinhas de cada card para ver as partes.",
+      "partes": [
+        "Quem tem direito",
+        "O que levar",
+        "Onde ir"
+      ],
+      "partesRotulo": "Partes de {titulo}",
+      "responsavel": "Responsável: {orgao}",
+      "printAlt": "Print de um direito por dentro: Atendimento no SUS, com quem tem direito, requisitos e documentos",
+      "convite": "Dentro do Demokratos há {n} serviços explicados, de saúde a transporte, cada um com a fonte e a data."
     },
     "convite": {
       "titulo": "Quer ver o resto?",
@@ -438,6 +570,67 @@
       "entrar": "Entrar para ver mais",
       "criarConta": "Criar conta"
     }
+  },
+  "neutralidade": {
+    "rotulo": "Neutralidade",
+    "titulo": [
+      "A gente mostra os fatos.",
+      "A conclusão é sua."
+    ],
+    "texto": "Todo o conteúdo do Demokratos é neutro: não dizemos em quem votar nem o que pensar. Mostramos o que foi decidido, quem decidiu e a fonte oficial, para que, no fim, você tire a sua própria conclusão.",
+    "passosRotulo": "Como a informação chega até você",
+    "passos": [
+      {
+        "titulo": "O fato",
+        "texto": "O que foi decidido ou proposto, explicado em linguagem simples."
+      },
+      {
+        "titulo": "A fonte",
+        "texto": "O documento oficial, a data da consulta e o link para conferir."
+      },
+      {
+        "titulo": "A sua conclusão",
+        "texto": "Com os fatos na mão, quem decide o que pensar é você."
+      }
+    ],
+    "_max": {
+      "texto": 260
+    }
+  },
+  "gostinho": {
+    "titulo": "Um gostinho do que tem lá dentro",
+    "texto": "Passe o mouse ou toque em cada card para ver a tela de verdade.",
+    "itens": [
+      {
+        "chave": "trilha",
+        "tag": "Trilhas e quiz",
+        "titulo": "Aprenda do zero",
+        "texto": "8 unidades com lições de 3 a 5 minutos e perguntas que explicam o porquê.",
+        "para": "/previa/trilhas"
+      },
+      {
+        "chave": "agora",
+        "tag": "Agora",
+        "titulo": "Propostas reais",
+        "texto": "Projetos da Câmara dos Deputados explicados em linguagem simples.",
+        "para": "/previa/agora"
+      },
+      {
+        "chave": "quiz",
+        "tag": "Quiz",
+        "titulo": "Teste sem medo",
+        "texto": "Errou? O mascote mostra o porquê e a fonte. Ninguém perde ponto.",
+        "para": "/como-funciona"
+      },
+      {
+        "chave": "direito",
+        "tag": "Direitos",
+        "titulo": "Como pedir um serviço",
+        "texto": "Quem tem direito, o que levar e onde ir, com o canal oficial.",
+        "para": "/previa/direitos"
+      }
+    ],
+    "verMais": "Ver a prévia"
   },
   "auth": {
     "avisoPrototipo": "Protótipo: sua conta fica guardada só neste navegador. Não use uma senha de verdade.",
@@ -535,6 +728,10 @@
   "app": {
     "nav": {
       "rotulo": "Menu principal",
+      "inicio": "Início",
+      "menu": "Menu",
+      "abrirMenu": "Abrir menu",
+      "fecharMenu": "Fechar menu",
       "aprender": "Aprender",
       "agora": "Agora",
       "representantes": "Represen­tantes",
@@ -577,9 +774,10 @@
     "progresso": "Progresso da trilha",
     "unidade": "Unidade {numero}",
     "glossarioUnidade": "Glossário da unidade",
+    "glossarioDaUnidade": "Glossário da unidade {numero}: {titulo}",
     "emBreve": "Em breve",
     "comecar": "Começar",
-    "noConcluido": "Lição {ordem}: {titulo}. Concluída.",
+    "noConcluido": "Lição {ordem}: {titulo}. Concluída com {estrelas} de 3 estrelas.",
     "noAtual": "Começar {titulo} (lição {ordem})",
     "noBloqueado": "Lição {ordem}: {titulo}. Bloqueada: termine a lição anterior.",
     "bilhete": {
@@ -607,6 +805,7 @@
     "rotuloProgresso": "Progresso do quiz",
     "escolha": "Escolha uma opção antes de verificar.",
     "acertou": "Mandou bem!",
+    "seguidas": "{n} acertos seguidos!",
     "errou": "Quase!",
     "fraseAcertou": "Resposta certa. Quer ver a explicação completa?",
     "fraseErrou": "A resposta certa está marcada. Veja o porquê antes de seguir.",

@@ -1,32 +1,40 @@
-import { useCallback } from 'react'
-import { DotLottieReact, setWasmUrl } from '@lottiefiles/dotlottie-react'
+import { useEffect, useRef } from 'react'
+import lottie from 'lottie-web/build/player/lottie_light'
 
-// O motor do LottieFiles (.wasm) é servido pelo próprio site, sem depender de
-// outro endereço. Ao atualizar a biblioteca, copie de novo o arquivo
-// node_modules/@lottiefiles/dotlottie-web/dist/dotlottie-player.wasm.
-setWasmUrl('/lottie/dotlottie-player.wasm')
-
-// Toca um arquivo de public/animacoes. Este arquivo é carregado sob demanda
-// (lazy), então a biblioteca só é baixada quando alguma animação aparece.
+// Toca um arquivo Lottie de public/animacoes com o lottie-web em SVG: o
+// navegador move as imagens com a placa de vídeo, então fica mais liso.
+// Versão "light": sem expressões (as animações do projeto não usam).
+// Este arquivo é carregado sob demanda (lazy), então a biblioteca só é
+// baixada quando alguma animação aparece.
 export default function AnimacaoLottie({ arquivo, repetir = true, cobrir = false, aoCarregar, className = '' }) {
-  const receberInstancia = useCallback(
-    (instancia) => {
-      if (instancia && aoCarregar) {
-        instancia.addEventListener('load', aoCarregar)
-      }
-    },
-    [aoCarregar],
-  )
+  const caixa = useRef(null)
 
-  return (
-    <DotLottieReact
-      src={`/animacoes/${arquivo}.json`}
-      loop={repetir}
-      autoplay
-      layout={{ fit: cobrir ? 'cover' : 'contain', align: [0.5, 0.5] }}
-      dotLottieRefCallback={receberInstancia}
-      aria-hidden="true"
-      className={className}
-    />
-  )
+  // O aviso "carregou" fica guardado à parte: se a página se redesenhar (por
+  // exemplo, com os números da conquista subindo), a animação não recomeça.
+  const avisoRef = useRef(aoCarregar)
+  useEffect(() => {
+    avisoRef.current = aoCarregar
+  }, [aoCarregar])
+
+  // Manipulação do DOM: o lottie-web desenha o SVG dentro da caixa e só é
+  // desmontado quando o componente sai da tela ou troca de arquivo.
+  useEffect(() => {
+    const animacao = lottie.loadAnimation({
+      container: caixa.current,
+      renderer: 'svg',
+      loop: repetir,
+      autoplay: true,
+      path: `/animacoes/${arquivo}.json`,
+      rendererSettings: { preserveAspectRatio: cobrir ? 'xMidYMid slice' : 'xMidYMid meet' },
+    })
+    function avisarCarregou() {
+      if (avisoRef.current) {
+        avisoRef.current()
+      }
+    }
+    animacao.addEventListener('DOMLoaded', avisarCarregou)
+    return () => animacao.destroy()
+  }, [arquivo, repetir, cobrir])
+
+  return <span ref={caixa} aria-hidden="true" className={`block ${className}`} />
 }

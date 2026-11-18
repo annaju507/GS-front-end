@@ -9,6 +9,8 @@ export function useQuiz(perguntas) {
   const [resultado, setResultado] = useState(null)
   const [pontos, setPontos] = useState(0)
   const [acertos, setAcertos] = useState(0)
+  // Acertos seguidos (zera no erro): aparece como selo no topo do quiz.
+  const [seguidas, setSeguidas] = useState(0)
   const [inicio] = useState(() => Date.now())
   const feedbackRef = useRef(null)
 
@@ -36,8 +38,10 @@ export function useQuiz(perguntas) {
     if (correcao === 'acertou') {
       setPontos(pontos + PONTOS_POR_ACERTO)
       setAcertos(acertos + 1)
+      setSeguidas(seguidas + 1)
     } else if (correcao === 'errou') {
       // Sem perder pontos: a gaveta mostra a explicação e a fonte.
+      setSeguidas(0)
     }
   }
 
@@ -62,6 +66,7 @@ export function useQuiz(perguntas) {
     ultima,
     pontos,
     acertos,
+    seguidas,
     feedbackRef,
     selecionar,
     verificar,

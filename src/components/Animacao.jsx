@@ -1,6 +1,7 @@
 import { Suspense, lazy } from 'react'
 import { usePreferencias } from '../hooks/usePreferencias.js'
 import { useNaTela } from '../hooks/useNaTela.js'
+import LimiteAnimacao from './LimiteAnimacao.jsx'
 
 const AnimacaoLottie = lazy(() => import('./AnimacaoLottie.jsx'))
 
@@ -17,9 +18,11 @@ export default function Animacao({ arquivo, repetir = true, cobrir = false, clas
   return (
     <span ref={ref} aria-hidden="true" className={`pointer-events-none block ${className}`}>
       {naTela && (
-        <Suspense fallback={null}>
-          <AnimacaoLottie arquivo={arquivo} repetir={repetir} cobrir={cobrir} className="block size-full" />
-        </Suspense>
+        <LimiteAnimacao>
+          <Suspense fallback={null}>
+            <AnimacaoLottie arquivo={arquivo} repetir={repetir} cobrir={cobrir} className="block size-full" />
+          </Suspense>
+        </LimiteAnimacao>
       )}
     </span>
   )

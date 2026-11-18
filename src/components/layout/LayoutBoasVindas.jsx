@@ -6,6 +6,7 @@ import CarregandoPagina from '../CarregandoPagina.jsx'
 import Logo from '../Logo.jsx'
 import BotaoTema from '../BotaoTema.jsx'
 import OndasCalcadao from '../OndasCalcadao.jsx'
+import TransicaoPagina from '../TransicaoPagina.jsx'
 
 // Moldura da boas-vindas (primeira visita): só o logo e o tema, sem menu,
 // para a pessoa focar nos três passos.
@@ -21,7 +22,9 @@ export default function LayoutBoasVindas() {
       </header>
       <main id="conteudo" tabIndex={-1} className="mx-auto w-full max-w-leitura flex-1 px-4 pb-12 pt-4 focus:outline-none md:px-6">
         <Suspense fallback={<CarregandoPagina />}>
-          <Outlet />
+          <TransicaoPagina>
+            <Outlet />
+          </TransicaoPagina>
         </Suspense>
       </main>
       <OndasCalcadao />

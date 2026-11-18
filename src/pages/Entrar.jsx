@@ -7,7 +7,7 @@ import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
 import Botao from '../components/Botao.jsx'
 import Card from '../components/Card.jsx'
-import CenaEmbarque from '../components/CenaEmbarque.jsx'
+import CenaEntrada from '../components/CenaEntrada.jsx'
 import CampoTexto from '../components/CampoTexto.jsx'
 import CampoSenha from '../components/CampoSenha.jsx'
 
@@ -62,18 +62,21 @@ export default function Entrar() {
   }
 
   return (
-    <CenaEmbarque>
-      <Card className="flex flex-col gap-5">
-        <header className="flex flex-col gap-2">
-          <h1>{t.entrar.titulo}</h1>
-          <p className="text-texto-2">{t.entrar.intro}</p>
+    <CenaEntrada>
+      {/* Compacto para caber na altura da janela, sem rolar a página. */}
+      <Card className="flex flex-col gap-3">
+        <header className="flex flex-col gap-1">
+          <h1 className="text-h2">{t.entrar.titulo}</h1>
+          <p className="intro-entrada text-texto-2">{t.entrar.intro}</p>
         </header>
 
-        <Aviso tipo="info">{t.avisoPrototipo}</Aviso>
+        <Aviso tipo="info" compacto>
+          {t.avisoPrototipo}
+        </Aviso>
 
         <div role="alert">{erroGeral && <Aviso tipo="erro">{erroGeral}</Aviso>}</div>
 
-        <form noValidate onSubmit={enviar} className="flex flex-col gap-4">
+        <form noValidate onSubmit={enviar} className="flex flex-col gap-3">
           <CampoTexto
             ref={refEmail}
             rotulo={t.email}
@@ -96,17 +99,20 @@ export default function Entrar() {
           </Botao>
         </form>
 
-        <div className="flex flex-col gap-2">
-          <Botao variante="terciario" onClick={() => setAjudaSenha(!ajudaSenha)} aria-expanded={ajudaSenha} className="self-start -ml-6">
+        <div className="flex flex-wrap items-center justify-between gap-x-4 border-t border-borda pt-2">
+          <Botao variante="terciario" onClick={() => setAjudaSenha(!ajudaSenha)} aria-expanded={ajudaSenha} className="-ml-6">
             {t.entrar.esqueci}
           </Botao>
-          {ajudaSenha && <Aviso tipo="info">{t.entrar.esqueciAviso}</Aviso>}
+          <p className="text-legenda">
+            {t.entrar.semConta} <Link to="/cadastro">{t.entrar.criarConta}</Link>
+          </p>
         </div>
-
-        <p className="border-t border-borda pt-4">
-          {t.entrar.semConta} <Link to="/cadastro">{t.entrar.criarConta}</Link>
-        </p>
+        {ajudaSenha && (
+          <div className="text-legenda">
+            <Aviso tipo="info">{t.entrar.esqueciAviso}</Aviso>
+          </div>
+        )}
       </Card>
-    </CenaEmbarque>
+    </CenaEntrada>
   )
 }

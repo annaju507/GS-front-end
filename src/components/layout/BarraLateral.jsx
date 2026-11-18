@@ -3,8 +3,8 @@ import textos from '../../data/textos.json'
 import { secaoDaRota } from '../../domain/navegacao.js'
 import Logo from '../Logo.jsx'
 import BotaoTema from '../BotaoTema.jsx'
-import ControleTamanhoLetra from '../ControleTamanhoLetra.jsx'
-import { GLOSSARIO, PERFIL, SECOES } from './itensMenu.js'
+import BotaoSair from '../BotaoSair.jsx'
+import { GLOSSARIO, INICIO, PERFIL, SECOES } from './itensMenu.js'
 
 function ItemMenu({ item, ativa }) {
   const { chave, para, rotulo, Icone } = item
@@ -25,8 +25,9 @@ function ItemMenu({ item, ativa }) {
   )
 }
 
-// Desktop: barra lateral fixa de 240px com logo, as 5 seções, Glossário e,
-// embaixo, Perfil, tema e tamanho da letra.
+// Desktop: barra lateral fixa de 240px com logo, Início, as 5 seções,
+// Glossário e, embaixo, Perfil, tema e "Sair da conta". O tamanho da letra
+// fica no Perfil.
 export default function BarraLateral() {
   const ativa = secaoDaRota(useLocation().pathname)
 
@@ -37,6 +38,7 @@ export default function BarraLateral() {
       </div>
       <nav aria-label={textos.app.nav.rotulo}>
         <ul className="flex flex-col gap-1">
+          <ItemMenu item={INICIO} ativa={ativa} />
           {SECOES.map((item) => (
             <ItemMenu key={item.chave} item={item} ativa={ativa} />
           ))}
@@ -48,7 +50,7 @@ export default function BarraLateral() {
           <ItemMenu item={PERFIL} ativa={ativa} />
         </ul>
         <BotaoTema />
-        <ControleTamanhoLetra />
+        <BotaoSair />
       </div>
     </aside>
   )

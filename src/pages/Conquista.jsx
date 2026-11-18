@@ -7,6 +7,7 @@ import { dividirTempo } from '../domain/quiz.js'
 import { unidadeDaLicao } from '../domain/trilha.js'
 import { plural, preencher } from '../domain/texto.js'
 import { UNIDADES, buscarLicao, buscarPropostaLocal } from '../services/conteudoLocal.js'
+import { useContagem } from '../hooks/useContagem.js'
 import { useProgresso } from '../hooks/useProgresso.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Animacao from '../components/Animacao.jsx'
@@ -49,6 +50,11 @@ export default function Conquista() {
   const salvo = progresso.licoes[id]
   const resultado = state ?? (salvo ? { ...salvo, sequencia, novas: [] } : null)
 
+  // Os números dos cards sobem de 0 até o valor, um card depois do outro.
+  const acertosContados = useContagem(resultado?.acertos ?? 0, 700, 250)
+  const sequenciaContada = useContagem(resultado?.sequencia ?? 0, 700, 400)
+  const segundosContados = useContagem(Math.round(resultado?.segundos ?? 0), 900, 550)
+
   if (!licao || !resultado) {
     return (
       <main id="conteudo" className="mx-auto flex max-w-leitura flex-col items-start gap-4 px-4 py-12">
@@ -59,7 +65,7 @@ export default function Conquista() {
   }
 
   const unidade = unidadeDaLicao(UNIDADES, id)
-  const tempo = dividirTempo(resultado.segundos ?? 0)
+  const tempo = dividirTempo(segundosContados)
   const novas = MEDALHAS.filter((medalha) => resultado.novas.includes(medalha.id)).map((medalha) => ({ ...medalha, ganha: true }))
 
   // O título muda com o resultado: acertou tudo, acertou parte ou errou tudo.
@@ -79,24 +85,27 @@ export default function Conquista() {
       </section>
 
       <div className="mx-auto flex max-w-leitura flex-col gap-6 px-4 py-8 md:px-6">
-        <ul className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+        <ul className="mx-auto grid w-full max-w-xl grid-cols-3 gap-2 sm:gap-4">
           <CardEstatistica
             rotulo={t.acertos}
             cor="lilas"
             Icone={Target}
-            valor={preencher(t.acertosValor, { acertos: resultado.acertos, total: resultado.total })}
+            valor={preencher(t.acertosValor, { acertos: acertosContados, total: resultado.total })}
+            atraso={150}
           />
           <CardEstatistica
             rotulo={t.sequencia}
             cor="mico"
             Icone={Flame}
-            valor={plural(resultado.sequencia, t.sequenciaUm, t.sequenciaVarios)}
+            valor={plural(sequenciaContada, t.sequenciaUm, t.sequenciaVarios)}
+            atraso={300}
           />
           <CardEstatistica
             rotulo={t.tempo}
             cor="indigo"
             Icone={Clock}
             valor={preencher(t.tempoValor, { min: tempo.minutos, seg: tempo.segundos })}
+            atraso={450}
           />
         </ul>
 
@@ -118,7 +127,7 @@ export default function Conquista() {
 
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <Botao variante="secundario" para={`/app/licao/${id}`}>{t.rever}</Botao>
-          <Botao variante="terciario" para="/app/trilha">{t.voltarTrilha}</Botao>
+          <Botao variante="primario" para="/app/trilha">{t.voltarTrilha}</Botao>
         </div>
       </div>
     </main>

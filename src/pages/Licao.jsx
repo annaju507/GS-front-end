@@ -1,5 +1,5 @@
 import { useParams } from 'react-router'
-import { ArrowLeft, CircleHelp, Clock } from 'lucide-react'
+import { ArrowLeft, Clock } from 'lucide-react'
 import textos from '../data/textos.json'
 import { estadoDaLicao, ordemDasLicoes, unidadeDaLicao } from '../domain/trilha.js'
 import { preencher } from '../domain/texto.js'
@@ -10,10 +10,8 @@ import BalaoMascote from '../components/BalaoMascote.jsx'
 import Botao from '../components/Botao.jsx'
 import Card from '../components/Card.jsx'
 import CitacaoOficial from '../components/CitacaoOficial.jsx'
-import ControleTamanhoLetra from '../components/ControleTamanhoLetra.jsx'
 import ExemploCarioca from '../components/ExemploCarioca.jsx'
 import FonteOficial from '../components/FonteOficial.jsx'
-import Mascote from '../components/Mascote.jsx'
 import TextoComTermos from '../components/TextoComTermos.jsx'
 import NaoEncontrada from './NaoEncontrada.jsx'
 
@@ -59,11 +57,10 @@ export default function Licao() {
 
   return (
     <article className="mx-auto flex max-w-leitura flex-col gap-6">
-      <div className="flex flex-wrap items-center justify-between gap-3">
+      <div>
         <Botao variante="terciario" para="/app/trilha" icone={ArrowLeft} className="-ml-6">
           {t.voltar}
         </Botao>
-        <ControleTamanhoLetra />
       </div>
 
       <header className="flex flex-col gap-2">
@@ -87,10 +84,8 @@ export default function Licao() {
 
       <FonteOficial fonte={licao.fonte} />
 
-      {/* No fim, a capivara feliz convida para o quiz. */}
-      <div className="flex items-center gap-3">
-        <Mascote nome={licao.mascote} expressao="feliz" tamanho="corpo" largura={96} />
-        <Botao variante="primario" para={`/app/quiz/${licao.id}`} icone={CircleHelp}>
+      <div>
+        <Botao variante="primario" para={`/app/quiz/${licao.id}`}>
           {t.testar}
         </Botao>
       </div>

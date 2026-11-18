@@ -33,6 +33,7 @@ export default function ComoFunciona() {
         imagem="arcos-lapa"
         mascote="caramelo"
         expressao="explicando"
+        espelhar
         largura={128}
         posicaoMascote="-bottom-6 right-2 md:right-8"
         classeImagem="h-48 object-[center_40%] sm:h-64 md:h-80"

@@ -6,6 +6,7 @@ import CarregandoPagina from '../CarregandoPagina.jsx'
 import BarraLateral from './BarraLateral.jsx'
 import BarraInferior from './BarraInferior.jsx'
 import TopoApp from './TopoApp.jsx'
+import TransicaoPagina from '../TransicaoPagina.jsx'
 
 // Moldura da área interna (com login): barra lateral no desktop,
 // topo e barra inferior no celular.
@@ -20,7 +21,9 @@ export default function LayoutApp() {
         <TopoApp />
         <main id="conteudo" tabIndex={-1} className="mx-auto max-w-conteudo px-4 pb-28 pt-6 focus:outline-none md:px-6 lg:px-8 lg:pb-12 lg:pt-10">
           <Suspense fallback={<CarregandoPagina />}>
-            <Outlet />
+            <TransicaoPagina>
+              <Outlet />
+            </TransicaoPagina>
           </Suspense>
         </main>
       </div>

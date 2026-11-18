@@ -6,21 +6,26 @@ import ImagemRio from './ImagemRio.jsx'
 
 const t = textos.trilha
 
-// Cabeçalho de unidade disponível (seção 10): card lilás com degrau,
-// "UNIDADE 3", o nome e o atalho para o glossário.
+// Cabeçalho de unidade disponível (seção 10): card preto com degrau e letras
+// azul-céu (contraste de cerca de 14:1), "UNIDADE 3", o nome e o atalho para o
+// glossário. Fica preto nos dois temas; no escuro ganha uma borda azul-céu
+// fina para não sumir no fundo.
 export function CabecalhoUnidade({ unidade }) {
+  // Nome do atalho com o número e o título da unidade: com vários na página,
+  // quem navega pelo Tab sabe de qual unidade é cada glossário.
+  const nomeGlossario = preencher(t.glossarioDaUnidade, { numero: unidade.id, titulo: unidade.titulo })
   return (
-    <div className="flex items-center justify-between gap-3 rounded-card bg-marca-botao p-4 text-marca-botao-texto shadow-[0_0.25rem_0_var(--marca-botao-degrau)] md:p-5">
+    <div className="flex items-center justify-between gap-3 rounded-card bg-[#1A1A1A] p-4 text-azul-ceu shadow-[0_0.25rem_0_#000] md:p-5 dark:border-2 dark:border-azul-ceu">
       {unidade.capa && <ImagemRio nome={unidade.capa} className="size-16 shrink-0 rounded-card-pequeno md:size-20" />}
       <div className="flex-1">
         <p className="font-titulo text-tag font-bold uppercase tracking-[0.05em]">{preencher(t.unidade, { numero: unidade.id })}</p>
-        <h2 className="text-h3 font-extrabold text-marca-botao-texto">{unidade.titulo}</h2>
+        <h2 className="text-h3 font-extrabold text-azul-ceu">{unidade.titulo}</h2>
       </div>
       <Link
         to="/app/glossario"
-        aria-label={t.glossarioUnidade}
-        title={t.glossarioUnidade}
-        className="degrau flex size-12 shrink-0 items-center justify-center rounded-card-pequeno bg-black text-white shadow-[0_0.25rem_0_rgb(0_0_0/0.35)]"
+        aria-label={nomeGlossario}
+        title={nomeGlossario}
+        className="degrau flex size-12 shrink-0 items-center justify-center rounded-card-pequeno bg-azul-ceu text-[#1A1A1A] shadow-[0_0.25rem_0_var(--color-bloco-ceu-degrau)]"
       >
         <BookA size={24} strokeWidth={2} aria-hidden="true" />
       </Link>

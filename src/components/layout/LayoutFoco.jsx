@@ -3,6 +3,7 @@ import { Outlet } from 'react-router'
 import { useRolarAoTopo } from '../../hooks/useRolarAoTopo.js'
 import PularParaConteudo from '../PularParaConteudo.jsx'
 import CarregandoPagina from '../CarregandoPagina.jsx'
+import TransicaoPagina from '../TransicaoPagina.jsx'
 
 // Moldura sem menu, para o quiz e a conquista: a pessoa foca na pergunta.
 export default function LayoutFoco() {
@@ -12,7 +13,9 @@ export default function LayoutFoco() {
     <div className="min-h-screen">
       <PularParaConteudo />
       <Suspense fallback={<CarregandoPagina />}>
-        <Outlet />
+        <TransicaoPagina>
+          <Outlet />
+        </TransicaoPagina>
       </Suspense>
     </div>
   )

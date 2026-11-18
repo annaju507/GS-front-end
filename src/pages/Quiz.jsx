@@ -1,11 +1,12 @@
 import { Link, Navigate, useNavigate, useParams } from 'react-router'
-import { X } from 'lucide-react'
+import { Flame, X } from 'lucide-react'
 import textos from '../data/textos.json'
 import { poseDaPergunta } from '../domain/mascotes.js'
 import { estadoDaLicao, ordemDasLicoes } from '../domain/trilha.js'
 import { preencher } from '../domain/texto.js'
 import { UNIDADES, buscarLicao, perguntasDaLicao } from '../services/conteudoLocal.js'
 import { useProgresso } from '../hooks/useProgresso.js'
+import { useAtalhosQuiz } from '../hooks/useAtalhosQuiz.js'
 import { useQuiz } from '../hooks/useQuiz.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
@@ -30,6 +31,7 @@ function QuizDaLicao({ licao }) {
     resultado,
     respondido,
     ultima,
+    seguidas,
     feedbackRef,
     selecionar,
     verificar,
@@ -48,6 +50,9 @@ function QuizDaLicao({ licao }) {
   }
 
   const tituloResultado = resultado === 'acertou' ? t.acertou : t.errou
+  useAtalhosQuiz({ totalOpcoes: atual.opcoes.length, respondido, onSelecionar: selecionar, onVerificar: verificar })
+  // Selo de sequência: aparece a partir de 2 acertos seguidos.
+  const mostrarSeguidas = resultado === 'acertou' && seguidas >= 2
 
   return (
     <>
@@ -64,38 +69,52 @@ function QuizDaLicao({ licao }) {
             <BarraProgresso valor={((indice + (respondido ? 1 : 0)) / total) * 100} rotulo={t.rotuloProgresso} />
           </div>
         </div>
+        {mostrarSeguidas && (
+          <span className="pointer-events-none absolute left-1/2 top-full mt-2 -translate-x-1/2">
+            <span
+              key={seguidas}
+              aria-hidden="true"
+              className="surgir-selo flex items-center gap-1.5 whitespace-nowrap rounded-full bg-mico px-3 py-1 font-titulo text-tag font-extrabold uppercase tracking-[0.05em] text-marca-botao-texto shadow-[0_0.1875rem_0_rgb(0_0_0/0.18)]"
+            >
+              <Flame size={16} strokeWidth={2.5} />
+              {preencher(t.seguidas, { n: seguidas })}
+            </span>
+          </span>
+        )}
       </header>
 
-      <main id="conteudo" tabIndex={-1} className="mx-auto flex max-w-leitura flex-col gap-5 px-4 pb-72 pt-6 focus:outline-none md:px-6">
-        <div>
-          <p className="font-titulo text-tag font-bold uppercase tracking-[0.05em] text-texto-2">
+      <main id="conteudo" tabIndex={-1} className="mx-auto flex min-h-[calc(100dvh-4.5rem)] max-w-leitura flex-col justify-center gap-8 px-4 pb-56 pt-8 focus:outline-none md:px-6">
+        {/* Título da lição à esquerda e o contador de perguntas no outro canto. */}
+        <div className="flex items-baseline justify-between gap-4">
+          <h1 className="min-w-0 text-h2">{licao.titulo}</h1>
+          <p className="shrink-0 whitespace-nowrap font-titulo text-tag font-bold uppercase tracking-[0.05em] text-texto-2">
             {preencher(t.progresso, { atual: indice + 1, total })}
           </p>
-          <h1 className="text-h3">{licao.titulo}</h1>
         </div>
 
-        <BalaoMascote mascote="capivara" expressao={poseDaPergunta(resultado)} pergunta>
+        <BalaoMascote mascote="capivara" expressao={poseDaPergunta(resultado)} corpo>
           <p>{atual.pergunta}</p>
         </BalaoMascote>
 
-        <OpcoesQuiz
-          key={atual.id}
-          nome={`quiz-${atual.id}`}
-          pergunta={atual.pergunta}
-          opcoes={atual.opcoes}
-          selecionada={selecionada}
-          correta={atual.correta}
-          respondido={respondido}
-          onSelecionar={selecionar}
-        />
-
-        <div role="alert">{resultado === 'semResposta' && <Aviso tipo="alerta">{t.escolha}</Aviso>}</div>
+        <div className="flex flex-col gap-3">
+          <OpcoesQuiz
+            key={atual.id}
+            nome={`quiz-${atual.id}`}
+            pergunta={atual.pergunta}
+            opcoes={atual.opcoes}
+            selecionada={selecionada}
+            correta={atual.correta}
+            respondido={respondido}
+            onSelecionar={selecionar}
+          />
+          <div role="alert">{resultado === 'semResposta' && <Aviso tipo="alerta">{t.escolha}</Aviso>}</div>
+        </div>
         <p className="sr-only" aria-live="assertive">
           {respondido ? tituloResultado : ''}
         </p>
 
         {!respondido && (
-          <Botao variante="primario" onClick={verificar}>
+          <Botao variante="primario" onClick={verificar} className="min-h-16 w-full text-corpo">
             {textos.botoes.verificar}
           </Botao>
         )}

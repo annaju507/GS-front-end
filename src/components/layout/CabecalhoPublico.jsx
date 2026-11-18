@@ -11,6 +11,7 @@ import ControleTamanhoLetra from '../ControleTamanhoLetra.jsx'
 const t = textos.publico.nav
 
 const LINKS = [
+  { para: '/', rotulo: t.paginaInicial },
   { para: '/como-funciona', rotulo: t.comoFunciona },
   { para: '/sobre', rotulo: t.sobre },
   { para: '/previa/trilhas', rotulo: t.trilhas },
@@ -52,7 +53,7 @@ export default function CabecalhoPublico() {
           <ul className="flex items-center gap-1">
             {LINKS.map((link) => (
               <li key={link.para}>
-                <NavLink to={link.para} className={estiloLink}>
+                <NavLink to={link.para} end={link.para === '/'} className={estiloLink}>
                   {link.rotulo}
                 </NavLink>
               </li>
@@ -86,7 +87,7 @@ export default function CabecalhoPublico() {
             <ul className="flex flex-col gap-1">
               {LINKS.map((link) => (
                 <li key={link.para}>
-                  <NavLink to={link.para} className={estiloLink} onClick={fecharMenu}>
+                  <NavLink to={link.para} end={link.para === '/'} className={estiloLink} onClick={fecharMenu}>
                     {link.rotulo}
                   </NavLink>
                 </li>

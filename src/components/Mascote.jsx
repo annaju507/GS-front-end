@@ -2,11 +2,12 @@ import { Suspense, lazy, useState } from 'react'
 import { TAMANHO_ARQUIVO, arquivoDaAnimacao, deveAnimar, escolherExpressao, validarMascote } from '../domain/mascotes.js'
 import { usePreferencias } from '../hooks/usePreferencias.js'
 import { useNaTela } from '../hooks/useNaTela.js'
+import LimiteAnimacao from './LimiteAnimacao.jsx'
 
 // O Vite troca cada arquivo por uma URL com hash (só baixa o que aparece na tela).
 const IMAGENS = import.meta.glob('../assets/mascotes/*/*.webp', { eager: true, import: 'default' })
 
-// A animação (LottieFiles) fica num pedaço separado do código.
+// A animação (lottie-web) fica num pedaço separado do código.
 const AnimacaoLottie = lazy(() => import('./AnimacaoLottie.jsx'))
 
 function caminhoDaImagem(nome, expressao, tamanho) {
@@ -83,14 +84,16 @@ export default function Mascote({
         className={`block h-auto w-full ${fundo} ${animacaoPronta ? 'opacity-0' : ''}`}
       />
       {naTela && (
-        <Suspense fallback={null}>
-          <AnimacaoLottie
-            key={arquivo}
-            arquivo={arquivo}
-            aoCarregar={marcarCarregado}
-            className="absolute inset-0 size-full"
-          />
-        </Suspense>
+        <LimiteAnimacao>
+          <Suspense fallback={null}>
+            <AnimacaoLottie
+              key={arquivo}
+              arquivo={arquivo}
+              aoCarregar={marcarCarregado}
+              className="absolute inset-0 size-full"
+            />
+          </Suspense>
+        </LimiteAnimacao>
       )}
     </span>
   )

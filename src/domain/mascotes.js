@@ -43,18 +43,17 @@ export function arquivoDaAnimacao(mascote, expressao) {
   return `${validarMascote(mascote)}-${escolherExpressao(expressao)}`
 }
 
-// Pose da capivara enquanto faz a pergunta do quiz: pensa esperando a
-// resposta, chama a atenção se ninguém escolheu, fica feliz no acerto e
-// volta a explicar no erro.
+// Pose da capivara ao lado da pergunta do quiz: explica a pergunta, chama a
+// atenção se ninguém escolheu, comemora no acerto e fica pensativa no erro.
 export function poseDaPergunta(resultado) {
   if (resultado === 'acertou') {
-    return 'feliz'
+    return 'comemorando'
   } else if (resultado === 'errou') {
-    return 'explicando'
+    return 'pensativo'
   } else if (resultado === 'semResposta') {
     return 'alerta'
   } else {
-    return 'pensativo'
+    return 'explicando'
   }
 }
 

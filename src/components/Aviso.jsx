@@ -9,12 +9,14 @@ const TIPOS = {
   info: { Icone: Info, classes: 'bg-info-fundo text-info border-info' },
 }
 
-export default function Aviso({ tipo = 'info', children }) {
+// "compacto": menos espaço interno e letra menor (telas de entrada).
+export default function Aviso({ tipo = 'info', compacto = false, children }) {
   const { Icone, classes } = TIPOS[tipo] ?? TIPOS.info
+  const espaco = compacto ? 'px-3 py-2 text-legenda' : 'px-4 py-3'
 
   return (
-    <div className={`flex items-start gap-2 rounded-card-pequeno border px-4 py-3 font-semibold ${classes}`}>
-      <Icone size={20} strokeWidth={2} aria-hidden="true" className="mt-1 shrink-0" />
+    <div className={`flex items-start gap-2 rounded-card-pequeno border font-semibold ${espaco} ${classes}`}>
+      <Icone size={compacto ? 18 : 20} strokeWidth={2} aria-hidden="true" className={`${compacto ? 'mt-0.5' : 'mt-1'} shrink-0`} />
       <div>{children}</div>
     </div>
   )

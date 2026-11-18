@@ -7,7 +7,7 @@ import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
 import Botao from '../components/Botao.jsx'
 import Card from '../components/Card.jsx'
-import CenaEmbarque from '../components/CenaEmbarque.jsx'
+import CenaEntrada from '../components/CenaEntrada.jsx'
 import CampoTexto from '../components/CampoTexto.jsx'
 import CampoSenha from '../components/CampoSenha.jsx'
 
@@ -61,18 +61,26 @@ export default function Cadastro() {
   }
 
   return (
-    <CenaEmbarque>
-      <Card className="flex flex-col gap-5">
-        <header className="flex flex-col gap-2">
-          <h1>{t.cadastro.titulo}</h1>
-          <p className="text-texto-2">{t.cadastro.intro}</p>
+    <CenaEntrada>
+      {/* Compacto para caber na altura da janela, sem rolar a página. */}
+      <Card className="flex flex-col gap-3 md:p-5!">
+        <header className="flex flex-col gap-1">
+          <div className="flex flex-wrap items-baseline justify-between gap-x-4">
+            <h1 className="text-h2">{t.cadastro.titulo}</h1>
+            <p className="text-legenda">
+              {t.cadastro.temConta} <Link to="/entrar">{t.cadastro.entrar}</Link>
+            </p>
+          </div>
+          <p className="intro-entrada text-texto-2">{t.cadastro.intro}</p>
         </header>
 
-        <Aviso tipo="info">{t.avisoPrototipo}</Aviso>
+        <Aviso tipo="info" compacto>
+          {t.avisoPrototipo}
+        </Aviso>
 
         <div role="alert">{erroGeral && <Aviso tipo="erro">{erroGeral}</Aviso>}</div>
 
-        <form noValidate onSubmit={enviar} className="flex flex-col gap-4">
+        <form noValidate onSubmit={enviar} className="flex flex-col gap-3">
           <CampoTexto
             ref={refApelido}
             rotulo={t.cadastro.apelido}
@@ -83,6 +91,8 @@ export default function Cadastro() {
             onChange={atualizar('apelido')}
             erro={erros.apelido && t.erros[erros.apelido]}
           />
+          {/* Em telas largas, e-mail e senha lado a lado, para caber sem rolar. */}
+          <div className="grid gap-3 sm:grid-cols-2">
           <CampoTexto
             ref={refEmail}
             rotulo={t.email}
@@ -101,15 +111,13 @@ export default function Cadastro() {
             onChange={atualizar('senha')}
             erro={erros.senha && t.erros[erros.senha]}
           />
+          </div>
           <Botao variante="primario" type="submit" disabled={enviando}>
             {enviando ? t.enviando : t.cadastro.botao}
           </Botao>
         </form>
 
-        <p className="border-t border-borda pt-4">
-          {t.cadastro.temConta} <Link to="/entrar">{t.cadastro.entrar}</Link>
-        </p>
       </Card>
-    </CenaEmbarque>
+    </CenaEntrada>
   )
 }

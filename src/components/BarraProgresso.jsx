@@ -22,7 +22,7 @@ export default function BarraProgresso({ valor, rotulo, grossa = true, comMico =
         className={`relative flex-1 rounded-full bg-lilas-claro ${altura} ${comMico ? 'my-4' : ''}`}
       >
         <div
-          className={`rounded-full bg-lilas transition-[width] duration-300 ease-out ${altura}`}
+          className={`brilho-progresso rounded-full bg-lilas transition-[width] duration-500 ease-[cubic-bezier(0.34,1.3,0.64,1)] ${altura}`}
           style={{ width: `${porcentagem}%` }}
         />
         {comMico && (

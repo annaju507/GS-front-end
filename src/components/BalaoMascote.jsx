@@ -10,11 +10,11 @@ import Botao from './Botao.jsx'
 // O nome do mascote fica na cor do texto: algumas cores de assinatura (como o
 // dourado da onça) não têm contraste suficiente para texto.
 const CORES = {
-  caramelo: { balao: 'bg-caramelo-fundo border-caramelo', seta: 'before:bg-caramelo-fundo before:border-caramelo', marca: 'bg-caramelo', painel: 'bg-caramelo-fundo', borda: 'border-caramelo' },
-  capivara: { balao: 'bg-capivara-fundo border-capivara', seta: 'before:bg-capivara-fundo before:border-capivara', marca: 'bg-capivara', painel: 'bg-capivara-fundo', borda: 'border-capivara' },
-  arara: { balao: 'bg-arara-fundo border-arara', seta: 'before:bg-arara-fundo before:border-arara', marca: 'bg-arara', painel: 'bg-arara-fundo', borda: 'border-arara' },
-  onca: { balao: 'bg-onca-fundo border-onca', seta: 'before:bg-onca-fundo before:border-onca', marca: 'bg-onca', painel: 'bg-onca-fundo', borda: 'border-onca' },
-  mico: { balao: 'bg-mico-fundo border-mico', seta: 'before:bg-mico-fundo before:border-mico', marca: 'bg-mico', painel: 'bg-mico-fundo', borda: 'border-mico' },
+  caramelo: { balao: 'bg-caramelo-fundo border-caramelo', seta: 'before:bg-caramelo-fundo before:border-caramelo', marca: 'bg-caramelo', borda: 'border-caramelo' },
+  capivara: { balao: 'bg-capivara-fundo border-capivara', seta: 'before:bg-capivara-fundo before:border-capivara', marca: 'bg-capivara', borda: 'border-capivara' },
+  arara: { balao: 'bg-arara-fundo border-arara', seta: 'before:bg-arara-fundo before:border-arara', marca: 'bg-arara', borda: 'border-arara' },
+  onca: { balao: 'bg-onca-fundo border-onca', seta: 'before:bg-onca-fundo before:border-onca', marca: 'bg-onca', borda: 'border-onca' },
+  mico: { balao: 'bg-mico-fundo border-mico', seta: 'before:bg-mico-fundo before:border-mico', marca: 'bg-mico', borda: 'border-mico' },
 }
 
 export default function BalaoMascote({
@@ -25,17 +25,18 @@ export default function BalaoMascote({
   onFechar,
   anunciar = false,
   corpoInteiro = false,
+  corpo = false,
   id,
   children,
 }) {
   const nome = validarMascote(mascote)
   const cores = CORES[nome]
 
-  // Corpo inteiro (lições): o mascote animado ao lado do balão, num painel na
-  // cor clara dele. No celular, o balão fica em cima e aponta para baixo.
+  // Corpo inteiro (lições): o mascote animado ao lado do balão, sem fundo.
+  // No celular, o balão fica em cima e aponta para baixo.
   if (corpoInteiro) {
     return (
-      <div className={`flex flex-col items-center gap-3 rounded-card px-4 pt-4 sm:flex-row sm:items-end sm:gap-5 sm:px-5 ${cores.painel}`}>
+      <div className="flex flex-col items-center gap-3 sm:flex-row sm:items-end sm:gap-5">
         <Mascote nome={nome} expressao={expressao} tamanho="corpo" largura={176} className="order-2 -mb-1 sm:order-1" />
         <div
           className={`balao-corpo relative order-1 flex w-full min-w-0 flex-col gap-2 rounded-card border-2 bg-superficie p-4 text-texto sm:order-2 sm:mb-8 sm:w-auto sm:flex-1 ${cores.borda}`}
@@ -52,13 +53,24 @@ export default function BalaoMascote({
       </div>
     )
   }
-  const forma = pergunta
-    ? 'rounded-card rounded-tl-[0.25rem]'
-    : `rounded-card before:absolute before:-left-[0.5625rem] before:top-5 before:size-4 before:rotate-45 before:border-b-2 before:border-l-2 before:content-[''] ${cores.seta}`
+  // "corpo" (quiz): o mascote de corpo inteiro ao lado, com a setinha do balão
+  // apontando para ele na altura do meio.
+  let forma
+  if (corpo) {
+    forma = `rounded-card before:absolute before:-left-[0.5625rem] before:top-1/2 before:size-4 before:-translate-y-1/2 before:rotate-45 before:border-b-2 before:border-l-2 before:content-[''] ${cores.seta}`
+  } else if (pergunta) {
+    forma = 'rounded-card rounded-tl-[0.25rem]'
+  } else {
+    forma = `rounded-card before:absolute before:-left-[0.5625rem] before:top-5 before:size-4 before:rotate-45 before:border-b-2 before:border-l-2 before:content-[''] ${cores.seta}`
+  }
 
   return (
-    <div className="flex items-start gap-3">
-      <Mascote nome={nome} expressao={expressao} largura={pergunta ? 46 : 56} />
+    <div className={`flex gap-3 ${corpo ? 'items-center gap-4' : 'items-start'}`}>
+      {corpo ? (
+        <Mascote nome={nome} expressao={expressao} tamanho="corpo" largura={144} />
+      ) : (
+        <Mascote nome={nome} expressao={expressao} largura={pergunta ? 46 : 56} />
+      )}
       <div
         className={`relative flex min-w-0 flex-1 flex-col gap-2 border-2 p-4 text-texto ${cores.balao} ${forma}`}
         aria-live={anunciar ? 'polite' : undefined}
