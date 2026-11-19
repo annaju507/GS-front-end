@@ -1,5 +1,6 @@
+import { useEffect } from 'react'
 import { useLocation, useParams } from 'react-router'
-import { Clock, Flame, Target } from 'lucide-react'
+import { Clock, Target } from 'lucide-react'
 import textos from '../data/textos.json'
 import { MEDALHAS, avaliarResultado } from '../domain/conquistas.js'
 import { poseDaConquista } from '../domain/mascotes.js'
@@ -8,6 +9,7 @@ import { unidadeDaLicao } from '../domain/trilha.js'
 import { plural, preencher } from '../domain/texto.js'
 import { UNIDADES, buscarLicao, buscarPropostaLocal } from '../services/conteudoLocal.js'
 import { useContagem } from '../hooks/useContagem.js'
+import { usePreferencias } from '../hooks/usePreferencias.js'
 import { useProgresso } from '../hooks/useProgresso.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Animacao from '../components/Animacao.jsx'
@@ -15,6 +17,7 @@ import Botao from '../components/Botao.jsx'
 import CardProposta from '../components/CardProposta.jsx'
 import CardEstatistica from '../components/CardEstatistica.jsx'
 import Confete from '../components/Confete.jsx'
+import Foguinho from '../components/Foguinho.jsx'
 import Mascote from '../components/Mascote.jsx'
 import Medalha from '../components/Medalha.jsx'
 import OndasCalcadao from '../components/OndasCalcadao.jsx'
@@ -54,6 +57,26 @@ export default function Conquista() {
   const acertosContados = useContagem(resultado?.acertos ?? 0, 700, 250)
   const sequenciaContada = useContagem(resultado?.sequencia ?? 0, 700, 400)
   const segundosContados = useContagem(Math.round(resultado?.segundos ?? 0), 900, 550)
+
+  // Sons ao chegar: a caixinha de música (se acertou alguma) e os sininhos,
+  // se ganhou medalha nova.
+  const { tocar } = usePreferencias().sons
+  const temResultado = Boolean(resultado)
+  const acertouAlguma = (resultado?.acertos ?? 0) > 0
+  const ganhouMedalha = (resultado?.novas?.length ?? 0) > 0
+  useEffect(() => {
+    if (!temResultado) {
+      return undefined
+    }
+    if (acertouAlguma) {
+      tocar('comemoracao')
+    }
+    let relogio
+    if (ganhouMedalha) {
+      relogio = setTimeout(() => tocar('medalha'), 900)
+    }
+    return () => clearTimeout(relogio)
+  }, [temResultado, acertouAlguma, ganhouMedalha, tocar])
 
   if (!licao || !resultado) {
     return (
@@ -96,7 +119,7 @@ export default function Conquista() {
           <CardEstatistica
             rotulo={t.sequencia}
             cor="mico"
-            Icone={Flame}
+            Icone={Foguinho}
             valor={plural(sequenciaContada, t.sequenciaUm, t.sequenciaVarios)}
             atraso={300}
           />
@@ -117,7 +140,7 @@ export default function Conquista() {
             </div>
             <ul className="flex flex-wrap justify-center gap-6">
               {novas.map((medalha) => (
-                <Medalha key={medalha.id} medalha={medalha} />
+                <Medalha key={medalha.id} medalha={medalha} className="w-40" />
               ))}
             </ul>
           </section>

@@ -1,6 +1,7 @@
 import { useCallback, useState } from 'react'
 import { Newspaper } from 'lucide-react'
 import textos from '../data/textos.json'
+import { limitarPagina } from '../domain/caderno.js'
 import { plural, preencher } from '../domain/texto.js'
 import { buscarPropostaLocal } from '../services/conteudoLocal.js'
 import { useAuth } from '../hooks/useAuth.js'
@@ -14,12 +15,14 @@ import EstadoErro from '../components/EstadoErro.jsx'
 import EstadoVazio from '../components/EstadoVazio.jsx'
 import ImagemRio from '../components/ImagemRio.jsx'
 import ModalConfirmacao from '../components/ModalConfirmacao.jsx'
+import PaginacaoCaderno from '../components/PaginacaoCaderno.jsx'
 import Toast from '../components/Toast.jsx'
 
 const t = textos.caderno
 
-// Caderno cívico (CRUD com MockAPI): lista as propostas salvas, edita a
-// anotação e exclui com confirmação. Criar acontece na página da proposta.
+// Caderno cívico (CRUD com MockAPI): mostra uma proposta salva por página,
+// com setas para passar, edita a anotação e exclui com confirmação. Criar
+// acontece na página da proposta.
 export default function Caderno() {
   useTitulo(t.tituloAba)
   const { usuario } = useAuth()
@@ -27,6 +30,7 @@ export default function Caderno() {
   const [editandoId, setEditandoId] = useState(null)
   const [paraExcluir, setParaExcluir] = useState(null)
   const [toast, setToast] = useState(null)
+  const [pagina, setPagina] = useState(0)
   const fecharToast = useCallback(() => setToast(null), [])
 
   async function salvarEdicao(id, texto) {
@@ -37,6 +41,12 @@ export default function Caderno() {
     } else {
       setToast({ tipo: 'erro', mensagem: t.avisos.falhou })
     }
+  }
+
+  // Trocar de página cancela a edição que estava aberta.
+  function mudarPagina(novaPagina) {
+    setEditandoId(null)
+    setPagina(limitarPagina(novaPagina, anotacoes.length))
   }
 
   function fecharModal() {
@@ -63,24 +73,24 @@ export default function Caderno() {
   } else if (anotacoes.length === 0) {
     conteudo = <EstadoVazio mascote="caramelo" expressao="explicando" titulo={t.vazio.titulo} acao={{ rotulo: t.vazio.botao, para: '/app/agora' }} />
   } else {
+    // Uma proposta por página. Se a lista diminuiu (excluiu a última), a
+    // página volta para dentro do total.
+    const indice = limitarPagina(pagina, anotacoes.length)
+    const anotacao = anotacoes[indice]
     conteudo = (
       <>
         <p className="font-semibold text-texto-2">{plural(anotacoes.length, t.total.um, t.total.varios)}</p>
-        <ul className="flex flex-col gap-4">
-          {anotacoes.map((anotacao) => (
-            <li key={anotacao.id}>
-              <CardAnotacao
-                anotacao={anotacao}
-                proposta={buscarPropostaLocal(anotacao.propostaId)}
-                editando={editandoId === anotacao.id}
-                onEditar={() => setEditandoId(anotacao.id)}
-                onCancelar={() => setEditandoId(null)}
-                onSalvarEdicao={(texto) => salvarEdicao(anotacao.id, texto)}
-                onExcluir={() => setParaExcluir(anotacao)}
-              />
-            </li>
-          ))}
-        </ul>
+        <CardAnotacao
+          key={anotacao.id}
+          anotacao={anotacao}
+          proposta={buscarPropostaLocal(anotacao.propostaId)}
+          editando={editandoId === anotacao.id}
+          onEditar={() => setEditandoId(anotacao.id)}
+          onCancelar={() => setEditandoId(null)}
+          onSalvarEdicao={(texto) => salvarEdicao(anotacao.id, texto)}
+          onExcluir={() => setParaExcluir(anotacao)}
+        />
+        {anotacoes.length > 1 && <PaginacaoCaderno indice={indice} total={anotacoes.length} onMudar={mudarPagina} />}
       </>
     )
   }
@@ -103,7 +113,7 @@ export default function Caderno() {
           pautada com as anotações. A capa é só enfeite; o texto fica na folha. */}
       <div className="grid overflow-hidden rounded-modal shadow-modal md:grid-cols-[13rem_1fr]">
         <div aria-hidden="true" className="relative bg-indigo p-3">
-          <ImagemRio nome="parque-lage-fachada" className="h-32 w-full rounded-card-pequeno md:h-full md:min-h-72" />
+          <ImagemRio nome="parque-lage-fachada" className="h-32 w-full rounded-card-pequeno md:absolute md:inset-3 md:h-auto md:w-auto" />
           <span className="absolute inset-y-0 right-6 w-2 bg-mico" />
           <span className="absolute left-6 right-12 top-6 rounded-card-pequeno bg-white px-3 py-2 shadow-card">
             <span className="block font-titulo text-legenda font-extrabold text-indigo">{t.etiqueta.titulo}</span>

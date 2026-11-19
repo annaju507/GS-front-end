@@ -5,6 +5,7 @@ export const CHAVES = {
   tema: 'demokratos-tema',
   letra: 'demokratos-letra',
   reduzirAnimacoes: 'demokratos-reduzir-animacoes',
+  sons: 'demokratos-sons',
 }
 
 export const TEMA_CLARO = 'claro'

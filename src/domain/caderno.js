@@ -41,3 +41,17 @@ export function prepararAnotacao(registro) {
 export function buscarAnotacaoDaProposta(anotacoes, propostaId) {
   return anotacoes.find((anotacao) => anotacao.propostaId === Number(propostaId)) ?? null
 }
+
+// Página do caderno (uma proposta por página): mantém o número dentro do
+// total. Ex.: depois de excluir a última, volta para a anterior.
+export function limitarPagina(indice, total) {
+  if (total <= 0) {
+    return 0
+  } else if (indice >= total) {
+    return total - 1
+  } else if (indice < 0) {
+    return 0
+  } else {
+    return indice
+  }
+}

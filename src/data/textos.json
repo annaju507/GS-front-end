@@ -29,6 +29,11 @@
     "animacoes": {
       "rotulo": "Reduzir animações",
       "sistemaPede": "Seu aparelho já pede menos animações, então elas ficam reduzidas."
+    },
+    "sons": {
+      "rotulo": "Sons",
+      "ligar": "Ligar os sons",
+      "desligar": "Desligar os sons"
     }
   },
   "mascotes": {
@@ -361,11 +366,26 @@
     "dicaVirar": "Passe o mouse, toque ou arraste o card para ver o papel de cada um.",
     "virar": "Ver o papel de {nome}",
     "papeis": {
-      "caramelo": { "papel": "O companheiro", "texto": "Recebe você e mostra o caminho." },
-      "capivara": { "papel": "A professora", "texto": "Explica com calma." },
-      "arara": { "papel": "A mensageira", "texto": "Traz as novidades." },
-      "onca": { "papel": "A investigadora", "texto": "Confere as fontes." },
-      "mico": { "papel": "O explorador", "texto": "Comemora suas conquistas." }
+      "caramelo": {
+        "papel": "O companheiro",
+        "texto": "Recebe você e mostra o caminho."
+      },
+      "capivara": {
+        "papel": "A professora",
+        "texto": "Explica com calma."
+      },
+      "arara": {
+        "papel": "A mensageira",
+        "texto": "Traz as novidades."
+      },
+      "onca": {
+        "papel": "A investigadora",
+        "texto": "Confere as fontes."
+      },
+      "mico": {
+        "papel": "O explorador",
+        "texto": "Comemora suas conquistas."
+      }
     },
     "convite": "Pronto para começar?",
     "comecar": "Começar agora"
@@ -373,8 +393,7 @@
   "sobre": {
     "titulo": "Sobre o Demokratos",
     "intro": "O Demokratos é um projeto de estudantes de Engenharia de Software da FIAP, no Rio de Janeiro. Queremos que ninguém tenha medo de não entender política.",
-    "lead": "Uma plataforma para quem mora no Rio entender como a política funciona, do zero, em linguagem simples e sempre com a fonte oficial."
-,
+    "lead": "Uma plataforma para quem mora no Rio entender como a política funciona, do zero, em linguagem simples e sempre com a fonte oficial.",
     "nome": {
       "titulo": "Por que Demokratos?",
       "partes": [
@@ -393,7 +412,7 @@
         "palavra": "Demokratos",
         "sentido": "o poder do povo"
       },
-      "texto": "É a mesma raiz da palavra \"democracia\". Escolhemos esse nome porque a democracia é um valor de todos, sem bandeira de partido: quanto mais gente entende como as decisões são tomadas, mais o poder fica, de fato, nas mãos do povo."
+      "texto": "Demokratos vem da mesma raiz de \"democracia\", o regime em que o Brasil vive. A Constituição de 1988 diz que \"todo o poder emana do povo\". Mas, para usar esse poder, é preciso entender como as decisões são tomadas. Foi daí que veio o nome: se a democracia é o poder do povo, o Demokratos quer entregar ao povo o poder do conhecimento. Sem lado e sem partido, só informação com fonte, para cada pessoa formar a própria opinião."
     },
     "projeto": {
       "titulo": "O projeto",
@@ -435,9 +454,27 @@
       "virar": "Ver o que {nome} fez",
       "papelVazio": "O que fez: em breve",
       "integrantes": [
-        { "nome": "Anna Júlia Elias Andrade", "curto": "Anna Júlia", "foto": "anna", "mascote": "onca", "papel": "" },
-        { "nome": "Arthur Alen Amorelli Pereira", "curto": "Arthur", "foto": "arthur", "mascote": "caramelo", "papel": "" },
-        { "nome": "Clara Diel Gama Secco", "curto": "Clara", "foto": "clara", "mascote": "capivara", "papel": "" }
+        {
+          "nome": "Anna Júlia Elias Andrade",
+          "curto": "Anna Júlia",
+          "foto": "anna",
+          "mascote": "onca",
+          "papel": "Front-end"
+        },
+        {
+          "nome": "Arthur Alen Amorelli Pereira",
+          "curto": "Arthur",
+          "foto": "arthur",
+          "mascote": "caramelo",
+          "papel": "Back-end"
+        },
+        {
+          "nome": "Clara Diel Gama Secco",
+          "curto": "Clara",
+          "foto": "clara",
+          "mascote": "capivara",
+          "papel": "IoT e cálculo"
+        }
       ],
       "_max": {
         "texto": 300,
@@ -639,6 +676,12 @@
     "mostrarSenha": "Mostrar senha",
     "resumoErros": "Confira os campos marcados.",
     "enviando": "Aguarde…",
+    "fechar": "Fechar",
+    "abas": {
+      "rotulo": "Entrar ou criar conta",
+      "entrar": "Entrar",
+      "criarConta": "Criar conta"
+    },
     "entrar": {
       "titulo": "Entrar",
       "intro": "Que bom ver você de novo.",
@@ -687,7 +730,11 @@
         "fala": 140
       },
       "botao": "Vamos lá",
-      "carimbo": ["Boas-vindas", "ao", "Demokratos"]
+      "carimbo": [
+        "Boas-vindas",
+        "ao",
+        "Demokratos"
+      ]
     },
     "pontoDePartida": {
       "tituloAba": "Ponto de partida",
@@ -765,7 +812,67 @@
     "verPerfil": "Ver medalhas",
     "propostaDoDia": {
       "titulo": "Proposta do dia",
-      "texto": "Uma das propostas da seleção do Demokratos, que muda a cada dia. A escolha é automática: não é destaque nem recomendação."
+      "texto": "Uma das propostas da seleção do Demokratos, que muda a cada dia. A escolha é automática: não é destaque nem recomendação.",
+      "falaOnca": "Bora investigar? Leia o resumo e confira a fonte oficial antes de formar sua opinião."
+    },
+    "olaInicio": "Olá,",
+    "boasVindas": "Que bom te ver de novo. Bora aprender mais um pouquinho?",
+    "chipSequencia": "Sequência de {n} dias: ver a comemoração",
+    "dias": "dias",
+    "dia": "dia",
+    "trilhaPorcentagem": "{n}% da trilha concluída",
+    "daTrilha": "da trilha",
+    "entrada": {
+      "um": "Primeiro foguinho aceso! Volte amanhã para ele crescer.",
+      "varios": "Você está pegando fogo! Volte amanhã e chegue a {proximo}.",
+      "semana": "Uma semana inteira de estudo! Que fogo é esse?",
+      "diaSeguido": "dia seguido!",
+      "diasSeguidos": "dias seguidos!",
+      "botao": "Bora!",
+      "semanaRotulo": "Seus últimos 7 dias"
+    },
+    "mensagens": {
+      "titulo": "Caixa de mensagens",
+      "novasUm": "1 nova",
+      "novasVarias": "{n} novas",
+      "nova": "Nova",
+      "proposta": {
+        "titulo": "Olha a proposta do dia!",
+        "texto": "Uma proposta sobre {area}. Toque para ler."
+      },
+      "medalha": {
+        "titulo": "Medalha: {nome}",
+        "texto": "Veja todas as suas conquistas."
+      },
+      "sequencia": {
+        "titulo": "{n} dias seguidos!",
+        "tituloUm": "1 dia seguido!",
+        "texto": "Volte amanhã e chegue a {proximo}."
+      },
+      "comecar": {
+        "titulo": "Acenda seu foguinho",
+        "texto": "Faça uma lição hoje para começar a sua sequência."
+      },
+      "glossario": {
+        "titulo": "Palavra difícil?",
+        "texto": "O glossário explica os termos da política."
+      }
+    },
+    "conquistas": {
+      "titulo": "Suas conquistas",
+      "deTotal": "de {total}",
+      "anterior": "Ver conquistas anteriores",
+      "proxima": "Ver mais conquistas",
+      "bloqueada": "ainda não conquistada",
+      "proximaMeta": "Próxima: {nome}",
+      "metaValor": "{atual} de {meta}"
+    },
+    "semana": {
+      "titulo": "Sua semana",
+      "texto": "Cada foguinho é um dia em que você estudou. Perdeu um dia? Tudo bem, é só recomeçar.",
+      "estudou": "{letra}: estudou",
+      "naoEstudou": "{letra}: não estudou",
+      "hoje": "(hoje)"
     }
   },
   "trilha": {
@@ -843,6 +950,12 @@
   },
   "medalhas": {
     "titulo": "Medalhas",
+    "celebracao": {
+      "titulo": "Conquista nova!",
+      "deQuantas": "{n} de {total}",
+      "continuar": "Continuar",
+      "proxima": "Ver a próxima"
+    },
     "bloqueada": "Ainda não conquistada",
     "entreguePor": "Entregue por: {mascote}",
     "nomes": {
@@ -868,7 +981,8 @@
       "seteDias": "Estude 7 dias seguidos.",
       "trilhaConcluida": "Conclua todas as lições disponíveis.",
       "primeiraAnotacao": "Salve uma proposta no caderno."
-    }
+    },
+    "falta": "Falta"
   },
   "proposta": {
     "tituloAba": "Proposta",
@@ -920,15 +1034,81 @@
     "trilha": "Progresso da trilha",
     "desde": "No Demokratos desde {data}",
     "foto": {
-      "escolher": "Escolher foto do perfil",
-      "trocar": "Trocar foto do perfil",
-      "tirar": "Tirar foto",
+      "escolher": "Escolher avatar do perfil",
+      "trocar": "Trocar avatar do perfil",
+      "tirar": "Voltar para a inicial",
       "salvando": "Salvando a foto...",
-      "aviso": "A foto fica guardada só neste navegador.",
+      "aviso": "Seu avatar fica guardado só neste navegador.",
       "erros": {
         "tipo": "Esse arquivo não é uma imagem. Escolha uma foto.",
         "tamanho": "Essa foto é muito grande. Escolha uma de até 10 MB.",
         "leitura": "Não deu para abrir essa foto. Tente outra."
+      }
+    },
+    "avatar": {
+      "titulo": "Escolha seu avatar",
+      "intro": "Toque em um rosto para usar no seu perfil. Se preferir, envie uma foto sua.",
+      "rotuloGrade": "Rostos para o avatar",
+      "enviarFoto": "Enviar uma foto",
+      "usarInicial": "Apelido inicial",
+      "fechar": "Fechar",
+      "nomes": {
+        "rosto-01": "Rosto rindo de boca aberta",
+        "rosto-02": "Rosto tranquilo",
+        "rosto-03": "Rosto encantado, de cabelo cacheado",
+        "rosto-04": "Rosto animado",
+        "rosto-05": "Rosto chateado",
+        "rosto-06": "Rosto gargalhando, de cabelo comprido",
+        "rosto-07": "Rosto brincalhão, de chapéu",
+        "rosto-08": "Rosto desconfiado",
+        "rosto-09": "Rosto de cachorrinho",
+        "rosto-10": "Rosto de sorriso calmo",
+        "rosto-11": "Rosto tranquilo, de franja",
+        "rosto-12": "Rosto mastigando",
+        "rosto-13": "Rosto feliz, de cabelo enrolado",
+        "rosto-14": "Rosto confiante",
+        "rosto-15": "Rosto orgulhoso, piscando",
+        "rosto-16": "Rosto maravilhado",
+        "rosto-17": "Rosto simpático, de cabelo fofo",
+        "rosto-18": "Rosto gargalhando",
+        "rosto-19": "Rosto de sorriso suave",
+        "rosto-20": "Rosto mastigando, de bochechas",
+        "rosto-21": "Rosto confuso",
+        "rosto-22": "Rosto de barba",
+        "rosto-23": "Rosto de cabelo preso",
+        "rosto-24": "Rosto feliz, de cachinhos",
+        "rosto-25": "Rosto simpático, de topete"
+      }
+    },
+    "chips": {
+      "dias": "{n} dias seguidos",
+      "diaUm": "1 dia seguido",
+      "medalhas": "{n} medalhas",
+      "medalhaUm": "1 medalha"
+    },
+    "trilhaBloco": {
+      "titulo": "Sua trilha",
+      "agora": "Agora na Unidade {numero}: {titulo}",
+      "unidades": "{n} de {total} unidades concluídas",
+      "fim": "Você concluiu todas as unidades disponíveis."
+    },
+    "guardado": "Seu avatar e seu progresso ficam guardados só neste navegador.",
+    "quadros": {
+      "tema": {
+        "titulo": "Modo escuro",
+        "texto": "Fundo escuro, letras claras."
+      },
+      "letra": {
+        "titulo": "Tamanho da letra",
+        "texto": "Aumente se ficar difícil de ler."
+      },
+      "animacoes": {
+        "titulo": "Reduzir animações",
+        "texto": "Menos movimento na tela."
+      },
+      "sons": {
+        "titulo": "Sons",
+        "texto": "Bolhinhas no acerto e sininhos nas medalhas."
       }
     }
   },
@@ -955,14 +1135,28 @@
       "busca": "Palavra-chave",
       "buscaDica": "Procure por um assunto, como transporte ou escola.",
       "buscar": "Buscar",
-      "limpar": "Limpar filtros"
+      "limpar": "Limpar filtros",
+      "interessa": "O que te interessa?"
     },
     "lista": "Propostas encontradas",
     "pagina": "Página {pagina} de {total}",
     "vazio": "Não encontramos propostas com esses filtros.",
     "paginaAnterior": "Página anterior",
     "proximaPagina": "Próxima página",
-    "contagem": "{n} de {total} propostas"
+    "contagem": "{n} de {total} propostas",
+    "chips": [
+      "{total} propostas",
+      "5 temas",
+      "Fonte oficial da Câmara"
+    ],
+    "etapaAgora": "Agora: {etapa}",
+    "paginacao": {
+      "rotulo": "Páginas de propostas",
+      "anterior": "Página anterior",
+      "proxima": "Próxima página",
+      "posicao": "{n} de {total}",
+      "posicaoLeitor": "Página {n} de {total}"
+    }
   },
   "glossario": {
     "tituloAba": "Glossário",
@@ -1001,6 +1195,13 @@
       "varios": "{n} anotações"
     },
     "salvaEm": "Salva em {data}",
+    "paginacao": {
+      "rotulo": "Passar pelas propostas salvas",
+      "anterior": "Proposta anterior",
+      "proxima": "Próxima proposta",
+      "posicao": "{n} de {total}",
+      "posicaoLeitor": "Proposta {n} de {total}"
+    },
     "verProposta": "Ver a proposta",
     "editar": "Editar",
     "excluir": "Excluir",
@@ -1144,6 +1345,62 @@
       "perfil": "Perfil oficial",
       "senado": "Senado Federal (Dados Abertos)",
       "camara": "Câmara dos Deputados (Dados Abertos)"
+    },
+    "chips": [
+      "Todos no mesmo formato",
+      "Ordem alfabética",
+      "Dados oficiais"
+    ],
+    "perto": {
+      "titulo": "Do mais perto ao mais longe",
+      "texto": "A cidade fica dentro do estado, que fica dentro do país. Toque numa esfera para ver quem representa você ali.",
+      "desenho": "Círculos: a cidade do Rio dentro do estado do Rio de Janeiro, dentro do país",
+      "rotulos": {
+        "municipio": "Rio",
+        "estado": "Estado do RJ",
+        "pais": "País"
+      }
+    },
+    "esferasCuidam": {
+      "municipio": "Quem cuida da cidade: ruas, postos de saúde, escolas municipais.",
+      "estado": "Quem cuida do estado: polícia, escolas estaduais, hospitais estaduais.",
+      "pais": "Quem representa o RJ em Brasília: leis nacionais, SUS, Constituição."
+    },
+    "cargosEsfera": {
+      "municipio": [
+        "Prefeito",
+        "Vereadores"
+      ],
+      "estado": [
+        "Governador",
+        "Deputados estaduais"
+      ],
+      "pais": [
+        "Presidente",
+        "Senadores",
+        "Deputados federais"
+      ]
+    },
+    "comoLer": {
+      "titulo": "Como ler cada perfil",
+      "passos": [
+        {
+          "titulo": "Cargo e partido",
+          "texto": "Do mesmo jeito para todo mundo, sem destaque."
+        },
+        {
+          "titulo": "Propostas e votos",
+          "texto": "Direto da fonte oficial, com data de consulta."
+        },
+        {
+          "titulo": "Fonte",
+          "texto": "Link para o site oficial, para você conferir."
+        }
+      ]
+    },
+    "semLado": {
+      "titulo": "Sem lado, sem destaque.",
+      "texto": "Aqui ninguém é recomendado. Todos aparecem no mesmo formato, em ordem alfabética, sempre com a fonte oficial."
     }
   },
   "direitos": {
@@ -1171,7 +1428,22 @@
       "telefone": "Ligue para {valor}",
       "sms": "Envie SMS para {valor}"
     },
-    "limite": "O Demokratos explica como funciona, mas quem confirma se você tem direito é o órgão responsável."
+    "limite": "O Demokratos explica como funciona, mas quem confirma se você tem direito é o órgão responsável.",
+    "chips": [
+      "{total} temas",
+      "Canal oficial em cada passo"
+    ],
+    "escolhaArea": {
+      "titulo": "Escolha uma área",
+      "texto": "Toque num quadrado para ver todos os temas daquela área.",
+      "temas": "{n} temas",
+      "temaUm": "1 tema",
+      "abrir": "Ver os temas de {area}"
+    },
+    "janela": {
+      "qtd": "{n} temas para consultar",
+      "fechar": "Fechar"
+    }
   },
   "cardProposta": {
     "apresentadaEm": "Apresentada em {data}",

@@ -68,3 +68,13 @@ export function avaliarResultado(acertos, total) {
     return 'revisar'
   }
 }
+
+// Medalhas ganhas que ainda não foram comemoradas na trilha. Na primeira vez
+// (nada salvo), não comemora as antigas: só guarda o que a pessoa já tem.
+export function medalhasParaComemorar(medalhas, vistas) {
+  if (vistas === null) {
+    return []
+  }
+  const jaVistas = new Set(vistas)
+  return medalhas.filter((medalha) => medalha.ganha && !jaVistas.has(medalha.id))
+}

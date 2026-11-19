@@ -9,6 +9,7 @@ import Card from '../components/Card.jsx'
 import ControleTamanhoLetra from '../components/ControleTamanhoLetra.jsx'
 import IndicadorPassos from '../components/IndicadorPassos.jsx'
 import OpcaoReduzirAnimacoes from '../components/OpcaoReduzirAnimacoes.jsx'
+import OpcaoSons from '../components/OpcaoSons.jsx'
 
 const t = textos.boasVindas.ajustes
 
@@ -35,6 +36,7 @@ export default function AjustesLeitura() {
         </div>
         <ControleTamanhoLetra />
         <OpcaoReduzirAnimacoes />
+        <OpcaoSons />
       </Card>
       <div className="flex flex-col-reverse gap-4 sm:flex-row sm:items-center sm:justify-between">
         <Botao variante="terciario" para="/boas-vindas/ponto-de-partida" icone={ArrowLeft}>

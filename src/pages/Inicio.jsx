@@ -117,8 +117,10 @@ export default function Inicio() {
         <ImagemRio nome="calcadao-copacabana" className="h-full object-[center_62%]" />
       </div>
 
+      {/* A arara (mensageira) chama a atenção para a pergunta-gancho. */}
       <section aria-labelledby="titulo-faixa" className="bg-azul-ceu">
-        <div className="mx-auto flex max-w-conteudo flex-col items-start gap-4 px-4 py-12 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
+        <div className="relative mx-auto flex max-w-conteudo flex-col items-start gap-4 px-4 py-12 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
+          <MascoteEspiando nome="arara" expressao="alerta" posicao="-top-16 right-4 md:right-[38%]" largura={104} />
           <h2 id="titulo-faixa" className="text-indigo">{t.faixa.pergunta}</h2>
           <Link
             to="/previa/trilhas"

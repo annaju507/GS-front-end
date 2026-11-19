@@ -6,6 +6,7 @@ import Botao from '../components/Botao.jsx'
 import CardMascoteVirar from '../components/CardMascoteVirar.jsx'
 import ImagemComMascote from '../components/ImagemComMascote.jsx'
 import Mascote from '../components/Mascote.jsx'
+import MascoteEspiando from '../components/MascoteEspiando.jsx'
 
 const t = textos.comoFunciona
 
@@ -70,7 +71,9 @@ export default function ComoFunciona() {
         </ul>
       </section>
 
-      <section aria-labelledby="secao-convite" className="flex flex-col items-start gap-4 rounded-card bg-hero p-6 md:p-8">
+      {/* A arara (mensageira) traz o convite final. */}
+      <section aria-labelledby="secao-convite" className="relative flex flex-col items-start gap-4 rounded-card bg-hero p-6 md:p-8">
+        <MascoteEspiando nome="arara" expressao="feliz" posicao="-top-14 right-4 md:right-10" largura={104} />
         <h2 id="secao-convite">{t.convite}</h2>
         <Botao variante="primario" para="/cadastro">
           {t.comecar}

@@ -1,4 +1,6 @@
 import { Link } from 'react-router'
+import { ehTelaDeEntrada } from '../domain/navegacao.js'
+import { useFundoConta } from '../hooks/useFundoConta.js'
 
 // Botões de ação (seção 6.3): degrau 3D, CAIXA ALTA e cantos de 14px.
 // No máximo um "primario" por tela. Com "para", vira link do React Router.
@@ -26,8 +28,10 @@ export default function Botao({
   type = 'button',
   className = '',
   children,
+  state,
   ...resto
 }) {
+  const estadoConta = useFundoConta()
   const classes = `${BASE} ${VARIANTES[variante] ?? VARIANTES.secundario} ${className}`
   const conteudo = (
     <>
@@ -37,8 +41,14 @@ export default function Botao({
   )
 
   if (para) {
+    // Entrar e Criar conta abrem por cima da página atual: o link leva junto
+    // qual é a página de fundo.
+    let estadoLink = state
+    if (ehTelaDeEntrada(para)) {
+      estadoLink = estadoConta(state)
+    }
     return (
-      <Link to={para} className={classes} {...resto}>
+      <Link to={para} state={estadoLink} className={classes} {...resto}>
         {conteudo}
       </Link>
     )

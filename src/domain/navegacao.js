@@ -20,8 +20,7 @@ export function secaoDaRota(caminho) {
   }
 }
 
-// Telas de entrada (Entrar e Criar conta) ocupam a altura da janela, sem
-// rodapé e sem rolar a página.
+// Entrar e Criar conta: abrem numa janela por cima da página atual.
 export function ehTelaDeEntrada(caminho) {
   if (caminho === '/entrar' || caminho === '/cadastro') {
     return true

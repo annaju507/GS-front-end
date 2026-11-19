@@ -1,6 +1,8 @@
 import { Link } from 'react-router'
 import { ExternalLink } from 'lucide-react'
 import textos from '../../data/textos.json'
+import { ehTelaDeEntrada } from '../../domain/navegacao.js'
+import { useFundoConta } from '../../hooks/useFundoConta.js'
 
 const t = textos.publico.rodape
 const nav = textos.publico.nav
@@ -35,6 +37,9 @@ const LINK = 'inline-flex min-h-11 items-center gap-1.5 text-legenda text-texto-
 // base (decorativo). O conteúdo fica centralizado na largura do site.
 // A classe tema-faixa troca os tokens de cor dentro do rodapé, nos dois temas.
 export default function Rodape() {
+  // O link Entrar abre a janela por cima da página atual.
+  const estadoConta = useFundoConta()
+
   return (
     <footer className="tema-faixa mt-auto overflow-hidden rounded-t-modal bg-faixa">
       <div className="mx-auto flex max-w-conteudo flex-col">
@@ -53,7 +58,7 @@ export default function Rodape() {
                 <ul className="mt-3 flex flex-col">
                   {coluna.links.map((link) => (
                     <li key={link.para}>
-                      <Link to={link.para} className={LINK}>{link.rotulo}</Link>
+                      <Link to={link.para} state={ehTelaDeEntrada(link.para) ? estadoConta() : undefined} className={LINK}>{link.rotulo}</Link>
                     </li>
                   ))}
                 </ul>

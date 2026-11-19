@@ -1,10 +1,10 @@
-import { Flame } from 'lucide-react'
 import textos from '../data/textos.json'
 import { plural } from '../domain/texto.js'
+import Foguinho from './Foguinho.jsx'
 
 const t = textos.painel.sequencia
 
-// Sequência de dias (seção 10): chama laranja do mico + número.
+// Sequência de dias (seção 10): o foguinho animado + número.
 // Perdeu a sequência? Mensagem gentil, sem culpa.
 export default function SequenciaDias({ dias, perdida = false }) {
   let mensagem = plural(dias, t.um, t.varios)
@@ -16,7 +16,7 @@ export default function SequenciaDias({ dias, perdida = false }) {
 
   return (
     <div className="flex items-center gap-3">
-      <Flame size={32} strokeWidth={2} aria-hidden="true" className="shrink-0 text-mico" />
+      <Foguinho tamanho={30} />
       <p className="flex flex-col">
         <span aria-hidden="true" className="font-titulo text-h2 font-extrabold leading-none">{dias}</span>
         <span className="text-legenda font-semibold text-texto-2">{mensagem}</span>

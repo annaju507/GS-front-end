@@ -3,8 +3,9 @@ import { validarFoto } from '../domain/foto.js'
 import { reduzirFoto } from '../services/fotoPerfil.js'
 import { useAuth } from './useAuth.js'
 
-// const { foto, erro, salvando, escolherFoto, tirarFoto } = useFotoPerfil()
-// A foto fica no próprio usuário (login simulado, só neste navegador).
+// const { foto, avatar, erro, salvando, escolherFoto, escolherAvatar, tirarFoto } = useFotoPerfil()
+// A foto ou o rosto escolhido ficam no próprio usuário (login simulado, só
+// neste navegador). Escolher um apaga o outro.
 export function useFotoPerfil() {
   const { usuario, atualizarUsuario } = useAuth()
   const [erro, setErro] = useState(null)
@@ -23,7 +24,7 @@ export function useFotoPerfil() {
     setSalvando(true)
     try {
       const foto = await reduzirFoto(arquivo)
-      atualizarUsuario({ foto })
+      atualizarUsuario({ foto, avatar: null })
     } catch {
       setErro('leitura')
     } finally {
@@ -31,10 +32,24 @@ export function useFotoPerfil() {
     }
   }
 
-  function tirarFoto() {
+  function escolherAvatar(id) {
     setErro(null)
-    atualizarUsuario({ foto: null })
+    atualizarUsuario({ avatar: id, foto: null })
   }
 
-  return { foto: usuario?.foto ?? null, erro, salvando, escolherFoto, tirarFoto }
+  // Volta para a inicial do apelido (sem foto e sem rosto).
+  function tirarFoto() {
+    setErro(null)
+    atualizarUsuario({ foto: null, avatar: null })
+  }
+
+  return {
+    foto: usuario?.foto ?? null,
+    avatar: usuario?.avatar ?? null,
+    erro,
+    salvando,
+    escolherFoto,
+    escolherAvatar,
+    tirarFoto,
+  }
 }

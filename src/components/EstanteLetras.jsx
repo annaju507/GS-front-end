@@ -22,17 +22,41 @@ const ALTURAS = ['h-[5.25rem]', 'h-[4.5rem]', 'h-[5rem]', 'h-[4.25rem]', 'h-[5.5
 // Tocar numa lombada leva até os termos daquela letra. No celular, cada
 // fileira de lombadas ganha a sua própria prateleira.
 export default function EstanteLetras({ letras }) {
+  // Com o mouse (ou o dedo), a página rola até a primeira palavra da letra
+  // parar bem embaixo do ponteiro, no ponto onde a pessoa clicou (o site não
+  // pode mover o ponteiro, então move a página). Pelo teclado, a seção vai
+  // para o topo e o foco vai para a primeira palavra.
   function irParaLetra(evento, letra) {
-    const secao = document.getElementById(`secao-${letra}`)
-    if (secao) {
-      evento.preventDefault()
-      const reduzir = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-      secao.scrollIntoView({ behavior: reduzir ? 'auto' : 'smooth', block: 'start' })
-      // Leva o foco junto, para quem navega pelo teclado continuar dali.
-      const titulo = document.getElementById(`letra-${letra}`)
-      titulo.setAttribute('tabindex', '-1')
-      titulo.focus({ preventScroll: true })
+    const primeiro = document.getElementById(`primeiro-${letra}`)
+    if (!primeiro) {
+      return
     }
+    evento.preventDefault()
+    const reduzir = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const comportamento = reduzir ? 'auto' : 'smooth'
+
+    // evento.detail é 0 quando o link foi ativado pelo teclado (Enter).
+    if (evento.detail > 0) {
+      const espaco = document.getElementById('espaco-estante')
+      espaco.style.height = '0px'
+      const caixa = primeiro.getBoundingClientRect()
+      const alvo = window.scrollY + caixa.top + caixa.height / 2 - evento.clientY
+      // Nas últimas letras a página acaba antes: aumenta o espaço do fim só o
+      // necessário para a palavra conseguir subir até o ponteiro.
+      const rolagemMaxima = document.documentElement.scrollHeight - window.innerHeight
+      if (alvo > rolagemMaxima) {
+        espaco.style.height = `${Math.ceil(alvo - rolagemMaxima)}px`
+      }
+      window.scrollTo({ top: Math.max(0, alvo), behavior: comportamento })
+    } else {
+      document.getElementById(`secao-${letra}`).scrollIntoView({ behavior: comportamento, block: 'start' })
+    }
+
+    primeiro.focus({ preventScroll: true })
+    // Um brilho rápido mostra qual é a palavra.
+    primeiro.classList.remove('destacar-termo')
+    void primeiro.offsetWidth
+    primeiro.classList.add('destacar-termo')
   }
 
   return (

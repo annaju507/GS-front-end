@@ -66,9 +66,10 @@ export default function Glossario() {
               <span aria-hidden="true">{grupo.letra}</span>
             </h2>
             <ul className="flex flex-col gap-2">
-              {grupo.termos.map((termo) => (
+              {grupo.termos.map((termo, indice) => (
                 <li key={termo.id}>
                   <Link
+                    id={indice === 0 ? `primeiro-${grupo.letra}` : undefined}
                     to={`/app/glossario/${termo.id}`}
                     className="flex min-h-12 items-center justify-between gap-3 rounded-card-pequeno border border-borda bg-superficie px-4 py-3 text-texto no-underline transition-colors duration-150 hover:border-lilas"
                   >
@@ -84,6 +85,9 @@ export default function Glossario() {
           </section>
         ))
       )}
+      {/* Espaço extra no fim, criado pela estante só quando a página é curta
+          demais para a última letra chegar até o ponteiro do mouse. */}
+      <div id="espaco-estante" aria-hidden="true" />
     </div>
   )
 }

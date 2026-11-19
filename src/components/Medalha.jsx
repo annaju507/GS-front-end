@@ -1,52 +1,42 @@
-import { Award, Columns3, FileSignature, Flag, Flame, Footprints, Layers, Lock, Newspaper, NotebookPen, SearchCheck } from 'lucide-react'
+import { Lock } from 'lucide-react'
 import textos from '../data/textos.json'
 import { preencher } from '../domain/texto.js'
+import IconePremio from './IconePremio.jsx'
 
 const t = textos.medalhas
 
-const ICONES = {
-  primeiraLicao: Footprints,
-  tresPoderes: Columns3,
-  esferas: Layers,
-  comoNasceUmaLei: FileSignature,
-  chequeiAFonte: SearchCheck,
-  primeiraProposta: Newspaper,
-  primeiraAnotacao: NotebookPen,
-  tresDias: Flame,
-  seteDias: Flame,
-  trilhaConcluida: Flag,
-}
-
-const FUNDOS = {
-  caramelo: 'bg-caramelo-fundo',
-  capivara: 'bg-capivara-fundo',
-  arara: 'bg-arara-fundo',
-  onca: 'bg-onca-fundo',
-  mico: 'bg-mico-fundo',
-}
-
-// Medalha (seção 10) em formato de selo postal picotado, com o ícone no centro e
-// o fundo na cor do mascote que entrega. Ainda não ganha: cinza, com cadeado e
-// o que falta para conquistar. Na coleção, os selos ficam levemente inclinados.
-export default function Medalha({ medalha, como: Tag = 'li' }) {
-  const Icone = medalha.ganha ? (ICONES[medalha.id] ?? Award) : Lock
-  const selo = medalha.ganha
-    ? `text-texto ${FUNDOS[medalha.mascote]}`
-    : 'bg-desativado text-texto-2'
+// Medalha (seção 10) num cartão: o prêmio, o nome e quem entregou. Ganha:
+// cartão dourado com degrau. Ainda não ganha: borda tracejada, prêmio
+// apagado, a etiqueta "Falta" com cadeado e o que fazer para conquistar.
+// As cores vêm dos tokens (dourado claro no tema claro, dourado escuro no
+// escuro), então o texto fica legível nos dois.
+export default function Medalha({ medalha, como: Tag = 'li', className = '', style }) {
+  if (medalha.ganha) {
+    return (
+      <Tag
+        style={style}
+        className={`flex flex-col items-center gap-1.5 rounded-modal border-2 border-ouro-borda bg-ouro-fundo px-3 py-4 text-center shadow-[0_0.3rem_0_var(--ouro-borda)] transition-transform duration-200 hover:-translate-y-1 hover:rotate-2 motion-reduce:transition-none ${className}`}
+      >
+        <IconePremio medalha={medalha.id} tamanho={56} />
+        <span className="font-titulo text-legenda font-bold leading-tight">{t.nomes[medalha.id]}</span>
+        <span className="text-tag font-semibold text-texto-2">{preencher(t.entreguePor, { mascote: textos.mascotes[medalha.mascote] })}</span>
+      </Tag>
+    )
+  }
 
   return (
-    <Tag className="flex flex-col items-center gap-2 text-center">
-      <span className="selo-medalha selo-picotado bg-white drop-shadow-[0_0.1875rem_0.25rem_rgb(42_0_129/0.22)]">
-        <span className={`flex h-20 w-16 items-center justify-center ${selo}`}>
-          <Icone size={30} strokeWidth={2} aria-hidden="true" />
-        </span>
+    <Tag
+      style={style}
+      className={`flex flex-col items-center gap-1.5 rounded-modal border-2 border-dashed border-borda bg-superficie px-3 py-4 text-center ${className}`}
+    >
+      <IconePremio medalha={medalha.id} tamanho={56} className="opacity-35 grayscale" />
+      <span className="font-titulo text-legenda font-bold leading-tight">{t.nomes[medalha.id]}</span>
+      <span className="inline-flex items-center gap-1 rounded-full bg-lilas-claro px-2 py-0.5 font-titulo text-tag font-bold text-texto-2">
+        <Lock size={12} strokeWidth={2.5} aria-hidden="true" />
+        {t.falta}
+        <span className="sr-only">: {t.bloqueada}</span>
       </span>
-      <span className="font-titulo text-tag font-semibold">{t.nomes[medalha.id]}</span>
-      <span className="text-tag text-texto-2">
-        {medalha.ganha
-          ? preencher(t.entreguePor, { mascote: textos.mascotes[medalha.mascote] })
-          : `${t.bloqueada}. ${t.comoGanhar[medalha.id]}`}
-      </span>
+      <span className="text-tag font-semibold text-texto-2">{t.comoGanhar[medalha.id]}</span>
     </Tag>
   )
 }

@@ -1,5 +1,6 @@
+import { useEffect } from 'react'
 import { Link, Navigate, useNavigate, useParams } from 'react-router'
-import { Flame, X } from 'lucide-react'
+import { Flame, Volume2, VolumeX, X } from 'lucide-react'
 import textos from '../data/textos.json'
 import { poseDaPergunta } from '../domain/mascotes.js'
 import { estadoDaLicao, ordemDasLicoes } from '../domain/trilha.js'
@@ -7,6 +8,7 @@ import { preencher } from '../domain/texto.js'
 import { UNIDADES, buscarLicao, perguntasDaLicao } from '../services/conteudoLocal.js'
 import { useProgresso } from '../hooks/useProgresso.js'
 import { useAtalhosQuiz } from '../hooks/useAtalhosQuiz.js'
+import { usePreferencias } from '../hooks/usePreferencias.js'
 import { useQuiz } from '../hooks/useQuiz.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
@@ -49,6 +51,17 @@ function QuizDaLicao({ licao }) {
     }
   }
 
+  // Sons fofinhos: bolhinhas subindo no acerto e um "blup" macio no erro.
+  const { sons } = usePreferencias()
+  const { tocar } = sons
+  useEffect(() => {
+    if (resultado === 'acertou') {
+      tocar('acerto')
+    } else if (resultado === 'errou') {
+      tocar('erro')
+    }
+  }, [resultado, tocar])
+
   const tituloResultado = resultado === 'acertou' ? t.acertou : t.errou
   useAtalhosQuiz({ totalOpcoes: atual.opcoes.length, respondido, onSelecionar: selecionar, onVerificar: verificar })
   // Selo de sequência: aparece a partir de 2 acertos seguidos.
@@ -68,6 +81,17 @@ function QuizDaLicao({ licao }) {
           <div className="flex-1">
             <BarraProgresso valor={((indice + (respondido ? 1 : 0)) / total) * 100} rotulo={t.rotuloProgresso} />
           </div>
+          {/* Liga e desliga os sons (a escolha fica guardada). */}
+          <button
+            type="button"
+            role="switch"
+            aria-checked={sons.ligado}
+            onClick={sons.alternarSons}
+            className="inline-flex size-12 shrink-0 items-center justify-center rounded-full text-texto hover:bg-lilas-claro"
+          >
+            {sons.ligado ? <Volume2 size={22} strokeWidth={2} aria-hidden="true" /> : <VolumeX size={22} strokeWidth={2} aria-hidden="true" />}
+            <span className="sr-only">{textos.preferencias.sons.rotulo}</span>
+          </button>
         </div>
         {mostrarSeguidas && (
           <span className="pointer-events-none absolute left-1/2 top-full mt-2 -translate-x-1/2">

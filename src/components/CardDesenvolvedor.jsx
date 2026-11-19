@@ -46,9 +46,6 @@ export default function CardDesenvolvedor({ pessoa }) {
           aria-hidden={!virado}
           className="dev-face dev-verso flex flex-col justify-end gap-3 rounded-card bg-lilas p-6 text-[#1A1A1A]"
         >
-          <span className="mx-auto mb-auto">
-            <Mascote nome={pessoa.mascote} expressao="explicando" tamanho="corpo" largura={120} />
-          </span>
           <p className="font-titulo text-h3 font-semibold">{pessoa.curto}</p>
           <p className="rounded-card-pequeno bg-white/45 p-3 font-semibold">{pessoa.papel || t.papelVazio}</p>
         </div>

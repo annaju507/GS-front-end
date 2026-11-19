@@ -1,4 +1,3 @@
-import { Award } from 'lucide-react'
 import { Link } from 'react-router'
 import textos from '../data/textos.json'
 import { useEffect, useState } from 'react'
@@ -7,10 +6,13 @@ import { preencher } from '../domain/texto.js'
 import { UNIDADES } from '../services/conteudoLocal.js'
 import { lerUltimaVista, salvarUltimaVista } from '../services/trilhaStorage.js'
 import { useAuth } from '../hooks/useAuth.js'
+import { useMedalhasNovas } from '../hooks/useMedalhasNovas.js'
 import { useProgresso } from '../hooks/useProgresso.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import BilheteProgresso from '../components/BilheteProgresso.jsx'
 import CaminhoTrilha from '../components/CaminhoTrilha.jsx'
+import CelebracaoMedalha from '../components/CelebracaoMedalha.jsx'
+import IconePremio from '../components/IconePremio.jsx'
 import { DefinicoesPegadas } from '../components/Pegadas.jsx'
 import SequenciaDias from '../components/SequenciaDias.jsx'
 import { CabecalhoUnidade, DivisoriaUnidade } from '../components/CabecalhoUnidade.jsx'
@@ -36,6 +38,9 @@ export default function Trilha() {
   const { usuario } = useAuth()
   const atual = proximaLicao(ORDEM, concluidas)
 
+  // Medalha nova desde a última visita: comemora com a animação do prêmio.
+  const { novas, marcarVistas } = useMedalhasNovas(usuario.email, medalhas)
+
   // Se a pessoa terminou uma lição desde a última visita, as pegadas andam
   // até a nova lição. A comparação é feita uma vez, ao abrir a trilha.
   const [desbloqueio] = useState(() => licaoParaDesbloquear(lerUltimaVista(usuario.email), atual, concluidas))
@@ -47,6 +52,7 @@ export default function Trilha() {
 
   return (
     <div className="mx-auto flex max-w-leitura flex-col gap-12">
+      {novas.length > 0 && <CelebracaoMedalha medalhas={novas} onFechar={marcarVistas} />}
       {/* Desenhos das pegadas, definidos uma vez e usados em todas as unidades. */}
       <svg aria-hidden="true" className="absolute size-0">
         <DefinicoesPegadas />
@@ -56,7 +62,7 @@ export default function Trilha() {
         <div className="flex flex-wrap items-center justify-between gap-4">
           <SequenciaDias dias={sequencia} perdida={perdeuSequencia} />
           <Link to="/app/perfil" className="inline-flex min-h-11 items-center gap-2 font-semibold">
-            <Award size={24} strokeWidth={2} aria-hidden="true" className="text-mico" />
+            <IconePremio nome="roseta" tamanho={28} />
             {preencher(textos.painel.medalhas, { n: ganhas, total: medalhas.length })}
           </Link>
         </div>

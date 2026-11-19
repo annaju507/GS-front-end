@@ -3,19 +3,21 @@ import { Link, Navigate, useNavigate } from 'react-router'
 import textos from '../data/textos.json'
 import { APELIDO_MAXIMO, decidirDestinoAposCadastro, validarCadastro } from '../domain/auth.js'
 import { useAuth } from '../hooks/useAuth.js'
+import { useFundoConta } from '../hooks/useFundoConta.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
 import Botao from '../components/Botao.jsx'
-import Card from '../components/Card.jsx'
-import CenaEntrada from '../components/CenaEntrada.jsx'
 import CampoTexto from '../components/CampoTexto.jsx'
 import CampoSenha from '../components/CampoSenha.jsx'
 
 const t = textos.auth
 const ORDEM_CAMPOS = ['apelido', 'email', 'senha']
 
-export default function Cadastro() {
+// Formulário de Criar conta, dentro da janela (ModalConta). O título é h2,
+// porque o h1 é o da página que fica embaçada no fundo.
+export default function Cadastro({ idTitulo }) {
   useTitulo(t.cadastro.titulo)
+  const estadoConta = useFundoConta()
   const { usuario, cadastrar } = useAuth()
   const navegar = useNavigate()
 
@@ -61,17 +63,15 @@ export default function Cadastro() {
   }
 
   return (
-    <CenaEntrada>
-      {/* Compacto para caber na altura da janela, sem rolar a página. */}
-      <Card className="flex flex-col gap-3 md:p-5!">
+    <div className="flex flex-col gap-3">
         <header className="flex flex-col gap-1">
           <div className="flex flex-wrap items-baseline justify-between gap-x-4">
-            <h1 className="text-h2">{t.cadastro.titulo}</h1>
+            <h2 id={idTitulo} className="text-h2">{t.cadastro.titulo}</h2>
             <p className="text-legenda">
-              {t.cadastro.temConta} <Link to="/entrar">{t.cadastro.entrar}</Link>
+              {t.cadastro.temConta} <Link to="/entrar" replace state={estadoConta()}>{t.cadastro.entrar}</Link>
             </p>
           </div>
-          <p className="intro-entrada text-texto-2">{t.cadastro.intro}</p>
+          <p className="text-texto-2">{t.cadastro.intro}</p>
         </header>
 
         <Aviso tipo="info" compacto>
@@ -91,8 +91,6 @@ export default function Cadastro() {
             onChange={atualizar('apelido')}
             erro={erros.apelido && t.erros[erros.apelido]}
           />
-          {/* Em telas largas, e-mail e senha lado a lado, para caber sem rolar. */}
-          <div className="grid gap-3 sm:grid-cols-2">
           <CampoTexto
             ref={refEmail}
             rotulo={t.email}
@@ -111,13 +109,11 @@ export default function Cadastro() {
             onChange={atualizar('senha')}
             erro={erros.senha && t.erros[erros.senha]}
           />
-          </div>
           <Botao variante="primario" type="submit" disabled={enviando}>
             {enviando ? t.enviando : t.cadastro.botao}
           </Botao>
         </form>
 
-      </Card>
-    </CenaEntrada>
+    </div>
   )
 }

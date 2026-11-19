@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import { useSearchParams } from 'react-router'
-import { ArrowLeft, ArrowRight, Search } from 'lucide-react'
+import { Search } from 'lucide-react'
 import textos from '../data/textos.json'
 import { TIPOS_DE_PROPOSTA, lerFiltros } from '../domain/agora.js'
 import { AREAS_DAS_PROPOSTAS } from '../domain/areas.js'
@@ -12,17 +12,20 @@ import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
 import BalaoMascote from '../components/BalaoMascote.jsx'
 import Botao from '../components/Botao.jsx'
-import CampoTexto from '../components/CampoTexto.jsx'
 import CardProposta from '../components/CardProposta.jsx'
 import EstadoVazio from '../components/EstadoVazio.jsx'
 import FiltroAreas from '../components/FiltroAreas.jsx'
+import PaginacaoCaderno from '../components/PaginacaoCaderno.jsx'
+import TopoPagina from '../components/TopoPagina.jsx'
 
 const t = textos.agora
 const PROPOSTAS = listarPropostas()
 
 // Agora: a seleção fixa de propostas reais, com texto simples, filtrada por
 // área, tipo e palavra-chave no próprio navegador. A arara (mensageira)
-// apresenta. As movimentações de cada proposta vêm ao vivo na página dela.
+// apresenta no topo, longe dos cartões. As propostas aparecem em grade, cada
+// uma na cor da sua área, e as páginas passam pelas setinhas. As
+// movimentações de cada proposta vêm ao vivo na página dela.
 export default function Agora() {
   useTitulo(t.tituloAba)
   const [parametros, setParametros] = useSearchParams()
@@ -70,94 +73,83 @@ export default function Agora() {
         <p aria-live="polite" className="text-legenda font-semibold text-texto-2">
           {preencher(t.contagem, { n: encontradas.length, total: PROPOSTAS.length })}
         </p>
-        <ul className="flex flex-col gap-3">
-          {itens.map((proposta) => (
-            <li key={proposta.id}>
+        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {itens.map((proposta, indice) => (
+            <li key={proposta.id} className="cartao-entra" style={{ animationDelay: `${indice * 60}ms` }}>
               <CardProposta proposta={proposta} />
             </li>
           ))}
         </ul>
         {totalPaginas > 1 && (
-          <nav aria-label={t.lista} className="flex flex-wrap items-center justify-between gap-3">
-            {paginaAtual > 1 ? (
-              <Botao variante="secundario" icone={ArrowLeft} onClick={() => irParaPagina(paginaAtual - 1)}>
-                {t.paginaAnterior}
-              </Botao>
-            ) : (
-              <span />
-            )}
-            <p className="text-texto-2">{preencher(t.pagina, { pagina: paginaAtual, total: totalPaginas })}</p>
-            {paginaAtual < totalPaginas ? (
-              <Botao variante="secundario" onClick={() => irParaPagina(paginaAtual + 1)}>
-                {t.proximaPagina}
-                <ArrowRight size={20} strokeWidth={2} aria-hidden="true" />
-              </Botao>
-            ) : (
-              <span />
-            )}
-          </nav>
+          <PaginacaoCaderno indice={paginaAtual - 1} total={totalPaginas} onMudar={(indice) => irParaPagina(indice + 1)} rotulos={t.paginacao} />
         )}
       </>
     )
   }
 
   return (
-    <div className="mx-auto flex max-w-leitura flex-col gap-6">
-      <header className="flex flex-col gap-3">
-        <h1>{t.titulo}</h1>
-        <p className="text-corpo">{t.intro}</p>
-      </header>
+    <div className="mx-auto flex max-w-[64rem] flex-col gap-6">
+      <TopoPagina
+        imagem="ilha-fiscal"
+        titulo={t.titulo}
+        intro={t.intro}
+        chips={t.chips.map((chip) => preencher(chip, { total: PROPOSTAS.length }))}
+        mascote={{ nome: 'arara', expressao: 'explicando' }}
+      />
 
       <BalaoMascote mascote="arara" expressao="explicando">
         <p>{t.fala}</p>
       </BalaoMascote>
 
-      <section aria-labelledby="agora-filtros" className="flex flex-col gap-4 rounded-card border border-borda bg-superficie p-4 md:p-6">
-        <h2 id="agora-filtros" className="text-h3">{t.filtros.titulo}</h2>
+      <section aria-labelledby="agora-filtros" className="flex flex-col gap-4 rounded-modal border border-borda bg-superficie p-4 shadow-card dark:shadow-none md:p-5">
+        <h2 id="agora-filtros" className="text-h3">{t.filtros.interessa}</h2>
 
-        <div className="flex flex-col gap-2">
-          <p className="font-titulo text-rotulo font-semibold">{t.filtros.area}</p>
-          <FiltroAreas valor={filtros.area} rotulo={t.filtros.area} areas={AREAS_DAS_PROPOSTAS} onMudar={(area) => mudarFiltros({ area })} />
-        </div>
+        <FiltroAreas valor={filtros.area} rotulo={t.filtros.area} areas={AREAS_DAS_PROPOSTAS} onMudar={(area) => mudarFiltros({ area })} />
 
-        <div className="flex flex-col gap-1.5">
-          <label htmlFor="agora-tipo" className="font-titulo text-rotulo font-semibold">{t.filtros.tipo}</label>
-          <select
-            id="agora-tipo"
-            value={filtros.tipo}
-            onChange={(evento) => mudarFiltros({ tipo: evento.target.value })}
-            className="h-12 w-full rounded-campo border-[1.5px] border-borda-campo bg-superficie px-4 text-corpo text-texto focus:border-link"
+        <div className="grid gap-3 md:grid-cols-[minmax(0,1fr)_auto]">
+          <form
+            role="search"
+            onSubmit={(evento) => {
+              evento.preventDefault()
+              mudarFiltros({ busca: textoBusca.trim() })
+            }}
+            className="flex flex-col gap-1.5"
           >
-            <option value="">{t.filtros.tipos.todos}</option>
-            {TIPOS_DE_PROPOSTA.map((tipo) => (
-              <option key={tipo} value={tipo}>
-                {t.filtros.tipos[tipo]}
-              </option>
-            ))}
-          </select>
-        </div>
+            <label htmlFor="agora-busca" className="font-titulo text-rotulo font-semibold">{t.filtros.busca}</label>
+            <div className="flex gap-2">
+              <span className="flex h-12 min-w-0 flex-1 items-center gap-2 rounded-full border-2 border-borda-campo bg-superficie px-4 focus-within:border-link">
+                <Search size={20} strokeWidth={2} aria-hidden="true" className="shrink-0 text-texto-2" />
+                <input
+                  id="agora-busca"
+                  type="search"
+                  value={textoBusca}
+                  onChange={(evento) => setTextoBusca(evento.target.value)}
+                  aria-describedby="agora-busca-dica"
+                  className="h-full min-w-0 flex-1 bg-transparent text-texto outline-none"
+                />
+              </span>
+              <Botao variante="primario" type="submit">{t.filtros.buscar}</Botao>
+            </div>
+            <p id="agora-busca-dica" className="text-legenda text-texto-2">{t.filtros.buscaDica}</p>
+          </form>
 
-        <form
-          role="search"
-          onSubmit={(evento) => {
-            evento.preventDefault()
-            mudarFiltros({ busca: textoBusca.trim() })
-          }}
-          className="flex flex-col gap-3"
-        >
-          <div>
-            <CampoTexto
-              rotulo={t.filtros.busca}
-              dica={t.filtros.buscaDica}
-              type="search"
-              valor={textoBusca}
-              onChange={(evento) => setTextoBusca(evento.target.value)}
-            />
+          <div className="flex flex-col gap-1.5">
+            <label htmlFor="agora-tipo" className="font-titulo text-rotulo font-semibold">{t.filtros.tipo}</label>
+            <select
+              id="agora-tipo"
+              value={filtros.tipo}
+              onChange={(evento) => mudarFiltros({ tipo: evento.target.value })}
+              className="h-12 w-full rounded-full border-2 border-borda-campo bg-superficie px-4 font-semibold text-texto focus:border-link"
+            >
+              <option value="">{t.filtros.tipos.todos}</option>
+              {TIPOS_DE_PROPOSTA.map((tipo) => (
+                <option key={tipo} value={tipo}>
+                  {t.filtros.tipos[tipo]}
+                </option>
+              ))}
+            </select>
           </div>
-          <Botao variante="secundario" type="submit" icone={Search} className="self-start">
-            {t.filtros.buscar}
-          </Botao>
-        </form>
+        </div>
 
         <div>
           <Botao variante="terciario" onClick={limparFiltros} className="-ml-6">

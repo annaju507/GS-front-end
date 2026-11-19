@@ -3,19 +3,21 @@ import { Link, Navigate, useLocation, useNavigate } from 'react-router'
 import textos from '../data/textos.json'
 import { decidirDestinoAposEntrar, validarEntrada } from '../domain/auth.js'
 import { useAuth } from '../hooks/useAuth.js'
+import { useFundoConta } from '../hooks/useFundoConta.js'
 import { useTitulo } from '../hooks/useTitulo.js'
 import Aviso from '../components/Aviso.jsx'
 import Botao from '../components/Botao.jsx'
-import Card from '../components/Card.jsx'
-import CenaEntrada from '../components/CenaEntrada.jsx'
 import CampoTexto from '../components/CampoTexto.jsx'
 import CampoSenha from '../components/CampoSenha.jsx'
 
 const t = textos.auth
 const ORDEM_CAMPOS = ['email', 'senha']
 
-export default function Entrar() {
+// Formulário de Entrar, dentro da janela (ModalConta). O título é h2, porque
+// o h1 é o da página que fica embaçada no fundo.
+export default function Entrar({ idTitulo }) {
   useTitulo(t.entrar.titulo)
+  const estadoConta = useFundoConta()
   const { usuario, entrar } = useAuth()
   const navegar = useNavigate()
   const local = useLocation()
@@ -62,12 +64,10 @@ export default function Entrar() {
   }
 
   return (
-    <CenaEntrada>
-      {/* Compacto para caber na altura da janela, sem rolar a página. */}
-      <Card className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3">
         <header className="flex flex-col gap-1">
-          <h1 className="text-h2">{t.entrar.titulo}</h1>
-          <p className="intro-entrada text-texto-2">{t.entrar.intro}</p>
+          <h2 id={idTitulo} className="text-h2">{t.entrar.titulo}</h2>
+          <p className="text-texto-2">{t.entrar.intro}</p>
         </header>
 
         <Aviso tipo="info" compacto>
@@ -104,7 +104,7 @@ export default function Entrar() {
             {t.entrar.esqueci}
           </Botao>
           <p className="text-legenda">
-            {t.entrar.semConta} <Link to="/cadastro">{t.entrar.criarConta}</Link>
+            {t.entrar.semConta} <Link to="/cadastro" replace state={estadoConta()}>{t.entrar.criarConta}</Link>
           </p>
         </div>
         {ajudaSenha && (
@@ -112,7 +112,6 @@ export default function Entrar() {
             <Aviso tipo="info">{t.entrar.esqueciAviso}</Aviso>
           </div>
         )}
-      </Card>
-    </CenaEntrada>
+    </div>
   )
 }

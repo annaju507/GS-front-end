@@ -174,7 +174,9 @@ export default function Sobre() {
           ))}
         </Revelar>
 
-        <Revelar className="mt-6 flex flex-col gap-4">
+        {/* A arara (mensageira) dá o aviso de privacidade. */}
+        <Revelar className="relative mt-6 flex flex-col gap-4">
+          <MascoteEspiando nome="arara" expressao="explicando" posicao="-top-6 right-4 hidden lg:block" largura={112} />
           <h2 id="sobre-privacidade">{t.privacidade.titulo}</h2>
           <div className="flex max-w-3xl items-start gap-3 rounded-card bg-info-fundo p-5">
             <Info size={24} strokeWidth={2} aria-hidden="true" className="mt-0.5 shrink-0 text-info" />
